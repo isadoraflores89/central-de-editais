@@ -1,0 +1,80 @@
+# Atualização diária: 06:00 em Salvador (09:00 UTC) e também sob demanda.
+#
+# Fase 1: reprocessa status/prioridade (prazos vencem, contagens mudam), publica.
+# Fase 2 acrescenta a etapa de coleta; Fase 3, enriquecimento e notificação.
+name: Atualização diária
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+  # Publica também quando código, dados ou configuração mudam na main.
+  # (Commits feitos pelo próprio robô com GITHUB_TOKEN não disparam de novo.)
+  push:
+    branches: [main]
+    paths: ["site/**", "data/**", "config/**", "pipeline/**"]
+
+permissions:
+  contents: write   # commit de data/
+  pages: write
+  id-token: write
+
+concurrency:
+  group: atualizacao-diaria
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Bahia
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: uv sync --locked
+
+      # Se a lista vier vazia, o comando falha e nada é publicado (decisão D9).
+      - name: Processar dados e exportar
+        run: uv run python -m pipeline run --destino site/public/api
+
+      - name: Relatório
+        run: uv run python -m pipeline report | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit dos dados (se mudaram)
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name "central-de-editais[bot]"
+            git config user.email "central-de-editais@users.noreply.github.com"
+            git add data/
+            git commit -m "chore(data): atualização $(date +%F)"
+            git push
+          else
+            echo "Sem mudanças em data/."
+          fi
+
+      - run: npm ci
+        working-directory: site
+      - run: npm run build
+        working-directory: site
+        env:
+          # Vazio com domínio próprio; "/nome-do-repo" para usuario.github.io/nome-do-repo.
+          BASE_PATH: ${{ vars.BASE_PATH }}
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/out
+
+  publicar:
+    needs: atualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5
