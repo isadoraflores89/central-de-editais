@@ -1,0 +1,107 @@
+# Regras de texto livre -> vocabulário controlado.
+# Usadas na importação da planilha e na normalização da coleta (sem IA).
+#
+# Cada padrão é uma expressão regular aplicada ao texto NORMALIZADO
+# (minúsculo, sem acento). Se nenhuma regra casar, o campo fica vazio e o
+# registro vai para a fila de revisão — o sistema nunca chuta.
+
+# Tipo de apoio: aplicado à coluna "Tipo de apoio". A PRIMEIRA regra que casar vence.
+tipo_apoio:
+  - {padrao: "credenciamento", valor: credenciamento}
+  - {padrao: "certificacao", valor: certificacao}
+  - {padrao: "cessao de espaco|pauta gratuita", valor: cessao_espaco}
+  - {padrao: "banco de projetos|vitrine de projetos|banco de incentivados", valor: banco_projetos}
+  - {padrao: "premiacao|premio", valor: premio}
+  - {padrao: "^lei ", valor: lei_incentivo_janela}
+  - {padrao: "internacionalizacao|mobilidade|bolsas? ", valor: bolsa_mobilidade}
+  - {padrao: "patrocinio corporativo|patrocinio direto", valor: patrocinio_direto}
+  - {padrao: "patrocinio via|incentivad", valor: patrocinio_incentivado}
+  - {padrao: "edital publico|fomento|cofinanciamento|cooperacao|chamada curatorial", valor: fomento_direto}
+
+# Mecanismo: aplicado a título + tipo + abrangência + resumo (observações ficam de fora:
+# costumam citar editais vizinhos). Todas as regras que casarem valem.
+mecanismo:
+  - {padrao: "rouanet|pronac|lei federal de incentivo a cultura|leis federais de incentivo", valor: rouanet}
+  - {padrao: "lei do esporte|lei (federal )?de incentivo ao esporte|\\blie\\b", valor: lei_esporte}
+  - {padrao: "icms|leis? estadua(l|is)|fazcultura|profice|proac|pic-sc|programa estadual de incentivo|programa de incentivo ao esporte", valor: icms_estadual}
+  - {padrao: "\\bpnab\\b|aldir blanc", valor: pnab}
+  - {padrao: "\\bfsa\\b|fundo setorial do audiovisual", valor: fsa}
+  - {padrao: "pronon|pronas", valor: pronon_pronas}
+  - {padrao: "\\bfia\\b|fmdca|fundo do idoso|fundo da infancia", valor: fia_idoso}
+  - {padrao: "recursos proprios|patrocinio corporativo|patrocinio direto", valor: recursos_proprios}
+  - {padrao: "leis? municipa(l|is)|promifae", valor: outro}
+
+# Leis estaduais citadas (rótulo "Nome/UF").
+leis_estaduais:
+  - {padrao: "fazcultura", valor: "Fazcultura/BA"}
+  - {padrao: "profice", valor: "Profice/PR"}
+  - {padrao: "\\bproac\\b", valor: "ProAC/SP"}
+  - {padrao: "pic-sc|programa de incentivo a cultura estadual", valor: "PIC/SC"}
+  - {padrao: "lei paulista de incentivo ao esporte|\\blpie\\b", valor: "LPIE/SP"}
+  - {padrao: "icms cultural paraiba", valor: "ICMS Cultural/PB"}
+  - {padrao: "programa de incentivo ao esporte \\(pie\\)", valor: "PIE/SC"}
+
+# Exige projeto já aprovado em lei de incentivo?
+exige_projeto_aprovado:
+  verdadeiro: "ja aprovad|aprovados (em|na|no|pelo)|aptos a captar|habilitados para captacao|vitrine de projetos incentivados|cadastro de projetos da lei|exige projeto"
+  # Tipos que, por definição, NÃO exigem projeto aprovado em lei:
+  falso_por_tipo: [fomento_direto, premio, credenciamento, cessao_espaco, certificacao, bolsa_mobilidade, lei_incentivo_janela]
+  # Patrocínio incentivado exige, por definição (só se patrocina projeto aprovado):
+  verdadeiro_por_tipo: [patrocinio_incentivado]
+
+# Abrangência: aplicada à coluna "Abrangência", nesta ordem.
+abrangencia:
+  nacional: "^nacional"
+  internacional: "ibero|portugal|internacional|exterior|diaspora"
+  # depois: cidades "Nome/UF" -> municipal; "municipio de X" -> municipal;
+  # 1 UF -> estadual; 2+ UFs -> regional.
+
+# Áreas (título + tipo + resumo). Todas as que casarem valem.
+areas:
+  - {padrao: "audiovisual|cinema|cinematograf|filme|longas?-metragens|\\bfsa\\b|clipe|riofilme|spcine", valor: audiovisual}
+  - {padrao: "musica|ibermusicas|composicao|musical", valor: musica}
+  - {padrao: "artes visuais|artistas visuais", valor: artes_visuais}
+  - {padrao: "bibliotec|literatura|leitura|livro", valor: literatura}
+  - {padrao: "memoria|patrimonio|museu", valor: patrimonio}
+  - {padrao: "festas|celebracoes|culturas? populares|tradicionais", valor: culturas_populares}
+  - {padrao: "teatro|danca|circo|cenica", valor: artes_cenicas}
+  - {padrao: "economia criativa|empresas criativas|creative", valor: economia_criativa}
+  - {padrao: "formacao|oficinas?\\b|capacitacao", valor: formacao}
+  - {padrao: "esport", valor: esporte}
+
+# Público prioritário (título + resumo + observações).
+publico_prioritario:
+  - {padrao: "negr|pretas?\\b|afro|diaspora", valor: pessoas_negras}
+  - {padrao: "favela|periferi|quebrada", valor: periferias}
+  - {padrao: "mulher|pretas potencias", valor: mulheres}
+  - {padrao: "indigena", valor: indigenas}
+  - {padrao: "\\bpcd\\b|deficiencia", valor: pcd}
+  - {padrao: "lgbt", valor: lgbtqia}
+  - {padrao: "juventude|jovens", valor: juventude}
+  - {padrao: "vulnerabilidade social", valor: vulnerabilidade_social}
+
+# Tipo de proponente (tipo + abrangência + resumo). Todas as que casarem valem.
+proponente:
+  - {padrao: "pessoas? fisicas?", valor: pf}
+  - {padrao: "\\bmei\\b", valor: mei}
+  - {padrao: "pessoas? juridicas? sem fins lucrativos|entidades privadas sem fins lucrativos|\\boscs?\\b", valor: osc}
+  # PJ em geral — mas "PJ sem fins lucrativos" é só OSC (regra acima).
+  - {padrao: "pessoas? juridicas?\\b(?!,? sem fins)", valor: pj}
+  - {padrao: "empresas criativas|credenciamento de empresas|produtoras", valor: empresa}
+  - {padrao: "coletivos?\\b", valor: coletivo}
+  - {padrao: "cooperativas? (culturais|de artistas)", valor: cooperativa}
+
+# Rótulos em Observações que indicam o link oficial do edital.
+rotulos_link_edital:
+  - "edital em pdf"
+  - "pagina do edital"
+  - "pagina minc"
+  - "pagina oficial"
+  - "instrucao normativa"
+  - "pagina institucional"
+  - "site oficial"
+
+# Domínios que não são fonte oficial (notícia, blog, agregador).
+dominios_nao_oficiais:
+  - tribunadosertao.com.br
+  - brblaw.com.br

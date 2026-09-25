@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Dados gerados (ver docs/PLANO.md, decisão D1)
+data/editais.db
+data/cache/
+
+# Site
+site/node_modules/
+site/.next/
+site/out/
+site/public/api/
+site/next-env.d.ts
+site/tsconfig.tsbuildinfo
+
+# Sistema
+.DS_Store
+.env

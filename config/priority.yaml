@@ -1,0 +1,31 @@
+# Regra de prioridade da Central de Editais (0 a 100).
+# Edite os pesos aqui; o robô recalcula tudo no próximo run.
+# Critério sem informação (campo vazio) não soma nem subtrai pontos.
+# Documentação: docs/METODOLOGIA.md
+
+teto: 100
+
+abrangencia_nacional: 25
+
+mecanismo_prioritario:
+  pontos: 20
+  mecanismos: [rouanet, lei_esporte]
+  # ICMS só conta quando é lei de BA ou PR:
+  icms_ufs: [BA, PR]
+
+valor_alto:
+  pontos: 15
+  minimo_por_projeto: 100000
+
+prazo:
+  entre_7_e_60_dias: 20
+  entre_1_e_6_dias: 10   # inclui o próprio dia do prazo (0 dias)
+  fluxo_continuo: 5
+
+nao_exige_projeto_aprovado: 10
+
+uf_prioritaria:
+  pontos: 10
+  ufs: [BA, PR]
+
+destaque_manual: 30

@@ -1,0 +1,26 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff
+        entry: uv run ruff check --fix
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy
+        entry: uv run mypy
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: pytest
+        name: pytest
+        entry: uv run pytest -q
+        language: system
+        pass_filenames: false
+        files: ^(pipeline|tests|config|data/seed)/
+      - id: site-lint
+        name: eslint + tsc (site)
+        entry: bash -c 'cd site && npm run lint && npm run typecheck'
+        language: system
+        files: ^site/
+        pass_filenames: false
