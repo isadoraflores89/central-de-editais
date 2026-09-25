@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/* Tokens de cor. Contraste mínimo 4,5:1 para texto (verificado em tests/contraste.test.ts). */
+:root {
+  --fundo: #fbfaf6;
+  --superficie: #ffffff;
+  --texto: #16181a;
+  --texto-suave: #454a4f;
+  --borda: #8a918b;
+  --borda-suave: #d6d9d4;
+  --marca: #1f3a2e;
+  --marca-texto: #ffffff;
+  --acento: #1f5c40;
+  --foco: #0b57d0;
+  --critica-fundo: #fde7e6;
+  --critica-texto: #9b1c1c;
+  --alta-fundo: #fff0db;
+  --alta-texto: #8a3b00;
+  --chip-fundo: #eef1ec;
+  --novo-fundo: #e3ecff;
+  --novo-texto: #1a3f99;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fundo: #111413;
+    --superficie: #1a1f1d;
+    --texto: #f2f2ee;
+    --texto-suave: #c4c8c2;
+    --borda: #7d857f;
+    --borda-suave: #343b37;
+    --marca: #9fd3b4;
+    --marca-texto: #0f1a14;
+    --acento: #9fd3b4;
+    --foco: #8ab4ff;
+    --critica-fundo: #3b1212;
+    --critica-texto: #ffb4ab;
+    --alta-fundo: #3a2410;
+    --alta-texto: #ffcb8a;
+    --chip-fundo: #252b28;
+    --novo-fundo: #1c2a4a;
+    --novo-texto: #b8ccff;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-fundo: var(--fundo);
+  --color-superficie: var(--superficie);
+  --color-texto: var(--texto);
+  --color-suave: var(--texto-suave);
+  --color-borda: var(--borda);
+  --color-borda-suave: var(--borda-suave);
+  --color-marca: var(--marca);
+  --color-marca-texto: var(--marca-texto);
+  --color-acento: var(--acento);
+  --color-critica-fundo: var(--critica-fundo);
+  --color-critica: var(--critica-texto);
+  --color-alta-fundo: var(--alta-fundo);
+  --color-alta: var(--alta-texto);
+  --color-chip: var(--chip-fundo);
+  --color-novo-fundo: var(--novo-fundo);
+  --color-novo: var(--novo-texto);
+  --font-sans: var(--fonte-atkinson), system-ui, sans-serif;
+}
+
+html {
+  font-size: 112.5%; /* 18px: base maior por acessibilidade (decisão D8) */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+}
+
+/* Foco sempre visível e forte. */
+:focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+/* Alvos de toque de pelo menos 44px. */
+.alvo {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.pular-link {
+  position: absolute;
+  left: -9999px;
+}
+.pular-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 50;
+  background: var(--superficie);
+  color: var(--texto);
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--foco);
+}
+
+input[type="range"] {
+  accent-color: var(--acento);
+  height: 44px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--acento);
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
