@@ -1,0 +1,109 @@
+# Ajustes da carga inicial, por linha da planilha ("Aba#número").
+#
+# Aqui entram SÓ informações que já estão no texto da própria linha
+# (título, abrangência, resumo, observações), mas que as regras automáticas
+# não conseguem ler sozinhas: principalmente o órgão, que vem embutido no
+# título, e listas de cidades. Nada aqui vem de fora da planilha.
+#
+# Correções de curadoria posteriores (ocultar, destacar, corrigir prazo...)
+# vão em data/overrides.yaml, por id — não aqui.
+
+# ----------------------------------------------------------------- Editais
+"Editais#1":
+  orgao: Ambev
+  abrangencia: nacional
+  ufs: []
+  cidades: []
+  nota: "Aceita projetos aprovados em 27 leis estaduais (cultura em 16 estados, esporte em 12), inclusive Fazcultura/BA e Profice/PR."
+"Editais#2": {orgao: "Secretaria da Cultura de SP / APAA"}
+"Editais#3": {orgao: Fundação Sicredi}
+"Editais#4": {orgao: Mapfre}
+"Editais#5": {orgao: "ICA (Portugal) / Ancine"}
+"Editais#6": {orgao: Programa Ibermúsicas}
+"Editais#7": {orgao: Embratur}
+"Editais#8": {orgao: BNDES}
+"Editais#9":
+  orgao: "MinC + Instituto Cultural Vale"
+  abrangencia: regional
+  ufs: [PA, MG, DF, PE, RJ, MA, SP, ES]
+  cidades: [Belém, Belo Horizonte, Recife, Rio de Janeiro, São Luís, São Paulo, Vitória]
+"Editais#10": {orgao: Instituto Feira Preta}
+"Editais#11": {orgao: "Secretaria Municipal de Cultura de Maceió"}
+"Editais#12": {orgao: "Spcine / Secretaria Municipal de Cultura de SP", cidades: [São Paulo]}
+"Editais#13": {orgao: Celesc}
+"Editais#14":
+  orgao: Santos Brasil
+  abrangencia: municipal
+  ufs: [SP, SC]
+  cidades: [Santos, Guarujá, Imbituba]
+"Editais#15": {orgao: APAA}
+"Editais#16": {orgao: MinC}
+"Editais#17":
+  orgao: Shell
+  abrangencia: nacional
+  ufs: []
+  nota: "Nacional, com prioridade para SP, RJ, ES e DF."
+"Editais#18":
+  orgao: Instituto Cultural Vale
+  exige_projeto_aprovado: null
+  nota: "Aceita Lei Rouanet, Lei do Audiovisual ou recursos próprios — projeto aprovado em lei só é exigido nas modalidades incentivadas."
+"Editais#19": {orgao: "Secretaria da Cultura de SP"}
+"Editais#20": {orgao: "Fundação de Cultura de MS (FCMS)"}
+"Editais#21": {orgao: MinC}
+"Editais#22": {orgao: Riofilme, abrangencia: municipal, ufs: [RJ], cidades: [Rio de Janeiro]}
+"Editais#23": {orgao: CBMM}
+"Editais#24": {orgao: Secult-BA, mecanismo: [icms_estadual]}
+"Editais#25": {orgao: Secult-PB}
+"Editais#26": {orgao: Funarte}
+"Editais#27": {orgao: Prosas}
+"Editais#28": {orgao: Banco do Brasil}
+"Editais#29":
+  orgao: CAIXA
+  exige_projeto_aprovado: null
+  nota: "Recebe propostas culturais, esportivas e institucionais, incluindo (mas não só) projetos incentivados."
+"Editais#30": {orgao: FCCSA}
+"Editais#31": {orgao: "Secretaria da Cultura de SP / InvestSP"}
+"Editais#32": {orgao: "MinC / SNBP"}
+"Editais#33": {orgao: "Google (via Incentiv.me)"}
+"Editais#34": {orgao: Havan}
+"Editais#35": {orgao: Instituto EDP}
+"Editais#36": {orgao: Instituto John Deere}
+"Editais#37": {orgao: Instituto Neoenergia}
+"Editais#38": {orgao: Muncab}
+"Editais#39": {orgao: Claro}
+"Editais#40":
+  orgao: Lojas Renner
+  abrangencia: nacional
+  ufs: []
+  nota: "Rouanet em todo o país; ICMS em SP, RJ, PB, PI, PE, PR e RS; FIC Montevidéu (Uruguai)."
+"Editais#41": {orgao: Petrobras}
+"Editais#42": {orgao: SEEC-PR}
+"Editais#43": {orgao: Santander}
+"Editais#44": {orgao: Vivo}
+
+# ---------------------------------------------------------- Lei do Esporte
+"Lei do Esporte#1": {orgao: Ambev, abrangencia: nacional}
+"Lei do Esporte#2": {orgao: Fundação Sicredi}
+"Lei do Esporte#3": {orgao: Mapfre}
+"Lei do Esporte#4": {orgao: Celesc}
+"Lei do Esporte#5":
+  orgao: Santos Brasil
+  abrangencia: municipal
+  ufs: [SP, SC]
+  cidades: [Santos, Guarujá, Imbituba]
+"Lei do Esporte#6": {orgao: "Secretaria de Esportes de SP"}
+"Lei do Esporte#7": {orgao: Shell}
+"Lei do Esporte#8": {orgao: Celesc}
+"Lei do Esporte#9": {orgao: Ministério do Esporte}
+"Lei do Esporte#10": {orgao: Prosas}
+"Lei do Esporte#11": {orgao: Havan}
+"Lei do Esporte#12": {orgao: CBMM}
+
+# ------------------------------------------------------------- Parecerista
+"Parecerista#1": {orgao: MinC}
+"Parecerista#2": {orgao: Fundação Catarinense de Cultura}
+"Parecerista#3": {orgao: Fundação Cultural de Uberaba}
+"Parecerista#4": {orgao: Fundação Cultural Cassiano Ricardo}
+"Parecerista#5": {orgao: "Secretaria Municipal de Cultura e Turismo de Uberlândia"}
+"Parecerista#6": {orgao: Prefeitura de Sabará}
+"Parecerista#7": {orgao: Fundação Cultural de Itajaí}

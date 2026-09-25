@@ -1,0 +1,15 @@
+# Curadoria manual da Central de Editais.
+# Sempre vence a coleta automática. Um bloco por id de edital
+# (o id aparece no fim do endereço /edital/<id> no site).
+#
+# Exemplo:
+#
+# ambev-brasilidades-2026-xxxxxx:
+#   destaque: true          # sobe na lista e ganha selo "Destaque"
+#   oculto: false           # true esconde do site (continua no histórico)
+#   tags: [bahia]           # etiquetas livres
+#   nota: "Conferido por Isadora em 25/09"
+#   campos:                 # corrige qualquer campo do edital
+#     data_limite: 2026-10-15
+#     orgao: Ambev
+{}

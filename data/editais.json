@@ -1,0 +1,3487 @@
+{
+  "schema": 1,
+  "licenca": "CC-BY-4.0",
+  "atribuicao": "Central de Editais — Flores Produções e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
+  "total": 56,
+  "editais": [
+    {
+      "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
+      "titulo": "2º Prêmio Pretas Potências — Instituto Feira Preta",
+      "orgao": "Instituto Feira Preta",
+      "tipo_apoio": "premio",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "audiovisual",
+        "musica",
+        "artes_visuais",
+        "literatura",
+        "patrimonio",
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [
+        "pessoas_negras",
+        "mulheres"
+      ],
+      "proponente": [
+        "coletivo"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "16/10/2026 18h",
+      "data_limite": "2026-10-16",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Premiação a artistas negros e coletivos protagonizados por pessoas negras nas áreas de música instrumental, artes cênicas, artes visuais, literatura, audiovisual e patrimônio imaterial (150 iniciativas na 1ª edição). Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/18622",
+      "link_edital": "https://pretaspotencias.com/",
+      "observacoes": "Valores e regulamento na página do edital no Prosas; site oficial: https://pretaspotencias.com/",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://pretaspotencias.com/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#10)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "ambev-brasilidades-2026-5d25ba",
+      "titulo": "Ambev Brasilidades 2026",
+      "orgao": "Ambev",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "icms_estadual"
+      ],
+      "leis_estaduais": [
+        "Fazcultura/BA",
+        "Profice/PR"
+      ],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": 67000000.0,
+      "valor_texto": "Até R$ 67 milhões no total, distribuídos conforme disponibilidade em cada lei estadual.",
+      "prazo_texto": "30/09/2026 17h59",
+      "data_limite": "2026-09-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Patrocínio a projetos culturais e esportivos que celebrem expressões brasileiras, já aprovados ou habilitados para captação em leis estaduais de incentivo. Pessoas jurídicas com ou sem fins lucrativos. Até R$ 67 milhões no total, distribuídos conforme disponibilidade em cada lei estadual. Inscrição pela plataforma Prosas (regulamento, FAQ e autodeclaração étnico-racial disponíveis na página).",
+      "link_inscricao": "https://prosas.com.br/editais/16452-edital-ambev-brasilidades-2026",
+      "link_edital": null,
+      "observacoes": "Exige projeto já aprovado na lei estadual — para BA (Fazcultura) e PR (Profice) é preciso ter a aprovação em mãos. | Aceita projetos aprovados em 27 leis estaduais (cultura em 16 estados, esporte em 12), inclusive Fazcultura/BA e Profice/PR.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/16452-edital-ambev-brasilidades-2026",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas + BRB Law (via planilha, Editais#1)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://prosas.com.br/editais/16452-edital-ambev-brasilidades-2026",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Prosas (via planilha, Lei do Esporte#1)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "ambev-brasilidades-2026-leis-estaduais-de-incentivo-ao-9d22c7"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "banco-do-brasil-banco-de-oportunidades-de-patrocinio-887472",
+      "titulo": "Banco do Brasil — Banco de Oportunidades de Patrocínio",
+      "orgao": "Banco do Brasil",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de projetos que reforcem o valor da marca BB e permitam apresentar produtos e serviços a públicos de interesse. Cadastro da proposta pelo site de patrocínios; a seção de contrapartidas ainda consta como 'em breve'.",
+      "link_inscricao": "https://www.bb.com.br/site/patrocinios/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.bb.com.br/site/patrocinios/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#28)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "bip-cultura-banco-de-incentivados-da-prosas-290d91",
+      "titulo": "BIP Cultura — Banco de Incentivados da Prosas",
+      "orgao": "Prosas",
+      "tipo_apoio": "banco_projetos",
+      "mecanismo": [
+        "rouanet",
+        "lei_esporte",
+        "fia_idoso"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Cadastro gratuito de projetos já aprovados na Lei Rouanet (e, em bancos irmãos, Lei do Esporte, FIA e Fundo do Idoso) para visibilidade junto a patrocinadores que usam a Prosas. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://bip.prosas.com.br",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://bip.prosas.com.br/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas + Capta (via planilha, Editais#27)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://bip.prosas.com.br/",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Prosas (via planilha, Lei do Esporte#10)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 50,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "bip-esporte-banco-de-incentivados-da-prosas-1ea0eb"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "caixa-patrocinios-868a50",
+      "titulo": "CAIXA — Patrocínios",
+      "orgao": "CAIXA",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Portal de patrocínios da CAIXA para recebimento de propostas culturais, esportivas e institucionais alinhadas à estratégia da marca, incluindo projetos incentivados. Cadastro da proposta pelo portal de patrocínios do banco.",
+      "link_inscricao": "https://www.caixa.gov.br/patrocinios/Paginas/default.aspx",
+      "link_edital": null,
+      "observacoes": "Página não pôde ser lida automaticamente; conferir critérios e leis aceitas diretamente no portal. | Recebe propostas culturais, esportivas e institucionais, incluindo (mas não só) projetos incentivados.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.caixa.gov.br/patrocinios/Paginas/default.aspx",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#29)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "catalisar-2026-fccsa-e5a35f",
+      "titulo": "Catalisar 2026 — FCCSA",
+      "orgao": "FCCSA",
+      "tipo_apoio": "banco_projetos",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Chamada permanente da FCCSA para projetos de cultura e artes, educação, esporte, assistência social e desenvolvimento comunitário voltados a populações em vulnerabilidade. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/17727",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/17727",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#30)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "cbmm-projetos-de-responsabilidade-social-corporativa-2026-3e349a",
+      "titulo": "CBMM — Projetos de Responsabilidade Social Corporativa 2026",
+      "orgao": "CBMM",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "formacao",
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/11/2026 18h",
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Chamada da CBMM para projetos de cultura e artes, educação, saúde, esporte, formação para o trabalho, desenvolvimento comunitário e assistência social. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/17327",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/17327",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#23)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 25,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "celesc-edital-002-2024-cadastro-de-projetos-da-lei-federal-abc328",
+      "titulo": "Celesc — Edital 002/2024 Cadastro de Projetos da Lei Federal de Incentivo à Cultura (Rouanet)",
+      "orgao": "Celesc",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SC"
+      ],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/10/2026 18h",
+      "data_limite": "2026-10-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Cadastro contínuo da Celesc para selecionar projetos culturais já aprovados na Lei Rouanet, destinando parte do imposto de renda devido como patrocínio. Inscrição pela Central de Editais da Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/15182",
+      "link_edital": null,
+      "observacoes": "Edital irmão para o PIC-SC (Programa de Incentivo à Cultura estadual): https://prosas.com.br/editais/14886 (mesmo prazo).",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/15182",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#13)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 40,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "chamada-para-projetos-esportivos-lei-paulista-de-incentivo-d0b7fc",
+      "titulo": "Chamada para Projetos Esportivos — Lei Paulista de Incentivo ao Esporte (LPIE)",
+      "orgao": "Secretaria de Esportes de SP",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "icms_estadual"
+      ],
+      "leis_estaduais": [
+        "LPIE/SP"
+      ],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "formacao",
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "osc"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "31/10/2026",
+      "data_limite": "2026-10-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Programa da Secretaria de Esportes do Estado de São Paulo que permite a empresas destinarem parte do ICMS devido a projetos esportivos (educacional, formação, rendimento, sociodesportivo, participativo, gestão e infraestrutura). Entidades privadas sem fins lucrativos de natureza esportiva.",
+      "link_inscricao": "https://www.esportes.sp.gov.br/sec_esportes/lei_paulista_de_incentivo_ao_esporte/lpie",
+      "link_edital": null,
+      "observacoes": "Prazo divulgado via Prosas; confirmar no site oficial.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.esportes.sp.gov.br/sec_esportes/lei_paulista_de_incentivo_ao_esporte/lpie",
+      "fontes_secundarias": [
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#6)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "clipe-da-quebrada-2026-apaa-b48e26",
+      "titulo": "Clipe da Quebrada 2026 (APAA)",
+      "orgao": "APAA",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [
+        "periferias"
+      ],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Seleção de 30 produtoras para produção de videoclipes de artistas independentes, com R$ 5.250 por projeto.",
+      "prazo_texto": "31/10/2026",
+      "data_limite": "2026-10-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de 30 produtoras para produção de videoclipes de artistas independentes, com R$ 5.250 por projeto. Inscrição pela plataforma de editais da APAA.",
+      "link_inscricao": "https://www.editaisapaa.org.br/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.editaisapaa.org.br/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#15)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "creative-sp-2026-missoes-internacionais-secretaria-da-2ba722",
+      "titulo": "Creative SP 2026 — Missões Internacionais (Secretaria da Cultura de SP / InvestSP)",
+      "orgao": "Secretaria da Cultura de SP / InvestSP",
+      "tipo_apoio": "bolsa_mobilidade",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "economia_criativa"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Dez missões internacionais em segmentos da economia criativa, com reembolso de 50% das despesas elegíveis até US$ 3 mil por participante e até 15 empresas por missão.",
+      "prazo_texto": "Datas por missão ao longo de 2026",
+      "data_limite": null,
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "indefinido",
+      "resumo": "Dez missões internacionais em segmentos da economia criativa, com reembolso de 50% das despesas elegíveis até US$ 3 mil por participante e até 15 empresas por missão. Inscrição por formulário online.",
+      "link_inscricao": "https://forms.office.com/Pages/ResponsePage.aspx?id=T-Syi1aESE6Tx6nG-VAlIDey3VzT_CFGnv07uWcyX9ZUN1dEQldLT1YyWlM3OVlJWVZZODlDUkNBMC4u",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://forms.office.com/Pages/ResponsePage.aspx?id=T-Syi1aESE6Tx6nG-VAlIDey3VzT_CFGnv07uWcyX9ZUN1dEQldLT1YyWlM3OVlJWVZZODlDUkNBMC4u",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#31)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 10,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "difusao-cultsp-2026-secretaria-da-cultura-de-sp-apaa-7a6fa5",
+      "titulo": "Difusão CultSP 2026 (Secretaria da Cultura de SP / APAA)",
+      "orgao": "Secretaria da Cultura de SP / APAA",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "culturas_populares"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": 20000.0,
+      "valor_total": null,
+      "valor_texto": "Apoio a festas, celebrações, feiras e eventos culturais municipais do interior e litoral paulista, com até R$ 20 mil por projeto para infraestrutura e cachês artísticos.",
+      "prazo_texto": "30/09/2026",
+      "data_limite": "2026-09-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Apoio a festas, celebrações, feiras e eventos culturais municipais do interior e litoral paulista, com até R$ 20 mil por projeto para infraestrutura e cachês artísticos. Inscrição pela plataforma de editais da APAA.",
+      "link_inscricao": "https://www.editaisapaa.org.br/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.editaisapaa.org.br/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#2)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 20,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "edital-001-2026-cadastro-de-projetos-do-programa-de-c851bb",
+      "titulo": "Edital 001/2026 — Cadastro de Projetos do Programa de Incentivo ao Esporte (PIE) — Celesc",
+      "orgao": "Celesc",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "icms_estadual",
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [
+        "PIE/SC"
+      ],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SC"
+      ],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "31/12/2026 18:00",
+      "data_limite": "2026-12-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Cadastro contínuo da Celesc para projetos esportivos aprovados no Programa de Incentivo ao Esporte (PIE) de Santa Catarina, com seleção para recebimento de patrocínio com recursos próprios da empresa.",
+      "link_inscricao": "https://prosas.com.br/editais/17521-edital-0012026-de-cadastro-de-projetos-do-programa-de-incentivo-ao-esporte-pie",
+      "link_edital": null,
+      "observacoes": "Login necessário.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/17521-edital-0012026-de-cadastro-de-projetos-do-programa-de-incentivo-ao-esporte-pie",
+      "fontes_secundarias": [
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#8)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 0,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "edital-003-2024-cadastro-de-projetos-da-lei-federal-de-943bd0",
+      "titulo": "Edital 003/2024 — Cadastro de Projetos da Lei Federal de Incentivo ao Esporte (Celesc)",
+      "orgao": "Celesc",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "lei_esporte"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SC"
+      ],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/10/2026 18:00",
+      "data_limite": "2026-10-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "A Celesc mantém cadastro contínuo para selecionar projetos esportivos já aprovados na Lei Federal de Incentivo ao Esporte, destinando parte do imposto de renda devido como patrocínio.",
+      "link_inscricao": "https://prosas.com.br/editais/15181-edital-0032024-cadastro-de-projetos-da-lei-federal-de-incentivo-ao-esporte",
+      "link_edital": null,
+      "observacoes": "Login necessário para ver o edital completo.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/15181-edital-0032024-cadastro-de-projetos-da-lei-federal-de-incentivo-ao-esporte",
+      "fontes_secundarias": [
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#4)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 40,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "edital-biblioteca-comunitaria-e-cultura-viva-minc-snbp-067116",
+      "titulo": "Edital Biblioteca Comunitária é Cultura Viva (MinC/SNBP)",
+      "orgao": "MinC / SNBP",
+      "tipo_apoio": "certificacao",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "literatura"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Dupla certificação de bibliotecas comunitárias como Biblioteca Comunitária (SNBP) e Ponto de Cultura, dando acesso a formações e pontuação extra em seleções públicas. Organizações da sociedade civil que mantenham bibliotecas há pelo menos dois anos. Inscrição gratuita pela plataforma BiblioBR.",
+      "link_inscricao": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-biblioteca-comunitaria-e-cultura-viva1/edital-biblioteca-comunitaria-e-cultura-viva",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-biblioteca-comunitaria-e-cultura-viva1/edital-biblioteca-comunitaria-e-cultura-viva",
+      "fontes_secundarias": [
+        {
+          "fonte": "MinC (via planilha, Editais#32)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 40,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "edital-rede-memoria-viva-iniciativa-viva-pequena-africa-0ae1f5",
+      "titulo": "Edital Rede Memória Viva — Iniciativa Viva Pequena África (BNDES)",
+      "orgao": "BNDES",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "patrimonio"
+      ],
+      "publico_prioritario": [
+        "pessoas_negras"
+      ],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Seleção de iniciativas de valorização e preservação da memória e do patrimônio cultural africano e afro-brasileiro em territórios de todo o país ('novas Pequenas Áfricas'), com R$ 5 milhões apoiados pelo BNDES.",
+      "prazo_texto": "05/10/2026 18h",
+      "data_limite": "2026-10-05",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de iniciativas de valorização e preservação da memória e do patrimônio cultural africano e afro-brasileiro em territórios de todo o país ('novas Pequenas Áfricas'), com R$ 5 milhões apoiados pelo BNDES. Inscrição pela plataforma Prosas (edital e FAQ disponíveis na página).",
+      "link_inscricao": "https://prosas.com.br/editais/18659-edital-rede-memoria-viva-iniciativa-viva-pequena-africa",
+      "link_edital": null,
+      "observacoes": "Aderente a projetos de Salvador e do Recôncavo; conferir requisitos de território no regulamento.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/18659-edital-rede-memoria-viva-iniciativa-viva-pequena-africa",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas + Capta (via planilha, Editais#8)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "embratur-selecao-publica-de-patrocinios-edital-13-2025-9f5f9a",
+      "titulo": "Embratur — Seleção Pública de Patrocínios (Edital 13/2025)",
+      "orgao": "Embratur",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Patrocínio limitado a 60% do custo total (exceto projetos abaixo de R$ 200 mil), com contrapartidas de exposição de marca, conteúdo e geração de negócios.",
+      "prazo_texto": "03/10/2026",
+      "data_limite": "2026-10-03",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de projetos de promoção turística que fortaleçam a imagem internacional do Brasil (Plano Brasis 2024–2027). Pessoas jurídicas nacionais e internacionais, com ou sem fins lucrativos. Patrocínio limitado a 60% do custo total (exceto projetos abaixo de R$ 200 mil), com contrapartidas de exposição de marca, conteúdo e geração de negócios. Inscrições com no mínimo 60 dias de antecedência do evento.",
+      "link_inscricao": "https://patrocinio.embratur.com.br/",
+      "link_edital": "https://embratur.com.br/wp-content/uploads/2025/12/Edital-de-Chamamento-Publico-13-2025.pdf",
+      "observacoes": "Edital em PDF: https://embratur.com.br/wp-content/uploads/2025/12/Edital-de-Chamamento-Publico-13-2025.pdf",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://embratur.com.br/wp-content/uploads/2025/12/Edital-de-Chamamento-Publico-13-2025.pdf",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#7)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 45,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fazcultura-2026-programa-estadual-de-incentivo-a-cultura-a5dac1",
+      "titulo": "Fazcultura 2026 — Programa Estadual de Incentivo à Cultura (Secult-BA)",
+      "orgao": "Secult-BA",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "icms_estadual"
+      ],
+      "leis_estaduais": [
+        "Fazcultura/BA"
+      ],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "BA"
+      ],
+      "cidades": [],
+      "areas": [
+        "audiovisual",
+        "musica",
+        "literatura",
+        "culturas_populares",
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Programa de renúncia fiscal do ICMS da Bahia com R$ 15 milhões para 2026: empresas patrocinam projetos aprovados pelo Estado, com complemento de recursos próprios.",
+      "prazo_texto": "31/12/2026 (11/02 a 31/12/2026)",
+      "data_limite": "2026-12-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Programa de renúncia fiscal do ICMS da Bahia com R$ 15 milhões para 2026: empresas patrocinam projetos aprovados pelo Estado, com complemento de recursos próprios. Projetos de música, teatro, dança, audiovisual, literatura e culturas populares. Inscrição eletrônica pelo Clique Fomento (SIIC); atingido o teto, projetos aprovados sem captação aguardam o exercício seguinte.",
+      "link_inscricao": "https://siic.cultura.ba.gov.br/clique_fomento/inscricoes/index",
+      "link_edital": null,
+      "observacoes": "Projeto aprovado no Fazcultura habilita candidatura ao Ambev Brasilidades 2026 (leis estaduais).",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://siic.cultura.ba.gov.br/clique_fomento/inscricoes/index",
+      "fontes_secundarias": [
+        {
+          "fonte": "SIIC/Secult-BA (via planilha, Editais#24)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 40,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fcms-editais-025-e-026-2026-termo-de-execucao-cultural-42e398",
+      "titulo": "FCMS — Editais 025 e 026/2026 Termo de Execução Cultural Audiovisual (MinC/FSA/BRDE Arranjos Regionais — MS)",
+      "orgao": "Fundação de Cultura de MS (FCMS)",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [
+        "fsa"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "MS"
+      ],
+      "cidades": [],
+      "areas": [
+        "audiovisual",
+        "patrimonio"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "04/11/2026 18h",
+      "data_limite": "2026-11-04",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de projetos para produção audiovisual (Edital 26/2026) e para memória e preservação audiovisual do MIS-MS (Edital 025/2026), no âmbito dos arranjos regionais do FSA. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/19047",
+      "link_edital": null,
+      "observacoes": "Edital 025/2026: https://prosas.com.br/editais/19048",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/19047",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#20)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fsa-producao-de-longas-e-coproducoes-internacionais-sp-2af166",
+      "titulo": "FSA — Produção de Longas e Coproduções Internacionais (SP)",
+      "orgao": "Secretaria da Cultura de SP",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [
+        "fsa"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "R$ 40 milhões em investimentos retornáveis para produção de longas-metragens e coproduções internacionais por produtoras independentes sediadas em São Paulo.",
+      "prazo_texto": "03/11/2026",
+      "data_limite": "2026-11-03",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "R$ 40 milhões em investimentos retornáveis para produção de longas-metragens e coproduções internacionais por produtoras independentes sediadas em São Paulo.",
+      "link_inscricao": "https://www.cultura.sp.gov.br/sec_cultura",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.cultura.sp.gov.br/sec_cultura",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#19)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fundacao-catarinense-de-cultura-edital-de-credenciamento-de-4e23f1",
+      "titulo": "Fundação Catarinense de Cultura — Edital de Credenciamento de Pareceristas nº 102/2026",
+      "orgao": "Fundação Catarinense de Cultura",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "SC"
+      ],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento contínuo de pareceristas para avaliação de projetos culturais da FCC-SC. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/18788",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/18788",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#2)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fundacao-cultural-cassiano-ricardo-sao-jose-dos-campos-e2c100",
+      "titulo": "Fundação Cultural Cassiano Ricardo (São José dos Campos) — Edital 005/FCCR/2024 Credenciamento de Pareceristas",
+      "orgao": "Fundação Cultural Cassiano Ricardo",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [
+        "São José dos Campos"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento contínuo de pareceristas de projetos culturais da FCCR. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais?status=abertos",
+      "link_edital": null,
+      "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais?status=abertos",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#4)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista",
+        "link_generico"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": true
+    },
+    {
+      "id": "fundacao-cultural-de-itajai-edital-011-2025-credenciamento-2a9fa5",
+      "titulo": "Fundação Cultural de Itajaí — Edital 011/2025 Credenciamento de Empresas de Captação de Recursos",
+      "orgao": "Fundação Cultural de Itajaí",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "SC"
+      ],
+      "cidades": [
+        "Itajaí"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento de empresas especializadas em captação de recursos por meio de incentivos fiscais e/ou recursos próprios de patrocinadores, para atuar junto a projetos da Fundação Cultural de Itajaí. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/16505",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/16505",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#7)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "fundacao-cultural-de-uberaba-edital-de-credenciamento-de-ba3ba8",
+      "titulo": "Fundação Cultural de Uberaba — Edital de Credenciamento de Pareceristas nº 001/2026",
+      "orgao": "Fundação Cultural de Uberaba",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "cidades": [
+        "Uberaba"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento contínuo de pareceristas para editais da Fundação Cultural de Uberaba. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais?status=abertos",
+      "link_edital": null,
+      "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais?status=abertos",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#3)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista",
+        "link_generico"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": true
+    },
+    {
+      "id": "fundacao-sicredi-selecao-de-projetos-incentivados-2026-d72891",
+      "titulo": "Fundação Sicredi — Seleção de Projetos Incentivados 2026",
+      "orgao": "Fundação Sicredi",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "lei_esporte",
+        "pronon_pronas",
+        "fia_idoso"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [
+        "vulnerabilidade_social"
+      ],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/09/2026",
+      "data_limite": "2026-09-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Recebimento de projetos aptos a captar via Lei Rouanet, Lei do Esporte, FMDCA, Fundo do Idoso, Pronon e Pronas, com foco em beneficiários em situação de vulnerabilidade social e ações gratuitas. Inscrição por formulário online (Microsoft Forms) divulgado pela Fundação Sicredi.",
+      "link_inscricao": "https://www.fundacaosicredi.com.br/",
+      "link_edital": null,
+      "observacoes": "Link do formulário divulgado em: https://www.brblaw.com.br/novos-editais-culturais-com-inscricoes-abertas-confira-103/",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.fundacaosicredi.com.br/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#3)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://www.fundacaosicredi.com.br/",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Lei do Esporte#2)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "fundacao-sicredi-projetos-incentivados-2026-lei-do-esporte-5715f1"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "google-projetos-incentivados-via-incentiv-me-4dd790",
+      "titulo": "Google — Projetos Incentivados (via Incentiv.me)",
+      "orgao": "Google (via Incentiv.me)",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "pronon_pronas"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Conecta projetos já aprovados em leis de incentivo fiscal (Lei Rouanet, Lei do Audiovisual, Pronon, Pronas, entre outras) ao investimento do Google, com seleção baseada em viabilidade, sinergia e documentação. Inscrição por formulário na plataforma Incentiv.me com dados do proponente, CNPJ, lei escolhida e comprovante de aprovação em PDF.",
+      "link_inscricao": "https://google.incentiv.me/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://google.incentiv.me/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#33)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 50,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "havan-patrocinios-19277e",
+      "titulo": "Havan — Patrocínios",
+      "orgao": "Havan",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "icms_estadual",
+        "pronon_pronas",
+        "fia_idoso",
+        "lei_esporte"
+      ],
+      "leis_estaduais": [
+        "Profice/PR",
+        "ProAC/SP"
+      ],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Financia projetos de empreendedorismo, cultura, esporte e saúde que capacitem e formem pessoas para a vida e o mercado de trabalho. Aceita leis federais (Cultura, Esporte, FIA, Idoso, Pronon, Pronas) e estaduais (Profice, Proesporte, ProAC, PIE, PIC). Inscrição por formulário no site; retorno em 30 a 40 dias.",
+      "link_inscricao": "https://www.havan.com.br/patrocinios",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.havan.com.br/patrocinios",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#34)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://www.havan.com.br/patrocinios",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "LinkedIn (via planilha, Lei do Esporte#11)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 50,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "havan-patrocinios-lei-do-esporte-e-proesporte-9a357b"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "ibermusicas-2026-internacional-95f7a0",
+      "titulo": "Ibermúsicas 2026 (Internacional)",
+      "orgao": "Programa Ibermúsicas",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "internacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "musica"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "01/10/2026",
+      "data_limite": "2026-10-01",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Quinze convocatórias para profissionais da música, programadores, artistas, pesquisadores e instituições ibero-americanas, com apoio a circulação internacional, residências artísticas, especialização, projetos virtuais e prêmios de composição. Inscrições de 15 de junho a 1º de outubro de 2026; valores por categoria nos editais em PDF.",
+      "link_inscricao": "https://www.ibermusicas.org/index.php/convocatorias-pt/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.ibermusicas.org/index.php/convocatorias-pt/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#6)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 20,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "icms-cultural-paraiba-edital-inducao-cinematografica-2026-926330",
+      "titulo": "ICMS Cultural Paraíba — Edital Indução Cinematográfica 2026 (Secult-PB)",
+      "orgao": "Secult-PB",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "icms_estadual"
+      ],
+      "leis_estaduais": [
+        "ICMS Cultural/PB"
+      ],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "PB"
+      ],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "31/12/2026 18h (prorrogado)",
+      "data_limite": "2026-12-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "prorrogado",
+      "resumo": "Chamada do ICMS Cultural da Paraíba voltada à indução de produções cinematográficas no estado. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/17421",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/17421",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#25)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 10,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "instituto-edp-banco-de-projetos-2026-icms-sp-es-e-go-0e1c4e",
+      "titulo": "Instituto EDP — Banco de Projetos 2026 (ICMS SP, ES e GO)",
+      "orgao": "Instituto EDP",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "icms_estadual"
+      ],
+      "leis_estaduais": [
+        "ProAC/SP"
+      ],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "regional",
+      "ufs": [
+        "ES",
+        "GO",
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Banco de projetos do Instituto EDP para iniciativas de cultura, esporte, educação, meio ambiente e desenvolvimento comunitário aprovadas em leis estaduais de ICMS (ProAC-SP, Funcultura-ES e Goyazes-GO). Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/patrocinadores/92",
+      "link_edital": null,
+      "observacoes": "A chamada 'SIM para Cuidar do Futuro 2026' (leis federais, 13 estados, R$ 12 milhões) encerrou em 31/08/2026: https://prosas.com.br/editais/15802",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/patrocinadores/92",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#35)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 5,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "instituto-john-deere-banco-de-projetos-2026-7d5ec9",
+      "titulo": "Instituto John Deere — Banco de Projetos 2026",
+      "orgao": "Instituto John Deere",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "icms_estadual",
+        "pronon_pronas",
+        "fia_idoso"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "regional",
+      "ufs": [
+        "GO",
+        "RS",
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Banco de projetos para iniciativas de combate à fome, desenvolvimento comunitário e educação nos territórios de atuação do instituto. Aceita Pronon, FIA, Fundo do Idoso, Lei Rouanet, Lei Federal do Esporte e Lei Estadual do Esporte (SP). Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/15444-instituto-john-deere-banco-de-projetos-2025",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/15444-instituto-john-deere-banco-de-projetos-2025",
+      "fontes_secundarias": [
+        {
+          "fonte": "LinkedIn + Prosas (via planilha, Editais#36)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 25,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "instituto-neoenergia-banco-de-projetos-6b55c0",
+      "titulo": "Instituto Neoenergia — Banco de Projetos",
+      "orgao": "Instituto Neoenergia",
+      "tipo_apoio": "banco_projetos",
+      "mecanismo": [
+        "rouanet"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "formacao"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Recebe iniciativas de impacto social alinhadas aos pilares Educação, Formação e Pesquisa; Biodiversidade e Meio Ambiente; Arte e Cultura; Ação Social; e Novas Tecnologias, para possível inclusão no banco institucional. As seleções ocorrem por chamadas específicas (ex.: Rouanet no Interior); próxima chamada geral prevista para 2027.",
+      "link_inscricao": "https://www.neoenergia.com/ca/web/instituto-neoenergia/inscreva-seu-projeto",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.neoenergia.com/ca/web/instituto-neoenergia/inscreva-seu-projeto",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#37)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 50,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "intercambio-cultural-circulacao-e-participacao-audiovisual-b93bd0",
+      "titulo": "Intercâmbio Cultural — Circulação e Participação Audiovisual no Exterior (Edital MinC nº 1/2026)",
+      "orgao": "MinC",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "pf"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": 1000000.0,
+      "valor_texto": "Auxílios de R$ 8 mil a R$ 21 mil conforme o continente; orçamento total de R$ 1 milhão.",
+      "prazo_texto": "06/11/2026 (ou até esgotamento dos recursos)",
+      "data_limite": "2026-11-06",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Financia a participação de profissionais e estudantes do audiovisual brasileiro em eventos internacionais (festivais, mercados, laboratórios). Pessoas físicas maiores de 18 anos, brasileiras, com ao menos 1 ano de atuação no setor. Auxílios de R$ 8 mil a R$ 21 mil conforme o continente; orçamento total de R$ 1 milhão. Inscrições pelo Mapa da Cultura até 18h.",
+      "link_inscricao": "https://mapa.cultura.gov.br/oportunidade/8012/#info",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://mapa.cultura.gov.br/oportunidade/8012/#info",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#21)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "lei-de-incentivo-ao-esporte-lie-cadastro-de-proponente-e-38ce53",
+      "titulo": "Lei de Incentivo ao Esporte (LIE) — Cadastro de Proponente e Projetos",
+      "orgao": "Ministério do Esporte",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "lei_esporte"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "pf"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo (captação até 31/12)",
+      "data_limite": "2026-12-31",
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Lei nº 11.438/2006 permite a pessoas físicas e jurídicas destinar parte do Imposto de Renda para patrocinar ou doar a projetos esportivos e paradesportivos (educacional, participação, rendimento). Entidades esportivas sem fins lucrativos, com no mínimo 1 ano de atuação e sem débitos federais, cadastram-se e submetem projetos pelo Sistema da Lei de Incentivo ao Esporte (SLI).",
+      "link_inscricao": "https://sli.mds.gov.br/",
+      "link_edital": "https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
+      "observacoes": "Página oficial: https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
+      "fontes_secundarias": [
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#9)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "lei-rouanet-2026-apresentacao-de-propostas-in-minc-n-29-2026-8336f9",
+      "titulo": "Lei Rouanet 2026 — apresentação de propostas (IN MinC nº 29/2026)",
+      "orgao": "MinC",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "rouanet"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [
+        "pf",
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Limites por proponente: R$ 500 mil (pessoa física) e R$ 15 milhões (pessoa jurídica).",
+      "prazo_texto": "31/10/2026",
+      "data_limite": "2026-10-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Janela anual de apresentação de propostas ao mecanismo de incentivo da Lei Rouanet: de 1º de fevereiro a 31 de outubro de cada ano (planos plurianuais até 31 de agosto do ano anterior). Limites por proponente: R$ 500 mil (pessoa física) e R$ 15 milhões (pessoa jurídica). Exige medidas de acessibilidade e democratização do acesso; veda difusão de imagem de agentes políticos e proselitismo religioso.",
+      "link_inscricao": "https://salic.cultura.gov.br",
+      "link_edital": "https://www.gov.br/cultura/pt-br/acesso-a-informacao/legislacao-e-normativas/instrucao-normativa-minc-no-29-de-29-de-janeiro-de-2026",
+      "observacoes": "Instrução Normativa: https://www.gov.br/cultura/pt-br/acesso-a-informacao/legislacao-e-normativas/instrucao-normativa-minc-no-29-de-29-de-janeiro-de-2026",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/cultura/pt-br/acesso-a-informacao/legislacao-e-normativas/instrucao-normativa-minc-no-29-de-29-de-janeiro-de-2026",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#16)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 75,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "maceio-editais-pnab-ciclo-2-lagoa-mundau-praia-do-sobral-fa4e26",
+      "titulo": "Maceió — Editais PNAB Ciclo 2 (Lagoa Mundaú, Praia do Sobral, Jaraguá, Pontal da Barra, Praia da Avenida e Sururu de Capote)",
+      "orgao": "Secretaria Municipal de Cultura de Maceió",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [
+        "pnab"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "AL"
+      ],
+      "cidades": [
+        "Maceió"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Seis editais com R$ 4,1 milhões e 517 oportunidades: cinco editais de fomento (323 vagas em 18 segmentos) e o edital Sururu de Capote (194 premiações de trajetórias em 41 categorias).",
+      "prazo_texto": "16/10/2026",
+      "data_limite": "2026-10-16",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seis editais com R$ 4,1 milhões e 517 oportunidades: cinco editais de fomento (323 vagas em 18 segmentos) e o edital Sururu de Capote (194 premiações de trajetórias em 41 categorias). Artistas, produtores e agentes culturais com atuação em Maceió. Inscrição pela plataforma oficial da PNAB Ciclo 2 de Maceió ou presencialmente.",
+      "link_inscricao": "https://www.tribunadosertao.com.br/cidades/2026/09/21/982971-maceio-abre-seis-editais-culturais-com-r-41-milhoes-e-517-oportunidades",
+      "link_edital": null,
+      "observacoes": "Link direto da plataforma não localizado; conferir na Secretaria Municipal de Cultura de Maceió.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.tribunadosertao.com.br/cidades/2026/09/21/982971-maceio-abre-seis-editais-culturais-com-r-41-milhoes-e-517-oportunidades",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (via planilha, Editais#11)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "fonte_nao_oficial"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": true
+    },
+    {
+      "id": "mapfre-edital-projetos-incentivados-2026-c89ba1",
+      "titulo": "Mapfre — Edital Projetos Incentivados 2026",
+      "orgao": "Mapfre",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "pronon_pronas",
+        "fia_idoso",
+        "lei_esporte"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "osc"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/09/2026 (cultura, esporte, FIA, Idoso, reciclagem); 15/12/2026 (Pronas/Pronon)",
+      "data_limite": "2026-09-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de projetos em cultura, educação, meio ambiente, direitos humanos, esporte, saúde e qualidade de vida, aprovados em sete leis federais (Cultura/Rouanet, Esporte, Reciclagem, FIA, Fundo do Idoso, Pronas, Pronon). Elegíveis pessoas jurídicas sem fins lucrativos. Inscrições de 11/05 a 30/09/2026 no Hub do Incentivo; resultado previsto para janeiro de 2027.",
+      "link_inscricao": "https://mapfre.hubdoincentivo.com.br/",
+      "link_edital": "https://www.mapfre.com.br/media/edital-mapfre-2026-informacoes-vf.pdf",
+      "observacoes": "Edital em PDF: https://www.mapfre.com.br/media/edital-mapfre-2026-informacoes-vf.pdf",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.mapfre.com.br/media/edital-mapfre-2026-informacoes-vf.pdf",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law / Mapfre) (via planilha, Editais#4)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://mapfre.hubdoincentivo.com.br/",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Busca web (via planilha, Lei do Esporte#3)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "mapfre-projetos-incentivados-2026-lei-do-esporte-9e84d4"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "minc-edital-de-credenciamento-de-pareceristas-tecnicos-849778",
+      "titulo": "MinC — Edital de Credenciamento de Pareceristas Técnicos",
+      "orgao": "MinC",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [
+        "pf",
+        "mei"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Remuneração de R$ 60 a R$ 2.430 por parecer, conforme complexidade.",
+      "prazo_texto": "Conferir cronograma no edital",
+      "data_limite": null,
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "indefinido",
+      "resumo": "Credenciamento de profissionais para análise técnica e emissão de pareceres sobre projetos dos programas de fomento do MinC. Pessoas físicas brasileiras maiores de 18 anos ou MEI com mínimo de cinco anos de experiência. Remuneração de R$ 60 a R$ 2.430 por parecer, conforme complexidade. Inscrição pelo Mapa da Cultura; análise documental em até 40 dias úteis.",
+      "link_inscricao": "https://mapa.cultura.gov.br/oportunidade/10466/#info",
+      "link_edital": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-de-credenciamento-de-pareceristas-tecnicos/edital-de-credenciamento-de-pareceristas-tecnicos",
+      "observacoes": "Página MinC: https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-de-credenciamento-de-pareceristas-tecnicos/edital-de-credenciamento-de-pareceristas-tecnicos",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-de-credenciamento-de-pareceristas-tecnicos/edital-de-credenciamento-de-pareceristas-tecnicos",
+      "fontes_secundarias": [
+        {
+          "fonte": "MinC (via planilha, Parecerista#1)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 35,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "muncab-chamada-aberta-para-artistas-visuais-negros-ab2eed",
+      "titulo": "Muncab — Chamada Aberta para Artistas Visuais Negros",
+      "orgao": "Muncab",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "internacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "artes_visuais",
+        "patrimonio"
+      ],
+      "publico_prioritario": [
+        "pessoas_negras"
+      ],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Chamada permanente do Museu Nacional da Cultura Afro-Brasileira (Salvador) para recebimento de portfólios de artistas visuais negros, sem restrição de experiência ou representação. Inscrição por formulário online.",
+      "link_inscricao": "https://docs.google.com/forms/d/e/1FAIpQLSfcrwVk_8k7IwabrbmkDxK7-ongpnfLKXywdxI9GYwiZ01H1g/viewform",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSfcrwVk_8k7IwabrbmkDxK7-ongpnfLKXywdxI9GYwiZ01H1g/viewform",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#38)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "patrocinio-claro-d85373",
+      "titulo": "Patrocínio Claro",
+      "orgao": "Claro",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "A Claro recebe propostas de iniciativas culturais, esportivas e de inovação que gerem valor para clientes e comunidade, avaliadas conforme alinhamento com valores e objetivos da marca. Cadastro da proposta na plataforma de patrocínios da empresa.",
+      "link_inscricao": "https://www.claro.com.br/institucional/patrocinios",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.claro.com.br/institucional/patrocinios",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#39)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "patrocinio-cultural-renner-lojas-renner-s-a-888e98",
+      "titulo": "Patrocínio Cultural Renner (Lojas Renner S.A.)",
+      "orgao": "Lojas Renner",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "icms_estadual"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "musica",
+        "artes_visuais",
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Apoia projetos já aprovados em leis de incentivo nas áreas de artes visuais, artes cênicas, instituições culturais e festivais de música. Inscrição por formulário na plataforma Prosas, com projeto aprovado na respectiva lei; devolutiva em até 20 dias.",
+      "link_inscricao": "https://prosas.com.br/editais/14253-patrocinio-cultural-incentivado-lojas-renner-sa",
+      "link_edital": "https://www.lojasrennersa.com.br/patrocinios-e-projetos/",
+      "observacoes": "Página institucional: https://www.lojasrennersa.com.br/patrocinios-e-projetos/ | Rouanet em todo o país; ICMS em SP, RJ, PB, PI, PE, PR e RS; FIC Montevidéu (Uruguai).",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.lojasrennersa.com.br/patrocinios-e-projetos/",
+      "fontes_secundarias": [
+        {
+          "fonte": "LinkedIn + Prosas (via planilha, Editais#40)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 50,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "patrocinios-e-parcerias-institucionais-cbmm-583da3",
+      "titulo": "Patrocínios e Parcerias Institucionais — CBMM",
+      "orgao": "CBMM",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "A CBMM apoia iniciativas esportivas e comunitárias dentro de sua política de responsabilidade social. Ver também a chamada 'Projetos de Responsabilidade Social Corporativa CBMM 2026' na aba Editais (prazo 30/11/2026, via Prosas).",
+      "link_inscricao": "https://cbmm.com/pt/sustentabilidade/patrocinios-institucionais",
+      "link_edital": null,
+      "observacoes": "Chamada 2026 no Prosas: https://prosas.com.br/editais/17327",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://cbmm.com/pt/sustentabilidade/patrocinios-institucionais",
+      "fontes_secundarias": [
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#12)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "petrobras-banco-de-projetos-escolha-direta-d9db79",
+      "titulo": "Petrobras — Banco de Projetos / Escolha Direta",
+      "orgao": "Petrobras",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Recebimento contínuo de propostas nas áreas de Cultura, Esporte e Negócio/Ciência & Tecnologia pela modalidade Escolha Direta; projetos ficam no banco de dados para oportunidades futuras. Envio com no mínimo 150 dias de antecedência, por formulário online na plataforma de gestão de patrocínios.",
+      "link_inscricao": "https://gestaodepatrocinios.petrobras.com.br/pt",
+      "link_edital": null,
+      "observacoes": "A Seleção Cultural Petrobras 2026 (R$ 270 milhões, 11 modalidades) encerrou em 31/07/2026 — acompanhar próxima edição em petrobras.com.br/cultural/selecoes-publicas-culturais",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://gestaodepatrocinios.petrobras.com.br/pt",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#41)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "programa-de-mobilidade-cultural-2-edicao-seec-pr-166512",
+      "titulo": "Programa de Mobilidade Cultural — 2ª edição (SEEC-PR)",
+      "orgao": "SEEC-PR",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "estadual",
+      "ufs": [
+        "PR"
+      ],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Janelas trimestrais (conferir cronograma vigente)",
+      "data_limite": null,
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "indefinido",
+      "resumo": "Apoio a artistas e agentes culturais paranaenses para circulação e participação em eventos, festivais, feiras e residências dentro e fora do estado, com inscrições abertas por trimestre. Inscrição pelo sistema da Secretaria da Cultura do Paraná.",
+      "link_inscricao": "https://www.cultura.pr.gov.br/Pagina/Mobilidade-Cultural-2a-edicao",
+      "link_edital": null,
+      "observacoes": "Página da SEEC não pôde ser lida automaticamente; confirmar datas do trimestre em vigor.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.cultura.pr.gov.br/Pagina/Mobilidade-Cultural-2a-edicao",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (via planilha, Editais#42)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 20,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "programa-funarte-aberta-2026-ocupacao-dos-espacos-culturais-6c9cc4",
+      "titulo": "Programa Funarte Aberta 2026 — Ocupação dos Espaços Culturais da Funarte",
+      "orgao": "Funarte",
+      "tipo_apoio": "cessao_espaco",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "regional",
+      "ufs": [
+        "MG",
+        "RJ",
+        "SP"
+      ],
+      "cidades": [],
+      "areas": [
+        "musica",
+        "artes_visuais",
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "pf",
+        "mei",
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/04/2027 (ou conforme disponibilidade de pauta)",
+      "data_limite": "2027-04-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Cessão gratuita de teatros, centros técnicos, complexos culturais e livraria da Funarte para atividades de artes visuais, artes integradas, circo, dança, música e teatro. Podem se inscrever pessoas físicas maiores de 18 anos, MEI, empresários individuais e pessoas jurídicas do campo artístico-cultural. Inscrição gratuita por formulário online, um edital por espaço (Centro de Teatro, CTA-RJ, Complexo MG, Complexo SP, Livraria Mário de Andrade).",
+      "link_inscricao": "https://www.gov.br/funarte/pt-br/editais-1/2026/programa-funarte-aberta",
+      "link_edital": null,
+      "observacoes": "Prosas: https://prosas.com.br/editais/17663 (Centro de Teatro), /17664 (CTA-RJ), /17665 (MG), /17666 (SP), /17667 (Livraria)",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/funarte/pt-br/editais-1/2026/programa-funarte-aberta",
+      "fontes_secundarias": [
+        {
+          "fonte": "LinkedIn + Prosas (via planilha, Editais#26)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 10,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "protocolo-luso-brasileiro-de-coproducao-cinematografica-20750a",
+      "titulo": "Protocolo Luso-Brasileiro de Coprodução Cinematográfica 2026 (ICA/Ancine)",
+      "orgao": "ICA (Portugal) / Ancine",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "internacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Cofinanciamento de coproduções luso-brasileiras de longas-metragens (ficção, documentário, animação), com até € 175 mil por projeto minoritário.",
+      "prazo_texto": "30/09/2026",
+      "data_limite": "2026-09-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Cofinanciamento de coproduções luso-brasileiras de longas-metragens (ficção, documentário, animação), com até € 175 mil por projeto minoritário. Inscrição pela plataforma HAL do ICA (Portugal).",
+      "link_inscricao": "https://hal.ica-ip.pt/registo",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://hal.ica-ip.pt/registo",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#5)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 20,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "riofilme-cash-rebate-riofilme-invest-e-bolsas-culturais-480704",
+      "titulo": "Riofilme — Cash Rebate, Riofilme Invest e Bolsas Culturais",
+      "orgao": "Riofilme",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "RJ"
+      ],
+      "cidades": [
+        "Rio de Janeiro"
+      ],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Três linhas: Cash Rebate (R$ 15 milhões; até R$ 5 milhões por obra com alcance internacional realizada no Rio), Riofilme Invest (R$ 17,5 milhões em investimento reembolsável; até R$ 3 milhões por longa) e Bolsas Culturais (R$ 5 mil a R$ 20 mil para participação em mercados e festivais).",
+      "prazo_texto": "15/11/2026",
+      "data_limite": "2026-11-15",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Três linhas: Cash Rebate (R$ 15 milhões; até R$ 5 milhões por obra com alcance internacional realizada no Rio), Riofilme Invest (R$ 17,5 milhões em investimento reembolsável; até R$ 3 milhões por longa) e Bolsas Culturais (R$ 5 mil a R$ 20 mil para participação em mercados e festivais).",
+      "link_inscricao": "http://www.riofilme.com.br/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "http://www.riofilme.com.br/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#22)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "rouanet-nas-favelas-2-minc-instituto-cultural-vale-83bf43",
+      "titulo": "Rouanet nas Favelas 2 (MinC + Instituto Cultural Vale)",
+      "orgao": "MinC + Instituto Cultural Vale",
+      "tipo_apoio": "lei_incentivo_janela",
+      "mecanismo": [
+        "rouanet"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "regional",
+      "ufs": [
+        "DF",
+        "ES",
+        "MA",
+        "MG",
+        "PA",
+        "PE",
+        "RJ",
+        "SP"
+      ],
+      "cidades": [
+        "Belém",
+        "Belo Horizonte",
+        "Recife",
+        "Rio de Janeiro",
+        "São Luís",
+        "São Paulo",
+        "Vitória"
+      ],
+      "areas": [],
+      "publico_prioritario": [
+        "periferias"
+      ],
+      "proponente": [
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": 200000.0,
+      "valor_total": 10000000.0,
+      "valor_texto": "Até R$ 200 mil por projeto; investimento total de R$ 10 milhões.",
+      "prazo_texto": "13/10/2026",
+      "data_limite": "2026-10-13",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Financia projetos culturais em territórios de favelas e periferias com recursos incentivados via Pronac. Podem participar pessoas jurídicas, com ou sem fins lucrativos, de natureza cultural e com sede na mesma localidade do projeto. Até R$ 200 mil por projeto; investimento total de R$ 10 milhões. Inscrições gratuitas e exclusivamente pelo Salic.",
+      "link_inscricao": "https://salic.cultura.gov.br",
+      "link_edital": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/programa-rouanet-nas-favelas-2/programa-rouanet-nas-favelas-2",
+      "observacoes": "Página do edital: https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/programa-rouanet-nas-favelas-2/programa-rouanet-nas-favelas-2",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/programa-rouanet-nas-favelas-2/programa-rouanet-nas-favelas-2",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#9)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "sabara-mg-edital-de-credenciamento-011-2026-pareceristas-e73e4a",
+      "titulo": "Sabará/MG — Edital de Credenciamento 011/2026 Pareceristas PNAB",
+      "orgao": "Prefeitura de Sabará",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [
+        "pnab"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "cidades": [
+        "Sabará"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento contínuo de pareceristas para os editais da Política Nacional Aldir Blanc (PNAB) do município de Sabará. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais?status=abertos",
+      "link_edital": null,
+      "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais?status=abertos",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#6)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista",
+        "link_generico"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": true
+    },
+    {
+      "id": "santander-projetos-e-patrocinios-cultura-433451",
+      "titulo": "Santander — Projetos e Patrocínios (Cultura)",
+      "orgao": "Santander",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Avalia propostas alinhadas às premissas de educação, esporte e cultura, priorizando criatividade, inovação, sustentabilidade e inclusão social. Envio da proposta por e-mail (patrocinios@santander.com.br) com antecedência mínima de 90 dias; resposta em até 30 dias.",
+      "link_inscricao": "https://www.santander.com.br/institucional-santander/cultura/projetos-e-patrocinios",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://www.santander.com.br/institucional-santander/cultura/projetos-e-patrocinios",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#43)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "santos-brasil-banco-de-projetos-incentivados-municipais-2026-900a0a",
+      "titulo": "Santos Brasil — Banco de Projetos Incentivados Municipais 2026",
+      "orgao": "Santos Brasil",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "outro"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "municipal",
+      "ufs": [
+        "SC",
+        "SP"
+      ],
+      "cidades": [
+        "Santos",
+        "Guarujá",
+        "Imbituba"
+      ],
+      "areas": [
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "30/10/2026 18h",
+      "data_limite": "2026-10-30",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de iniciativas culturais e esportivas aprovadas em leis municipais de incentivo (Promicult e Promifae em Santos/Guarujá; Procult e Proesporte em Imbituba). Sem limite de propostas ou de valor solicitado; a empresa pode ajustar os aportes. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais/17235-banco-de-projetos-incentivados-municipais-2026-santos-brasil",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais/17235-banco-de-projetos-incentivados-municipais-2026-santos-brasil",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Editais#14)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://prosas.com.br/editais/17235-banco-de-projetos-incentivados-municipais-2026-santos-brasil",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Prosas (via planilha, Lei do Esporte#5)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 20,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "santos-brasil-banco-de-projetos-incentivados-municipais-10f1be"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "shell-cultural-programa-de-patrocinios-incentivados-6f7b59",
+      "titulo": "Shell Cultural — Programa de Patrocínios Incentivados",
+      "orgao": "Shell",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "lei_esporte"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": true,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "formacao",
+        "esporte"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "31/10/2026",
+      "data_limite": "2026-10-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Programa de patrocínios da Shell para projetos de cultura e esporte alinhados a transformação social, diversidade e sustentabilidade. Aceita apenas projetos aprovados na Lei Rouanet ou na Lei de Incentivo ao Esporte. Propostas recebidas de 1º de março a 31 de outubro, via plataforma Mais Baluarte.",
+      "link_inscricao": "https://maisbaluarte.com.br/patrocinioshell",
+      "link_edital": null,
+      "observacoes": "Nacional, com prioridade para SP, RJ, ES e DF. | Duplicado por abranger a Lei do Esporte.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://maisbaluarte.com.br/patrocinioshell",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#17)",
+          "url": null,
+          "captured_at": null
+        },
+        {
+          "fonte": "curadoria inicial (planilha 24/09/2026)",
+          "url": "https://maisbaluarte.com.br/patrocinioshell",
+          "captured_at": "2026-09-24T12:00:00-03:00"
+        },
+        {
+          "fonte": "Planilha Google (aba existente) (via planilha, Lei do Esporte#7)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais",
+        "aba:lei_do_esporte"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [
+        "programa-shell-de-patrocinios-incentivados-aceita-lei-do-da66da"
+      ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "spcine-smc-sp-fsa-editais-1-e-3-producao-e-distribuicao-4c1a1a",
+      "titulo": "Spcine/SMC-SP — FSA Editais 1 e 3 (produção e distribuição)",
+      "orgao": "Spcine / Secretaria Municipal de Cultura de SP",
+      "tipo_apoio": "fomento_direto",
+      "mecanismo": [
+        "fsa"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "SP"
+      ],
+      "cidades": [
+        "São Paulo"
+      ],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "empresa"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": "Seleção de 11 propostas para produção de longas e séries (R$ 47 milhões) e 16 para distribuição (R$ 7 milhões), voltada a produtoras independentes paulistanas.",
+      "prazo_texto": "19/10/2026",
+      "data_limite": "2026-10-19",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Seleção de 11 propostas para produção de longas e séries (R$ 47 milhões) e 16 para distribuição (R$ 7 milhões), voltada a produtoras independentes paulistanas. Inscrição pelo portal de editais da Spcine.",
+      "link_inscricao": "https://spcine.com.br/editais-de-fomento/",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://spcine.com.br/editais-de-fomento/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Busca web (BRB Law) (via planilha, Editais#12)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "uberlandia-mg-edital-smct-n-140-2025-credenciamento-de-1f2ef9",
+      "titulo": "Uberlândia/MG — Edital SMCT nº 140/2025 Credenciamento de Pareceristas",
+      "orgao": "Secretaria Municipal de Cultura e Turismo de Uberlândia",
+      "tipo_apoio": "credenciamento",
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": false,
+      "abrangencia": "municipal",
+      "ufs": [
+        "MG"
+      ],
+      "cidades": [
+        "Uberlândia"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Credenciamento contínuo de pareceristas de projetos da Secretaria Municipal de Cultura e Turismo de Uberlândia. Inscrição pela plataforma Prosas.",
+      "link_inscricao": "https://prosas.com.br/editais?status=abertos",
+      "link_edital": null,
+      "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://prosas.com.br/editais?status=abertos",
+      "fontes_secundarias": [
+        {
+          "fonte": "Prosas (via planilha, Parecerista#5)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 15,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:parecerista",
+        "link_generico"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": true
+    },
+    {
+      "id": "vale-selecao-direta-de-patrocinios-culturais-instituto-9ad723",
+      "titulo": "Vale — Seleção Direta de Patrocínios Culturais (Instituto Cultural Vale)",
+      "orgao": "Instituto Cultural Vale",
+      "tipo_apoio": "patrocinio_incentivado",
+      "mecanismo": [
+        "rouanet",
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "audiovisual"
+      ],
+      "publico_prioritario": [],
+      "proponente": [
+        "pj"
+      ],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": 1500000.0,
+      "valor_total": 30000000.0,
+      "valor_texto": "Chamada 2026: até R$ 1,5 milhão por projeto e R$ 30 milhões no total.",
+      "prazo_texto": "31/10/2026",
+      "data_limite": "2026-10-31",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Apoio a projetos que valorizem a cultura brasileira em sua diversidade, com avaliação técnica e de compliance. Somente pessoas jurídicas, via plataforma digital própria. Modalidades: Lei Rouanet, Lei do Audiovisual (janela de junho a outubro) ou recursos próprios (janeiro a dezembro). Exige 45 dias de antecedência do início do projeto. Chamada 2026: até R$ 1,5 milhão por projeto e R$ 30 milhões no total.",
+      "link_inscricao": "https://institutoculturalvale.org/solicitacao-de-patrocinios/",
+      "link_edital": null,
+      "observacoes": "Aceita Lei Rouanet, Lei do Audiovisual ou recursos próprios — projeto aprovado em lei só é exigido nas modalidades incentivadas.",
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://institutoculturalvale.org/solicitacao-de-patrocinios/",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#18)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 80,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "vivo-patrocina-cultura-6eb86f",
+      "titulo": "Vivo Patrocina — Cultura",
+      "orgao": "Vivo",
+      "tipo_apoio": "patrocinio_direto",
+      "mecanismo": [
+        "recursos_proprios"
+      ],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "nacional",
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "patrimonio",
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "Fluxo contínuo",
+      "data_limite": null,
+      "fluxo_continuo": true,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "A Vivo patrocina projetos culturais (teatros, museus, espaços e programações que conectam pessoas à cultura). Apresentação de projetos por e-mail: patrocinios.br@telefonica.com. A página não detalha leis de incentivo nem critérios formais.",
+      "link_inscricao": "https://vivo.com.br/a-vivo/a-empresa/patrocinios/cultura",
+      "link_edital": null,
+      "observacoes": null,
+      "fonte": "curadoria inicial (planilha 24/09/2026)",
+      "source_url": "https://vivo.com.br/a-vivo/a-empresa/patrocinios/cultura",
+      "fontes_secundarias": [
+        {
+          "fonte": "Publicação no LinkedIn (22/09/2026) (via planilha, Editais#44)",
+          "url": null,
+          "captured_at": null
+        }
+      ],
+      "captured_at": "2026-09-24T12:00:00-03:00",
+      "updated_at": "2026-09-24T12:00:00-03:00",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "carga_inicial",
+        "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    }
+  ]
+}
