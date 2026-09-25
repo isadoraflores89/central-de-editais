@@ -20,6 +20,15 @@ Central estiver no ar.
 
 ---
 
+## 1b. Respostas da Isadora (25/09/2026)
+
+- **Deploy:** GitHub Pages, no endereço `radardeeditais.isadoraflores.art.br`
+  (conserta o link que hoje está quebrado no site principal). É preciso criar um
+  CNAME no DNS de isadoraflores.art.br apontando para `isadoraflores89.github.io`.
+- **Repositório:** `isadoraflores89/central-de-editais`, público.
+- **Google Sheets:** ainda não há service account. Fica para a Fase 4, com guia.
+- **Ambiente local:** uv + Python 3.12.14 e Node 22.23.3 instalados em `~/.local`.
+
 ## 2. Estrutura de pastas
 
 ```
@@ -177,7 +186,7 @@ O modelo é configurável por `ANTHROPIC_MODEL`. A especificação pede
 (`claude-sonnet-5`), que custa o mesmo e é mais precisa. Decido de vez na Fase 3,
 testando os dois com fixtures reais.
 
-**D12. Python 3.12 com `uv`, Node 20 com `npm`.**
+**D12. Python 3.12 com `uv`, Node 22 LTS com `npm`.** (Node 20 saiu de suporte em abril/2026.)
 O `uv` instala o Python certo sozinho e trava as versões (`uv.lock`). No GitHub
 Actions, tudo roda na versão fixada. Qualidade: ruff, mypy (strict no `pipeline/`),
 pytest, eslint, tsc e pre-commit.
