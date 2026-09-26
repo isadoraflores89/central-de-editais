@@ -14,7 +14,10 @@ export type Prazo = (typeof PRAZOS)[number];
 export const ORDENS = ["prioridade", "prazo", "valor", "recentes", "atualizados"] as const;
 export type Ordem = (typeof ORDENS)[number];
 
+export type Visao = "cartoes" | "tabela";
+
 export interface Filtros {
+  visao: Visao;
   q: string;
   facetas: Record<Faceta, string[]>;
   prazo: Prazo[];
@@ -33,6 +36,7 @@ export interface Filtros {
 
 export function filtrosVazios(): Filtros {
   return {
+    visao: "cartoes",
     q: "",
     facetas: { tipo: [], mec: [], abr: [], uf: [], area: [], prop: [], pub: [], fonte: [], status: [] },
     prazo: [],
@@ -64,6 +68,7 @@ function numero(v: string | null): number | null {
 
 export function lerFiltros(params: URLSearchParams): Filtros {
   const f = filtrosVazios();
+  f.visao = params.get("ver") === "tabela" ? "tabela" : "cartoes";
   f.q = params.get("q")?.slice(0, 200) ?? "";
   for (const k of FACETAS) f.facetas[k] = lista(params.get(k));
   f.prazo = lista(params.get("prazo")).filter((p): p is Prazo => (PRAZOS as readonly string[]).includes(p));
@@ -100,6 +105,7 @@ export function escreverFiltros(f: Filtros): URLSearchParams {
   if (f.vmax !== null) p.set("vmax", String(f.vmax));
   if (!f.vnull) p.set("vnull", "0");
   if (f.ordem !== "prioridade") p.set("ordem", f.ordem);
+  if (f.visao === "tabela") p.set("ver", "tabela");
   return p;
 }
 

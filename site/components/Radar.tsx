@@ -16,6 +16,7 @@ import { useCadastro } from "./Cadastro";
 import { Cartao } from "./Cartao";
 import { IconeBusca, IconeDownload, IconeFechar, IconeFiltro } from "./Icones";
 import { PainelFiltros, ROTULOS_FACETA, ROTULOS_PRAZO } from "./PainelFiltros";
+import { Tabela } from "./Tabela";
 
 const ROTULOS_ORDEM: Record<Ordem, string> = {
   prioridade: "Prioridade",
@@ -174,6 +175,19 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
               </span>
             </h2>
             <div className="flex flex-wrap gap-2">
+              <div role="group" aria-label="Ver como" className="inline-flex overflow-hidden rounded-lg border-2 border-marca">
+                {(["cartoes", "tabela"] as const).map((v) => (
+                  <button
+                    key={v}
+                    type="button"
+                    aria-pressed={filtros.visao === v}
+                    onClick={() => mudar({ ...filtros, visao: v })}
+                    className={`alvo px-3 py-1.5 font-bold ${filtros.visao === v ? "bg-marca text-marca-texto" : "bg-superficie text-acento hover:bg-chip"}`}
+                  >
+                    {v === "cartoes" ? "Cartões" : "Tabela"}
+                  </button>
+                ))}
+              </div>
               <button
                 type="button"
                 onClick={() => pedir({ rotulo: "Baixar CSV", aoLiberar: () => baixarCsv(resultado, hoje) })}
@@ -218,6 +232,8 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
               <p className="text-[1.1rem] font-bold">Nenhum edital com esses filtros.</p>
               <p className="mt-2">Tente tirar algum filtro ou marcar &quot;Mostrar encerrados&quot;.</p>
             </div>
+          ) : filtros.visao === "tabela" ? (
+            <Tabela editais={resultado} hoje={hoje} ordem={filtros.ordem} ordenar={(o) => mudar({ ...filtros, ordem: o })} />
           ) : (
             <ol className="flex flex-col gap-5">
               {resultado.map((e) => (

@@ -33,7 +33,7 @@ const ids = (qs: string) => filtrar(TODOS, lerFiltros(new URLSearchParams(qs)), 
 
 describe("URL", () => {
   it("ida e volta preserva os filtros", () => {
-    const qs = "q=musica&uf=BA,PR&prazo=7,continuo&pf=1&nacionais=0&vmin=100000&vnull=0&ordem=prazo";
+    const qs = "q=musica&uf=BA,PR&prazo=7,continuo&pf=1&nacionais=0&vmin=100000&vnull=0&ordem=prazo&ver=tabela";
     expect(escreverFiltros(lerFiltros(new URLSearchParams(qs))).toString()).toBe(
       new URLSearchParams(qs).toString(),
     );
