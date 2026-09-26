@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible } from "next/font/google";
 import Link from "next/link";
 
+import { LinkApoio } from "@/components/Chamadas";
+
 import "./globals.css";
 
 // Atkinson Hyperlegible: fonte desenhada para leitores com baixa visão.
@@ -72,6 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Código aberto sob licença MIT. Dados sob CC BY 4.0, com atribuição às fontes.
               Confira sempre prazos e regras no edital oficial antes de se inscrever.
             </p>
+            <div className="mt-2"><LinkApoio /></div>
           </div>
         </footer>
       </body>

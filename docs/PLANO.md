@@ -29,6 +29,27 @@ Central estiver no ar.
 - **Google Sheets:** ainda não há service account. Fica para a Fase 4, com guia.
 - **Ambiente local:** uv + Python 3.12.14 e Node 22.23.3 instalados em `~/.local`.
 
+
+## 1c. Mudanças de rumo (26/09/2026)
+
+- **Sem IA por enquanto.** O enriquecimento com IA (D11, Fase 3) e o chat com o projeto
+  ficam de fora. A coleta e a normalização seguem só com regras (config/mapeamentos.yaml),
+  e o que as regras não entenderem vai para a fila de revisão. Custo de IA: zero.
+- **No lugar do chat**, o site tem uma chamada para a consultoria da Flores:
+  "Quer fazer seu projeto de forma profissional e rápida?" → projetos@isadoraflores.art.br.
+- **Novidades por Substack (grátis, a cada 15 dias).** O site ganha um bloco de inscrição na
+  newsletter que já existe. O Substack não tem API para publicar, então o robô gera a cada
+  15 dias um rascunho da edição (reports/newsletter-AAAA-MM-DD.md) para ser colado no Substack.
+- **Alertas pagos para apoiadores do Apoia.se**, por e-mail e WhatsApp, com frequência
+  conforme o valor (ex.: diário ou 2x por semana). O robô gera os resumos de cada
+  frequência (reports/alerta-diario-*.md, reports/alerta-2x-*.md). A forma de entrega
+  (lista de e-mail e WhatsApp) está em aberto; ver o plano de monetização.
+- **Apoio ("pague um café")**: PIX (chave + QR code + copia e cola) e Apoia.se (mensal).
+- Tudo isso fica configurável em `config/site.yaml`. Um bloco só aparece quando o dado
+  correspondente está preenchido.
+- O plano de monetização fica fora do repositório público, em
+  `FLORES CULTURA/GUIAS/Central_de_Editais_Monetizacao.md`.
+
 ## 2. Estrutura de pastas
 
 ```

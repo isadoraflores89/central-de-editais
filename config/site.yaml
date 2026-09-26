@@ -1,0 +1,17 @@
+# Configurações públicas do site. Um bloco só aparece se o campo estiver preenchido.
+
+# Chamada de consultoria (aparece na lista e em cada página de edital).
+consultoria:
+  titulo: "Quer fazer seu projeto de forma profissional e rápida?"
+  texto: "A equipe da Flores Produções escreve, revisa e inscreve projetos culturais em editais e leis de incentivo."
+  email: projetos@isadoraflores.art.br
+
+# Newsletter no Substack, ex.: https://centraldeeditais.substack.com
+substack_url: ""
+
+# Apoio ("pague um café").
+apoio:
+  pix_chave: ""     # chave PIX (CNPJ, e-mail, telefone ou aleatória)
+  pix_nome: ""     # nome do recebedor, até 25 caracteres, sem acento
+  pix_cidade: ""     # cidade do recebedor, até 15 caracteres, sem acento
+  apoiase_url: ""     # ex.: https://apoia.se/centraldeeditais

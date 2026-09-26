@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { valorResumido } from "@/components/Cartao";
+import { Consultoria } from "@/components/Chamadas";
 import { IconeAlerta, IconeExterno } from "@/components/Icones";
 import { SeloPrazo } from "@/components/SeloPrazo";
 import { dataDoBuild, editais, editalPorId } from "@/lib/dados";
@@ -164,6 +165,8 @@ export default async function PaginaEdital({ params }: { params: Promise<{ id: s
           ))}
         </ol>
       )}
+
+      <div className="mt-8"><Consultoria /></div>
 
       <p className="mt-8">
         <a href={linkIssue(e)} target="_blank" rel="noopener noreferrer"

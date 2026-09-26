@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 
+import { Consultoria, Newsletter } from "@/components/Chamadas";
 import { Radar } from "@/components/Radar";
 import { dataDoBuild, editais, presets } from "@/lib/dados";
 
@@ -16,6 +17,10 @@ export default function Inicio() {
       <Suspense fallback={<p>Carregando editais…</p>}>
         <Radar editais={editais()} presets={presets()} hojeBuild={dataDoBuild()} />
       </Suspense>
+      <div className="mt-10 grid gap-5 md:grid-cols-2">
+        <Newsletter />
+        <Consultoria />
+      </div>
     </>
   );
 }

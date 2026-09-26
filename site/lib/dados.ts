@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 
-import type { DocumentoEditais, Edital, Preset } from "./tipos";
+import type { ConfigSite, DocumentoEditais, Edital, Preset } from "./tipos";
 
 const RAIZ = join(process.cwd(), "..");
 
@@ -38,4 +38,8 @@ export function presets(): Preset[] {
 /** Data de referência do build (AAAA-MM-DD, fuso da Bahia). */
 export function dataDoBuild(): string {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Bahia" }).format(new Date());
+}
+
+export function configSite(): ConfigSite {
+  return parse(readFileSync(join(RAIZ, "config", "site.yaml"), "utf-8")) as ConfigSite;
 }
