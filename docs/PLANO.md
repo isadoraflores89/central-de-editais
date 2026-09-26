@@ -45,6 +45,14 @@ Central estiver no ar.
   frequência (reports/alerta-diario-*.md, reports/alerta-2x-*.md). A forma de entrega
   (lista de e-mail e WhatsApp) está em aberto; ver o plano de monetização.
 - **Apoio ("pague um café")**: PIX (chave + QR code + copia e cola) e Apoia.se (mensal).
+- **Cadastro para abrir o edital (26/09).** A lista segue aberta (e no Google). O link de
+  inscrição, o edital oficial e os downloads pedem um cadastro único (nome, e-mail, WhatsApp
+  opcional, UF, cidade, perfil, área, opções de consultoria/newsletter, aceite LGPD).
+  É um "cadastro na porta", não uma tranca: os dados abertos continuam em /api e no GitHub.
+  Fluxo: site → Apps Script (integracoes/apps-script/Cadastros.gs, só recebe) → planilha
+  privada "Central de Editais — Cadastros" + Firebase crm/entrada_central → a intranet
+  importa para o CRM de contatos (negócio "central"), sem duplicar por e-mail.
+  Página /privacidade explica o tratamento (LGPD).
 - Tudo isso fica configurável em `config/site.yaml`. Um bloco só aparece quando o dado
   correspondente está preenchido.
 - O plano de monetização fica fora do repositório público, em

@@ -2,7 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible } from "next/font/google";
 import Link from "next/link";
 
+import { CadastroProvider } from "@/components/Cadastro";
 import { LinkApoio } from "@/components/Chamadas";
+import { configSite } from "@/lib/dados";
 
 import "./globals.css";
 
@@ -42,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={atkinson.variable}>
       <body>
+        <CadastroProvider endpoint={configSite().cadastro_endpoint ?? ""}>
         <a href="#conteudo" className="pular-link">Pular para o conteúdo</a>
         <header className="bg-marca text-marca-texto">
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
@@ -72,11 +75,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
             <p className="mt-2">
               Código aberto sob licença MIT. Dados sob CC BY 4.0, com atribuição às fontes.
-              Confira sempre prazos e regras no edital oficial antes de se inscrever.
+              Confira sempre prazos e regras no edital oficial antes de se inscrever.{" "}
+              <Link href="/privacidade/" className="font-bold text-acento underline">Política de Privacidade</Link>.
             </p>
             <div className="mt-2"><LinkApoio /></div>
           </div>
         </footer>
+        </CadastroProvider>
       </body>
     </html>
   );

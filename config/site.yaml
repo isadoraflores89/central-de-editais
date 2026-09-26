@@ -6,6 +6,10 @@ consultoria:
   texto: "A equipe da Flores Produções escreve, revisa e inscreve projetos culturais em editais e leis de incentivo."
   email: projetos@isadoraflores.art.br
 
+# Cadastro para abrir links de inscrição, edital oficial e downloads.
+# URL /exec do Apps Script (integracoes/apps-script/Cadastros.gs). Vazio = sem cadastro.
+cadastro_endpoint: ""
+
 # Newsletter no Substack, ex.: https://centraldeeditais.substack.com
 substack_url: ""
 

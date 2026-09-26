@@ -5,6 +5,7 @@ import { ABRANGENCIAS, MECANISMOS, TIPOS, rotulo } from "@/lib/rotulos";
 import { formatarReais } from "@/lib/texto";
 import type { Edital } from "@/lib/tipos";
 
+import { LinkProtegido } from "./Cadastro";
 import { IconeEstrela, IconeExterno, IconeLocal, IconeMoeda } from "./Icones";
 import { SeloPrazo } from "./SeloPrazo";
 
@@ -93,24 +94,24 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
 
       <div className="mt-4 flex flex-wrap gap-3">
         {e.link_inscricao && (
-          <a
+          <LinkProtegido
             href={e.link_inscricao}
-            target="_blank"
-            rel="noopener noreferrer"
+            edital={e.titulo}
+            rotulo="Ir para a inscrição"
             className="alvo inline-flex items-center gap-2 rounded-lg bg-marca px-4 py-2 font-bold text-marca-texto hover:opacity-90"
           >
-            Inscrever <IconeExterno /><span className="sr-only">(abre em nova aba)</span>
-          </a>
+            Inscrever <IconeExterno />
+          </LinkProtegido>
         )}
         {e.link_edital && (
-          <a
+          <LinkProtegido
             href={e.link_edital}
-            target="_blank"
-            rel="noopener noreferrer"
+            edital={e.titulo}
+            rotulo="Abrir o edital oficial"
             className="alvo inline-flex items-center gap-2 rounded-lg border-2 border-marca px-4 py-2 font-bold text-acento hover:bg-chip"
           >
-            Edital oficial <IconeExterno /><span className="sr-only">(abre em nova aba)</span>
-          </a>
+            Edital oficial <IconeExterno />
+          </LinkProtegido>
         )}
         {compacto && (
           <a

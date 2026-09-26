@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { valorResumido } from "@/components/Cartao";
+import { LinkProtegido } from "@/components/Cadastro";
 import { Consultoria } from "@/components/Chamadas";
 import { IconeAlerta, IconeExterno } from "@/components/Icones";
 import { SeloPrazo } from "@/components/SeloPrazo";
@@ -87,16 +88,16 @@ export default async function PaginaEdital({ params }: { params: Promise<{ id: s
 
       <div className="mt-5 flex flex-wrap gap-3">
         {e.link_inscricao && (
-          <a href={e.link_inscricao} target="_blank" rel="noopener noreferrer"
+          <LinkProtegido href={e.link_inscricao} edital={e.titulo} rotulo="Ir para a inscrição"
              className="alvo inline-flex items-center gap-2 rounded-lg bg-marca px-5 py-2.5 font-bold text-marca-texto">
-            Inscrever <IconeExterno /><span className="sr-only">(abre em nova aba)</span>
-          </a>
+            Inscrever <IconeExterno />
+          </LinkProtegido>
         )}
         {e.link_edital && (
-          <a href={e.link_edital} target="_blank" rel="noopener noreferrer"
+          <LinkProtegido href={e.link_edital} edital={e.titulo} rotulo="Abrir o edital oficial"
              className="alvo inline-flex items-center gap-2 rounded-lg border-2 border-marca px-5 py-2.5 font-bold text-acento">
-            Edital oficial <IconeExterno /><span className="sr-only">(abre em nova aba)</span>
-          </a>
+            Edital oficial <IconeExterno />
+          </LinkProtegido>
         )}
       </div>
 

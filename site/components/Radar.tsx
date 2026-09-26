@@ -12,6 +12,7 @@ import { hojeISO } from "@/lib/prazo";
 import { rotulo } from "@/lib/rotulos";
 import type { Edital, Preset } from "@/lib/tipos";
 
+import { useCadastro } from "./Cadastro";
 import { Cartao } from "./Cartao";
 import { IconeBusca, IconeDownload, IconeFechar, IconeFiltro } from "./Icones";
 import { PainelFiltros, ROTULOS_FACETA, ROTULOS_PRAZO } from "./PainelFiltros";
@@ -43,6 +44,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
   const [hoje, setHoje] = useState(hojeBuild);
   useEffect(() => setHoje(hojeISO()), []);
 
+  const { pedir } = useCadastro();
   const [painelAberto, setPainelAberto] = useState(false);
   const [busca, setBusca] = useState(filtros.q);
   useEffect(() => setBusca(filtros.q), [filtros.q]);
@@ -174,14 +176,14 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
             <div className="flex flex-wrap gap-2">
               <button
                 type="button"
-                onClick={() => baixarCsv(resultado, hoje)}
+                onClick={() => pedir({ rotulo: "Baixar CSV", aoLiberar: () => baixarCsv(resultado, hoje) })}
                 className="alvo inline-flex items-center gap-2 rounded-lg border-2 border-borda px-3 py-1.5 font-bold hover:bg-chip"
               >
                 <IconeDownload /> CSV <span className="sr-only">da lista filtrada</span>
               </button>
               <button
                 type="button"
-                onClick={() => void baixarXlsx(resultado, hoje)}
+                onClick={() => pedir({ rotulo: "Baixar planilha", aoLiberar: () => void baixarXlsx(resultado, hoje) })}
                 className="alvo inline-flex items-center gap-2 rounded-lg border-2 border-borda px-3 py-1.5 font-bold hover:bg-chip"
               >
                 <IconeDownload /> Planilha Excel <span className="sr-only">da lista filtrada</span>

@@ -69,5 +69,6 @@ export interface Preset {
 export interface ConfigSite {
   consultoria?: { titulo: string; texto: string; email: string };
   substack_url?: string;
+  cadastro_endpoint?: string;
   apoio?: { pix_chave?: string; pix_nome?: string; pix_cidade?: string; apoiase_url?: string };
 }
