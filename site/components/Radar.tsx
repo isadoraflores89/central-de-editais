@@ -89,7 +89,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
     <div>
       {presets.length > 0 && (
         <nav aria-label="Buscas prontas" className="mb-6">
-          <h2 className="mb-2 text-[1.05rem] font-bold">Buscas prontas</h2>
+          <h2 className="titulo-display mb-3 text-[1.35rem] font-bold">Buscas prontas</h2>
           <ul className="flex flex-wrap gap-2">
             {presets.map((p) => {
               const ativo = params.toString() === p.filtros;
@@ -102,7 +102,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
                     aria-pressed={ativo}
                     onClick={() => router.replace(`${pathname}?${p.filtros}`, { scroll: false })}
                     className={`alvo rounded-lg border-2 px-4 py-2 font-bold ${
-                      ativo ? "border-marca bg-marca text-marca-texto" : "border-marca bg-superficie text-acento hover:bg-chip"
+                      ativo ? "border-marca bg-marca text-marca-texto shadow-[0_3px_0_0_var(--amarelo)]" : "border-marca bg-superficie text-acento hover:bg-chip"
                     }`}
                   >
                     {p.rotulo}
@@ -161,7 +161,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
           <aside
             id={idPainel}
             aria-label="Filtros"
-            className={`${painelAberto ? "block" : "hidden"} mb-6 lg:block`}
+            className={`${painelAberto ? "block" : "hidden"} mb-6 rounded-2xl border-2 border-borda-suave bg-superficie p-4 lg:sticky lg:top-4 lg:block lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto`}
           >
             <PainelFiltros filtros={filtros} contagens={contagens} mudar={mudar} />
           </aside>
@@ -169,7 +169,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
 
         <section aria-labelledby="titulo-resultados">
           <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <h2 id="titulo-resultados" className="text-[1.2rem] font-bold">
+            <h2 id="titulo-resultados" className="titulo-display text-[1.6rem] font-extrabold">
               <span role="status" aria-live="polite" aria-atomic="true">
                 {resultado.length === 1 ? "1 edital encontrado" : `${resultado.length} editais encontrados`}
               </span>
@@ -236,8 +236,10 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
             <Tabela editais={resultado} hoje={hoje} ordem={filtros.ordem} ordenar={(o) => mudar({ ...filtros, ordem: o })} />
           ) : (
             <ol className="flex flex-col gap-5">
-              {resultado.map((e) => (
-                <li key={e.id}><Cartao edital={e} hoje={hoje} /></li>
+              {resultado.map((e, i) => (
+                <li key={e.id} className="entrada" style={{ "--i": i } as React.CSSProperties}>
+                  <Cartao edital={e} hoje={hoje} />
+                </li>
               ))}
             </ol>
           )}

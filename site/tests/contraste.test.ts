@@ -24,7 +24,8 @@ const PARES: [string, string][] = [
   ["texto", "fundo"], ["texto", "superficie"], ["texto-suave", "fundo"], ["texto-suave", "superficie"],
   ["texto", "chip-fundo"], ["texto-suave", "chip-fundo"], ["marca-texto", "marca"], ["acento", "superficie"],
   ["acento", "chip-fundo"], ["critica-texto", "critica-fundo"], ["alta-texto", "alta-fundo"],
-  ["novo-texto", "novo-fundo"],
+  ["novo-texto", "novo-fundo"], ["cabecalho-texto", "cabecalho-fundo"], ["amarelo-texto", "amarelo"],
+  ["prazo-normal-texto", "prazo-normal-fundo"],
 ];
 
 const claro = tokens(css.split("@media")[0]!);
