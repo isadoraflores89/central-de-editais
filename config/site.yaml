@@ -8,7 +8,7 @@ consultoria:
 
 # Cadastro para abrir links de inscrição, edital oficial e downloads.
 # URL /exec do Apps Script (integracoes/apps-script/Cadastros.gs). Vazio = sem cadastro.
-cadastro_endpoint: ""
+cadastro_endpoint: "https://script.google.com/macros/s/AKfycbz0vhq6vafKfdTXzIH7hAPos3OqgBy37CfFHsJgCSipQ0qy2rgxA1I9J9q2G3r9tqImEA/exec"
 
 # Newsletter no Substack, ex.: https://centraldeeditais.substack.com
 substack_url: "https://isadoraflores.substack.com"

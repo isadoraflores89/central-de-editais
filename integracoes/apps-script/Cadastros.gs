@@ -131,13 +131,19 @@ function enviarAoCrm_(c) {
     negocio: 'central', status: 'novo', origem: 'site', notas: notas,
     consultoria: c.consultoria, criado: new Date().toISOString(),
   };
-  UrlFetchApp.fetch(url.replace(/\/+$/, '') + '/crm/entrada_central.json', {
+  var r = UrlFetchApp.fetch(firebaseUrl_(url, '/crm/entrada_central.json'), {
     method: 'post',
     contentType: 'application/json',
     payload: JSON.stringify(contato),
-    headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() },
     muteHttpExceptions: true,
   });
+  if (r.getResponseCode() !== 200) console.error('Firebase ' + r.getResponseCode() + ': ' + r.getContentText());
+}
+
+/** Endereço REST do Firebase com o token OAuth de quem implantou o script. */
+function firebaseUrl_(base, caminho, extra) {
+  var q = 'access_token=' + encodeURIComponent(ScriptApp.getOAuthToken()) + (extra ? '&' + extra : '');
+  return base.replace(/\/+$/, '') + caminho + '?' + q;
 }
 
 function resposta_(obj) {
@@ -148,8 +154,7 @@ function resposta_(obj) {
 function testarConexao() {
   var url = PropertiesService.getScriptProperties().getProperty('FIREBASE_DB_URL');
   if (!url) throw new Error('Falta a propriedade FIREBASE_DB_URL');
-  var r = UrlFetchApp.fetch(url.replace(/\/+$/, '') + '/crm/entrada_central.json?shallow=true', {
-    headers: { Authorization: 'Bearer ' + ScriptApp.getOAuthToken() },
+  var r = UrlFetchApp.fetch(firebaseUrl_(url, '/crm/entrada_central.json', 'shallow=true'), {
     muteHttpExceptions: true,
   });
   Logger.log('Firebase respondeu ' + r.getResponseCode() + (r.getResponseCode() === 200 ? ' (ok)' : ': ' + r.getContentText()));
