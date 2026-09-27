@@ -11,11 +11,11 @@ consultoria:
 cadastro_endpoint: ""
 
 # Newsletter no Substack, ex.: https://centraldeeditais.substack.com
-substack_url: ""
+substack_url: "https://isadoraflores.substack.com"
 
 # Apoio ("pague um café").
 apoio:
-  pix_chave: ""     # chave PIX (CNPJ, e-mail, telefone ou aleatória)
-  pix_nome: ""     # nome do recebedor, até 25 caracteres, sem acento
-  pix_cidade: ""     # cidade do recebedor, até 15 caracteres, sem acento
+  pix_chave: "isadorafloress@gmail.com"   # chave PIX (CNPJ, e-mail, telefone ou aleatória)
+  pix_nome: "Isadora Flores"           # nome do recebedor, até 25 caracteres, sem acento
+  pix_cidade: "Salvador"               # cidade do recebedor, até 15 caracteres, sem acento
   apoiase_url: ""     # ex.: https://apoia.se/centraldeeditais
