@@ -37,8 +37,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#1f3a2e" },
-    { media: "(prefers-color-scheme: dark)", color: "#111413" },
+    { media: "(prefers-color-scheme: light)", color: "#0e100f" },
+    { media: "(prefers-color-scheme: dark)", color: "#0e100f" },
   ],
 };
 
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <ul className="flex flex-wrap gap-x-6 gap-y-1">
                 {NAV.filter((n) => n.href !== "/apoie/" || temApoio()).map((n) => (
                   <li key={n.href}>
-                    <Link href={n.href} className="alvo inline-flex items-center font-bold underline decoration-amarelo decoration-[3px] underline-offset-[6px] hover:decoration-[5px]">
+                    <Link href={n.href} className="alvo inline-flex items-center font-bold underline decoration-rosa decoration-[3px] underline-offset-[6px] hover:decoration-[5px]">
                       {n.rotulo}
                     </Link>
                   </li>
@@ -88,7 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="conteudo" className="mx-auto max-w-6xl px-4 py-6">
           {children}
         </main>
-        <footer className="mt-16 border-t-[6px] border-amarelo">
+        <footer className="mt-16 border-t-[6px] border-rosa">
           <div className="mx-auto max-w-6xl px-4 py-8 text-suave">
             <p className="titulo-display mb-3 text-[1.5rem] font-extrabold text-texto">Central de Editais</p>
             <p>
@@ -109,15 +109,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   );
 }
 
-/** Marca: folha de edital com o canto dobrado e uma faixa amarela (decorativa). */
+/** Marca: folha de edital (degradê roxo → azul) com faixa rosa (decorativa). */
 function Marca() {
   return (
     <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false">
-      <path d="M8 4h17l7 7v25H8z" fill="#fbfaf6" />
-      <path d="M25 4v7h7" fill="#d9dccf" />
-      <rect x="12" y="15" width="16" height="5" fill="#f4c542" />
-      <rect x="12" y="23" width="16" height="2.5" fill="#1f3a2e" />
-      <rect x="12" y="28" width="11" height="2.5" fill="#1f3a2e" />
+      <defs>
+        <linearGradient id="marca-grad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#a77bff" />
+          <stop offset="1" stopColor="#3b82ff" />
+        </linearGradient>
+      </defs>
+      <path d="M8 4h17l7 7v25H8z" fill="url(#marca-grad)" />
+      <path d="M25 4v7h7" fill="#d9c2ff" />
+      <rect x="12" y="15" width="16" height="5" fill="#ff2d87" />
+      <rect x="12" y="23" width="16" height="2.5" fill="#0e100f" />
+      <rect x="12" y="28" width="11" height="2.5" fill="#0e100f" />
     </svg>
   );
 }

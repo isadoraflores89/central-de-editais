@@ -25,15 +25,8 @@ function IconeLua() {
 /** Barra de leitura: tamanho do texto (A− A A+) e tema (claro / escuro). */
 export function Preferencias() {
   const [prefs, setPrefs] = useState<Prefs>({ zoom: ZOOM_PADRAO, tema: "auto" });
-  const [escuroSistema, setEscuroSistema] = useState(false);
-
   useEffect(() => {
     setPrefs(lerPrefs());
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    setEscuroSistema(mq.matches);
-    const f = (e: MediaQueryListEvent) => setEscuroSistema(e.matches);
-    mq.addEventListener("change", f);
-    return () => mq.removeEventListener("change", f);
   }, []);
 
   // Cada clique parte do valor mais recente (cliques rápidos não se anulam).
@@ -48,7 +41,8 @@ export function Preferencias() {
     return ZOOMS[Math.min(ZOOMS.length - 1, Math.max(0, i + d))] ?? ZOOM_PADRAO;
   };
   const i = ZOOMS.indexOf(prefs.zoom as (typeof ZOOMS)[number]);
-  const escuro = prefs.tema === "dark" || (prefs.tema === "auto" && escuroSistema);
+  // Escuro é o padrão do site (como isadoraflores.art.br); só fica claro se a pessoa escolher.
+  const escuro = prefs.tema !== "light";
   const porcento = Math.round(prefs.zoom * 100);
 
   return (

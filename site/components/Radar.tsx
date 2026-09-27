@@ -133,7 +133,7 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
                     aria-pressed={ativo}
                     onClick={() => router.replace(`${pathname}?${p.filtros}`, { scroll: false })}
                     className={`alvo rounded-lg border-2 px-4 py-2 font-bold ${
-                      ativo ? "border-marca bg-marca text-marca-texto shadow-[0_3px_0_0_var(--amarelo)]" : "border-marca bg-superficie text-acento hover:bg-chip"
+                      ativo ? "border-marca bg-marca text-marca-texto shadow-[0_3px_0_0_var(--rosa)]" : "border-marca bg-superficie text-acento hover:bg-chip"
                     }`}
                   >
                     {p.rotulo}

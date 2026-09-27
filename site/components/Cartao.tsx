@@ -89,7 +89,7 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
       <div className="min-w-0">
         <div className="mb-2 flex flex-wrap gap-2 empty:hidden">
           {e.curadoria.destaque && (
-            <Selo classe="bg-amarelo text-amarelo-texto"><IconeEstrela /> Destaque</Selo>
+            <Selo classe="bg-rosa text-rosa-texto"><IconeEstrela /> Destaque</Selo>
           )}
           {ehNovo(e, hoje) && <Selo classe="bg-novo-fundo text-novo">Novo</Selo>}
           {status === "prorrogado" && <Selo classe="bg-alta-fundo text-alta">Prorrogado</Selo>}
@@ -97,7 +97,7 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
         </div>
 
         <h2 id={`t-${e.id}`} className="titulo-display text-[1.45rem] font-bold">
-          <Link href={`/edital/${e.id}/`} className="underline decoration-2 underline-offset-4 hover:decoration-amarelo hover:decoration-[5px]">
+          <Link href={`/edital/${e.id}/`} className="underline decoration-2 underline-offset-4 hover:decoration-rosa hover:decoration-[5px]">
             {e.titulo}
           </Link>
         </h2>
@@ -124,7 +124,7 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
               href={e.link_inscricao}
               edital={e.titulo}
               rotulo="Ir para a inscrição"
-              className="alvo inline-flex items-center gap-2 rounded-lg bg-marca px-4 py-2 font-bold text-marca-texto shadow-[0_3px_0_0_var(--amarelo)] hover:shadow-[0_5px_0_0_var(--amarelo)]"
+              className="alvo inline-flex items-center gap-2 rounded-lg bg-marca px-4 py-2 font-bold text-marca-texto shadow-[0_3px_0_0_var(--rosa)] hover:shadow-[0_5px_0_0_var(--rosa)]"
             >
               Inscrever <IconeExterno />
             </LinkProtegido>

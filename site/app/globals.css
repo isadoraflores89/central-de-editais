@@ -1,94 +1,65 @@
 @import "tailwindcss";
 
-/* Tokens de cor. Contraste mínimo 4,5:1 para texto (verificado em tests/contraste.test.ts). */
+/* Tokens de cor, no espírito de isadoraflores.art.br (fundo quase preto, texto creme),
+   trocando o verde-limão por roxo, azul e rosa. Escuro é o padrão; o botão
+   "Modo claro" aplica o bloco [data-theme="light"].
+   Contraste mínimo 4,5:1 para texto (verificado em tests/contraste.test.ts). */
 :root {
-  --fundo: #fbfaf6;
-  --superficie: #ffffff;
-  --texto: #16181a;
-  --texto-suave: #454a4f;
-  --borda: #8a918b;
-  --borda-suave: #d6d9d4;
-  --marca: #1f3a2e;
-  --marca-texto: #ffffff;
-  --acento: #1f5c40;
-  --foco: #0b57d0;
-  --critica-fundo: #fde7e6;
-  --critica-texto: #9b1c1c;
-  --alta-fundo: #fff0db;
-  --alta-texto: #8a3b00;
-  --chip-fundo: #eef1ec;
-  --novo-fundo: #e3ecff;
-  --novo-texto: #1a3f99;
-  /* Direção "mural editorial": papel, verde-oliva dominante, amarelo marca-texto. */
-  --cabecalho-fundo: #1f3a2e;
-  --cabecalho-texto: #fbfaf6;
-  --amarelo: #f4c542;
-  --amarelo-texto: #16181a;
-  --prazo-normal-fundo: #e6eee3;
-  --prazo-normal-texto: #1f3a2e;
-  --grao-opacidade: 0.05;
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --fundo: #111413;
-    --superficie: #1a1f1d;
-    --texto: #f2f2ee;
-    --texto-suave: #c4c8c2;
-    --borda: #7d857f;
-    --borda-suave: #343b37;
-    --marca: #9fd3b4;
-    --marca-texto: #0f1a14;
-    --acento: #9fd3b4;
-    --foco: #8ab4ff;
-    --critica-fundo: #3b1212;
-    --critica-texto: #ffb4ab;
-    --alta-fundo: #3a2410;
-    --alta-texto: #ffcb8a;
-    --chip-fundo: #252b28;
-    --novo-fundo: #1c2a4a;
-    --novo-texto: #b8ccff;
-    --cabecalho-fundo: #182a21;
-    --cabecalho-texto: #f2f2ee;
-    --amarelo: #f4c542;
-    --amarelo-texto: #16181a;
-    --prazo-normal-fundo: #22332a;
-    --prazo-normal-texto: #cfe6d7;
-    --grao-opacidade: 0.07;
-    color-scheme: dark;
-  }
-}
-
-/* Tema escolhido no botão Claro/Escuro (vence a preferência do sistema). */
-:root[data-theme="dark"] {
-  --fundo: #111413;
-  --superficie: #1a1f1d;
-  --texto: #f2f2ee;
-  --texto-suave: #c4c8c2;
-  --borda: #7d857f;
-  --borda-suave: #343b37;
-  --marca: #9fd3b4;
-  --marca-texto: #0f1a14;
-  --acento: #9fd3b4;
-  --foco: #8ab4ff;
-  --critica-fundo: #3b1212;
-  --critica-texto: #ffb4ab;
+  --fundo: #0e100f;
+  --superficie: #171b19;
+  --texto: #f2ede6;
+  --texto-suave: #b3aea7;
+  --borda: #6b6f74;
+  --borda-suave: #2b302e;
+  --marca: #a77bff;
+  --marca-texto: #0e100f;
+  --acento: #c9adff;
+  --foco: #8fc7ff;
+  --critica-fundo: #3d1024;
+  --critica-texto: #ff8fbd;
   --alta-fundo: #3a2410;
-  --alta-texto: #ffcb8a;
-  --chip-fundo: #252b28;
-  --novo-fundo: #1c2a4a;
-  --novo-texto: #b8ccff;
-  --cabecalho-fundo: #182a21;
-  --cabecalho-texto: #f2f2ee;
-  --amarelo: #f4c542;
-  --amarelo-texto: #16181a;
-  --prazo-normal-fundo: #22332a;
-  --prazo-normal-texto: #cfe6d7;
-  --grao-opacidade: 0.07;
+  --alta-texto: #ffc46b;
+  --chip-fundo: #1f2422;
+  --novo-fundo: #16264a;
+  --novo-texto: #8fc7ff;
+  --cabecalho-fundo: #0e100f;
+  --cabecalho-texto: #f2ede6;
+  --rosa: #ff2d87;
+  --rosa-texto: #0e100f;
+  --prazo-normal-fundo: #17223d;
+  --prazo-normal-texto: #8fc7ff;
+  --capa-texto: #0e100f;
+  --grad: linear-gradient(100deg, #a77bff 0%, #6f8dff 55%, #3b82ff 100%);
+  --grao-opacidade: 0.06;
   color-scheme: dark;
 }
+
 :root[data-theme="light"] {
+  --fundo: #f6f3ee;
+  --superficie: #ffffff;
+  --texto: #16151a;
+  --texto-suave: #4c4853;
+  --borda: #857f8f;
+  --borda-suave: #ddd8e4;
+  --marca: #6a3fd1;
+  --marca-texto: #ffffff;
+  --acento: #5a2fc2;
+  --foco: #2563eb;
+  --critica-fundo: #fde6ef;
+  --critica-texto: #a3123f;
+  --alta-fundo: #fff0db;
+  --alta-texto: #8a3b00;
+  --chip-fundo: #f0edf6;
+  --novo-fundo: #e6edff;
+  --novo-texto: #1d3fa3;
+  --cabecalho-fundo: #0e100f;
+  --cabecalho-texto: #f2ede6;
+  --rosa: #ff2d87;
+  --rosa-texto: #0e100f;
+  --prazo-normal-fundo: #ece6ff;
+  --prazo-normal-texto: #4b23a8;
+  --capa-texto: #0e100f;
+  --grao-opacidade: 0.04;
   color-scheme: light;
 }
 
@@ -111,8 +82,9 @@
   --color-novo: var(--novo-texto);
   --color-cabecalho: var(--cabecalho-fundo);
   --color-cabecalho-texto: var(--cabecalho-texto);
-  --color-amarelo: var(--amarelo);
-  --color-amarelo-texto: var(--amarelo-texto);
+  --color-rosa: var(--rosa);
+  --color-rosa-texto: var(--rosa-texto);
+  --color-capa-texto: var(--capa-texto);
   --color-prazo-fundo: var(--prazo-normal-fundo);
   --color-prazo: var(--prazo-normal-texto);
   --font-sans: var(--fonte-atkinson), system-ui, sans-serif;
@@ -156,13 +128,19 @@ body > * {
   line-height: 1.05;
 }
 
-/* Sublinhado grosso amarelo, como marca-texto. Fica sob o texto, sem mexer no contraste. */
+/* Sublinhado grosso rosa, como marca-texto. Fica sob o texto, sem mexer no contraste. */
 .grifo {
   text-decoration-line: underline;
-  text-decoration-color: var(--amarelo);
+  text-decoration-color: var(--rosa);
   text-decoration-thickness: 0.2em;
   text-underline-offset: 0.14em;
   text-decoration-skip-ink: none;
+}
+
+/* Capa com o degradê roxo → azul do site principal. */
+.capa {
+  background-image: repeating-linear-gradient(-45deg, transparent 0 14px, rgb(255 255 255 / 0.08) 14px 16px), var(--grad);
+  color: var(--capa-texto);
 }
 
 /* Padrão de listras finas no cabeçalho (decorativo). */

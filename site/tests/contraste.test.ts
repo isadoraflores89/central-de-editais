@@ -24,14 +24,20 @@ const PARES: [string, string][] = [
   ["texto", "fundo"], ["texto", "superficie"], ["texto-suave", "fundo"], ["texto-suave", "superficie"],
   ["texto", "chip-fundo"], ["texto-suave", "chip-fundo"], ["marca-texto", "marca"], ["acento", "superficie"],
   ["acento", "chip-fundo"], ["critica-texto", "critica-fundo"], ["alta-texto", "alta-fundo"],
-  ["novo-texto", "novo-fundo"], ["cabecalho-texto", "cabecalho-fundo"], ["amarelo-texto", "amarelo"],
+  ["novo-texto", "novo-fundo"], ["cabecalho-texto", "cabecalho-fundo"], ["rosa-texto", "rosa"], ["capa-texto", "grad-roxo"], ["capa-texto", "grad-azul"],
   ["prazo-normal-texto", "prazo-normal-fundo"],
 ];
 
-const claro = tokens(css.split("@media")[0]!);
-const escuro = { ...claro, ...tokens(css.split("@media (prefers-color-scheme: dark)")[1]!.split("}")[0]!) };
+// Escuro é o padrão (:root); o claro sobrescreve em :root[data-theme="light"].
+const blocoRaiz = css.slice(css.indexOf(":root {"), css.indexOf("}", css.indexOf(":root {")));
+const inicioClaro = css.indexOf(':root[data-theme="light"] {');
+const blocoClaro = css.slice(inicioClaro, css.indexOf("}", inicioClaro));
+const escuro = tokens(blocoRaiz);
+const claro = { ...escuro, ...tokens(blocoClaro) };
+// Pontas do degradê da capa (texto escuro sobre roxo e sobre azul).
+const DEGRADE: Record<string, string> = { "grad-roxo": "#a77bff", "grad-azul": "#3b82ff" };
 
-describe.each([["claro", claro], ["escuro", escuro]])("tema %s", (_, t) => {
+describe.each([["claro", { ...claro, ...DEGRADE }], ["escuro", { ...escuro, ...DEGRADE }]])("tema %s", (_, t) => {
   it.each(PARES)("%s sobre %s tem contraste AA", (frente, fundo) => {
     expect(contraste(t[frente]!, t[fundo]!)).toBeGreaterThanOrEqual(4.5);
   });
