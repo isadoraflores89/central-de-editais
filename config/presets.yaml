@@ -6,15 +6,7 @@
 # prazo (7|15|30|60|continuo), de, ate (AAAA-MM-DD), pf=1, sem_aprovado=1,
 # encerrados=1, destaques=1, nacionais=0, vmin, vmax, vnull=0, ordem.
 
-- id: bahia
-  rotulo: Bahia
-  descricao: Editais da Bahia e editais nacionais abertos a proponentes baianos.
-  filtros: "uf=BA"
-
-- id: parana
-  rotulo: Paraná
-  descricao: Editais do Paraná e editais nacionais abertos a proponentes paranaenses.
-  filtros: "uf=PR"
+# Os estados (26 + DF) ficam na lista "Editais do seu estado", logo antes destes botões.
 
 - id: rouanet-esporte
   rotulo: Rouanet e Lei do Esporte

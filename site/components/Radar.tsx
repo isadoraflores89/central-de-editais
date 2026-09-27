@@ -8,8 +8,8 @@ import {
   FACETAS, ORDENS, contarAtivos, contarFacetas, escreverFiltros, filtrar, filtrosVazios, lerFiltros,
   type Filtros, type Ordem,
 } from "@/lib/filtros";
-import { hojeISO } from "@/lib/prazo";
-import { rotulo } from "@/lib/rotulos";
+import { hojeISO, statusEfetivo } from "@/lib/prazo";
+import { UFS, rotulo } from "@/lib/rotulos";
 import type { Edital, Preset } from "@/lib/tipos";
 
 import { useCadastro } from "./Cadastro";
@@ -67,6 +67,18 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
   const contagens = useMemo(() => contarFacetas(editais, filtros, hoje), [editais, filtros, hoje]);
   const ativos = contarAtivos(filtros);
 
+  // Contagem por estado para a lista "Editais do seu estado" (inclui os nacionais).
+  const porEstado = useMemo(() => {
+    const abertos = editais.filter((e) => !e.curadoria.oculto && statusEfetivo(e, hoje) !== "encerrado");
+    const nacionais = abertos.filter((e) => e.abrangencia === "nacional").length;
+    return Object.fromEntries(
+      Object.keys(UFS).map((uf) => [uf, nacionais + abertos.filter((e) => e.abrangencia !== "nacional" && e.ufs.includes(uf)).length]),
+    ) as Record<string, number>;
+  }, [editais, hoje]);
+  const ufEscolhida = /^uf=([A-Z]{2})$/.exec(params.toString())?.[1] ?? "";
+  const estadosEmOrdem = Object.entries(UFS).sort((a, b) => a[1].localeCompare(b[1], "pt-BR"));
+  const idEstado = useId();
+
   const idBusca = useId();
   const idOrdem = useId();
   const idPainel = useId();
@@ -90,6 +102,25 @@ export function Radar({ editais, presets, hojeBuild, filtrosPadrao = "" }: Props
       {presets.length > 0 && (
         <nav aria-label="Buscas prontas" className="mb-6">
           <h2 className="titulo-display mb-3 text-[1.35rem] font-bold">Buscas prontas</h2>
+          <div className="mb-3 flex flex-wrap items-center gap-3">
+            <label htmlFor={idEstado} className="font-bold">Editais do seu estado</label>
+            <select
+              id={idEstado}
+              value={ufEscolhida}
+              aria-describedby={`${idEstado}-ajuda`}
+              onChange={(ev) => {
+                const uf = ev.target.value;
+                router.replace(uf ? `${pathname}?uf=${uf}` : `${pathname}?`, { scroll: false });
+              }}
+              className="alvo min-w-[16rem] rounded-lg border-2 border-marca bg-superficie px-3 font-bold text-acento"
+            >
+              <option value="">Escolha o estado</option>
+              {estadosEmOrdem.map(([uf, nome]) => (
+                <option key={uf} value={uf}>{nome} ({porEstado[uf] ?? 0})</option>
+              ))}
+            </select>
+            <span id={`${idEstado}-ajuda`} className="text-suave">Inclui os editais nacionais.</span>
+          </div>
           <ul className="flex flex-wrap gap-2">
             {presets.map((p) => {
               const ativo = params.toString() === p.filtros;
