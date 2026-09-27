@@ -4,7 +4,9 @@ import Link from "next/link";
 
 import { CadastroProvider } from "@/components/Cadastro";
 import { LinkApoio } from "@/components/Chamadas";
+import { Preferencias } from "@/components/Preferencias";
 import { configSite } from "@/lib/dados";
+import { SCRIPT_PREFS } from "@/lib/preferencias";
 
 import "./globals.css";
 
@@ -50,10 +52,20 @@ const NAV = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${atkinson.variable} ${display.variable}`}>
+    <html lang="pt-BR" className={`${atkinson.variable} ${display.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Aplica tamanho do texto e tema salvos antes de desenhar a página. */}
+        <script dangerouslySetInnerHTML={{ __html: SCRIPT_PREFS }} />
+      </head>
       <body>
         <CadastroProvider endpoint={configSite().cadastro_endpoint ?? ""}>
         <a href="#conteudo" className="pular-link">Pular para o conteúdo</a>
+        <div className="bg-cabecalho text-cabecalho-texto">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-end gap-3 border-b border-cabecalho-texto/20 px-4 py-2">
+            <span className="font-bold">Leitura:</span>
+            <Preferencias />
+          </div>
+        </div>
         <header className="listras bg-cabecalho text-cabecalho-texto">
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
             <Link href="/" className="inline-flex items-center gap-3 no-underline" aria-label="Central de Editais, página inicial">

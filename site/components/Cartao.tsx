@@ -3,9 +3,12 @@ import Link from "next/link";
 import { diasRestantes, ehNovo, statusEfetivo, textoPrazo, urgencia } from "@/lib/prazo";
 import { ABRANGENCIAS, MECANISMOS, TIPOS, rotulo } from "@/lib/rotulos";
 import { formatarData, formatarReais } from "@/lib/texto";
+import { falaEdital } from "@/lib/fala";
 import type { Edital } from "@/lib/tipos";
 
 import { LinkProtegido } from "./Cadastro";
+import { Ouvir } from "./Ouvir";
+import { Resumo } from "./Resumo";
 import { IconeEstrela, IconeExterno, IconeLocal, IconeMoeda } from "./Icones";
 
 function Chip({ children }: { children: React.ReactNode }) {
@@ -113,14 +116,7 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
           </div>
         )}
 
-        {!compacto && e.resumo && (
-          <details className="mt-3">
-            <summary className="alvo inline-flex cursor-pointer items-center font-bold text-acento underline">
-              Ler resumo
-            </summary>
-            <p className="mt-2 max-w-prose">{e.resumo}</p>
-          </details>
-        )}
+        {!compacto && e.resumo && <Resumo texto={e.resumo} />}
 
         <div className="mt-4 flex flex-wrap gap-3">
           {e.link_inscricao && (
@@ -143,6 +139,7 @@ export function Cartao({ edital: e, hoje, compacto = false }: { edital: Edital; 
               Edital oficial <IconeExterno />
             </LinkProtegido>
           )}
+          <Ouvir texto={falaEdital(e, hoje)} rotulo="Ouvir" />
           {compacto && (
             <a
               href={`${process.env.NEXT_PUBLIC_SITE_URL}${base}/edital/${e.id}/`}

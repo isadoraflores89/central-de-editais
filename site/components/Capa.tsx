@@ -1,7 +1,10 @@
 // Capa da página inicial: manchete editorial + três números do dia.
+import { dataFalada, falaEdital } from "@/lib/fala";
 import { diasRestantes, statusEfetivo } from "@/lib/prazo";
 import { formatarData } from "@/lib/texto";
 import type { Edital } from "@/lib/tipos";
+
+import { Ouvir } from "./Ouvir";
 
 function Numero({ valor, rotulo }: { valor: number; rotulo: string }) {
   return (
@@ -20,6 +23,13 @@ export function Capa({ editais, hoje }: { editais: Edital[]; hoje: string }) {
     return d !== null && d >= 0 && d <= 7;
   }).length;
   const continuo = abertos.filter((e) => e.fluxo_continuo && e.data_limite === null).length;
+  const top = [...abertos].sort((a, b) => b.prioridade - a.prioridade).slice(0, 3);
+  const fala = [
+    `Central de Editais. Hoje, ${dataFalada(hoje)}, há ${abertos.length} editais abertos.`,
+    `${semana} fecham em até 7 dias, e ${continuo} recebem inscrições o ano todo.`,
+    "Os três com maior prioridade são:",
+    ...top.map((e, i) => `${i + 1}. ${falaEdital(e, hoje, false)}`),
+  ].join(" ");
 
   return (
     <section aria-labelledby="manchete" className="listras relative -mx-4 -mt-6 mb-8 overflow-hidden sm:mt-0 bg-cabecalho px-4 py-10 text-cabecalho-texto sm:mx-0 sm:rounded-2xl sm:px-10">
@@ -33,6 +43,8 @@ export function Capa({ editais, hoje }: { editais: Edital[]; hoje: string }) {
         Editais, patrocínios e credenciamentos do campo cultural brasileiro, em ordem de
         prioridade. Filtre por estado, mecanismo, prazo e valor.
       </p>
+      <Ouvir texto={fala} rotulo="Ouvir os destaques de hoje"
+             className="mt-6 border-cabecalho-texto/70 text-cabecalho-texto hover:bg-white/10" />
       <div className="mt-8 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-3">
         <Numero valor={abertos.length} rotulo="editais abertos" />
         <Numero valor={semana} rotulo="fecham em até 7 dias" />

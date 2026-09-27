@@ -60,6 +60,38 @@
   }
 }
 
+/* Tema escolhido no botão Claro/Escuro (vence a preferência do sistema). */
+:root[data-theme="dark"] {
+  --fundo: #111413;
+  --superficie: #1a1f1d;
+  --texto: #f2f2ee;
+  --texto-suave: #c4c8c2;
+  --borda: #7d857f;
+  --borda-suave: #343b37;
+  --marca: #9fd3b4;
+  --marca-texto: #0f1a14;
+  --acento: #9fd3b4;
+  --foco: #8ab4ff;
+  --critica-fundo: #3b1212;
+  --critica-texto: #ffb4ab;
+  --alta-fundo: #3a2410;
+  --alta-texto: #ffcb8a;
+  --chip-fundo: #252b28;
+  --novo-fundo: #1c2a4a;
+  --novo-texto: #b8ccff;
+  --cabecalho-fundo: #182a21;
+  --cabecalho-texto: #f2f2ee;
+  --amarelo: #f4c542;
+  --amarelo-texto: #16181a;
+  --prazo-normal-fundo: #22332a;
+  --prazo-normal-texto: #cfe6d7;
+  --grao-opacidade: 0.07;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
 @theme inline {
   --color-fundo: var(--fundo);
   --color-superficie: var(--superficie);
@@ -87,8 +119,11 @@
   --font-display: var(--fonte-display), var(--fonte-atkinson), system-ui, sans-serif;
 }
 
+/* Tamanho do texto. "Normal" = 73% do tamanho anterior (pedido de 26/09: ~35% menor).
+   O botão A-/A+ muda --zoom: 0.85, 1, 1.25, 1.54 (o tamanho antigo) e 1.85. */
 html {
-  font-size: 112.5%; /* 18px: base maior por acessibilidade (decisão D8) */
+  --zoom: 1;
+  font-size: calc(18px * 0.65 * var(--zoom));
   -webkit-text-size-adjust: 100%;
 }
 

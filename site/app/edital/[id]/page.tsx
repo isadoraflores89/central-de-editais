@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { valorResumido } from "@/components/Cartao";
 import { LinkProtegido } from "@/components/Cadastro";
 import { Consultoria } from "@/components/Chamadas";
+import { Ouvir } from "@/components/Ouvir";
+import { falaEdital } from "@/lib/fala";
 import { IconeAlerta, IconeExterno } from "@/components/Icones";
 import { SeloPrazo } from "@/components/SeloPrazo";
 import { dataDoBuild, editais, editalPorId } from "@/lib/dados";
@@ -99,6 +101,7 @@ export default async function PaginaEdital({ params }: { params: Promise<{ id: s
             Edital oficial <IconeExterno />
           </LinkProtegido>
         )}
+        <Ouvir texto={falaEdital(e, hoje)} rotulo="Ouvir este edital" />
       </div>
 
       {e.resumo && <p className="mt-6 max-w-prose text-[1.1rem]">{e.resumo}</p>}
