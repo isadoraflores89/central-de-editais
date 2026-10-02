@@ -101,7 +101,7 @@
       "data_limite": "2026-09-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Patrocínio a projetos culturais e esportivos que celebrem expressões brasileiras, já aprovados ou habilitados para captação em leis estaduais de incentivo. Pessoas jurídicas com ou sem fins lucrativos. Até R$ 67 milhões no total, distribuídos conforme disponibilidade em cada lei estadual. Inscrição pela plataforma Prosas (regulamento, FAQ e autodeclaração étnico-racial disponíveis na página).",
       "link_inscricao": "https://prosas.com.br/editais/16452-edital-ambev-brasilidades-2026",
       "link_edital": null,
@@ -126,8 +126,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -140,7 +140,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [
         "ambev-brasilidades-2026-leis-estaduais-de-incentivo-ao-9d22c7"
       ],
@@ -432,7 +440,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 25,
+      "prioridade": 45,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -719,7 +727,7 @@
       "data_limite": "2026-09-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Apoio a festas, celebrações, feiras e eventos culturais municipais do interior e litoral paulista, com até R$ 20 mil por projeto para infraestrutura e cachês artísticos. Inscrição pela plataforma de editais da APAA.",
       "link_inscricao": "https://www.editaisapaa.org.br/",
       "link_edital": null,
@@ -734,8 +742,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -747,7 +755,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -1502,7 +1518,7 @@
       "data_limite": "2026-09-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Recebimento de projetos aptos a captar via Lei Rouanet, Lei do Esporte, FMDCA, Fundo do Idoso, Pronon e Pronas, com foco em beneficiários em situação de vulnerabilidade social e ações gratuitas. Inscrição por formulário online (Microsoft Forms) divulgado pela Fundação Sicredi.",
       "link_inscricao": "https://www.fundacaosicredi.com.br/",
       "link_edital": null,
@@ -1527,8 +1543,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1541,7 +1557,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [
         "fundacao-sicredi-projetos-incentivados-2026-lei-do-esporte-5715f1"
       ],
@@ -1707,7 +1731,7 @@
       "data_limite": "2026-10-01",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Quinze convocatórias para profissionais da música, programadores, artistas, pesquisadores e instituições ibero-americanas, com apoio a circulação internacional, residências artísticas, especialização, projetos virtuais e prêmios de composição. Inscrições de 15 de junho a 1º de outubro de 2026; valores por categoria nos editais em PDF.",
       "link_inscricao": "https://www.ibermusicas.org/index.php/convocatorias-pt/",
       "link_edital": null,
@@ -1722,8 +1746,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1735,7 +1759,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -2257,7 +2289,7 @@
       "data_limite": "2026-09-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de projetos em cultura, educação, meio ambiente, direitos humanos, esporte, saúde e qualidade de vida, aprovados em sete leis federais (Cultura/Rouanet, Esporte, Reciclagem, FIA, Fundo do Idoso, Pronas, Pronon). Elegíveis pessoas jurídicas sem fins lucrativos. Inscrições de 11/05 a 30/09/2026 no Hub do Incentivo; resultado previsto para janeiro de 2027.",
       "link_inscricao": "https://mapfre.hubdoincentivo.com.br/",
       "link_edital": "https://www.mapfre.com.br/media/edital-mapfre-2026-informacoes-vf.pdf",
@@ -2282,8 +2314,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2296,7 +2328,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [
         "mapfre-projetos-incentivados-2026-lei-do-esporte-9e84d4"
       ],
@@ -2799,7 +2839,7 @@
       "data_limite": "2026-09-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Cofinanciamento de coproduções luso-brasileiras de longas-metragens (ficção, documentário, animação), com até € 175 mil por projeto minoritário. Inscrição pela plataforma HAL do ICA (Portugal).",
       "link_inscricao": "https://hal.ica-ip.pt/registo",
       "link_edital": null,
@@ -2814,8 +2854,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-10-02T15:09:36Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2827,7 +2867,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-02T15:09:36Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
