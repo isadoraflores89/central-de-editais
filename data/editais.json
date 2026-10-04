@@ -1030,7 +1030,7 @@
       "data_limite": "2026-10-03",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de projetos de promoção turística que fortaleçam a imagem internacional do Brasil (Plano Brasis 2024–2027). Pessoas jurídicas nacionais e internacionais, com ou sem fins lucrativos. Patrocínio limitado a 60% do custo total (exceto projetos abaixo de R$ 200 mil), com contrapartidas de exposição de marca, conteúdo e geração de negócios. Inscrições com no mínimo 60 dias de antecedência do evento.",
       "link_inscricao": "https://patrocinio.embratur.com.br/",
       "link_edital": "https://embratur.com.br/wp-content/uploads/2025/12/Edital-de-Chamamento-Publico-13-2025.pdf",
@@ -1045,8 +1045,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 35,
+      "updated_at": "2026-10-04T14:31:05Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1058,7 +1058,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-04T14:31:05Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
