@@ -972,7 +972,7 @@
       "data_limite": "2026-10-05",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de iniciativas de valorização e preservação da memória e do patrimônio cultural africano e afro-brasileiro em territórios de todo o país ('novas Pequenas Áfricas'), com R$ 5 milhões apoiados pelo BNDES. Inscrição pela plataforma Prosas (edital e FAQ disponíveis na página).",
       "link_inscricao": "https://prosas.com.br/editais/18659-edital-rede-memoria-viva-iniciativa-viva-pequena-africa",
       "link_edital": null,
@@ -987,8 +987,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 45,
+      "updated_at": "2026-10-06T15:32:25Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1000,7 +1000,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-06T15:32:25Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
