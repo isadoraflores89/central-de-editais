@@ -3002,7 +3002,7 @@
       "data_limite": "2026-10-13",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Financia projetos culturais em territórios de favelas e periferias com recursos incentivados via Pronac. Podem participar pessoas jurídicas, com ou sem fins lucrativos, de natureza cultural e com sede na mesma localidade do projeto. Até R$ 200 mil por projeto; investimento total de R$ 10 milhões. Inscrições gratuitas e exclusivamente pelo Salic.",
       "link_inscricao": "https://salic.cultura.gov.br",
       "link_edital": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/programa-rouanet-nas-favelas-2/programa-rouanet-nas-favelas-2",
@@ -3017,8 +3017,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "updated_at": "2026-10-14T14:09:07Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3030,7 +3030,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-14T14:09:07Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
