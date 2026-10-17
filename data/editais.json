@@ -38,7 +38,7 @@
       "data_limite": "2026-10-16",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Premiação a artistas negros e coletivos protagonizados por pessoas negras nas áreas de música instrumental, artes cênicas, artes visuais, literatura, audiovisual e patrimônio imaterial (150 iniciativas na 1ª edição). Inscrição pela plataforma Prosas.",
       "link_inscricao": "https://prosas.com.br/editais/18622",
       "link_edital": "https://pretaspotencias.com/",
@@ -53,8 +53,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 45,
+      "updated_at": "2026-10-17T12:33:18Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -66,7 +66,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-17T12:33:18Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -2241,7 +2249,7 @@
       "data_limite": "2026-10-16",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seis editais com R$ 4,1 milhões e 517 oportunidades: cinco editais de fomento (323 vagas em 18 segmentos) e o edital Sururu de Capote (194 premiações de trajetórias em 41 categorias). Artistas, produtores e agentes culturais com atuação em Maceió. Inscrição pela plataforma oficial da PNAB Ciclo 2 de Maceió ou presencialmente.",
       "link_inscricao": "https://www.tribunadosertao.com.br/cidades/2026/09/21/982971-maceio-abre-seis-editais-culturais-com-r-41-milhoes-e-517-oportunidades",
       "link_edital": null,
@@ -2256,8 +2264,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-10-17T12:33:18Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2270,7 +2278,15 @@
         "fonte_nao_oficial"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-17T12:33:18Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": true
     },
