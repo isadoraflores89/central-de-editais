@@ -3360,7 +3360,7 @@
       "data_limite": "2026-10-19",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de 11 propostas para produção de longas e séries (R$ 47 milhões) e 16 para distribuição (R$ 7 milhões), voltada a produtoras independentes paulistanas. Inscrição pelo portal de editais da Spcine.",
       "link_inscricao": "https://spcine.com.br/editais-de-fomento/",
       "link_edital": null,
@@ -3375,8 +3375,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-10-20T13:57:13Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3388,7 +3388,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-20T13:57:13Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
