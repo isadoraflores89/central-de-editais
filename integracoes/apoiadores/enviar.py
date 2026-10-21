@@ -26,6 +26,7 @@ Uso:
   python integracoes/apoiadores/enviar.py                 # envia
   python integracoes/apoiadores/enviar.py --simular       # só mostra quem receberia o quê
   python integracoes/apoiadores/enviar.py --dia 2026-10-19 --simular   # finge que hoje é outro dia
+  python integracoes/apoiadores/enviar.py --simular --cadastros exemplo.json  # sem Netlify
 """
 
 from __future__ import annotations
@@ -435,6 +436,9 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Envio do Radar de Editais aos apoiadores")
     ap.add_argument("--simular", action="store_true", help="não envia, só mostra")
     ap.add_argument("--dia", help="AAAA-MM-DD para fingir outra data (teste)")
+    ap.add_argument(
+        "--cadastros", help="arquivo JSON com cadastros (no formato da Netlify) em vez da API"
+    )
     args = ap.parse_args()
 
     agora = datetime.now(FUSO)
@@ -442,8 +446,8 @@ def main() -> int:
         agora = datetime.combine(date.fromisoformat(args.dia), agora.time(), FUSO)
 
     token = os.environ.get("NETLIFY_TOKEN", "").strip()
-    if not token:
-        print("[erro] falta NETLIFY_TOKEN", file=sys.stderr)
+    if not token and not args.cadastros:
+        print("[erro] falta NETLIFY_TOKEN (ou use --cadastros arquivo.json)", file=sys.stderr)
         return 1
     site_id = os.environ.get("NETLIFY_SITE_ID", NETLIFY_SITE_ID_PADRAO).strip()
     resend = os.environ.get("RESEND_API_KEY", "").strip()
@@ -452,7 +456,11 @@ def main() -> int:
     zap_phone = os.environ.get("WHATSAPP_PHONE_NUMBER_ID", "").strip()
     zap_template = os.environ.get("WHATSAPP_TEMPLATE", "radar_editais").strip()
 
-    cadastros = carregar_cadastros(token, site_id)
+    if args.cadastros:
+        with open(args.cadastros, encoding="utf-8") as f:
+            cadastros = [c for c in json.load(f) if c.get("form_name") == "preferencias"]
+    else:
+        cadastros = carregar_cadastros(token, site_id)
     apoiadores = apoiadores_unicos(cadastros)
     abertos = carregar_feed()
     mensagens = montar_mensagens(apoiadores, abertos, agora)
