@@ -1,0 +1,44 @@
+# Envio do Radar de Editais aos apoiadores (editais.isadoraflores.art.br).
+# Todo dia às 09:00 em Salvador (12:00 UTC), depois da atualização diária das 06:00.
+# Também roda na mão pela aba Actions ("Run workflow"), com opção de só simular.
+name: Envio aos apoiadores
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      simular:
+        description: "Só mostrar quem receberia o quê, sem enviar"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: envio-apoiadores
+  cancel-in-progress: false
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Bahia
+      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      EMAIL_REMETENTE: ${{ vars.EMAIL_REMETENTE }}
+      WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+      WHATSAPP_PHONE_NUMBER_ID: ${{ secrets.WHATSAPP_PHONE_NUMBER_ID }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar (ou simular)
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.simular }}" = "true" ]; then
+            python integracoes/apoiadores/enviar.py --simular | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            python integracoes/apoiadores/enviar.py | tee -a "$GITHUB_STEP_SUMMARY"
+          fi

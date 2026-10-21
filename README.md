@@ -86,7 +86,9 @@ Segredos (Settings > Secrets and variables > Actions), usados a partir das fases
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Fase 3 | extração estruturada de editais longos |
 | `NOTIFY_EMAIL_TO` | Fase 3 | destinatário do relatório diário |
-| `RESEND_API_KEY` | opcional | envio do e-mail pelo Resend |
+| `RESEND_API_KEY` | envio aos apoiadores | e-mail pelo Resend (`integracoes/apoiadores/enviar.py`) |
+| `NETLIFY_TOKEN` | envio aos apoiadores | lê os cadastros de editais.isadoraflores.art.br |
+| `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` | envio aos apoiadores | WhatsApp por template da Meta |
 | `SHEETS_SERVICE_ACCOUNT_JSON` | opcional | sincronizar com Google Sheets |
 | `SHEETS_ID` | opcional | planilha de destino |
 
