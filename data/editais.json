@@ -506,7 +506,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 40,
+      "prioridade": 30,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -882,7 +882,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 40,
+      "prioridade": 30,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3236,7 +3236,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "prioridade": 10,
       "curadoria": {
         "oculto": false,
         "destaque": false,
