@@ -571,7 +571,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 30,
+      "prioridade": 20,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -633,7 +633,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 30,
+      "prioridade": 20,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2205,7 +2205,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 75,
+      "prioridade": 65,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3309,7 +3309,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 65,
+      "prioridade": 55,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3504,7 +3504,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 80,
+      "prioridade": 70,
       "curadoria": {
         "oculto": false,
         "destaque": false,
