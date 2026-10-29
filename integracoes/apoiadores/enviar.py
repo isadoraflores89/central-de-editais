@@ -142,7 +142,12 @@ def http_json(
     timeout: int = 60,
 ) -> Any:
     dados = json.dumps(body).encode("utf-8") if body is not None else None
-    cabecalhos = {"Accept": "application/json", **(headers or {})}
+    cabecalhos = {
+        "Accept": "application/json",
+        # Resend e outras APIs ficam atrás do Cloudflare, que bloqueia pedidos sem identificação
+        "User-Agent": "central-de-editais/1.0 (+https://radardeeditais.isadoraflores.art.br)",
+        **(headers or {}),
+    }
     if dados is not None:
         cabecalhos["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=dados, headers=cabecalhos)

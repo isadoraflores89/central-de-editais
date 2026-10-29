@@ -37,6 +37,7 @@ jobs:
           python-version: "3.12"
       - name: Enviar (ou simular)
         run: |
+          set -o pipefail   # falha do envio derruba o job, mesmo com o tee
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.simular }}" = "true" ]; then
             python integracoes/apoiadores/enviar.py --simular | tee -a "$GITHUB_STEP_SUMMARY"
           else
