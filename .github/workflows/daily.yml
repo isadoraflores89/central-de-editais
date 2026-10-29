@@ -45,8 +45,11 @@ jobs:
       - name: Relatório
         run: uv run python -m pipeline report | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Radar de resultados e vagas (copiar para a API pública)
-        run: cp data/resultados.json data/vagas.json site/public/api/
+      - name: Radar de licitações da cultura (PNCP, sem chave)
+        run: uv run python integracoes/radar/pncp.py
+
+      - name: Radares (copiar para a API pública)
+        run: cp data/resultados.json data/vagas.json data/licitacoes.json site/public/api/
 
       - name: Commit dos dados (se mudaram)
         run: |
