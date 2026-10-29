@@ -1,0 +1,41 @@
+# Radar de resultados e radar de vagas na cultura: toda segunda às 05:00 em Salvador
+# (08:00 UTC), antes da atualização diária das 06:00, que copia os arquivos para o site.
+# Usa a API gratuita do Gemini (secret GEMINI_API_KEY, a mesma do Rolê Salvador).
+name: Radar semanal (resultados e vagas)
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-semanal
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Bahia
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar resultados e vagas
+        run: python integracoes/radar/atualizar.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Commit (se mudou)
+        run: |
+          if [ -n "$(git status --porcelain data/resultados.json data/vagas.json)" ]; then
+            git config user.name "central-de-editais[bot]"
+            git config user.email "central-de-editais@users.noreply.github.com"
+            git add data/resultados.json data/vagas.json
+            git commit -m "chore(radar): resultados e vagas $(date +%F)"
+            git push
+          else
+            echo "Sem mudanças."
+          fi

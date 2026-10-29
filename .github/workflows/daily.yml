@@ -45,6 +45,9 @@ jobs:
       - name: Relatório
         run: uv run python -m pipeline report | tee -a "$GITHUB_STEP_SUMMARY"
 
+      - name: Radar de resultados e vagas (copiar para a API pública)
+        run: cp data/resultados.json data/vagas.json site/public/api/
+
       - name: Commit dos dados (se mudaram)
         run: |
           if [ -n "$(git status --porcelain data/)" ]; then
