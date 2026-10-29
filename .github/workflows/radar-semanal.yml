@@ -1,11 +1,10 @@
-# Radar de resultados e radar de vagas na cultura: toda segunda às 05:00 em Salvador
-# (08:00 UTC), antes da atualização diária das 06:00, que copia os arquivos para o site.
-# Usa a API gratuita do Gemini (secret GEMINI_API_KEY, a mesma do Rolê Salvador).
-name: Radar semanal (resultados e vagas)
+# Radar de resultados e radar de vagas na cultura — versão RESERVA com Gemini.
+# A versão principal é o agente do Claude (routine na nuvem, toda segunda às 05:00 em
+# Salvador), que grava data/resultados.json e data/vagas.json e dá push. Este workflow
+# só roda na mão (Run workflow) se o agente falhar; precisa do secret GEMINI_API_KEY.
+name: Radar semanal (reserva com Gemini)
 
 on:
-  schedule:
-    - cron: "0 8 * * 1"
   workflow_dispatch:
 
 permissions:
