@@ -1,8 +1,8 @@
 {
  "atualizado_em": "2026-10-29",
- "fonte": "busca na web (Claude) + agente diário",
+ "fonte": "busca semanal na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 12,
+ "total": 18,
  "itens": [
   {
    "titulo": "Ilustrador(a)",
@@ -89,6 +89,20 @@
    "visto_em": "2026-10-29"
   },
   {
+   "titulo": "Edital Caju 2027 — seleção de artistas para Carnaval e São João 2027",
+   "organizacao": "Secult-PE / Fundarpe",
+   "cidade": "Recife",
+   "uf": "PE",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "credenciamento",
+   "prazo": "2026-11-10",
+   "salario": "cachê/premiação conforme categoria (valor não detalhado)",
+   "resumo": "Seleção de artistas e grupos de 12 categorias dos ciclos carnavalesco e junino para atuar no Carnaval e São João 2027 de Pernambuco.",
+   "link": "https://www.diariodepernambuco.com.br/viver/2026/10/11726813-pernambuco-lanca-edital-para-contratar-artistas-para-o-carnaval-e-o-sao-joao-de-2027.html",
+   "visto_em": "2026-10-29"
+  },
+  {
    "titulo": "Coordenação de Produção e Institucional",
    "organizacao": "IDG Cultura",
    "cidade": "Rio de Janeiro",
@@ -170,6 +184,76 @@
    "salario": "",
    "resumo": "Credenciamento em fluxo contínuo de pareceristas de qualquer estado para analisar projetos da PNAB e do Profice, pelo SIC.Cultura.",
    "link": "https://www.cultura.pr.gov.br/Noticia/Governo-do-Estado-lanca-edital-de-pareceristas-para-analise-de-editais-da-PNAB-e-do-Profice",
+   "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Credenciamento de Pareceristas Culturais (fluxo contínuo)",
+   "organizacao": "FUNCAP / Secult Sergipe",
+   "cidade": "Aracaju",
+   "uf": "SE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento contínuo de pareceristas pessoa física/MEI para avaliação técnica e de mérito cultural de projetos financiados por editais da Secult/FUNCAP em Sergipe.",
+   "link": "https://www.se.gov.br/anexos/uploads/download/filename_novo/15641/6f9b65c85a99265cfc900fb4bd4f97db.pdf",
+   "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Edital de Credenciamento para Banca de Pareceristas (PNAB)",
+   "organizacao": "Prefeitura de Tuparetama (Secretaria de Cultura, Turismo e Esporte)",
+   "cidade": "Tuparetama",
+   "uf": "PE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento de pareceristas para avaliar projetos culturais inscritos em editais municipais vinculados à PNAB.",
+   "link": "https://tuparetama.pe.gov.br/wp-content/uploads/2026/03/EDITAL-DE-CREDENCIAMENTO-PARA-BANCA-DE-PARECERISTAS-REVISADO.pdf",
+   "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Edital de Credenciamento para Banco de Pareceristas — PNAB 2026",
+   "organizacao": "Prefeitura de São José do Egito (Secretaria de Cultura, Turismo, Esportes e Juventude)",
+   "cidade": "São José do Egito",
+   "uf": "PE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento de avaliadores para análise de projetos do PNAB Ciclo II e outras políticas culturais municipais.",
+   "link": "https://saojosedoegito.pe.gov.br/pnab/PNAB%202026/3%20-%20EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS/EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS.pdf",
+   "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Edital de Credenciamento de Pareceristas nº 009/2026",
+   "organizacao": "Secretaria Executiva de Cultura, Esporte e Lazer de Jaboatão dos Guararapes (SECEL/JG)",
+   "cidade": "Jaboatão dos Guararapes",
+   "uf": "PE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Formação de banco de avaliadores de projetos culturais vinculados à Política Nacional Aldir Blanc (PNAB).",
+   "link": "https://viver.jaboatao.pe.gov.br/wp-content/uploads/2026/05/Edital_Pareceristas.pdf",
+   "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Credenciamento nº 29/2026 — pareceristas PNAB",
+   "organizacao": "Prefeitura Municipal de Castro Alves",
+   "cidade": "Castro Alves",
+   "uf": "BA",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento de pareceristas para análise técnica de projetos e candidaturas a premiações em editais municipais vinculados à PNAB.",
+   "link": "https://alertalicitacao.com.br/!licitacao/DOU-80a430567915378862f2",
    "visto_em": "2026-10-29"
   }
  ]
