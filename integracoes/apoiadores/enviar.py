@@ -454,12 +454,12 @@ def main() -> int:
     if not token and not args.cadastros:
         print("[erro] falta NETLIFY_TOKEN (ou use --cadastros arquivo.json)", file=sys.stderr)
         return 1
-    site_id = os.environ.get("NETLIFY_SITE_ID", NETLIFY_SITE_ID_PADRAO).strip()
+    site_id = os.environ.get("NETLIFY_SITE_ID", "").strip() or NETLIFY_SITE_ID_PADRAO
     resend = os.environ.get("RESEND_API_KEY", "").strip()
-    remetente = os.environ.get("EMAIL_REMETENTE", REMETENTE_PADRAO).strip()
+    remetente = os.environ.get("EMAIL_REMETENTE", "").strip() or REMETENTE_PADRAO
     zap_token = os.environ.get("WHATSAPP_TOKEN", "").strip()
     zap_phone = os.environ.get("WHATSAPP_PHONE_NUMBER_ID", "").strip()
-    zap_template = os.environ.get("WHATSAPP_TEMPLATE", "radar_editais").strip()
+    zap_template = os.environ.get("WHATSAPP_TEMPLATE", "").strip() or "radar_editais"
 
     if args.cadastros:
         with open(args.cadastros, encoding="utf-8") as f:
