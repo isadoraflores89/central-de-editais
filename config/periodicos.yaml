@@ -1,0 +1,74 @@
+# Revistas acadêmicas em OJS acompanhadas pelo coletor `ojs`.
+# O coletor lê <url_base>/announcement e guarda só avisos que parecem chamada.
+# Qualis e ISSN NUNCA são inferidos: preencha aqui com a fonte (Sucupira) ou deixe vazio.
+# Campos: id (único, sem espaços), nome, url_base, areas[], idiomas[], issn, qualis,
+#         indexadores[], link_normas, pais (ISO-2, padrão BR), ativo (padrão true).
+
+- id: pculturais
+  nome: Políticas Culturais em Revista (UFBA)
+  url_base: https://periodicos.ufba.br/index.php/pculturais
+  areas: [politicas_culturais, gestao_cultural]
+  idiomas: [pt, es, en]
+  issn: "1983-3717"
+  link_normas: https://periodicos.ufba.br/index.php/pculturais/about/submissions
+
+- id: contemporanea_ufba
+  nome: Contemporânea — Revista de Comunicação e Cultura (UFBA)
+  url_base: https://periodicos.ufba.br/index.php/contemporaneaposcom
+  areas: [comunicacao, estudos_culturais]
+  idiomas: [pt, es, en]
+
+- id: revista_observatorio_itau
+  nome: Revista Observatório Itaú Cultural
+  url_base: https://www.itaucultural.org.br/observatorio/revista
+  areas: [politicas_culturais, economia_criativa]
+  idiomas: [pt]
+  ativo: false   # não é OJS; entra em outro coletor
+
+- id: pragmatizes
+  nome: Pragmatizes — Revista Latino-Americana de Estudos em Cultura (UFF)
+  url_base: https://periodicos.uff.br/pragmatizes
+  areas: [politicas_culturais, estudos_culturais]
+  idiomas: [pt, es]
+
+- id: extraprensa
+  nome: Extraprensa — Cultura e Comunicação na América Latina (USP)
+  url_base: https://www.revistas.usp.br/extraprensa
+  areas: [comunicacao, estudos_culturais]
+  idiomas: [pt, es]
+
+- id: revista_cpc
+  nome: Revista CPC — Centro de Preservação Cultural (USP)
+  url_base: https://www.revistas.usp.br/cpc
+  areas: [patrimonio]
+  idiomas: [pt]
+
+- id: horizontes_antropologicos
+  nome: Horizontes Antropológicos (UFRGS)
+  url_base: https://seer.ufrgs.br/index.php/HorizontesAntropologicos
+  areas: [antropologia]
+  idiomas: [pt, es, en]
+
+- id: revista_brasileira_estudos_presenca
+  nome: Revista Brasileira de Estudos da Presença (UFRGS)
+  url_base: https://seer.ufrgs.br/index.php/presenca
+  areas: [artes_cenicas]
+  idiomas: [pt, es, en, fr]
+
+- id: ouvirouver
+  nome: ouvirOUver (UFU)
+  url_base: https://seer.ufu.br/index.php/ouvirouver
+  areas: [artes, musica, artes_cenicas]
+  idiomas: [pt]
+
+- id: revista_educacao_cultura_sociedade
+  nome: Revista Educação, Cultura e Sociedade (UNEMAT)
+  url_base: https://periodicos.unemat.br/index.php/recs
+  areas: [educacao, estudos_culturais]
+  idiomas: [pt]
+
+- id: revista_famecos
+  nome: Revista FAMECOS (PUCRS)
+  url_base: https://revistaseletronicas.pucrs.br/famecos
+  areas: [comunicacao]
+  idiomas: [pt, es, en]

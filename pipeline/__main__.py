@@ -5,6 +5,9 @@ Comandos da Fase 1:
   run           reprocessa (curadoria, status, prioridade) e exporta
   export        só exporta data/editais.json para uma pasta (JSON/CSV/XLSX/DB)
   report        imprime um resumo dos dados atuais
+Fase 5:
+  collect       roda os coletores (OJS, On the Move...) e junta ao data/editais.json
+  conteudo      gera post semanal, carrossel, newsletter e alertas em content/
 """
 
 import argparse
@@ -40,12 +43,14 @@ def cmd_import_seed(args: argparse.Namespace) -> int:
     res = importar(Path(args.arquivo))
     anteriores = (
         {e.id: e for e in formatos.ler_json(config.EDITAIS_JSON)}
-        if config.EDITAIS_JSON.exists() else {}
+        if config.EDITAIS_JSON.exists()
+        else {}
     )
     # Mantém registros que não vieram da planilha (coleta, add-manual).
     ids_seed = {e.id for e in res.editais}
     outros = [
-        e for i, e in anteriores.items()
+        e
+        for i, e in anteriores.items()
         if i not in ids_seed and "carga_inicial" not in e.marcadores
     ]
     editais = [anteriores.get(e.id, e) if args.preservar else e for e in res.editais] + outros
@@ -111,6 +116,135 @@ def cmd_report(_: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_collect(args: argparse.Namespace) -> int:
+    """Roda os coletores da Fase 5 e junta o resultado ao data/editais.json.
+
+    Registros já existentes mantêm curadoria, histórico e campos que o coletor não
+    preenche; registros novos entram como revisão pendente quando faltar prazo.
+    """
+    from pipeline.collectors import registrados
+    from pipeline.collectors.base import ler_fixture
+    from pipeline.collectors.cambio import em_reais
+    from pipeline.dedupe import chaves
+
+    fabricas = registrados()
+    nomes = [args.fonte] if args.fonte else list(fabricas)
+    desconhecidos = [n for n in nomes if n not in fabricas]
+    if desconhecidos:
+        print(f"Coletor desconhecido: {', '.join(desconhecidos)}. Opções: {', '.join(fabricas)}")
+        return 2
+
+    coletados: list[Edital] = []
+    for nome in nomes:
+        try:
+            if args.simular:
+                # Sem rede: usa as fixtures salvas em tests/fixtures/.
+                if nome == "onthemove":
+                    from pipeline.collectors.onthemove import ColetorOnTheMove
+
+                    url_situ = (
+                        "https://on-the-move.org/news/situ-online-support-and-immersive-lab-"
+                        "emerging-artists-creating-public-space-3rd-call"
+                    )
+                    col: object = ColetorOnTheMove(
+                        ler_fixture("onthemove/feed.xml"),
+                        {url_situ: ler_fixture("onthemove/item_in_situ.html")},
+                    )
+                elif nome == "ojs":
+                    from pipeline.collectors.ojs import ColetorOJS
+
+                    col = ColetorOJS(
+                        {"pculturais": ler_fixture("ojs/pculturais_announcement.html")}
+                    )
+                else:
+                    col = fabricas[nome]()
+            else:
+                col = fabricas[nome]()
+            itens = col.coletar()  # type: ignore[attr-defined]
+        except Exception as exc:
+            log.error("coletor %s falhou: %s", nome, exc)
+            continue
+        log.info("coletor %s: %d itens", nome, len(itens))
+        coletados.extend(itens)
+
+    hoje = config.hoje()
+    for e in coletados:
+        if e.valor_original is not None and e.moeda and e.valor_brl_estimado is None:
+            e.valor_brl_estimado = (
+                None if args.simular else em_reais(e.valor_original, e.moeda, hoje)
+            )
+            e.cotacao_data = None if e.valor_brl_estimado is None else hoje
+
+    if args.simular:
+        for e in coletados:
+            print(f"  [{e.vertical.value:<9}] {e.data_limite or '----------'}  {e.titulo[:80]}")
+        print(f"Simulação: {len(coletados)} itens (nada gravado).")
+        return 0
+
+    anteriores = (
+        {e.id: e for e in formatos.ler_json(config.EDITAIS_JSON)}
+        if config.EDITAIS_JSON.exists()
+        else {}
+    )
+    novos = 0
+    for e in coletados:
+        existente = anteriores.get(e.id) or next(
+            (a for a in anteriores.values() if a.fonte == e.fonte and chaves(a) & chaves(e)), None
+        )
+        if existente is None:
+            anteriores[e.id] = e
+            novos += 1
+            continue
+        # Atualiza só o que o coletor sabe; preserva curadoria/histórico/marcadores manuais.
+        dados = existente.model_dump()
+        for campo in (
+            "data_limite",
+            "data_resumo",
+            "prazo_texto",
+            "resumo",
+            "link_inscricao",
+            "link_edital",
+            "taxa_inscricao",
+            "taxa_moeda",
+            "cobre",
+            "apc",
+            "valor_original",
+            "moeda",
+            "valor_brl_estimado",
+            "cotacao_data",
+            "elegivel_brasileiros",
+        ):
+            if getattr(e, campo) not in (None, [], ""):
+                dados[campo] = getattr(e, campo)
+        dados["updated_at"] = e.updated_at
+        dados["marcadores"] = sorted(set(existente.marcadores) | set(e.marcadores))
+        anteriores[existente.id] = Edital.model_validate(dados)
+    lista = list(anteriores.values())
+    if not lista:
+        print("Nada coletado e nada existente — nada gravado.")
+        return 1
+    _processar_e_gravar(
+        lista,
+        {e.id: e for e in formatos.ler_json(config.EDITAIS_JSON)}
+        if config.EDITAIS_JSON.exists()
+        else {},
+    )
+    print(f"Coleta: {len(coletados)} itens lidos, {novos} novos, {len(lista)} no total.")
+    return 0
+
+
+def cmd_conteudo(args: argparse.Namespace) -> int:
+    from datetime import date
+
+    from pipeline.content import weekly
+
+    hoje = date.fromisoformat(args.data) if args.data else None
+    gerados = weekly.gerar(hoje)
+    for g in gerados:
+        print(f"gerado: {g.relative_to(config.RAIZ)}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(
         level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s"
@@ -120,8 +254,11 @@ def main(argv: list[str] | None = None) -> int:
 
     s = sub.add_parser("import-seed", help="importa a planilha-semente")
     s.add_argument("--arquivo", default=str(config.SEED_XLSX))
-    s.add_argument("--preservar", action="store_true",
-                   help="mantém a versão já gravada de registros que já existem")
+    s.add_argument(
+        "--preservar",
+        action="store_true",
+        help="mantém a versão já gravada de registros que já existem",
+    )
     s.set_defaults(func=cmd_import_seed)
 
     s = sub.add_parser("run", help="reprocessa e exporta")
@@ -135,9 +272,22 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("report", help="resumo dos dados atuais")
     s.set_defaults(func=cmd_report)
 
-    for nome in ("collect", "add-manual", "check-links"):
-        s = sub.add_parser(nome, help="(fases 2–3)")
-        s.set_defaults(func=lambda _a, n=nome: print(f"'{n}' chega nas fases 2–3.") or 2)
+    s = sub.add_parser("collect", help="roda os coletores (Fase 5) e junta ao data/editais.json")
+    s.add_argument("--fonte", help="só um coletor: ojs, onthemove")
+    s.add_argument(
+        "--simular",
+        action="store_true",
+        help="usa as fixtures de tests/ (sem rede) e não grava nada",
+    )
+    s.set_defaults(func=cmd_collect)
+
+    s = sub.add_parser("conteudo", help="gera post semanal, carrossel, newsletter e alertas")
+    s.add_argument("--data", help="AAAA-MM-DD de referência (padrão: hoje)")
+    s.set_defaults(func=cmd_conteudo)
+
+    for nome in ("add-manual", "check-links"):
+        s = sub.add_parser(nome, help="(fase 3)")
+        s.set_defaults(func=lambda _a, n=nome: print(f"'{n}' chega na fase 3.") or 2)
 
     args = p.parse_args(argv)
     return int(args.func(args))

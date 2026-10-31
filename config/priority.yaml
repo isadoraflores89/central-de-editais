@@ -29,3 +29,27 @@ uf_prioritaria:
   ufs: [BA, PR]
 
 destaque_manual: 30
+
+# ---------------------------------------------------------------------------
+# Fase 5: as verticais open_call e academico usam estes blocos em vez dos
+# critérios de fomento (abrangência, mecanismo, UF...). Prazo e destaque manual
+# valem para todas. Critério sem informação não soma nem subtrai.
+verticais:
+  open_call:
+    gratuita: 25            # taxa_inscricao == 0
+    elegivel_brasileiros: 20
+    cobre_passagem_ou_hospedagem: 15
+    cobre_honorario: 10
+    valor_brl_alto:
+      pontos: 10
+      minimo: 20000
+    com_taxa_sem_contrapartida: -30   # alerta_taxa (pay-to-play)
+  academico:
+    sem_apc: 20             # apc == 0 explícito
+    qualis_a: 20            # A1–A4 (só quando declarado)
+    qualis_b: 10
+    idioma_portugues: 10
+    area_prioritaria:
+      pontos: 15
+      areas: [politicas_culturais, gestao_cultural, estudos_culturais]
+    congresso_com_data: 5

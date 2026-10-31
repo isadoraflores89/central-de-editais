@@ -37,6 +37,15 @@ def priority_config() -> dict[str, Any]:
 
 
 @cache
+def brand() -> dict[str, Any]:
+    """Marca do projeto (config/brand.yaml). Nenhum nome fica fixo no código."""
+    dados = ler_yaml(CONFIG / "brand.yaml")
+    if not isinstance(dados, dict):
+        raise RuntimeError("config/brand.yaml ausente ou inválido")
+    return dados
+
+
+@cache
 def mapeamentos() -> dict[str, Any]:
     dados = ler_yaml(CONFIG / "mapeamentos.yaml")
     if not isinstance(dados, dict):

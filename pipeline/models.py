@@ -10,9 +10,21 @@ from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator
 
-from pipeline.enums import Abrangencia, Mecanismo, Proponente, Status, TipoApoio
+from pipeline.enums import (
+    Abrangencia,
+    Cobre,
+    FormatoAcademico,
+    FormatoOpenCall,
+    Mecanismo,
+    Modalidade,
+    Proponente,
+    Status,
+    TipoApoio,
+    Vertical,
+)
 
-SCHEMA_VERSION = 1
+# 2 = Fase 5: campos de vertical/open call/acadêmico (todos com padrão; v1 carrega sem conversão).
+SCHEMA_VERSION = 2
 
 
 class Curadoria(BaseModel):
@@ -46,6 +58,39 @@ class Edital(BaseModel):
     id: str
     titulo: str
     orgao: str | None = None
+
+    # --- Fase 5: comuns às verticais ---
+    vertical: Vertical = Vertical.fomento
+    idiomas: list[str] = Field(default_factory=list)  # pt, es, en, fr...
+    pais_organizador: str | None = None  # ISO-3166 alfa-2
+    elegivel_brasileiros: bool | None = None  # só quando o texto diz
+
+    # --- Fase 5: open call ---
+    formato: FormatoOpenCall | None = None
+    taxa_inscricao: float | None = None  # 0 = gratuita; None = não informado
+    taxa_moeda: str | None = None
+    cobre: list[Cobre] = Field(default_factory=list)
+    moeda: str | None = None
+    valor_original: float | None = None
+    valor_brl_estimado: float | None = None
+    cotacao_data: date | None = None
+    modalidade: Modalidade | None = None
+
+    # --- Fase 5: acadêmico ---
+    formato_academico: FormatoAcademico | None = None
+    periodico: str | None = None
+    evento: str | None = None
+    issn: str | None = None
+    qualis: str | None = None  # só de fonte explícita (periodicos.yaml); nunca inferido
+    indexadores: list[str] = Field(default_factory=list)
+    apc: float | None = None  # taxa de publicação; 0 = sem cobrança
+    apc_moeda: str | None = None
+    data_resumo: date | None = None
+    data_texto_completo: date | None = None
+    data_evento: date | None = None
+    tema_dossie: str | None = None
+    organizadores: list[str] = Field(default_factory=list)
+    link_normas: str | None = None
 
     tipo_apoio: TipoApoio | None = None
     mecanismo: list[Mecanismo] = Field(default_factory=list)
@@ -105,5 +150,24 @@ class Edital(BaseModel):
             raise ValueError("titulo vazio")
         return v
 
+    @field_validator("pais_organizador")
+    @classmethod
+    def _pais_iso(cls, v: str | None) -> str | None:
+        v = (v or "").strip().upper()
+        return v or None
+
+    @property
+    def com_taxa(self) -> bool:
+        return bool((self.taxa_inscricao or 0) > 0 or (self.apc or 0) > 0)
+
+    @property
+    def tem_data_dupla(self) -> bool:
+        return self.data_resumo is not None and self.data_texto_completo is not None
+
     def para_json(self) -> dict[str, Any]:
         return self.model_dump(mode="json")
+
+
+# O adendo da Fase 5 chama o registro de "Oportunidade" (fomento, open call ou
+# chamada acadêmica). O nome da classe continua Edital por compatibilidade.
+Oportunidade = Edital

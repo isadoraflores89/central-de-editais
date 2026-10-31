@@ -58,6 +58,54 @@ class Proponente(StrEnum):
     empresa = "empresa"
 
 
+class Vertical(StrEnum):
+    """Fase 5: cada oportunidade pertence a uma vertical (aba do site)."""
+
+    fomento = "fomento"
+    open_call = "open_call"
+    academico = "academico"
+    noticia = "noticia"
+
+
+class FormatoOpenCall(StrEnum):
+    residencia = "residencia"
+    exposicao = "exposicao"
+    festival = "festival"
+    premio = "premio"
+    bolsa_mobilidade = "bolsa_mobilidade"
+    comissionamento = "comissionamento"
+    publicacao_artistica = "publicacao_artistica"
+    outro = "outro"
+
+
+class Cobre(StrEnum):
+    """O que a open call cobre (contrapartidas)."""
+
+    honorario = "honorario"
+    passagem = "passagem"
+    hospedagem = "hospedagem"
+    ajuda_custo = "ajuda_custo"
+    producao = "producao"
+    visto = "visto"
+    alimentacao = "alimentacao"
+
+
+class Modalidade(StrEnum):
+    presencial = "presencial"
+    online = "online"
+    hibrida = "hibrida"
+
+
+class FormatoAcademico(StrEnum):
+    dossie_revista = "dossie_revista"
+    fluxo_continuo_revista = "fluxo_continuo_revista"
+    congresso = "congresso"
+    livro_coletanea = "livro_coletanea"
+    premio_pesquisa = "premio_pesquisa"
+    bolsa_pesquisa = "bolsa_pesquisa"
+    pos_doc = "pos_doc"
+
+
 # Áreas e público prioritário são vocabulários abertos (a spec diz "enum aberto"):
 # ficam como str no modelo, e estas listas servem de referência para o site e os testes.
 AREAS_CONHECIDAS: tuple[str, ...] = (
@@ -72,6 +120,14 @@ AREAS_CONHECIDAS: tuple[str, ...] = (
     "economia_criativa",
     "esporte",
     "multi",
+    # Fase 5 (open calls e acadêmico)
+    "politicas_culturais",
+    "gestao_cultural",
+    "estudos_culturais",
+    "comunicacao",
+    "antropologia",
+    "artes",
+    "educacao",
 )
 
 PUBLICOS_CONHECIDOS: tuple[str, ...] = (

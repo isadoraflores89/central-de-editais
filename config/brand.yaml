@@ -1,0 +1,24 @@
+# Marca do projeto. Nada de nome fixo no código: tudo lê daqui.
+# Para rebatizar o projeto, troque só este arquivo.
+
+nome: Central de Editais
+slogan: Radar aberto de editais, open calls e chamadas acadêmicas da cultura
+dominio: radardeeditais.isadoraflores.art.br
+responsavel: Flores Educação e Cultura Ltda.
+parceiros:
+  - Ponto de Cultura Lab Garra
+licenca: CC-BY-4.0
+atribuicao: >-
+  Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra.
+  Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).
+
+# Posts e newsletter: "pessoal" (primeira pessoa, Isadora) ou "institucional".
+voz: pessoal
+assinatura: Isadora Flores · Flores Educação e Cultura · radardeeditais.isadoraflores.art.br
+chamada_newsletter: Quer receber isso toda segunda por e-mail? Assine em editais.isadoraflores.art.br.
+hashtags: [EditaisCulturais, OpenCall, GestãoCultural]
+
+cores:
+  fundo: "#F6F5F2"
+  texto: "#1F3A2E"
+  destaque: "#C8F169"

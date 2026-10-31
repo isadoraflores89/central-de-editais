@@ -2,7 +2,7 @@
 UV ?= uv
 NPM ?= npm
 
-.PHONY: setup import-seed run collect report test lint site-build dev
+.PHONY: setup import-seed run collect conteudo report test lint site-build dev
 
 setup:            ## instala dependências Python e do site
 	$(UV) sync
@@ -14,8 +14,11 @@ import-seed:      ## importa a planilha-semente para data/editais.json
 run:              ## reprocessa status/prioridade e exporta para o site
 	$(UV) run python -m pipeline run --destino site/public/api
 
-collect:          ## coleta nas fontes (Fase 2)
+collect:          ## coleta open calls e chamadas acadêmicas (Fase 5)
 	$(UV) run python -m pipeline collect
+
+conteudo:         ## post semanal, carrossel, newsletter e alertas em content/
+	$(UV) run python -m pipeline conteudo
 
 report:           ## resumo dos dados e cobertura por fonte
 	$(UV) run python -m pipeline report

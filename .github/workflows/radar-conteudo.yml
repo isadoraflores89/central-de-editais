@@ -1,0 +1,44 @@
+# Conteúdo semanal (Fase 5): toda segunda às 07:00 em Salvador (10:00 UTC) gera
+# rascunhos de post para LinkedIn, carrossel, newsletter e alertas em content/.
+# NÃO publica em lugar nenhum: a Isadora revisa e posta à mão.
+name: Conteúdo semanal
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-conteudo
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Bahia
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - run: uv sync --locked
+      - name: Gerar conteúdo da semana
+        run: uv run python -m pipeline conteudo | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Mostrar o post no resumo
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat content/weekly/"$(date +%G-%V)".md >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit (se mudou)
+        run: |
+          if [ -n "$(git status --porcelain content/)" ]; then
+            git config user.name "central-de-editais[bot]"
+            git config user.email "central-de-editais@users.noreply.github.com"
+            git add content/
+            git commit -m "content: semana $(date +%G-%V)"
+            git push
+          else
+            echo "Sem mudanças em content/."
+          fi

@@ -1,0 +1,52 @@
+# Fontes de open calls internacionais. `metodo` diz como o coletor acessa:
+# rss | html | manual. `ativo: false` deixa documentado sem rodar.
+# Detalhes de cada fonte (o que foi verificado) em docs/FONTES.md.
+
+- id: onthemove
+  nome: On the Move
+  url: https://on-the-move.org/feed
+  metodo: rss
+  coletor: pipeline.collectors.onthemove
+  ativo: true
+
+- id: transartists
+  nome: TransArtists (DutchCulture)
+  url: https://www.transartists.org/en/open-calls
+  metodo: html
+  ativo: false   # próxima rodada: HTML, sem RSS
+
+- id: resartis
+  nome: Res Artis
+  url: https://resartis.org/open-calls/
+  metodo: manual
+  ativo: false   # desafio anti-robô; avaliar newsletter
+
+- id: ibermusicas
+  nome: Ibermúsicas
+  url: https://ibermusicas.org/convocatorias/
+  metodo: html
+  ativo: false
+
+- id: iberescena
+  nome: Iberescena
+  url: https://www.iberescena.org/convocatorias
+  metodo: html
+  ativo: false
+
+- id: iberculturaviva
+  nome: IberCultura Viva
+  url: https://iberculturaviva.org/convocatorias/
+  metodo: html
+  ativo: false
+
+- id: prohelvetia
+  nome: Pro Helvetia (América do Sul)
+  url: https://prohelvetia.ch/en/open-calls/
+  metodo: html
+  ativo: false
+
+- id: goethe
+  nome: Goethe-Institut (Brasil)
+  url: https://www.goethe.de/ins/br/pt/kul/ser/ope.html
+  metodo: html
+  ativo: false

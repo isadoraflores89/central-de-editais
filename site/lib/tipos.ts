@@ -1,6 +1,7 @@
 // Espelho do modelo pipeline/models.py (formato de data/editais.json).
 
 export type Status = "aberto" | "em_breve" | "encerrado" | "prorrogado" | "indefinido";
+export type Vertical = "fomento" | "open_call" | "academico" | "noticia";
 
 export interface MudancaHistorico {
   em: string;
@@ -14,6 +15,37 @@ export interface Edital {
   id: string;
   titulo: string;
   orgao: string | null;
+  // Fase 5 (opcionais até o site ter as abas; registros v1 não os têm)
+  // comuns
+  vertical?: Vertical;
+  idiomas?: string[];
+  pais_organizador?: string | null;
+  elegivel_brasileiros?: boolean | null;
+  // Fase 5: open call
+  formato?: string | null;
+  taxa_inscricao?: number | null;
+  taxa_moeda?: string | null;
+  cobre?: string[];
+  moeda?: string | null;
+  valor_original?: number | null;
+  valor_brl_estimado?: number | null;
+  cotacao_data?: string | null;
+  modalidade?: string | null;
+  // Fase 5: acadêmico
+  formato_academico?: string | null;
+  periodico?: string | null;
+  evento?: string | null;
+  issn?: string | null;
+  qualis?: string | null;
+  indexadores?: string[];
+  apc?: number | null;
+  apc_moeda?: string | null;
+  data_resumo?: string | null;
+  data_texto_completo?: string | null;
+  data_evento?: string | null;
+  tema_dossie?: string | null;
+  organizadores?: string[];
+  link_normas?: string | null;
   tipo_apoio: string | null;
   mecanismo: string[];
   leis_estaduais: string[];

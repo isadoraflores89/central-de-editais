@@ -46,7 +46,8 @@ Outros comandos:
 | `make test` | testes Python (pytest) e do site (vitest) |
 | `make lint` | ruff, mypy, eslint e tsc |
 | `make site-build` | gera o site estático em `site/out` |
-| `make collect` | coleta nas fontes (Fase 2) |
+| `make collect` | coleta open calls (On the Move) e chamadas acadêmicas (revistas OJS); `--simular` usa as fixtures, sem rede |
+| `make conteudo` | gera post de LinkedIn, carrossel, newsletter e alertas da semana em `content/` (Fase 5) |
 
 Para fixar a data de referência (testes, reprocessar um dia antigo): `CENTRAL_HOJE=2026-09-25 make run`.
 

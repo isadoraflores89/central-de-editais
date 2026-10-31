@@ -11,13 +11,17 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
+from pipeline.config import brand
 from pipeline.models import SCHEMA_VERSION, Edital
 
-LICENCA = "CC-BY-4.0"
-ATRIBUICAO = (
-    "Central de Editais — Flores Produções e Ponto de Cultura Lab Garra. "
-    "Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url)."
-)
+
+def licenca() -> str:
+    return str(brand().get("licenca") or "CC-BY-4.0")
+
+
+def atribuicao() -> str:
+    return str(brand().get("atribuicao") or brand()["nome"]).strip()
+
 
 # Colunas das planilhas (CSV/XLSX), na ordem de leitura humana.
 COLUNAS_PLANILHA: list[tuple[str, str]] = [
@@ -26,6 +30,7 @@ COLUNAS_PLANILHA: list[tuple[str, str]] = [
     ("orgao", "Órgão"),
     ("status", "Status"),
     ("prioridade", "Prioridade"),
+    ("vertical", "Vertical"),
     ("tipo_apoio", "Tipo de apoio"),
     ("mecanismo", "Mecanismo"),
     ("leis_estaduais", "Leis estaduais"),
@@ -44,6 +49,29 @@ COLUNAS_PLANILHA: list[tuple[str, str]] = [
     ("data_limite", "Data-limite"),
     ("fluxo_continuo", "Fluxo contínuo"),
     ("data_abertura", "Abertura"),
+    # Fase 5
+    ("idiomas", "Idiomas"),
+    ("pais_organizador", "País"),
+    ("elegivel_brasileiros", "Aceita brasileiros"),
+    ("formato", "Formato (open call)"),
+    ("taxa_inscricao", "Taxa de inscrição"),
+    ("taxa_moeda", "Moeda da taxa"),
+    ("cobre", "Cobre"),
+    ("moeda", "Moeda"),
+    ("valor_original", "Valor (moeda original)"),
+    ("valor_brl_estimado", "Valor estimado (R$)"),
+    ("modalidade", "Modalidade"),
+    ("formato_academico", "Formato (acadêmico)"),
+    ("periodico", "Periódico"),
+    ("evento", "Evento"),
+    ("issn", "ISSN"),
+    ("qualis", "Qualis"),
+    ("apc", "APC"),
+    ("data_resumo", "Prazo do resumo"),
+    ("data_texto_completo", "Prazo do texto completo"),
+    ("data_evento", "Data do evento"),
+    ("tema_dossie", "Tema do dossiê"),
+    ("link_normas", "Normas"),
     ("resumo", "Resumo"),
     ("link_inscricao", "Link de inscrição"),
     ("link_edital", "Edital oficial"),
@@ -66,8 +94,8 @@ def documento_json(editais: list[Edital], gerado_em: datetime | None = None) -> 
     if gerado_em is not None:
         doc["gerado_em"] = gerado_em.isoformat(timespec="seconds")
     doc |= {
-        "licenca": LICENCA,
-        "atribuicao": ATRIBUICAO,
+        "licenca": licenca(),
+        "atribuicao": atribuicao(),
         "total": len(editais),
         "editais": [e.para_json() for e in ordenar(editais)],
     }
@@ -135,9 +163,9 @@ def escrever_xlsx(editais: list[Edital], destino: Path) -> None:
     ws.auto_filter.ref = ws.dimensions
 
     sobre = wb.create_sheet("Sobre")
-    sobre.append(["Central de Editais"])
-    sobre.append([ATRIBUICAO])
-    sobre.append(["Licença dos dados", LICENCA])
+    sobre.append([str(brand()["nome"])])
+    sobre.append([atribuicao()])
+    sobre.append(["Licença dos dados", licenca()])
     sobre.append(["Gerado em", datetime.now(UTC).isoformat(timespec="seconds")])
     sobre.column_dimensions["A"].width = 100
 
