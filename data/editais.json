@@ -490,7 +490,7 @@
       "data_limite": "2026-10-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Cadastro contínuo da Celesc para selecionar projetos culturais já aprovados na Lei Rouanet, destinando parte do imposto de renda devido como patrocínio. Inscrição pela Central de Editais da Prosas.",
       "link_inscricao": "https://prosas.com.br/editais/15182",
       "link_edital": null,
@@ -505,8 +505,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 30,
+      "updated_at": "2026-10-31T08:13:11Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -518,7 +518,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-31T08:13:11Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -866,7 +874,7 @@
       "data_limite": "2026-10-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "A Celesc mantém cadastro contínuo para selecionar projetos esportivos já aprovados na Lei Federal de Incentivo ao Esporte, destinando parte do imposto de renda devido como patrocínio.",
       "link_inscricao": "https://prosas.com.br/editais/15181-edital-0032024-cadastro-de-projetos-da-lei-federal-de-incentivo-ao-esporte",
       "link_edital": null,
@@ -881,8 +889,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 30,
+      "updated_at": "2026-10-31T08:13:11Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -894,7 +902,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-31T08:13:11Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -2086,7 +2102,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "prioridade": 45,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3210,7 +3226,7 @@
       "data_limite": "2026-10-30",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de iniciativas culturais e esportivas aprovadas em leis municipais de incentivo (Promicult e Promifae em Santos/Guarujá; Procult e Proesporte em Imbituba). Sem limite de propostas ou de valor solicitado; a empresa pode ajustar os aportes. Inscrição pela plataforma Prosas.",
       "link_inscricao": "https://prosas.com.br/editais/17235-banco-de-projetos-incentivados-municipais-2026-santos-brasil",
       "link_edital": null,
@@ -3235,8 +3251,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 10,
+      "updated_at": "2026-10-31T08:13:11Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3249,7 +3265,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-10-31T08:13:11Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [
         "santos-brasil-banco-de-projetos-incentivados-municipais-10f1be"
       ],
