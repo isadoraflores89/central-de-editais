@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-10-30",
+ "atualizado_em": "2026-10-31",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 18,
  "itens": [
-  {
-   "titulo": "Ilustrador(a)",
-   "organizacao": "Bernoulli Educação",
-   "cidade": "Belo Horizonte",
-   "uf": "MG",
-   "remoto": false,
-   "area": "artes_visuais",
-   "regime": "clt",
-   "prazo": "2026-10-30",
-   "salario": "",
-   "resumo": "Vaga de ilustração em editora educacional; inscrições até 30/10.",
-   "link": "https://trabalhenacultura.substack.com/p/belo-horizonte-vaga-para-ilustrador",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Líder de Bilheteria",
    "organizacao": "Museu Catavento",
@@ -255,6 +241,20 @@
    "resumo": "Credenciamento de pareceristas para análise técnica de projetos e candidaturas a premiações em editais municipais vinculados à PNAB.",
    "link": "https://alertalicitacao.com.br/!licitacao/DOU-80a430567915378862f2",
    "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Bolsa de Pesquisa — Painel Dados de Fomento (Observatório da Economia Criativa da Bahia)",
+   "organizacao": "Itaú Cultural / Observatório da Economia Criativa da Bahia (OBEC-BA, UFBA)",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "remoto": false,
+   "area": "economia_criativa",
+   "regime": "bolsa",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Bolsa de pesquisa sobre dados de fomento cultural, restrita a quem está matriculado em pós-graduação lato sensu, mestrado ou doutorado na UFBA.",
+   "link": "https://artvsm.substack.com/p/vagas-de-trabalho-itau-cultural-bolsa",
+   "visto_em": "2026-10-31"
   }
  ]
 }
