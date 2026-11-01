@@ -3,7 +3,8 @@
 
 nome: Central de Editais
 slogan: Radar aberto de editais, open calls e chamadas acadêmicas da cultura
-dominio: radardeeditais.isadoraflores.art.br
+dominio: radardeeditais.isadoraflores.art.br   # páginas de cada edital e API
+dominio_publico: editais.isadoraflores.art.br   # porta de entrada (lista grátis, assinatura, painel)
 responsavel: Flores Educação e Cultura Ltda.
 parceiros:
   - Ponto de Cultura Lab Garra

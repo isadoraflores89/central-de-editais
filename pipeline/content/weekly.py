@@ -126,7 +126,8 @@ def montar_post(editais: list[Edital], hoje: date, b: dict[str, Any]) -> str:
     ]
     fecho = (
         f"A lista completa, com filtros por estado, linguagem e mecanismo, está em "
-        f"https://{b['dominio']}. " + str(b.get("chamada_newsletter") or "")
+        f"https://{b.get('dominio_publico', b['dominio'])}. "
+        + str(b.get("chamada_newsletter") or "")
     ).strip()
     hashtags = " ".join(f"#{h.lstrip('#')}" for h in (b.get("hashtags") or [])[:3])
     texto = "\n\n".join(p for p in [abertura, "\n".join(linhas), fecho, hashtags] if p)
@@ -234,7 +235,8 @@ def montar_newsletter(post: str, b: dict[str, Any], hoje: date) -> str:
         "",
         "acho que você não deveria perder essa oportunidade, {{NOME}}. "
         f"a lista inteira, com filtro por estado, linguagem e mecanismo, tá em "
-        f"https://{b['dominio']}. " + str(b.get("chamada_newsletter") or ""),
+        f"https://{b.get('dominio_publico', b['dominio'])}. "
+        + str(b.get("chamada_newsletter") or ""),
         "",
         str(b.get("assinatura") or ""),
         "",
