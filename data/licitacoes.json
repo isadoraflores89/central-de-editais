@@ -2,7 +2,7 @@
  "atualizado_em": "2026-11-01",
  "fonte": "PNCP — Portal Nacional de Contratações Públicas (busca pública)",
  "licenca": "dados públicos; curadoria CC BY 4.0",
- "total": 505,
+ "total": 497,
  "itens": [
   {
    "id": "18348094000150-1-000097/2026",
@@ -215,19 +215,19 @@
    "link": "https://pncp.gov.br/app/editais/13937032000160/2026/2844"
   },
   {
-   "id": "28741098000157-1-000137/2026",
-   "titulo": "REGIUSTRO DE PREÇOS PARA EVENTUAL AQUISIÇÃO DE INSTRUMENTOS MUSICAIS, ACESSÓRIOS E MATERIAIS PARA BANDAS ESCOLARES.",
-   "edital": "Edital nº 15/2026",
-   "orgao": "MUNICIPIO DE SILVA JARDIM",
-   "unidade": "PREFEITURA MUNICIPAL DE SILVA JARDIM - RJ",
-   "municipio": "Silva Jardim",
-   "uf": "RJ",
+   "id": "18449132000160-1-000152/2026",
+   "titulo": "[LICITANET] - Refere-se à contratação de empresa para prestação de serviços gráficos editoriais para diagramação, tratamento de imagens, criação de capa, preparação de arquivos, pr…",
+   "edital": "Edital nº 122/2026",
+   "orgao": "MUNICIPIO DE FRUTAL",
+   "unidade": "MUNICIPIO DE FRUTAL/MG",
+   "municipio": "Frutal",
+   "uf": "MG",
    "esfera": "Municipal",
    "modalidade": "Pregão - Eletrônico",
    "publicado_em": "2026-10-15",
    "prazo": "2026-11-03",
    "valor": null,
-   "link": "https://pncp.gov.br/app/editais/28741098000157/2026/137"
+   "link": "https://pncp.gov.br/app/editais/18449132000160/2026/152"
   },
   {
    "id": "46137469000178-1-000056/2026",
@@ -243,6 +243,36 @@
    "prazo": "2026-11-03",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/46137469000178/2026/56"
+  },
+  {
+   "id": "28741098000157-1-000137/2026",
+   "titulo": "REGIUSTRO DE PREÇOS PARA EVENTUAL AQUISIÇÃO DE INSTRUMENTOS MUSICAIS, ACESSÓRIOS E MATERIAIS PARA BANDAS ESCOLARES.",
+   "edital": "Edital nº 15/2026",
+   "orgao": "MUNICIPIO DE SILVA JARDIM",
+   "unidade": "PREFEITURA MUNICIPAL DE SILVA JARDIM - RJ",
+   "municipio": "Silva Jardim",
+   "uf": "RJ",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-15",
+   "prazo": "2026-11-03",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/28741098000157/2026/137"
+  },
+  {
+   "id": "13806237000106-1-000220/2026",
+   "titulo": "Contratação de empresa especializada para fornecimento de fardamentos, uniformes e adereços, visando atender as necessidades das aulas do Núcleo de Iniciação em Dança e da Fanfarra…",
+   "edital": "Edital nº PE074-2026/2026",
+   "orgao": "MUNICIPIO DE POJUCA",
+   "unidade": "MUNICIPIO DE POJUCA",
+   "municipio": "Pojuca",
+   "uf": "BA",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-16",
+   "prazo": "2026-11-03",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/13806237000106/2026/220"
   },
   {
    "id": "83028639000102-1-000163/2026",
@@ -350,6 +380,21 @@
    "link": "https://pncp.gov.br/app/editais/18303697000135/2026/9"
   },
   {
+   "id": "75741330000137-1-000373/2026",
+   "titulo": "CREDENCIAMENTO DE ARTISTAS DA ÁREA DA MÚSICA PARA O PALCO CULTURAL DA 22ª EXPOVALE",
+   "edital": "Edital nº 11 - 10001/2026",
+   "orgao": "MUNICIPIO DE IVAIPORA",
+   "unidade": "Unidade administrativa",
+   "municipio": "Ivaiporã",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Credenciamento",
+   "publicado_em": "2026-10-23",
+   "prazo": "2026-11-03",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/75741330000137/2026/373"
+  },
+  {
    "id": "00394502000144-1-014450/2026",
    "titulo": "Aquisição de instrumentos musicais e acessórios para instrumentos musicais",
    "edital": "Aviso de Contratação Direta nº 71/2026",
@@ -393,6 +438,21 @@
    "prazo": "2026-11-03",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/83891283000136/2026/1232"
+  },
+  {
+   "id": "08365900000144-1-000102/2026",
+   "titulo": "Contratação especializada na prestação de serviços técnicos de assessoria musical e vocal, compreendendo a atuação como jurados, orientador musical e técnico vocal, para planejamen…",
+   "edital": "Aviso de Contratação Direta nº 33/2026",
+   "orgao": "MUNICIPIO DE MONTE ALEGRE",
+   "unidade": "MUNICIPIO DE MONTE ALEGRE",
+   "municipio": "Monte Alegre",
+   "uf": "RN",
+   "esfera": "Municipal",
+   "modalidade": "Dispensa",
+   "publicado_em": "2026-10-27",
+   "prazo": "2026-11-03",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/08365900000144/2026/102"
   },
   {
    "id": "76179829000165-1-000285/2026",
@@ -455,21 +515,6 @@
    "link": "https://pncp.gov.br/app/editais/95719472000105/2026/193"
   },
   {
-   "id": "18295329000192-1-000104/2026",
-   "titulo": "“CONTRATAÇÃO DE ASSESSORIA E CONSULTORIA PARA CAPTAÇÃO DE ICMS PATRIMÔNIO CULTURAL ANO/BASE 2026 EXERCÍCIO 2028 EM ATENDIMENTO A GERÊNCIA DE PATRIMÔNIO HISTÓRICO”.",
-   "edital": "Edital nº 032/2026",
-   "orgao": "MUNICIPIO DE OURO BRANCO",
-   "unidade": "PREFEITURA MUNICIPAL DE OURO BRANCO - MG",
-   "municipio": "Ouro Branco",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-07",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18295329000192/2026/104"
-  },
-  {
    "id": "87738530000110-1-001680/2026",
    "titulo": "[Portal de Compras Públicas] - AQUISIÇÃO DE INSTRUMENTOS MUSICAIS, UNIFORMES E MATERIAIS DESTINADOS À BANDA MARCIAL DO MUNICÍPIO DE SOLEDADE, TUDO CONFORME DOCUMENTOS EM ANEXO.",
    "edital": "Edital nº 53/2026",
@@ -500,21 +545,6 @@
    "link": "https://pncp.gov.br/app/editais/13825492000104/2026/115"
   },
   {
-   "id": "01616171000102-1-000090/2026",
-   "titulo": "Registro de preços para fornecimento/aquisição de instrumentos musicais, equipamentos de sonorização, acessórios e materiais correlatos, destinados ao atendimento dos projetos da S…",
-   "edital": "Edital nº 40/2026",
-   "orgao": "MUNICIPIO DE ARMACAO DE BUZIOS",
-   "unidade": "PREFEITURA MUNICIPAL DE ARMAÇÃO DOS BÚZIOS-RJ",
-   "municipio": "Armação dos Búzios",
-   "uf": "RJ",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-15",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/01616171000102/2026/90"
-  },
-  {
    "id": "13937032000160-1-002864/2026",
    "titulo": "Locação de solução audiovisual integrada, com disponibilização de equipamentos, acessórios e mão de obra técnica voltada a (instalação e posterior desinstalação, configuração dos e…",
    "edital": "Edital nº 15/2026/2026",
@@ -543,6 +573,66 @@
    "prazo": "2026-11-04",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/17754136000190/2026/225"
+  },
+  {
+   "id": "89971758000180-1-001317/2026",
+   "titulo": "CONTRATAÇÃO DE SERVIÇO DE INFRAESTRUTURA- ESTRUTURA PARA EVENTO CULTURAL REVEILLON NAS MISSÕES, CONFORME TERMO DE REFERÊNCIA E CONFORME CONVÊNIO MINISTÉRIO DA CULTURA TRANSFEREGOV.…",
+   "edital": "Edital nº 102/2026",
+   "orgao": "MUNICIPIO DE SAO MIGUEL DAS MISSOES",
+   "unidade": "MUNICIPIO DE SAO MIGUEL DAS MISSOES/RS",
+   "municipio": "São Miguel das Missões",
+   "uf": "RS",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-16",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/89971758000180/2026/1317"
+  },
+  {
+   "id": "75771253000168-1-000329/2026",
+   "titulo": "Contratação de empresa especializada para o fornecimento, em regime de locação, de decoração natalina. O objeto compreende transporte, montagem, instalação elétrica temporária, man…",
+   "edital": "Edital nº PCE 72/2026",
+   "orgao": "MUNICIPIO DE APUCARANA",
+   "unidade": "SEMA - Secretaria de Prom. Artística, Cultural e Turismo",
+   "municipio": "Apucarana",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-16",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/75771253000168/2026/329"
+  },
+  {
+   "id": "46523197000144-1-000357/2026",
+   "titulo": "Contratação de empresa ou produtora cultural especializada na produção, promoção, organização, montagem cenográfica e realização do Natal 2026 de Ferraz de Vasconcelos",
+   "edital": "Edital nº 44/2026/2026",
+   "orgao": "MUNICIPIO DE FERRAZ DE VASCONCELOS",
+   "unidade": "Ferraz de Vasconcelos",
+   "municipio": "Ferraz de Vasconcelos",
+   "uf": "SP",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-16",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/46523197000144/2026/357"
+  },
+  {
+   "id": "46352746000165-1-000503/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A REALIZAÇÃO DA PARADA DE NATAL 2026 NO MUNICÍPIO DE BRAGANÇA PAULISTA, COMPREENDENDO A EXECUÇÃO DE 02 (DUAS) APRESENTAÇÕES DE DESFILE TEM…",
+   "edital": "Edital nº 098/2026/2026",
+   "orgao": "MUNICIPIO DE BRAGANCA PAULISTA",
+   "unidade": "Bragança Paulista",
+   "municipio": "Bragança Paulista",
+   "uf": "SP",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-16",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/46352746000165/2026/503"
   },
   {
    "id": "20184969000177-1-000082/2026",
@@ -605,21 +695,6 @@
    "link": "https://pncp.gov.br/app/editais/46631248000151/2026/140"
   },
   {
-   "id": "89971758000180-1-001317/2026",
-   "titulo": "CONTRATAÇÃO DE SERVIÇO DE INFRAESTRUTURA- ESTRUTURA PARA EVENTO CULTURAL REVEILLON NAS MISSÕES, CONFORME TERMO DE REFERÊNCIA E CONFORME CONVÊNIO MINISTÉRIO DA CULTURA TRANSFEREGOV.…",
-   "edital": "Edital nº 102/2026",
-   "orgao": "MUNICIPIO DE SAO MIGUEL DAS MISSOES",
-   "unidade": "MUNICIPIO DE SAO MIGUEL DAS MISSOES/RS",
-   "municipio": "São Miguel das Missões",
-   "uf": "RS",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-16",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/89971758000180/2026/1317"
-  },
-  {
    "id": "87958658000199-1-001105/2026",
    "titulo": "Contratação de empresa especializada na prestação de serviços continuados de Comunicação Integrada, Assessoria de Imprensa, Design Gráfico, Gestão de Mídias Sociais, Produção Audio…",
    "edital": "Edital nº 9310/2026",
@@ -665,6 +740,21 @@
    "link": "https://pncp.gov.br/app/editais/11257464000102/2026/28"
   },
   {
+   "id": "22516405000110-1-000131/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ASSESSORIA E CONSULTORIA TÉCNICA DAS BIBLIOTECAS PÚBLICAS E COMUNITÁRIAS MUNICIPAIS, MUSEUS, MEMORIAL, CONSELHO D…",
+   "edital": "Edital nº 58/2026",
+   "orgao": "MUNICIPIO DE MINAS NOVAS",
+   "unidade": "Unidade Única",
+   "municipio": "Minas Novas",
+   "uf": "MG",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-20",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/22516405000110/2026/131"
+  },
+  {
    "id": "95996187000131-1-000072/2026",
    "titulo": "[Portal de Compras Públicas] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE 01 (UM) GRUPO GERADOR DE ENERGIA ELÉTRICA COM POTÊNCIA DE 150 kVA, PARA…",
    "edital": "Edital nº PE60/2026",
@@ -693,21 +783,6 @@
    "prazo": "2026-11-04",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/27165638000139/2026/310"
-  },
-  {
-   "id": "22516405000110-1-000131/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ASSESSORIA E CONSULTORIA TÉCNICA DAS BIBLIOTECAS PÚBLICAS E COMUNITÁRIAS MUNICIPAIS, MUSEUS, MEMORIAL, CONSELHO D…",
-   "edital": "Edital nº 58/2026",
-   "orgao": "MUNICIPIO DE MINAS NOVAS",
-   "unidade": "Unidade Única",
-   "municipio": "Minas Novas",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-20",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/22516405000110/2026/131"
   },
   {
    "id": "42498733000148-1-002115/2026",
@@ -768,6 +843,21 @@
    "prazo": "2026-11-04",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/75771204000125/2026/141"
+  },
+  {
+   "id": "75741330000137-1-000374/2026",
+   "titulo": "SELEÇÃO DE APRESENTAÇÕES ARTÍSTICAS AMADORAS PARA MOSTRA DE TALENTOS LOCAL DA 22ª EXPOVALE",
+   "edital": "Edital nº 12 - 10001/2026",
+   "orgao": "MUNICIPIO DE IVAIPORA",
+   "unidade": "Unidade administrativa",
+   "municipio": "Ivaiporã",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Credenciamento",
+   "publicado_em": "2026-10-23",
+   "prazo": "2026-11-04",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/75741330000137/2026/374"
   },
   {
    "id": "00394502000144-1-014519/2026",
@@ -860,21 +950,6 @@
    "link": "https://pncp.gov.br/app/editais/10882594000165/2026/645"
   },
   {
-   "id": "13673314000105-1-000175/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A PRESTAÇÃO DE SERVIÇOS DE APOIO ADMINISTRATIVO, ELABORAÇÃO E ORGANIZAÇÃO DE DOCUMENTOS, ORIENTAÇÃO TÉCNICA, TREINAMENTOS E CAPACITAÇÕES D…",
-   "edital": "Aviso de Contratação Direta nº 019/2026/2026",
-   "orgao": "MUNICIPIO DE DOM BASILIO",
-   "unidade": "PREFEITURA MUNICIPAL DE DOM BASILIO",
-   "municipio": "Dom Basílio",
-   "uf": "BA",
-   "esfera": "Municipal",
-   "modalidade": "Dispensa",
-   "publicado_em": "2026-10-28",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/13673314000105/2026/175"
-  },
-  {
    "id": "46638714000120-1-000405/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A REALIZAÇÃO DE SHOW ARTÍSTICO COM 12 (DOZE) PERSONAGENS VIVOS NO EVENTO CHEGADA DO PAPAI NOEL, BEM COMO PARA A PRESTAÇÃO DE SERVIÇOS DE R…",
    "edital": "Aviso de Contratação Direta nº 21/2026/2026",
@@ -918,21 +993,6 @@
    "prazo": "2026-11-04",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/13828496000138/2026/52"
-  },
-  {
-   "id": "01801612000146-1-000883/2026",
-   "titulo": "CONSTITUI-SE O OBJETO DESTE INSTRUMENTO A AQUISIÇÃO (MOCHILAS EM OXFORD PERSONALIZADAS TAMANHO 20X)DESTINADAS A ATENDER ÀS DEMANDAS DA SECRETARIA MUNICIPAL DE CULTURA E TURISMO DES…",
-   "edital": "Aviso de Contratação Direta nº (20466) | 19031-0/2026",
-   "orgao": "MUNICIPIO DE PORANGATU",
-   "unidade": "MUNICIPIO DE PORANGATU",
-   "municipio": "Porangatu",
-   "uf": "GO",
-   "esfera": "Municipal",
-   "modalidade": "Dispensa",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-04",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/01801612000146/2026/883"
   },
   {
    "id": "76460526000116-1-000125/2026",
@@ -1055,21 +1115,6 @@
    "link": "https://pncp.gov.br/app/editais/13937032000160/2026/2890"
   },
   {
-   "id": "83102384000180-1-000310/2026",
-   "titulo": "REGISTRO DE PREÇOS PARA A CONTRATAÇÃO DE EMPRESA(S) ESPECIALIZADA(S) PARA PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO, TRANSPORTE, MONTAGEM, INSTALAÇÃO, OPERAÇÃO TÉCNICA, MANUTENÇÃO, DESMONTA…",
-   "edital": "Edital nº PCE 88/2026",
-   "orgao": "MUNICIPIO DE CANOINHAS",
-   "unidade": "Secretaria Municipal de Governo, Gestão e Relações Institucionais",
-   "municipio": "Canoinhas",
-   "uf": "SC",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-20",
-   "prazo": "2026-11-05",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/83102384000180/2026/310"
-  },
-  {
    "id": "46680500000112-1-000378/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM LOCAÇÃO DE PALCO PARA O CARNAVAL 2027",
    "edital": "Edital nº 118/2026",
@@ -1085,6 +1130,51 @@
    "link": "https://pncp.gov.br/app/editais/46680500000112/2026/378"
   },
   {
+   "id": "18303156000107-1-000273/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA, ESPECIALIZADA PARA A PRESTAÇÃO DE SERVIÇOS TÉCNICOS DESTINADOS À ELABORAÇÃO E EXECUÇÃO DAS ATIVIDADES NECESSÁRIAS À COMPOSIÇÃO DO RELATÓRIO ANUAL DO ICMS PA…",
+   "edital": "Edital nº PL-271/2026",
+   "orgao": "MUNICIPIO DE CONCEICAO DO MATO DENTRO",
+   "unidade": "PODER EXECUTIVO MUNICIPAL",
+   "municipio": "Conceição do Mato Dentro",
+   "uf": "MG",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Presencial",
+   "publicado_em": "2026-10-20",
+   "prazo": "2026-11-05",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/18303156000107/2026/273"
+  },
+  {
+   "id": "41522202000180-1-000024/2026",
+   "titulo": "[Portal de Compras Públicas] - Contratação de empresa especializada para a prestação de serviços socioeducativos integrados, compreendendo a execução de aulas de balé e aulas de ca…",
+   "edital": "Edital nº 007/2026",
+   "orgao": "MUNICIPIO DE QUEIMADA NOVA",
+   "unidade": "Prefeitura Municipal de Queimada Nova",
+   "municipio": "Queimada Nova",
+   "uf": "PI",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-20",
+   "prazo": "2026-11-05",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/41522202000180/2026/24"
+  },
+  {
+   "id": "83102384000180-1-000310/2026",
+   "titulo": "REGISTRO DE PREÇOS PARA A CONTRATAÇÃO DE EMPRESA(S) ESPECIALIZADA(S) PARA PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO, TRANSPORTE, MONTAGEM, INSTALAÇÃO, OPERAÇÃO TÉCNICA, MANUTENÇÃO, DESMONTA…",
+   "edital": "Edital nº PCE 88/2026",
+   "orgao": "MUNICIPIO DE CANOINHAS",
+   "unidade": "Secretaria Municipal de Governo, Gestão e Relações Institucionais",
+   "municipio": "Canoinhas",
+   "uf": "SC",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-20",
+   "prazo": "2026-11-05",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/83102384000180/2026/310"
+  },
+  {
    "id": "83102533000101-1-000188/2026",
    "titulo": "O presente processo licitatório tem por objeto a Contratação de empresas especializadas, em 02 (dois) lotes independentes: Lote 01 - 02 (dois) pacotes de locação de palco profissio…",
    "edital": "Edital nº PCE 112/2026",
@@ -1098,6 +1188,21 @@
    "prazo": "2026-11-05",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/83102533000101/2026/188"
+  },
+  {
+   "id": "28645794000160-1-000081/2026",
+   "titulo": "Seleção de ações culturais do Município de Cantagalo/RJ para concessão de apoio financeiro nas categorias previstas neste Edital, mediante celebração de Termo de Execução Cultural…",
+   "edital": "Edital de Chamamento Público nº 090078/2026",
+   "orgao": "MUNICIPIO DE CANTAGALO",
+   "unidade": "PREFEITURA MUNICIPAL DE CANTAGALO",
+   "municipio": "Cantagalo",
+   "uf": "RJ",
+   "esfera": "Municipal",
+   "modalidade": "Credenciamento",
+   "publicado_em": "2026-10-21",
+   "prazo": "2026-11-05",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/28645794000160/2026/81"
   },
   {
    "id": "75969667000104-1-000110/2026",
@@ -1220,21 +1325,6 @@
    "link": "https://pncp.gov.br/app/editais/27142058000126/2026/699"
   },
   {
-   "id": "18277947000100-1-000361/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ORNAMENTAÇÃO DO EVENTO RÉVEILLON 2026/2027, PROMOVIDO PELA PREFEITURA MUNICIPAL DE GUARDA-MOR/MG, VISANDO À VALOR…",
-   "edital": "Aviso de Contratação Direta nº 09/2026",
-   "orgao": "MUNICIPIO DE GUARDA-MOR",
-   "unidade": "FUMTUR-FUNDO MUNICIPAL DO TURISMO",
-   "municipio": "Guarda-Mor",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Dispensa",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-05",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18277947000100/2026/361"
-  },
-  {
    "id": "00394452000103-1-023198/2026",
    "titulo": "Espeto LED verde 7W IP65 - Brilia (referência) Refletor LED RGB 400W IP67 - ISITRON (potência anunciada; pendente de validação) Mangueira LED RGB IP67 127V - ISITRON, rolo de 100 m…",
    "edital": "Aviso de Contratação Direta nº 60/2026",
@@ -1355,6 +1445,21 @@
    "link": "https://pncp.gov.br/app/editais/83102277000152/2026/586"
   },
   {
+   "id": "15023930000138-1-000126/2026",
+   "titulo": "[Portal de Compras Públicas] - Contratação de empresa especializada para o fornecimento, instalação e entrega em pleno funcionamento de sistema de sonorização e painel de LED, incl…",
+   "edital": "Edital nº 038/2026",
+   "orgao": "MUNICIPIO DE COLIDER",
+   "unidade": "PREFEITURA MUNICIPAL DE COLIDER",
+   "municipio": "Colíder",
+   "uf": "MT",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-19",
+   "prazo": "2026-11-06",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/15023930000138/2026/126"
+  },
+  {
    "id": "01409580000138-1-001598/2026",
    "titulo": "Contratação de empresa especializada na prestação de serviços de coordenação geral, planejamento, organização, produção, infraestrutura, operação e execução física de 02 (dois) eve…",
    "edital": "Edital nº 122998/2026",
@@ -1368,6 +1473,21 @@
    "prazo": "2026-11-06",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/01409580000138/2026/1598"
+  },
+  {
+   "id": "15023930000138-1-000127/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA O FORNECIMENTO, INSTALAÇÃO E ENTREGA EM PLENO FUNCIONAMENTO DE SISTEMA DE SONORIZAÇÃO E PAINEL DE LED, INCLUINDO TODOS OS EQUIPAMENTOS, CO…",
+   "edital": "Edital nº 83/2026",
+   "orgao": "MUNICIPIO DE COLIDER",
+   "unidade": "PREFEITURA MUNICIPAL DE COLIDER",
+   "municipio": "Colíder",
+   "uf": "MT",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-20",
+   "prazo": "2026-11-06",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/15023930000138/2026/127"
   },
   {
    "id": "82826462000127-1-000077/2026",
@@ -1458,6 +1578,21 @@
    "prazo": "2026-11-06",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/87896874000157/2026/333"
+  },
+  {
+   "id": "76170240000104-1-000277/2026",
+   "titulo": "Registro de preços para locação de árvores de natal decoradas e sonorização externa.",
+   "edital": "Edital nº PCE 86/2026",
+   "orgao": "MUNICIPIO DE TELEMACO BORBA",
+   "unidade": "SMCER -  Divisão Cultural",
+   "municipio": "Telêmaco Borba",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-22",
+   "prazo": "2026-11-06",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/76170240000104/2026/277"
   },
   {
    "id": "18298190000130-1-000110/2026",
@@ -1610,6 +1745,21 @@
    "link": "https://pncp.gov.br/app/editais/75743377000130/2026/186"
   },
   {
+   "id": "88756879000147-1-000561/2026",
+   "titulo": "[Portal de Compras Públicas] - Constitui objeto da presente licitação a Contratação de empresa para criação, locação, ajustes, instalação e manutenção de itens de decoração natalin…",
+   "edital": "Edital nº 80/2026",
+   "orgao": "MUNICIPIO DE SAO FRANCISCO DE PAULA",
+   "unidade": "Prefeitura Municipal de São Francisco de Paula",
+   "municipio": "São Francisco de Paula",
+   "uf": "RS",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-19",
+   "prazo": "2026-11-09",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/88756879000147/2026/561"
+  },
+  {
    "id": "75425314000135-1-000246/2026",
    "titulo": "AQUISICAO DE INSTRUMENTOS MUSICAIS ACESSORIOS INSUMOS E EQUIPAMENTOS DE AUDIO DESTINADOS A MANUTENCAO E AO SUPORTE DAS OFICINAS ARTISTICAS E DEMAIS ATIVIDADES DESENVOLVIDAS PELA SE…",
    "edital": "Edital nº 71 | Processo 261/2026",
@@ -1685,21 +1835,6 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4193"
   },
   {
-   "id": "18316281000151-1-000144/2026",
-   "titulo": "Contratação de empresa especializada para a prestação de serviços técnicos de consultoria e assessoria na elaboração, desenvolvimento, acompanhamento e execução da Política Municip…",
-   "edital": "Edital nº 068/2026",
-   "orgao": "MUNICIPIO DE URUCANIA",
-   "unidade": "Unidade Única",
-   "municipio": "Urucânia",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-21",
-   "prazo": "2026-11-09",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18316281000151/2026/144"
-  },
-  {
    "id": "75123125000108-1-000165/2026",
    "titulo": "Serviços de sonorização e iluminação,praticaveis emicrofones para atender o evento NATAL",
    "edital": "Edital nº 5/2026",
@@ -1713,6 +1848,21 @@
    "prazo": "2026-11-09",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/75123125000108/2026/165"
+  },
+  {
+   "id": "18316281000151-1-000144/2026",
+   "titulo": "Contratação de empresa especializada para a prestação de serviços técnicos de consultoria e assessoria na elaboração, desenvolvimento, acompanhamento e execução da Política Municip…",
+   "edital": "Edital nº 068/2026",
+   "orgao": "MUNICIPIO DE URUCANIA",
+   "unidade": "Unidade Única",
+   "municipio": "Urucânia",
+   "uf": "MG",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-21",
+   "prazo": "2026-11-09",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/18316281000151/2026/144"
   },
   {
    "id": "76639384000159-1-000251/2026",
@@ -1730,6 +1880,21 @@
    "link": "https://pncp.gov.br/app/editais/76639384000159/2026/251"
   },
   {
+   "id": "13650403000128-1-000473/2026",
+   "titulo": "Contratação de empresa especializada em fornecimento de uniformes e instrumentos de capoeira, destinados ao atendimento das atividades do projeto de capoeira, a fim de atender as d…",
+   "edital": "Edital nº PE-182/2026",
+   "orgao": "MUNICIPIO DE TEIXEIRA DE FREITAS",
+   "unidade": "Prefeitura Municipal de Teixeira de Freitas",
+   "municipio": "Teixeira de Freitas",
+   "uf": "BA",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-23",
+   "prazo": "2026-11-09",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/13650403000128/2026/473"
+  },
+  {
    "id": "18668368000198-1-000249/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE LOCAÇÃO DE SOM, ILUMINAÇÃO, PISO, CORTINAS PARA O 2º FESTIVAL DE BALET DE JURUAIA NO DIA 21 DE NOVEMBRO DE 2026, REALIZADO PELO…",
    "edital": "Edital nº 000101/2026",
@@ -1743,6 +1908,21 @@
    "prazo": "2026-11-09",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/18668368000198/2026/249"
+  },
+  {
+   "id": "17695008000112-1-000162/2026",
+   "titulo": "Registro de Preços para a contratação de empresa especializada na prestação de serviços de brigadistas profissionais uniformizados. Os profissionais atuarão em eventos artísticos…",
+   "edital": "Edital nº 104/2026",
+   "orgao": "MUNICIPIO DE TRES MARIAS",
+   "unidade": "Unidade Única",
+   "municipio": "Três Marias",
+   "uf": "MG",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-23",
+   "prazo": "2026-11-09",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/17695008000112/2026/162"
   },
   {
    "id": "18668368000198-1-000247/2026",
@@ -1835,21 +2015,6 @@
    "link": "https://pncp.gov.br/app/editais/46068425000133/2026/2084"
   },
   {
-   "id": "17754136000190-1-000227/2026",
-   "titulo": "Registro de preços para aquisição de instrumentos musicais a fim de atender às necessidades da Banda Mirim Prefeito Antônio de Carvalho Cruz e da Orquestra Sinfônica Jovem de Diama…",
-   "edital": "Edital nº 41/2026",
-   "orgao": "MUNICIPIO DE DIAMANTINA",
-   "unidade": "Secretaria Municipal de Cultura e Patrimônio Histórico",
-   "municipio": "Diamantina",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-19",
-   "prazo": "2026-11-10",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/17754136000190/2026/227"
-  },
-  {
    "id": "17754136000190-1-000229/2026",
    "titulo": "Registro de preços para aquisição de Instrumentos Musicais a fim de atender às necessidades da Banda Mirim Prefeito Antônio de Carvalho Cruz e a Orquestra Sinfônica Jovem de Diaman…",
    "edital": "Edital nº PRE 41/2026",
@@ -1863,6 +2028,21 @@
    "prazo": "2026-11-10",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/17754136000190/2026/229"
+  },
+  {
+   "id": "17754136000190-1-000227/2026",
+   "titulo": "Registro de preços para aquisição de instrumentos musicais a fim de atender às necessidades da Banda Mirim Prefeito Antônio de Carvalho Cruz e da Orquestra Sinfônica Jovem de Diama…",
+   "edital": "Edital nº 41/2026",
+   "orgao": "MUNICIPIO DE DIAMANTINA",
+   "unidade": "Secretaria Municipal de Cultura e Patrimônio Histórico",
+   "municipio": "Diamantina",
+   "uf": "MG",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-19",
+   "prazo": "2026-11-10",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/17754136000190/2026/227"
   },
   {
    "id": "25223009000192-1-000091/2026",
@@ -1940,6 +2120,21 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4229"
   },
   {
+   "id": "83024257000100-1-000492/2026",
+   "titulo": "contratação de empresa(s) especializada(s) para a prestação de serviços de locação, montagem, operação e desmontagem de estruturas de palco, arquibancadas, sonorização, iluminação…",
+   "edital": "Edital nº PCE 156/2026",
+   "orgao": "MUNICIPIO DE CONCORDIA",
+   "unidade": "Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação - SEDETI",
+   "municipio": "Concórdia",
+   "uf": "SC",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-23",
+   "prazo": "2026-11-10",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/83024257000100/2026/492"
+  },
+  {
    "id": "82854670000130-1-000409/2026",
    "titulo": "[Portal de Compras Públicas] - Aquisição de piano acústico vertical, novo, acompanhado de banqueta compatível, e estantes de partitura tipo orquestral, novas, destinados às ativida…",
    "edital": "Edital nº PE43/2026",
@@ -1998,6 +2193,21 @@
    "prazo": "2026-11-10",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/1114"
+  },
+  {
+   "id": "01409580000138-1-001649/2026",
+   "titulo": "Aquisição de instrumentos musicais para o corpo musical da polícia militar do Estado de Goiás.",
+   "edital": "Edital nº 118938/2026",
+   "orgao": "ESTADO DE GOIAS",
+   "unidade": "POLÍCIA MILITAR DO ESTADO DE GOIÁS/GO",
+   "municipio": "Goiânia",
+   "uf": "GO",
+   "esfera": "Estadual",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-26",
+   "prazo": "2026-11-10",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/01409580000138/2026/1649"
   },
   {
    "id": "46585956000101-1-000050/2026",
@@ -2150,21 +2360,6 @@
    "link": "https://pncp.gov.br/app/editais/46634614000126/2026/221"
   },
   {
-   "id": "95587770000199-1-000129/2026",
-   "titulo": "FORMAÇÃO DE REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE EQUIPAMENTOS DESTINADOS À REALIZAÇÃO DE FUTUROS EVENTOS PROMOVIDOS PELO MUNICÍPIO, COMTEMP…",
-   "edital": "Edital nº 59/2026",
-   "orgao": "MUNICIPIO DE RIO BONITO DO IGUACU",
-   "unidade": "PREFEITURA MUNICIPAL DE RIO BONITO DO IGUAÇU - PR",
-   "municipio": "Rio Bonito do Iguaçu",
-   "uf": "PR",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-26",
-   "prazo": "2026-11-11",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/95587770000199/2026/129"
-  },
-  {
    "id": "46522991000173-1-000150/2026",
    "titulo": "PREST. SERV. ESPEC. EVENTOS ARTISTICOS",
    "edital": "Edital nº 00034/2026",
@@ -2178,6 +2373,21 @@
    "prazo": "2026-11-11",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/46522991000173/2026/150"
+  },
+  {
+   "id": "95587770000199-1-000129/2026",
+   "titulo": "FORMAÇÃO DE REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE EQUIPAMENTOS DESTINADOS À REALIZAÇÃO DE FUTUROS EVENTOS PROMOVIDOS PELO MUNICÍPIO, COMTEMP…",
+   "edital": "Edital nº 59/2026",
+   "orgao": "MUNICIPIO DE RIO BONITO DO IGUACU",
+   "unidade": "PREFEITURA MUNICIPAL DE RIO BONITO DO IGUAÇU - PR",
+   "municipio": "Rio Bonito do Iguaçu",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-26",
+   "prazo": "2026-11-11",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/95587770000199/2026/129"
   },
   {
    "id": "00394452000103-1-022903/2026",
@@ -2210,21 +2420,6 @@
    "link": "https://pncp.gov.br/app/editais/76407568000193/2026/65"
   },
   {
-   "id": "03434792000109-1-000091/2026",
-   "titulo": "Contratação de empresa especializada para prestação continuada de serviços de produção audiovisual, com disponibilização de estrutura integrada.",
-   "edital": "Edital nº 45/2026",
-   "orgao": "MUNICIPIO DE PONTA PORA",
-   "unidade": "Prefeitura Municipal de Ponta Porã - MS",
-   "municipio": "Ponta Porã",
-   "uf": "MS",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-27",
-   "prazo": "2026-11-11",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/03434792000109/2026/91"
-  },
-  {
    "id": "82892357000196-1-000082/2026",
    "titulo": "Registro de preços para futura e eventual aquisição de tecido para cenografia, postes balizadores de jardim, madeira aparelhada para bancos de praça e ponte japonesa em madeira tra…",
    "edital": "Edital nº PE 41/2026",
@@ -2238,6 +2433,36 @@
    "prazo": "2026-11-11",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/82892357000196/2026/82"
+  },
+  {
+   "id": "88117700000101-1-000295/2026",
+   "titulo": "Aquisição de livros literários destinados à Educação Infantil e ao Ensino Fundamental da Rede Municipal de Ensino.",
+   "edital": "Edital nº 0079/2026",
+   "orgao": "MUNICIPIO DE SAO JERONIMO",
+   "unidade": "PREFEITURA MUNICIPAL DE SÃO JERÔNIMO",
+   "municipio": "São Jerônimo",
+   "uf": "RS",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-27",
+   "prazo": "2026-11-11",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/88117700000101/2026/295"
+  },
+  {
+   "id": "03434792000109-1-000091/2026",
+   "titulo": "Contratação de empresa especializada para prestação continuada de serviços de produção audiovisual, com disponibilização de estrutura integrada.",
+   "edital": "Edital nº 45/2026",
+   "orgao": "MUNICIPIO DE PONTA PORA",
+   "unidade": "Prefeitura Municipal de Ponta Porã - MS",
+   "municipio": "Ponta Porã",
+   "uf": "MS",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-27",
+   "prazo": "2026-11-11",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/03434792000109/2026/91"
   },
   {
    "id": "18315200000107-1-000041/2026",
@@ -2270,19 +2495,19 @@
    "link": "https://pncp.gov.br/app/editais/63025530000104/2026/4385"
   },
   {
-   "id": "18295329000192-1-000068/2026",
-   "titulo": "“CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A ELABORAÇÃO DOS PROJETOS DE ARQUITETURA E PROJETOS COMPLEMENTARES, DESTINADOS À EXECUÇÃO DO PROJETO DE RESTAURAÇÃO E CONSERVA…",
-   "edital": "Edital nº 007/2026",
-   "orgao": "MUNICIPIO DE OURO BRANCO",
-   "unidade": "PREFEITURA MUNICIPAL DE OURO BRANCO - MG",
-   "municipio": "Ouro Branco",
-   "uf": "MG",
+   "id": "76995448000154-1-000141/2026",
+   "titulo": "Contratação de pessoa jurídica especializada para a realização de 24 (vinte e quatro) apresentações itinerantes de banda musical natalina, com duração mínima de 60 (sessenta) minut…",
+   "edital": "Edital nº 53/2026",
+   "orgao": "MUNICIPIO DE PATO BRANCO",
+   "unidade": "PREFEITURA MUNICIPAL DE PATO BRANCO - PR",
+   "municipio": "Pato Branco",
+   "uf": "PR",
    "esfera": "Municipal",
-   "modalidade": "Concorrência - Eletrônica",
-   "publicado_em": "2026-07-31",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-09-03",
    "prazo": "2026-11-12",
    "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18295329000192/2026/68"
+   "link": "https://pncp.gov.br/app/editais/76995448000154/2026/141"
   },
   {
    "id": "16870974000166-1-000164/2026",
@@ -2330,21 +2555,6 @@
    "link": "https://pncp.gov.br/app/editais/23964950000131/2026/65"
   },
   {
-   "id": "15023898000190-1-000096/2026",
-   "titulo": "AQUISIÇÃO DE INSTRUMENTOS MUSICAIS, ACESSÓRIOS, MATERIAIS DE REPOSIÇÃO E EQUIPAMENTOS COMPLEMENTARES, DESTINADOS A ATENDER ÀS DEMANDAS PEDAGÓGICAS, DE FORMAÇÃO ARTÍSTICA E DE APRES…",
-   "edital": "Edital nº 0000029/2026",
-   "orgao": "MUNICIPIO DE AGUA BOA",
-   "unidade": "MUNICÍPIO DE ÁGUA BOA/MT",
-   "municipio": "Água Boa",
-   "uf": "MT",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-22",
-   "prazo": "2026-11-12",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/15023898000190/2026/96"
-  },
-  {
    "id": "19875046000182-1-000156/2026",
    "titulo": "Contratação de empresa, para prestação de serviços de realização de laudos do estado de conservação, tombamento, registro, ações de educação patrimonial, conforme exigência do IEPH…",
    "edital": "Edital nº 70/2026",
@@ -2358,6 +2568,21 @@
    "prazo": "2026-11-12",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/19875046000182/2026/156"
+  },
+  {
+   "id": "15023898000190-1-000096/2026",
+   "titulo": "AQUISIÇÃO DE INSTRUMENTOS MUSICAIS, ACESSÓRIOS, MATERIAIS DE REPOSIÇÃO E EQUIPAMENTOS COMPLEMENTARES, DESTINADOS A ATENDER ÀS DEMANDAS PEDAGÓGICAS, DE FORMAÇÃO ARTÍSTICA E DE APRES…",
+   "edital": "Edital nº 0000029/2026",
+   "orgao": "MUNICIPIO DE AGUA BOA",
+   "unidade": "MUNICÍPIO DE ÁGUA BOA/MT",
+   "municipio": "Água Boa",
+   "uf": "MT",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-22",
+   "prazo": "2026-11-12",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/15023898000190/2026/96"
   },
   {
    "id": "63025530000104-1-004234/2026",
@@ -2540,21 +2765,6 @@
    "link": "https://pncp.gov.br/app/editais/76995448000154/2026/183"
   },
   {
-   "id": "27174093002090-1-000041/2026",
-   "titulo": "[Portal de Compras Públicas] - Aquisicao de INSTRUMENTOS MUSICAIS DESTINADOS A MODERNIZACAO E RENOVACAO DO ACERVO DA BANDA MARCIAL MANOEL CARLOS DE MIRANDA NO AMBITO DO CIRCUITO CI…",
-   "edital": "Edital nº 81/2026",
-   "orgao": "MUNICIPIO DA SERRA",
-   "unidade": "SECRETARIA DE TURISMO, CULTURA, ESPORTE E LAZER",
-   "municipio": "Serra",
-   "uf": "ES",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-12",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/27174093002090/2026/41"
-  },
-  {
    "id": "03238862000145-1-000095/2026",
    "titulo": "SELEÇÃO DE 1 (UM) PROJETO CULTURAL DESTINADO À REALIZAÇÃO INTEGRAL DA CAVALGADA CULTURAL E TRADIÇÕES SERTANEJAS DE VILA RICA – MT, COMPREENDENDO A CONCEPÇÃO, O PLANEJAMENTO, A ORGA…",
    "edital": "Edital de Chamamento Público nº CRE 9/2026",
@@ -2568,6 +2778,21 @@
    "prazo": "2026-11-12",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/03238862000145/2026/95"
+  },
+  {
+   "id": "27174093002090-1-000041/2026",
+   "titulo": "[Portal de Compras Públicas] - Aquisicao de INSTRUMENTOS MUSICAIS DESTINADOS A MODERNIZACAO E RENOVACAO DO ACERVO DA BANDA MARCIAL MANOEL CARLOS DE MIRANDA NO AMBITO DO CIRCUITO CI…",
+   "edital": "Edital nº 81/2026",
+   "orgao": "MUNICIPIO DA SERRA",
+   "unidade": "SECRETARIA DE TURISMO, CULTURA, ESPORTE E LAZER",
+   "municipio": "Serra",
+   "uf": "ES",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-29",
+   "prazo": "2026-11-12",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/27174093002090/2026/41"
   },
   {
    "id": "10791831000182-1-000026/2026",
@@ -2660,19 +2885,19 @@
    "link": "https://pncp.gov.br/app/editais/18677633000102/2026/27"
   },
   {
-   "id": "46523072000114-1-000134/2026",
-   "titulo": "Contratação de empresa especializada para o fornecimento, montagem, manutenção e desmontagem de infraestrutura decorativa, cenográfica e de iluminação destinada à realização do 9º…",
-   "edital": "Edital nº P-023/2026/2026",
-   "orgao": "MUNICIPIO DE FRANCISCO MORATO",
-   "unidade": "Francisco Morato",
-   "municipio": "Francisco Morato",
-   "uf": "SP",
+   "id": "42498733000148-1-002167/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE ORGANIZAÇÃO E PRODUÇÃO DE EVENTOS, COMPREENDENDO O PLANEJAMENTO OPERACIONAL, EXECUÇÃO, ACOMPANHAMENTO, FORNECIMENTO…",
+   "edital": "Edital nº 1894/2026",
+   "orgao": "MUNICIPIO DE RIO DE JANEIRO",
+   "unidade": "MRJ-PREFEITURA MUNICIPAL DO RIO DE JANEIRO",
+   "municipio": "Rio de Janeiro",
+   "uf": "RJ",
    "esfera": "Municipal",
    "modalidade": "Pregão - Eletrônico",
    "publicado_em": "2026-10-28",
    "prazo": "2026-11-13",
    "valor": null,
-   "link": "https://pncp.gov.br/app/editais/46523072000114/2026/134"
+   "link": "https://pncp.gov.br/app/editais/42498733000148/2026/2167"
   },
   {
    "id": "76995430000152-1-000191/2026",
@@ -2720,21 +2945,6 @@
    "link": "https://pncp.gov.br/app/editais/18083659000114/2026/70"
   },
   {
-   "id": "42498733000148-1-002167/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE ORGANIZAÇÃO E PRODUÇÃO DE EVENTOS, COMPREENDENDO O PLANEJAMENTO OPERACIONAL, EXECUÇÃO, ACOMPANHAMENTO, FORNECIMENTO…",
-   "edital": "Edital nº 1894/2026",
-   "orgao": "MUNICIPIO DE RIO DE JANEIRO",
-   "unidade": "MRJ-PREFEITURA MUNICIPAL DO RIO DE JANEIRO",
-   "municipio": "Rio de Janeiro",
-   "uf": "RJ",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-28",
-   "prazo": "2026-11-13",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/42498733000148/2026/2167"
-  },
-  {
    "id": "76238435000130-1-000134/2026",
    "titulo": "REGISTRO DE PREÇO PARA FUTURA CONTRATAÇÃO DE ITENS PARA A REALIZAÇÃO DE EVENTOS DE GRANDE PORTE COMO EXPOSIÇÕES AGROPECUÁRIAS, SHOWS E EVENTOS CULTURAIS, DESTINADOS A SECRETARIA DE…",
    "edital": "Edital nº 56/2026",
@@ -2750,21 +2960,6 @@
    "link": "https://pncp.gov.br/app/editais/76238435000130/2026/134"
   },
   {
-   "id": "46680500000112-1-000393/2026",
-   "titulo": "PE 123/2026 - REGISTRO DE PREÇOS PARA FUTURA AQUISIÇÃO DE KITS LANCHES PARA EVENTOS CULTURAIS E O CARNAVAL 2027",
-   "edital": "Edital nº 123/2026",
-   "orgao": "MUNICIPIO DE GUARATINGUETA",
-   "unidade": "GERAL",
-   "municipio": "Guaratinguetá",
-   "uf": "SP",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-13",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/46680500000112/2026/393"
-  },
-  {
    "id": "26474056000171-1-000288/2026",
    "titulo": "Contratação de empresa especializada para a prestação de serviços de assistente administrativo e de atividades auxiliares, de natureza acessória, instrumental e complementar para a…",
    "edital": "Edital nº 25/2026",
@@ -2778,6 +2973,21 @@
    "prazo": "2026-11-13",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/26474056000171/2026/288"
+  },
+  {
+   "id": "46680500000112-1-000393/2026",
+   "titulo": "PE 123/2026 - REGISTRO DE PREÇOS PARA FUTURA AQUISIÇÃO DE KITS LANCHES PARA EVENTOS CULTURAIS E O CARNAVAL 2027",
+   "edital": "Edital nº 123/2026",
+   "orgao": "MUNICIPIO DE GUARATINGUETA",
+   "unidade": "GERAL",
+   "municipio": "Guaratinguetá",
+   "uf": "SP",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-29",
+   "prazo": "2026-11-13",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/46680500000112/2026/393"
   },
   {
    "id": "76208487000164-1-000352/2026",
@@ -2855,21 +3065,6 @@
    "link": "https://pncp.gov.br/app/editais/27142058000126/2026/691"
   },
   {
-   "id": "18308742000144-1-000118/2026",
-   "titulo": "Registro de Preços para eventual aquisição de instrumentos musicais de percussão, acessórios, peças de reposição e indumentárias destinados a grupos musicais e manifestações cultur…",
-   "edital": "Edital nº 58/2026",
-   "orgao": "MUNICIPIO DE ITAPECERICA",
-   "unidade": "Prefeitura Municipal de Itapecerica - MG",
-   "municipio": "Itapecerica",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-28",
-   "prazo": "2026-11-16",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18308742000144/2026/118"
-  },
-  {
    "id": "64750296000140-1-000168/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS DE ASSESSORIA E CONSULTORIA PARA ESTRUTURAÇÃO, ELABORAÇÃO, INSCRIÇÃO, ACOMPANHAMENTO, EXEC…",
    "edital": "Edital nº (102554) | 32-0/2026",
@@ -2898,6 +3093,21 @@
    "prazo": "2026-11-16",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/18682930000138/2026/106"
+  },
+  {
+   "id": "24950495000188-1-000162/2026",
+   "titulo": "[LICITANET] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE CENOGRAFIA, AMBIENTAÇÃO, DECORAÇÃO, MONTAGEM E AMBIENTAÇÃO…",
+   "edital": "Edital nº 075/2026",
+   "orgao": "MUNICIPIO DE CAMPO VERDE",
+   "unidade": "MUNICÍPIO DE CAMPO VERDE/MT",
+   "municipio": "Campo Verde",
+   "uf": "MT",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-28",
+   "prazo": "2026-11-16",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/24950495000188/2026/162"
   },
   {
    "id": "18094763000104-1-000069/2026",
@@ -3110,6 +3320,21 @@
    "link": "https://pncp.gov.br/app/editais/01609408000128/2026/188"
   },
   {
+   "id": "76279967000116-1-000088/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE TREINAMENTO E INICIAÇÃO ESPORTIVA, ARTÍSTICA E ATIVIDADES SÓCIO EDUCACIONAL, JUNTO AS SECRETARIAS: ESPORTE, CULTURA E TURISMO…",
+   "edital": "Edital nº PE 37/2026",
+   "orgao": "MUNICIPIO DE ALTO PARANA",
+   "unidade": "PREFEITURA MUNICIPAL DE ALTO PARANÁ",
+   "municipio": "Alto Paraná",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-28",
+   "prazo": "2026-11-17",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/76279967000116/2026/88"
+  },
+  {
    "id": "18025940000109-1-000329/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRODUÇÃO E EXECUÇÃO DE EVENTOS DE GRANDE PORTE, DESTINADA À ORGANIZAÇÃO E REALIZAÇÃO DAS FESTIVIDADES NATALINAS E DE RÉVEILLON DO MUNICÍPIO…",
    "edital": "Edital nº PL-342/2026",
@@ -3153,21 +3378,6 @@
    "prazo": "2026-11-17",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/01616520000196/2026/138"
-  },
-  {
-   "id": "13701651000150-1-000101/2026",
-   "titulo": "contratação de empresa especializada, mediante sistema de registro de preços, para eventual prestação de SERVIÇO DE ARBITRAGEM ESPORTIVA, JULGAMENTO TÉCNICO DE MODALIDADES ESPORTIV…",
-   "edital": "Edital nº 14/2026",
-   "orgao": "MUNICIPIO DE IPIAU",
-   "unidade": "MBA-PREFEITURA MUNICIPAL DE IPIAU",
-   "municipio": "Ipiaú",
-   "uf": "BA",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-17",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/13701651000150/2026/101"
   },
   {
    "id": "88000914000101-1-000244/2026",
@@ -3275,21 +3485,6 @@
    "link": "https://pncp.gov.br/app/editais/77816510000166/2026/343"
   },
   {
-   "id": "18677591000100-1-000550/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA AGENCIAMENTO E EXECUÇÃO DE APRESENTAÇÕES CULTURAIS E ARTÍSTICAS NA PROGRAMAÇÃO ANUAL DE EVENTOS DO MUNICÍPIO DE EXTREMA/MG, COM FORNECIMEN…",
-   "edital": "Edital nº 000144/2026",
-   "orgao": "MUNICIPIO DE EXTREMA",
-   "unidade": "Unidade Única",
-   "municipio": "Extrema",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-28",
-   "prazo": "2026-11-18",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18677591000100/2026/550"
-  },
-  {
    "id": "07933452000175-1-000010/2026",
    "titulo": "Aquisição de livros de literatura infantil de acervo bibliográfico e cultural, destinados à composição do acervo do Laboratório de Práticas Pedagógicas (LPP) do Curso de Pedagogia…",
    "edital": "Edital nº PCE 10/2026",
@@ -3305,19 +3500,19 @@
    "link": "https://pncp.gov.br/app/editais/07933452000175/2026/10"
   },
   {
-   "id": "06096853000155-1-000052/2026",
-   "titulo": "Registro de preço para futura contratação de empresa especializada para prestação de serviços de locação de estrutura de palco, tablado, camarote, estrutura de fechamento em metrag…",
-   "edital": "Edital nº PE 023/2026/2026",
-   "orgao": "MUNICIPIO DE ALDEIAS ALTAS",
-   "unidade": "PREFEITURA MUNICIPAL DE ALDEIAS ALTAS",
-   "municipio": "Aldeias Altas",
-   "uf": "MA",
+   "id": "18677591000100-1-000550/2026",
+   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA AGENCIAMENTO E EXECUÇÃO DE APRESENTAÇÕES CULTURAIS E ARTÍSTICAS NA PROGRAMAÇÃO ANUAL DE EVENTOS DO MUNICÍPIO DE EXTREMA/MG, COM FORNECIMEN…",
+   "edital": "Edital nº 000144/2026",
+   "orgao": "MUNICIPIO DE EXTREMA",
+   "unidade": "Unidade Única",
+   "municipio": "Extrema",
+   "uf": "MG",
    "esfera": "Municipal",
    "modalidade": "Pregão - Eletrônico",
    "publicado_em": "2026-10-28",
    "prazo": "2026-11-18",
    "valor": null,
-   "link": "https://pncp.gov.br/app/editais/06096853000155/2026/52"
+   "link": "https://pncp.gov.br/app/editais/18677591000100/2026/550"
   },
   {
    "id": "13937032000160-1-002989/2026",
@@ -3335,21 +3530,6 @@
    "link": "https://pncp.gov.br/app/editais/13937032000160/2026/2989"
   },
   {
-   "id": "04380507000179-1-000151/2026",
-   "titulo": "[LICITANET] - CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE SONORIZAÇÃO PROFISSIONAL, MEDIANTE DISPONIBILIZAÇÃO TEMPORÁRIA DOS EQUIPAMENTOS E ESTRUTURAS NECESSÁRIAS, INCLUIN…",
-   "edital": "Edital nº 69/2026",
-   "orgao": "MUNICIPIO DE OURO PRETO DO OESTE",
-   "unidade": "MUNICÍPIO DA ESTÂNCIA TURISTICA DE OURO PRETO DO OESTE/RO",
-   "municipio": "Ouro Preto do Oeste",
-   "uf": "RO",
-   "esfera": "Municipal",
-   "modalidade": "Pregão - Eletrônico",
-   "publicado_em": "2026-10-29",
-   "prazo": "2026-11-18",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/04380507000179/2026/151"
-  },
-  {
    "id": "04812532000184-1-000047/2026",
    "titulo": "CONTRATAÇÃO DE EMPRESA PARA FORNECIMENTO DE EQUIPAMENTOS DESTINADOS À IMPLEMENTAÇÃO E MODERNIZAÇÃO DO SISTEMA DE TRANSMISSÃO AUDIOVISUAL E VOTAÇÃO ELETRÔNICA DA CÂMARA MUNICIPAL DE…",
    "edital": "Edital nº 00422026/2026",
@@ -3365,19 +3545,19 @@
    "link": "https://pncp.gov.br/app/editais/04812532000184/2026/47"
   },
   {
-   "id": "76205681000196-1-000121/2026",
-   "titulo": "REGISTRO DE PREÇOS PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE SOM, ILUMINAÇÃO, GRADES E CORRENTES DE ISOLAMENTO, GERADORES, PAINÉIS DE LED, PALCOS FIXOS…",
-   "edital": "Edital nº 31/2026",
-   "orgao": "MUNICIPIO DE RENASCENCA",
-   "unidade": "PREFEITURA MUNICIPAL DE RENASCENÇA",
-   "municipio": "Renascença",
-   "uf": "PR",
+   "id": "25223009000192-1-000097/2026",
+   "titulo": "[Portal de Compras Públicas] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO E MONTAGEM DE EQUIPAMENTOS E ESTRUTURA…",
+   "edital": "Edital nº 113/2026/2026",
+   "orgao": "MUNICIPIO DE LONTRA",
+   "unidade": "Prefeitura Municipal de Lontra",
+   "municipio": "Lontra",
+   "uf": "MG",
    "esfera": "Municipal",
    "modalidade": "Pregão - Eletrônico",
    "publicado_em": "2026-10-28",
    "prazo": "2026-11-19",
    "valor": null,
-   "link": "https://pncp.gov.br/app/editais/76205681000196/2026/121"
+   "link": "https://pncp.gov.br/app/editais/25223009000192/2026/97"
   },
   {
    "id": "95988309000148-1-000302/2026",
@@ -3440,6 +3620,21 @@
    "link": "https://pncp.gov.br/app/editais/46588950000180/2026/970"
   },
   {
+   "id": "47970769000104-1-000542/2026",
+   "titulo": "[Portal de Compras Públicas] - CESSÃO ONEROSA DE ÁREA DETERMINADA NO PARQUE DE EXPOSIÇÕES “FERNANDO COSTA”, DESTINADA À EXPLORAÇÃO ECONÔMICA PELA CONTRATADA DURANTE A REALIZAÇÃO DA…",
+   "edital": "Edital nº 00025/2026",
+   "orgao": "MUNICIPIO DE FRANCA",
+   "unidade": "Prefeitura Municipal de Franca",
+   "municipio": "Franca",
+   "uf": "SP",
+   "esfera": "Municipal",
+   "modalidade": "Concorrência - Eletrônica",
+   "publicado_em": "2026-10-27",
+   "prazo": "2026-11-23",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/47970769000104/2026/542"
+  },
+  {
    "id": "18987735000116-1-000015/2026",
    "titulo": "[Portal de Compras Públicas] - Contratação de empresa especializada para elaboração de projetos executivos dos sistemas cenotécnicos e disciplinas complementares do Theatro Municip…",
    "edital": "Edital nº CE1/2026",
@@ -3483,6 +3678,21 @@
    "prazo": "2026-11-25",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/31846892000170/2025/85"
+  },
+  {
+   "id": "75743377000130-1-000199/2026",
+   "titulo": "Contratação de pessoa especializada para prestação de serviços de ministração de aulas de Dança Oriental Árabe, destinadas aos usuários das Academias da Saúde e demais programas vi…",
+   "edital": "Edital nº 46/2026",
+   "orgao": "MUNICIPIO DE ASTORGA",
+   "unidade": "PREFEITURA MUNICIPAL DE ASTORGA - PR",
+   "municipio": "Astorga",
+   "uf": "PR",
+   "esfera": "Municipal",
+   "modalidade": "Pregão - Eletrônico",
+   "publicado_em": "2026-10-26",
+   "prazo": "2026-11-25",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/75743377000130/2026/199"
   },
   {
    "id": "18239624000121-1-000109/2026",
@@ -3543,21 +3753,6 @@
    "prazo": "2026-11-27",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/13808217000174/2025/36"
-  },
-  {
-   "id": "25223009000192-1-000151/2025",
-   "titulo": "[Portal de Compras Públicas] - CONTRATAÇÃO DE ARTISTAS DE RENOME LOCAL E/OU REGIONAL PARA APRESENTAÇÕES MUSICAIS DURANTE O CALENDÁRIO DAS TRADICIONAIS FESTAS DO MUNICÍPIO DE LONTRA…",
-   "edital": "Edital de Chamamento Público nº 129/2025",
-   "orgao": "MUNICIPIO DE LONTRA",
-   "unidade": "Prefeitura Municipal de Lontra",
-   "municipio": "Lontra",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-11-13",
-   "prazo": "2026-11-30",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/25223009000192/2025/151"
   },
   {
    "id": "59108100000189-1-000022/2026",
@@ -3695,21 +3890,6 @@
    "link": "https://pncp.gov.br/app/editais/06158455000116/2025/179"
   },
   {
-   "id": "01612505000170-1-000106/2025",
-   "titulo": "CREDENCIAMENTO DE ARTISTAS, BANDAS E GRUPOS MUSICAIS, DE VARIADOS ESTILOS, PARA APRESENTAÇÕES ARTÍSTICAS EM EVENTOS PROMOVIDOS OU APOIADOS PELO MUNICÍPIO DE VERDELÂNDIA-MG, DE ACOR…",
-   "edital": "Edital de Chamamento Público nº 10/2025",
-   "orgao": "MUNICIPIO DE VERDELANDIA",
-   "unidade": "Unidade Única",
-   "municipio": "Verdelândia",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-12-08",
-   "prazo": "2026-12-08",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/01612505000170/2025/106"
-  },
-  {
    "id": "45671120000159-1-000285/2025",
    "titulo": "Credenciamento de projetos artístico-culturais, apresentados por técnicos, artistas e demais profissionais da área cultural, na condição de pessoas jurídicas, com a finalidade de h…",
    "edital": "Edital de Chamamento Público nº 10/2025",
@@ -3815,21 +3995,6 @@
    "link": "https://pncp.gov.br/app/editais/14215826000182/2025/171"
   },
   {
-   "id": "19229921000159-1-000132/2025",
-   "titulo": "CREDENCIAMENTO DE PROFISSIONAIS OU EMPRESA DO SETOR ARTÍSTICO, PARA EVENTUAIS E FUTURAS CONTRATAÇÕES DE SHOW ARTÍSTICOS LOCAIS E REGIONAIS, VISANDO ANTENDER ÀS DEMANDAS DA SECRETAR…",
-   "edital": "Edital de Chamamento Público nº 0009/2025",
-   "orgao": "MUNICIPIO DE CAPELINHA",
-   "unidade": "Unidade Única",
-   "municipio": "Capelinha",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-12-22",
-   "prazo": "2026-12-20",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/19229921000159/2025/132"
-  },
-  {
    "id": "67652750000119-1-000013/2026",
    "titulo": "credenciamento de profissionais para compor, em caráter de reserva, o Banco de Pareceristas da Fundação Educacional e Cultural de Caraguatatuba, para seleção de projetos culturais…",
    "edital": "Edital de Chamamento Público nº 1/2026",
@@ -3858,21 +4023,6 @@
    "prazo": "2026-12-21",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/13910203000167/2026/42"
-  },
-  {
-   "id": "23718034000111-1-000012/2026",
-   "titulo": "CREDENCIAMENTO DE ARTISTAS, GRUPOS E BANDAS MUSICAIS, PESSOAS FÍSICAS OU JURÍDICAS, PARA FUTURAS CONTRATAÇÕES DE SERVIÇOS ARTÍSTICOS DE APRESENTAÇÕES MUSICAIS EM EVENTOS PROMOVIDOS…",
-   "edital": "Edital de Chamamento Público nº 2025.12.05.01CP/2026",
-   "orgao": "MUNICIPIO DE JIJOCA DE JERICOACOARA",
-   "unidade": "Secretaria Municipal de Governo, Esporte e Cultura",
-   "municipio": "Jijoca de Jericoacoara",
-   "uf": "CE",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-12-24",
-   "prazo": "2026-12-23",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/23718034000111/2026/12"
   },
   {
    "id": "11097375000138-1-000046/2026",
@@ -3933,21 +4083,6 @@
    "prazo": "2026-12-31",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/18431312001006/2025/155"
-  },
-  {
-   "id": "18348094000150-1-000035/2025",
-   "titulo": "O presente edital tem por objeto o credenciamento de Pessoa Jurídica e/ou Pessoa Física para contratação dos serviços de artistas, grupos e bandas musicais, locais e regionais visa…",
-   "edital": "Edital de Chamamento Público nº 003/2025",
-   "orgao": "MUNICIPIO DE AIMORES",
-   "unidade": "Unidade Única",
-   "municipio": "Aimorés",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-05-21",
-   "prazo": "2026-12-31",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18348094000150/2025/35"
   },
   {
    "id": "17754110000141-1-000040/2025",
@@ -4460,21 +4595,6 @@
    "link": "https://pncp.gov.br/app/editais/76282706000155/2026/7"
   },
   {
-   "id": "10166817000198-1-000004/2026",
-   "titulo": "Credenciamento de artistas, pessoas físicas ou jurídicas, para realização de apresentações musicais em eventos promovidos ou apoiados pelo Município de Nazaré da Mata – PE, mediant…",
-   "edital": "Edital de Chamamento Público nº 001/2026",
-   "orgao": "MUNICIPIO DE NAZARE DA MATA",
-   "unidade": "PREFEITURA MUNICIPAL DE NAZARÉ DA MATA - PE",
-   "municipio": "Nazaré da Mata",
-   "uf": "PE",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-02-13",
-   "prazo": "2027-01-21",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/10166817000198/2026/4"
-  },
-  {
    "id": "35561471000153-1-000001/2026",
    "titulo": "[Portal de Compras Públicas] - CREDENCIAMENTO DE PESSOA FÍSICA OU JURIDICA COM O OBJETIVO À CONTRATAÇÃO DE BANDAS MUSICAIS PARA COMPOR A PROGRAMAÇÃO OFICIAL DO CARNAVAL DE PARIPUEI…",
    "edital": "Edital de Chamamento Público nº CREDENCIAMENTO 001/2026",
@@ -4505,21 +4625,6 @@
    "link": "https://pncp.gov.br/app/editais/08309239000150/2026/65"
   },
   {
-   "id": "18659334000137-1-000023/2026",
-   "titulo": "CREDENCIAMENTO PARA CONTRATAÇÃO DE BANDAS E ARTISTAS DA TERRA, PARA APRESENTAÇÃO DE SHOWS QUE ATENDAM AO CALENDÁRIO MUNICIPAL DE EVENTOS DE 2022, DECRETO 6.200 DE 12 ABRIL DE 2022…",
-   "edital": "Edital de Chamamento Público nº PRI 1/2026",
-   "orgao": "MUNICIPIO DE CAMPO BELO",
-   "unidade": "SECRETARIA MUNICIPAL DE  ESPORTE,CULTURA E TURISMO",
-   "municipio": "Campo Belo",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-01-23",
-   "prazo": "2027-01-26",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18659334000137/2026/23"
-  },
-  {
    "id": "18291385000159-1-000013/2026",
    "titulo": "CREDENCIAMENTO DE CANTORES E BANDAS LOCAIS E REGIONAIS, PARA A REALIZAÇÃO DE APRESENTAÇÕES MUSICAIS AO VIVO EM EVENTOS INTEGRANTES DO CALENDÁRIO CULTURAL OFICIAL DO MUNICÍPIO DE NO…",
    "edital": "Edital de Chamamento Público nº 002/2026",
@@ -4533,36 +4638,6 @@
    "prazo": "2027-01-28",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/18291385000159/2026/13"
-  },
-  {
-   "id": "02246138000109-1-000025/2025",
-   "titulo": "Constitui objeto deste Chamamento Público o Credenciamento de artistas e profissionais da cultura e da arte de Rio das Ostras, a fim de viabilizar futura contratação para prestação…",
-   "edital": "Edital de Chamamento Público nº 56/2025",
-   "orgao": "FUNDACAO RIO DAS OSTRAS DE CULTURA",
-   "unidade": "FUNDAÇÃO RIO DAS OSTRAS DE CULTURA - RJ",
-   "municipio": "Rio das Ostras",
-   "uf": "RJ",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-09-26",
-   "prazo": "2027-01-29",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/02246138000109/2025/25"
-  },
-  {
-   "id": "46643482000107-1-000010/2026",
-   "titulo": "Chamamento Público para Credenciamento de artistas de âmbito municipal e regional destinados à realização de eventos promovidos por esta Municipalidade, conforme Termo de Referênci…",
-   "edital": "Edital de Chamamento Público nº 004/2026",
-   "orgao": "MUNICIPIO DE MONTEIRO LOBATO",
-   "unidade": "PREFEITURA MUNICIPAL DE MONTEIRO LOBATO - SP",
-   "municipio": "Monteiro Lobato",
-   "uf": "SP",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-02-04",
-   "prazo": "2027-01-29",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/46643482000107/2026/10"
   },
   {
    "id": "44705055000172-1-000003/2026",
@@ -4608,21 +4683,6 @@
    "prazo": "2027-02-03",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/08260663000157/2026/5"
-  },
-  {
-   "id": "21154174000189-1-000008/2026",
-   "titulo": "Credenciamento, de shows artísticos de profissionais sem renome nacional para realização de apresentações musicais e de entretenimento em diversos estilos na sede, Distrito ou Comu…",
-   "edital": "Edital de Chamamento Público nº 000001/2026",
-   "orgao": "MUNICIPIO DE CARBONITA",
-   "unidade": "Unidade Única",
-   "municipio": "Carbonita",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-02-05",
-   "prazo": "2027-02-06",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/21154174000189/2026/8"
   },
   {
    "id": "12200150000128-1-000015/2026",
@@ -4775,21 +4835,6 @@
    "link": "https://pncp.gov.br/app/editais/76958966000106/2026/52"
   },
   {
-   "id": "18133926000110-1-000011/2026",
-   "titulo": "[Portal de Compras Públicas] - CREDENCIAMENTO DE ARTISTAS NAS SEGUINTES CATEGORIAS: CANTOR SOLO, BANDA, DJ E LOCUTOR DE EVENTOS, PARA ATENDER AOS DIVERSOS EVENTOS E ATIVIDADES DO M…",
-   "edital": "Edital de Chamamento Público nº 001/2026",
-   "orgao": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "unidade": "Prefeitura Municipal de São Miguel do Anta",
-   "municipio": "São Miguel do Anta",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-02-23",
-   "prazo": "2027-02-23",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18133926000110/2026/11"
-  },
-  {
    "id": "44723740000121-1-000052/2026",
    "titulo": "Credenciamento de interessados em apresentar propostas de oficinas, técnicas de caráter socioeducativo para o município de Elias Fausto - SP, através da Secretária de Cultura, por…",
    "edital": "Aviso de Contratação Direta nº 942/2026",
@@ -4893,21 +4938,6 @@
    "prazo": "2027-03-27",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/25223850000180/2026/40"
-  },
-  {
-   "id": "13743281000114-1-000030/2026",
-   "titulo": "Credenciamento de artistas locais para prestação de serviços artísticos de cantores, grupos, bandas musicais, fanfarras, apresentação teatral, apresentação de dança, grafitagem, co…",
-   "edital": "Edital de Chamamento Público nº 32/2026",
-   "orgao": "MUNICIPIO DE SALINAS DA MARGARIDA",
-   "unidade": "PREFEITURA MUNI DE SALINAS DA MARGARIDA",
-   "municipio": "Salinas da Margarida",
-   "uf": "BA",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-03-26",
-   "prazo": "2027-03-30",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/13743281000114/2026/30"
   },
   {
    "id": "13825484000150-1-000067/2026",
@@ -5195,21 +5225,6 @@
    "link": "https://pncp.gov.br/app/editais/08365900000144/2026/36"
   },
   {
-   "id": "11049806000190-1-000049/2026",
-   "titulo": "CREDENCIAMENTO DE ARTISTAS INDIVIDUAIS, GRUPOS CULTURAIS, GRUPOS MUSICAIS E GRUPOS DIVERSOS, INTERESSADOS EM COMPOR A PROGRAMAÇÃO ARTÍSTICA DA PREFEITURA E DOS SEUS EQUIPAMENTOS CU…",
-   "edital": "Edital de Chamamento Público nº 004/2026",
-   "orgao": "MUNICIPIO DE CHA GRANDE",
-   "unidade": "PREFEITURA MUNICIPAL DE CHÃ GRANDE",
-   "municipio": "Chã Grande",
-   "uf": "PE",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-05-05",
-   "prazo": "2027-05-06",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/11049806000190/2026/49"
-  },
-  {
    "id": "87613204000186-1-000085/2025",
    "titulo": "EXERCÍCIO: 2025ASSUNTO: CHAMAMENTO PÚBLICO DE CREDENCIAMENTO 04/2025PROCESSO ADMINISTRATIVI LICITATÓRIO Nº 92/2025OBJETO: CREDENCIAMENTO de empresas para contratação de instrutores…",
    "edital": "Edital de Chamamento Público nº 4/2025",
@@ -5360,36 +5375,6 @@
    "link": "https://pncp.gov.br/app/editais/07165511000102/2026/2"
   },
   {
-   "id": "12356879000198-1-000058/2025",
-   "titulo": "CREDENCIAMENTO DE CARÁTER PERMANENTE DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL – OSC, na forma estabelecida neste Edital, com o objetivo de firmar possíveis e futuras parcerias técnicas…",
-   "edital": "Edital nº 001/2025/2025",
-   "orgao": "MUNICIPIO DE PALMEIRA DOS INDIOS",
-   "unidade": "Prefeitura Municipal de Palmeira dos Índios",
-   "municipio": "Palmeira dos Índios",
-   "uf": "AL",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-05-20",
-   "prazo": "2027-05-20",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/12356879000198/2025/58"
-  },
-  {
-   "id": "07385503000171-1-000041/2026",
-   "titulo": "Credenciamento a eventual contratação de artistas ou grupos artísticos (sanfoneiro ou grupo) para apresentações musicais a serem realizadas junto à Secretaria Municipal de Assistên…",
-   "edital": "Edital de Chamamento Público nº 001/2026 - SMA/2026",
-   "orgao": "MUNICIPIO DE ALTANEIRA",
-   "unidade": "PREFEITURA MUNICIPAL DE ALTANEIRA - CE",
-   "municipio": "Altaneira",
-   "uf": "CE",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-05-19",
-   "prazo": "2027-05-20",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/07385503000171/2026/41"
-  },
-  {
    "id": "24179426000112-1-000052/2026",
    "titulo": "Constitui objeto do presente instrumento o CREDENCIAMENTO DE CANTORES, ARTISTAS SOLO E GRUPOS MUSICAIS PARA ATENDER AOS EVENTOS PROMOVIDOS OU APOIADOS PELO MUNICÍPIO DE LAMIM/MG, g…",
    "edital": "Edital de Chamamento Público nº 04/2026",
@@ -5523,21 +5508,6 @@
    "prazo": "2027-05-27",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/13635016000112/2025/200"
-  },
-  {
-   "id": "18414565000180-1-000035/2026",
-   "titulo": "CREDENCIAMENTO DE PESSOA FÍSICA OU JURÍDICA PARA APRESENTAÇÕES DE SHOWS MUSICAIS ATRAVÉS DE ARTISTAS LOCAIS COM RECONHECIMENTO LOCALREGIONAL, PARA ATENDIMENTO ÀS DEMANDAS DO MUNICÍ…",
-   "edital": "Edital de Chamamento Público nº 04/2026",
-   "orgao": "MUNICIPIO DE PEDRA AZUL",
-   "unidade": "Unidade Única",
-   "municipio": "Pedra Azul",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-05-14",
-   "prazo": "2027-05-27",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18414565000180/2026/35"
   },
   {
    "id": "13230982000150-1-000096/2026",
@@ -5823,36 +5793,6 @@
    "prazo": "2027-06-17",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/38515573000120/2026/96"
-  },
-  {
-   "id": "01612501000191-1-000043/2026",
-   "titulo": "[Portal de Compras Públicas] - CREDENCIAMENTO DE PESSOAS FÍSICAS E JURÍDICAS, INCLUSIVE MICROEMPREENDEDORES INDIVIDUAIS, ARTISTAS, MÚSICOS, CANTORES, DUPLAS, GRUPOS MUSICAIS E BAND…",
-   "edital": "Edital de Chamamento Público nº 005/2026",
-   "orgao": "MUNICIPIO DE SERRANOPOLIS DE MINAS",
-   "unidade": "Prefeitura Municipal de Serranópolis de Minas",
-   "municipio": "Serranópolis de Minas",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-06-19",
-   "prazo": "2027-06-22",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/01612501000191/2026/43"
-  },
-  {
-   "id": "01612501000191-1-000046/2026",
-   "titulo": "CREDENCIAMENTO DE PESSOAS FÍSICAS E JURÍDICAS, INCLUSIVE MICROEMPREENDEDORES INDIVIDUAIS, ARTISTAS, MÚSICOS, CANTORES, DUPLAS, GRUPOS MUSICAIS E BANDAS LOCAIS, PARA A PRESTAÇÃO EVE…",
-   "edital": "Edital de Chamamento Público nº 38/2026",
-   "orgao": "MUNICIPIO DE SERRANOPOLIS DE MINAS",
-   "unidade": "Prefeitura Municipal de Serranópolis de Minas",
-   "municipio": "Serranópolis de Minas",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-06-23",
-   "prazo": "2027-06-22",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/01612501000191/2026/46"
   },
   {
    "id": "18334300000172-1-000037/2026",
@@ -6980,6 +6920,21 @@
    "link": "https://pncp.gov.br/app/editais/80912108000190/2026/126"
   },
   {
+   "id": "16417800000142-1-000098/2026",
+   "titulo": "CREDENCIAMENTO DE ARTISTA LOCAIS E REGIONAIS PARA APRESENTAÇÃO NAS FESTIVIDADES DO MUNICÍPIO DE MATINA-BA.",
+   "edital": "Edital de Chamamento Público nº 002/2026",
+   "orgao": "MUNICIPIO DE MATINA",
+   "unidade": "SECRETARIA MUNICIPAL DE CULTURA, ESPORTE E LAZER",
+   "municipio": "Matina",
+   "uf": "BA",
+   "esfera": "Municipal",
+   "modalidade": "Credenciamento",
+   "publicado_em": "2026-10-23",
+   "prazo": "2027-10-23",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/16417800000142/2026/98"
+  },
+  {
    "id": "45122942000180-1-001073/2026",
    "titulo": "CREDENCIAMENTO PARA CONTRATACAO DE SHOWS ARTISTICOS PARA APRESENTACOES MUSICAIS EM DIFERENTES ESTILOS PARA ATENDER A EVENTOS CULTURAIS DO MUNICIPIO DE PINDORAMA SP",
    "edital": "Edital de Chamamento Público nº 3 | Processo 2773/2026",
@@ -7008,6 +6963,21 @@
    "prazo": "2027-10-29",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/46522983000127/2026/402"
+  },
+  {
+   "id": "04696490000163-1-000014/2027",
+   "titulo": "O presente Edital tem por objeto o credenciamento de estabelecimentos comerciais do ramo de alimentação (restaurantes e congêneres), interessados na prestação de serviços de fornec…",
+   "edital": "Edital de Chamamento Público nº 44/2027",
+   "orgao": "SUP. EST. DE LICITACAO",
+   "unidade": "SUPERINTEND.ESTAD.DE COMPRAS E LICITAÇÕES-RO",
+   "municipio": "Porto Velho",
+   "uf": "RO",
+   "esfera": "Estadual",
+   "modalidade": "Credenciamento",
+   "publicado_em": "2026-07-30",
+   "prazo": "2027-11-01",
+   "valor": null,
+   "link": "https://pncp.gov.br/app/editais/04696490000163/2027/14"
   },
   {
    "id": "08153462000150-1-000168/2026",
@@ -7235,21 +7205,6 @@
    "link": "https://pncp.gov.br/app/editais/18431312000115/2025/1"
   },
   {
-   "id": "17733643000147-1-000002/2026",
-   "titulo": "CONTRATAÇÃO DE ARTISTAS MUSICAIS PARA APRESENTAÇÕES NA TERCEIRA IDADE, FEIRA DE ARTESANATOS E EVENTOS DA PREFEITURA DE LEOPOLDINA",
-   "edital": "Edital de Chamamento Público nº 4/2026",
-   "orgao": "MUNICIPIO DE LEOPOLDINA",
-   "unidade": "PREFEITURA MUNICIPAL DE LEOPOLDINA - MG",
-   "municipio": "Leopoldina",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-06-18",
-   "prazo": "2028-12-29",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/17733643000147/2026/2"
-  },
-  {
    "id": "18116137000171-1-000157/2025",
    "titulo": "Constitui objeto deste o Credenciamento de Contratação de Artistas Locais e regionais para atender o Calendário de Eventos da Prefeitura Municipal de Cordisburgo conforme as especi…",
    "edital": "Edital de Chamamento Público nº 06/2025",
@@ -7278,51 +7233,6 @@
    "prazo": "2028-12-31",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/14100747000126/2026/152"
-  },
-  {
-   "id": "17097791000112-1-000038/2026",
-   "titulo": "ABERTURA DE CREDENCIAMENTO PARA CONTRATACAO DE PRESTACAO DE SERVICOS DE ARTISTAS DA TERRA PARA APRESENTACAO DE SHOWS ARTISTICOS NOS EVENTOS DA PREFEITURA DE MONTALVANIA.",
-   "edital": "Edital de Chamamento Público nº 22/2026",
-   "orgao": "MUNICIPIO DE MONTALVANIA",
-   "unidade": "Prefeitura Municipal de Montalvânia",
-   "municipio": "Montalvânia",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2026-04-09",
-   "prazo": "2029-03-31",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/17097791000112/2026/38"
-  },
-  {
-   "id": "37622164000160-1-000173/2026",
-   "titulo": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE APRESENTAÇÃO DE SHOW ARTÍSTICO/MUSICAL DESTINADO À CONFRATERNIZAÇÃO EM COMEMORAÇÃO AO DIA DAS MÃES NO DIA 29 DE M…",
-   "edital": "Aviso de Contratação Direta nº 133/2026",
-   "orgao": "MUNICIPIO DE UIRAPURU",
-   "unidade": "FMAS FUNDO MUNICIPAL DE ASSIST SOCIAL",
-   "municipio": "Uirapuru",
-   "uf": "GO",
-   "esfera": "Municipal",
-   "modalidade": "Dispensa",
-   "publicado_em": "2026-05-29",
-   "prazo": "2029-05-29",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/37622164000160/2026/173"
-  },
-  {
-   "id": "45781176000166-1-000506/2024",
-   "titulo": "REVOGADO - CREDENCIAMENTO DE MÚSICOS, BANDAS, GRUPOS MUSICAIS, DISC JOCKEYS E LOCUTORES",
-   "edital": "Edital de Chamamento Público nº 6029/2024",
-   "orgao": "MUNICIPIO DE AMERICANA",
-   "unidade": "PREFEITURA MUNICIPAL DE AMERICANA",
-   "municipio": "Americana",
-   "uf": "SP",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2024-07-17",
-   "prazo": "2029-06-11",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/45781176000166/2024/506"
   },
   {
    "id": "22934889000117-1-000251/2024",
@@ -7398,21 +7308,6 @@
    "prazo": "2030-03-28",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/22934889000117/2025/38"
-  },
-  {
-   "id": "18306670000104-1-000015/2025",
-   "titulo": "Credenciamento Eletrônico para Apresentação de Artistas Locais e Regionais a fim de atender as necessidades da Secretaria Municipal de Cultura de São Roque de Minas/MG.",
-   "edital": "Edital de Chamamento Público nº 003/2025",
-   "orgao": "MUNICIPIO DE SAO ROQUE DE MINAS",
-   "unidade": "Unidade Única",
-   "municipio": "São Roque de Minas",
-   "uf": "MG",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-06-09",
-   "prazo": "2030-06-05",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/18306670000104/2025/15"
   },
   {
    "id": "00059311000126-1-000350/2025",
@@ -7533,21 +7428,6 @@
    "prazo": "2031-08-25",
    "valor": null,
    "link": "https://pncp.gov.br/app/editais/76170240000104/2026/237"
-  },
-  {
-   "id": "87866745000116-1-000777/2025",
-   "titulo": "Contratacao de servico de show de bandas e apresentacoes artisticas",
-   "edital": "Edital de Chamamento Público nº 9 | Processo 3663/2025",
-   "orgao": "MUNICIPIO DE VACARIA",
-   "unidade": "PREFEITURA MUNICIPAL",
-   "municipio": "Vacaria",
-   "uf": "RS",
-   "esfera": "Municipal",
-   "modalidade": "Credenciamento",
-   "publicado_em": "2025-09-15",
-   "prazo": "2035-08-07",
-   "valor": null,
-   "link": "https://pncp.gov.br/app/editais/87866745000116/2025/777"
   },
   {
    "id": "46410866000171-1-000922/2026",
