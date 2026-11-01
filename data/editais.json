@@ -173,8 +173,8 @@
       "source_url": "https://on-the-move.org/news/2200-2027-residency-emerging-artists-switzerland",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
-      "prioridade": 25,
+      "updated_at": "2026-11-01T08:16:46Z",
+      "prioridade": 45,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -367,7 +367,7 @@
       "source_url": "https://on-the-move.org/news/artemis-2027-orchestra-academy-young-instrumentalists-latvia",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 60,
       "curadoria": {
         "oculto": false,
@@ -977,7 +977,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1057,7 +1057,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1138,7 +1138,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1219,7 +1219,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1295,7 +1295,7 @@
       "data_limite": "2026-10-31",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Programa da Secretaria de Esportes do Estado de São Paulo que permite a empresas destinarem parte do ICMS devido a projetos esportivos (educacional, formação, rendimento, sociodesportivo, participativo, gestão e infraestrutura). Entidades privadas sem fins lucrativos de natureza esportiva.",
       "link_inscricao": "https://www.esportes.sp.gov.br/sec_esportes/lei_paulista_de_incentivo_ao_esporte/lpie",
       "link_edital": null,
@@ -1310,8 +1310,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-11-01T08:17:02Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1323,7 +1323,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-01T08:17:02Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -1384,7 +1392,7 @@
       "data_limite": "2026-10-31",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Seleção de 30 produtoras para produção de videoclipes de artistas independentes, com R$ 5.250 por projeto. Inscrição pela plataforma de editais da APAA.",
       "link_inscricao": "https://www.editaisapaa.org.br/",
       "link_edital": null,
@@ -1399,8 +1407,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-11-01T08:17:02Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1412,7 +1420,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-01T08:17:02Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -1484,7 +1500,7 @@
       "source_url": "https://on-the-move.org/news/cove-park-residency-2027-2028-artists-scotland-uk-central-and-south-america-and-diasporas-uk",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1744,7 +1760,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1824,7 +1840,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1905,7 +1921,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1995,7 +2011,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 0,
+      "prioridade": 20,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2452,7 +2468,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 40,
+      "prioridade": 60,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3454,7 +3470,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 10,
+      "prioridade": 30,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3540,7 +3556,7 @@
       "source_url": "https://on-the-move.org/news/indian-ocean-commission-alevini-regional-mobility-assistance-fund-cycle-7-union-comoros",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -3980,7 +3996,7 @@
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
       "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "prioridade": 75,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -4050,7 +4066,7 @@
       "data_limite": "2026-10-31",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Janela anual de apresentação de propostas ao mecanismo de incentivo da Lei Rouanet: de 1º de fevereiro a 31 de outubro de cada ano (planos plurianuais até 31 de agosto do ano anterior). Limites por proponente: R$ 500 mil (pessoa física) e R$ 15 milhões (pessoa jurídica). Exige medidas de acessibilidade e democratização do acesso; veda difusão de imagem de agentes políticos e proselitismo religioso.",
       "link_inscricao": "https://salic.cultura.gov.br",
       "link_edital": "https://www.gov.br/cultura/pt-br/acesso-a-informacao/legislacao-e-normativas/instrucao-normativa-minc-no-29-de-29-de-janeiro-de-2026",
@@ -4065,8 +4081,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 65,
+      "updated_at": "2026-11-01T08:17:02Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -4078,7 +4094,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-01T08:17:02Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -4148,7 +4172,7 @@
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -4525,7 +4549,7 @@
       "source_url": "https://on-the-move.org/news/mon-art-nicosia-monastery-arts-residency-2027-art-sustainability-and-community-cyprus",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -4610,7 +4634,7 @@
       "source_url": "https://on-the-move.org/news/mophradat-residency-buda-premiere-next-festival-2027-belgium",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -4689,7 +4713,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -4855,7 +4879,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -4935,7 +4959,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5535,7 +5559,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5615,7 +5639,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -5786,7 +5810,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-10-31T14:53:26Z",
+      "updated_at": "2026-11-01T08:16:23Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6158,7 +6182,7 @@
       "source_url": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6427,7 +6451,7 @@
       "data_limite": "2026-10-31",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Programa de patrocínios da Shell para projetos de cultura e esporte alinhados a transformação social, diversidade e sustentabilidade. Aceita apenas projetos aprovados na Lei Rouanet ou na Lei de Incentivo ao Esporte. Propostas recebidas de 1º de março a 31 de outubro, via plataforma Mais Baluarte.",
       "link_inscricao": "https://maisbaluarte.com.br/patrocinioshell",
       "link_edital": null,
@@ -6452,8 +6476,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 55,
+      "updated_at": "2026-11-01T08:17:02Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -6466,7 +6490,15 @@
         "aba:lei_do_esporte"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-01T08:17:02Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [
         "programa-shell-de-patrocinios-incentivados-aceita-lei-do-da66da"
       ],
@@ -6544,7 +6576,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6801,7 +6833,7 @@
       "data_limite": "2026-10-31",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Apoio a projetos que valorizem a cultura brasileira em sua diversidade, com avaliação técnica e de compliance. Somente pessoas jurídicas, via plataforma digital própria. Modalidades: Lei Rouanet, Lei do Audiovisual (janela de junho a outubro) ou recursos próprios (janeiro a dezembro). Exige 45 dias de antecedência do início do projeto. Chamada 2026: até R$ 1,5 milhão por projeto e R$ 30 milhões no total.",
       "link_inscricao": "https://institutoculturalvale.org/solicitacao-de-patrocinios/",
       "link_edital": null,
@@ -6816,8 +6848,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 70,
+      "updated_at": "2026-11-01T08:17:02Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -6829,7 +6861,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-01T08:17:02Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -6900,7 +6940,7 @@
       "source_url": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-10-31T14:53:47Z",
+      "updated_at": "2026-11-01T08:16:46Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
