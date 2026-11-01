@@ -41,7 +41,8 @@ def semana_iso(d: date) -> str:
 
 
 def _link(b: dict[str, Any], e: Edital) -> str:
-    return f"https://{b['dominio']}/edital/{e.id}"
+    """Link oficial do edital (a Central não tem mais páginas públicas; só a API)."""
+    return str(e.link_inscricao or e.link_edital or e.source_url)
 
 
 def _quem(e: Edital) -> str:

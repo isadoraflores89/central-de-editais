@@ -216,7 +216,7 @@ def test_conteudo_semanal(tmp_path: Path, monkeypatch: object) -> None:
     assert len(post) <= weekly.LIMITE_POST
     assert "2 oportunidades novas" in post and "1 internacionais (1 gratuitas)" in post
     assert "Pay to play" not in post  # alerta_taxa fica fora até a curadoria liberar
-    assert f"https://{b['dominio']}/edital/b2" in post
+    assert "https://exemplo.gov.br/edital" in post  # link oficial do edital, não a Central
     assert post.count("#") <= 3
     slides = weekly.montar_carrossel(editais, HOJE_F5, b)
     assert 3 <= len(slides) <= 8 and slides[-1]["titulo"] == b["nome"]

@@ -56,6 +56,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Aplica tamanho do texto e tema salvos antes de desenhar a página. */}
         <script dangerouslySetInnerHTML={{ __html: SCRIPT_PREFS }} />
+        {/* Porta de entrada única (01/11/2026): toda página deste site encaminha para
+            editais.isadoraflores.art.br. Só a API (/api) e a pasta content/ seguem em uso. */}
+        <meta name="robots" content="noindex, follow" />
+        <script dangerouslySetInnerHTML={{ __html: 'if (location.hostname !== "localhost") location.replace("https://editais.isadoraflores.art.br/");' }} />
       </head>
       <body>
         <CadastroProvider endpoint={configSite().cadastro_endpoint ?? ""}>
