@@ -1,11 +1,14 @@
-# Conteúdo semanal (Fase 5): toda segunda às 07:00 em Salvador (10:00 UTC) gera
-# rascunhos de post para LinkedIn, carrossel, newsletter e alertas em content/.
-# NÃO publica em lugar nenhum: a Isadora revisa e posta à mão.
+# Conteúdo semanal (Fase 5): toda QUARTA às 05:00 em Salvador (08:00 UTC) gera
+# rascunhos de post para LinkedIn, carrossel, newsletter e alertas em content/,
+# manda o rascunho da newsletter por e-mail para a Isadora e deixa tudo no painel
+# de disparos (editais.isadoraflores.art.br, menu Disparos). Ela edita e publica na segunda.
+# NÃO publica em lugar nenhum sozinho. Roda antes da "Atualização diária" (09:00 UTC),
+# que copia content/ para o site.
 name: Conteúdo semanal
 
 on:
   schedule:
-    - cron: "0 10 * * 1"
+    - cron: "0 8 * * 3"
   workflow_dispatch:
 
 permissions:
@@ -31,6 +34,13 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           cat content/weekly/"$(date +%G-%V)".md >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Enviar o rascunho por e-mail para a Isadora
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_REMETENTE: ${{ vars.EMAIL_REMETENTE }}
+          EMAIL_RASCUNHO_PARA: ${{ vars.EMAIL_RASCUNHO_PARA }}
+        run: uv run python integracoes/apoiadores/enviar_rascunho.py | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Commit (se mudou)
         run: |
           if [ -n "$(git status --porcelain content/)" ]; then

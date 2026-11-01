@@ -164,12 +164,82 @@ def montar_carrossel(editais: list[Edital], hoje: date, b: dict[str, Any]) -> li
     return slides
 
 
+def _linha_nl(e: Edital, hoje: date, b: dict[str, Any]) -> str:
+    return f"- **{e.titulo[:90]}**, {_quem(e)}, {_prazo(e, hoje)}. [agarrar]({_link(b, e)})"
+
+
 def montar_newsletter(post: str, b: dict[str, Any], hoje: date) -> str:
-    return (
-        f"# {b['nome']} — semana de {hoje.strftime('%d/%m/%Y')}\n\n"
-        + post.replace("• ", "- ")
-        + f"\n\n---\n{b.get('assinatura') or ''}\n"
-    )
+    """Newsletter no tom descontraído (minúsculas, frases curtas, recado direto).
+
+    Os trechos entre {{ }} são preenchidos pela Isadora no painel de disparos:
+    {{NOME}} vira o nome de quem recebe; {{BABADOS}} e {{RECADO}} são os textos dela.
+    O post (argumento) é ignorado: a newsletter é montada do zero a partir dos dados.
+    """
+    editais = formatos.ler_json(config.EDITAIS_JSON)
+    s = selecionar(editais, hoje)
+    fecham = s["fecham"][:5]
+    novos = [
+        e
+        for e in s["novos"]
+        if e.id not in {x.id for x in fecham} and e.vertical != Vertical.open_call
+    ][:6]
+    internacionais = [e for e in s["novos"] if e.vertical == Vertical.open_call][:4]
+    n_abertas = len(s["visiveis"])
+
+    assuntos = [
+        f"{{{{NOME}}}}, {n_abertas} oportunidades abertas e {len(fecham)} fechando essa semana",
+        "piscou, perdeu: tem edital fechando",
+        "passando pra avisar que pintou oportunidade",
+    ]
+    partes = [
+        f"# newsletter da semana {semana_iso(hoje)} ({hoje.strftime('%d/%m/%Y')})",
+        "",
+        "assunto (escolha um ou escreva o seu):",
+        *[f"- {a}" for a in assuntos],
+        "",
+        "---",
+        "",
+        "{{NOME}},",
+        "",
+        "passando pra avisar que a semana tá cheia: "
+        f"{n_abertas} oportunidades abertas pra quem vive de cultura, "
+        f"{len(s['novos'])} chegaram agora. dá uma olhada, que isso aqui voa.",
+        "",
+        "## corre que fecha",
+        "",
+        "piscou, perdeu. esses encerram nos próximos 7 dias:",
+        "",
+    ]
+    partes += [_linha_nl(e, hoje, b) for e in fecham] or [
+        "- nada fechando nos próximos 7 dias. respira."
+    ]
+    partes += ["", "## chegou agora", "", "novidade fresquinha, ninguém viu ainda:", ""]
+    partes += [_linha_nl(e, hoje, b) for e in novos] or [
+        "- semana parada no fomento. a gente segue de olho."
+    ]
+    if internacionais:
+        partes += ["", "## pra quem quer atravessar o oceano", ""]
+        partes += [_linha_nl(e, hoje, b) for e in internacionais]
+    partes += [
+        "",
+        "## babados da cultura",
+        "",
+        "{{BABADOS}}",
+        "",
+        "## o recado da isa",
+        "",
+        "{{RECADO}}",
+        "",
+        "---",
+        "",
+        "acho que você não deveria perder essa oportunidade, {{NOME}}. "
+        f"a lista inteira, com filtro por estado, linguagem e mecanismo, tá em "
+        f"https://{b['dominio']}. " + str(b.get("chamada_newsletter") or ""),
+        "",
+        str(b.get("assinatura") or ""),
+        "",
+    ]
+    return "\n".join(partes)
 
 
 def montar_alertas(editais: list[Edital], hoje: date, b: dict[str, Any]) -> str:
@@ -222,4 +292,41 @@ def gerar(hoje: date | None = None, raiz: Path | None = None) -> list[Path]:
         a.parent.mkdir(parents=True, exist_ok=True)
         a.write_text(alertas, encoding="utf-8")
         gerados.append(a)
+    gerados.append(escrever_indice(raiz))
     return gerados
+
+
+def escrever_indice(raiz: Path) -> Path:
+    """content/index.json: lista das semanas geradas, para o painel de disparos ler."""
+    semanas = []
+    for md in sorted((raiz / "weekly").glob("????-??.md"), reverse=True):
+        semana = md.stem
+        newsletter = raiz / "newsletter" / f"{semana}.md"
+        carrossel = raiz / "weekly" / f"{semana}.carrossel.json"
+        semanas.append(
+            {
+                "semana": semana,
+                "gerado_em": date.fromtimestamp(md.stat().st_mtime).isoformat(),
+                "post": f"content/weekly/{md.name}",
+                "newsletter": f"content/newsletter/{newsletter.name}"
+                if newsletter.exists()
+                else None,
+                "carrossel": f"content/weekly/{carrossel.name}" if carrossel.exists() else None,
+            }
+        )
+    alertas = (
+        sorted((raiz / "alertas").glob("????-??-??.md"), reverse=True)
+        if (raiz / "alertas").exists()
+        else []
+    )
+    idx = raiz / "index.json"
+    idx.write_text(
+        json.dumps(
+            {"semanas": semanas, "alertas": [f"content/alertas/{a.name}" for a in alertas[:12]]},
+            ensure_ascii=False,
+            indent=1,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    return idx

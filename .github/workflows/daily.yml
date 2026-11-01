@@ -12,7 +12,7 @@ on:
   # (Commits feitos pelo próprio robô com GITHUB_TOKEN não disparam de novo.)
   push:
     branches: [main]
-    paths: ["site/**", "data/**", "config/**", "pipeline/**"]
+    paths: ["site/**", "data/**", "config/**", "pipeline/**", "content/**"]
 
 permissions:
   contents: write   # commit de data/
@@ -55,6 +55,10 @@ jobs:
 
       - name: Radares (copiar para a API pública)
         run: cp data/resultados.json data/vagas.json data/licitacoes.json site/public/api/
+
+      - name: Conteúdo semanal (rascunhos para o painel de disparos)
+        run: |
+          if [ -d content ]; then mkdir -p site/public/content && cp -R content/. site/public/content/; fi
 
       - name: Commit dos dados (se mudaram)
         run: |
