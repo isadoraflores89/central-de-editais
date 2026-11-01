@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-10-31",
+ "atualizado_em": "2026-11-01",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 18,
+ "total": 19,
  "itens": [
   {
    "titulo": "Líder de Bilheteria",
@@ -255,6 +255,20 @@
    "resumo": "Bolsa de pesquisa sobre dados de fomento cultural, restrita a quem está matriculado em pós-graduação lato sensu, mestrado ou doutorado na UFBA.",
    "link": "https://artvsm.substack.com/p/vagas-de-trabalho-itau-cultural-bolsa",
    "visto_em": "2026-10-31"
+  },
+  {
+   "titulo": "Credenciamento de Pareceristas Técnicos (SEFIC/MinC, fluxo contínuo)",
+   "organizacao": "Secretaria Executiva do Fundo Nacional da Cultura / Ministério da Cultura",
+   "cidade": "",
+   "uf": "",
+   "remoto": true,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento nacional de especialistas para pareceres técnicos e financeiros em processos do Fundo Nacional da Cultura, inscrições em andamento.",
+   "link": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-credenciamento-de-pareceristas-tecnicos",
+   "visto_em": "2026-11-01"
   }
  ]
 }
