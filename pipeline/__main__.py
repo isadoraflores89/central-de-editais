@@ -233,6 +233,20 @@ def cmd_collect(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_imagens(args: argparse.Namespace) -> int:
+    """Busca a imagem oficial (og:image) das oportunidades abertas e grava em data/editais.json."""
+    from pipeline.imagens import enriquecer
+
+    if not config.EDITAIS_JSON.exists():
+        print("data/editais.json não existe.")
+        return 1
+    editais = formatos.ler_json(config.EDITAIS_JSON)
+    n = enriquecer(editais, limite=args.limite, revalidar_dias=args.revalidar_dias)
+    formatos.escrever_json(editais, config.EDITAIS_JSON)
+    print(f"Imagens: {n} páginas consultadas; {sum(1 for e in editais if e.imagem)} com imagem.")
+    return 0
+
+
 def cmd_conteudo(args: argparse.Namespace) -> int:
     from datetime import date
 
@@ -251,6 +265,13 @@ def main(argv: list[str] | None = None) -> int:
     )
     p = argparse.ArgumentParser(prog="python -m pipeline", description="Central de Editais")
     sub = p.add_subparsers(dest="comando", required=True)
+
+    s = sub.add_parser(
+        "imagens", help="busca a imagem oficial (og:image) das oportunidades abertas"
+    )
+    s.add_argument("--limite", type=int, default=60, help="máximo de páginas por execução")
+    s.add_argument("--revalidar-dias", type=int, default=14)
+    s.set_defaults(func=cmd_imagens)
 
     s = sub.add_parser("import-seed", help="importa a planilha-semente")
     s.add_argument("--arquivo", default=str(config.SEED_XLSX))

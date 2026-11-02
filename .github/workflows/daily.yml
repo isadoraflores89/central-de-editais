@@ -43,6 +43,10 @@ jobs:
       - name: Coletar open calls e chamadas acadêmicas
         run: uv run python -m pipeline collect || echo "coleta falhou; segue com os dados atuais"
 
+      # Imagem oficial (og:image) das oportunidades abertas; uma página fora do ar não derruba o passo.
+      - name: Buscar imagens oficiais dos editais
+        run: uv run python -m pipeline imagens --limite 60 || echo "imagens falharam; segue sem elas"
+
       # Se a lista vier vazia, o comando falha e nada é publicado (decisão D9).
       - name: Processar dados e exportar
         run: uv run python -m pipeline run --destino site/public/api

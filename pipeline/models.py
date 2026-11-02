@@ -119,6 +119,9 @@ class Edital(BaseModel):
     link_inscricao: str | None = None
     link_edital: str | None = None
     observacoes: str | None = None
+    # Imagem oficial da página do edital (og:image / twitter:image), buscada pelo robô.
+    imagem: str | None = None
+    imagem_verificada_em: datetime | None = None
 
     fonte: str
     source_url: HttpUrl
