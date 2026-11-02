@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-01",
+ "atualizado_em": "2026-11-02",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 19,
+ "total": 23,
  "itens": [
   {
    "titulo": "Líder de Bilheteria",
@@ -47,6 +47,48 @@
    "visto_em": "2026-10-29"
   },
   {
+   "titulo": "Coordenador(a) de Riscos e Controles Internos",
+   "organizacao": "APPA – Cultura & Patrimônio",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "2026-11-04",
+   "salario": "",
+   "resumo": "Coordenação de riscos e controles internos em organização de cultura e patrimônio em Belo Horizonte.",
+   "link": "https://trabalhenacultura.substack.com/p/belo-horizonte-vaga-para-coordenador",
+   "visto_em": "2026-11-02"
+  },
+  {
+   "titulo": "Auxiliar da Diretoria do Núcleo Técnico (vaga exclusiva PCD)",
+   "organizacao": "Museu Catavento",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "2026-11-05",
+   "salario": "",
+   "resumo": "Vaga exclusiva para pessoas com deficiência de apoio à diretoria do núcleo técnico do museu.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-auxiliar-da-diretoria",
+   "visto_em": "2026-11-02"
+  },
+  {
+   "titulo": "Orientador(a) de Público",
+   "organizacao": "Museu da Imigração",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "2026-11-08",
+   "salario": "",
+   "resumo": "Atendimento e orientação de público no Museu da Imigração de São Paulo.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-orientador-de-0ec",
+   "visto_em": "2026-11-02"
+  },
+  {
    "titulo": "Analista de Pessoas e Cultura (pleno)",
    "organizacao": "Museu das Amazônias (IDG)",
    "cidade": "Belém",
@@ -73,6 +115,20 @@
    "resumo": "Estágio de design no Museu das Favelas, gerido pelo IDG.",
    "link": "https://idg.inhire.app/vagas/0181176c-547d-4727-bc7c-7ce27fe95ac1/pessoa-estagiaria-de-designor-museu-das-favelas",
    "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Estágio em Curadoria",
+   "organizacao": "MASP",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "artes_visuais",
+   "regime": "estagio",
+   "prazo": "2026-11-10",
+   "salario": "",
+   "resumo": "Estágio em curadoria para estudantes de nível superior em áreas como história da arte e curadoria.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-estagio-em-curadoria-783",
+   "visto_em": "2026-11-02"
   },
   {
    "titulo": "Edital Caju 2027 — seleção de artistas para Carnaval e São João 2027",
