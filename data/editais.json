@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 81,
+  "total": 82,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -177,7 +177,7 @@
       "source_url": "https://on-the-move.org/news/2200-2027-residency-emerging-artists-switzerland",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -375,7 +375,7 @@
       "source_url": "https://on-the-move.org/news/artemis-2027-orchestra-academy-young-instrumentalists-latvia",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 60,
       "curadoria": {
         "oculto": false,
@@ -999,7 +999,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1081,7 +1081,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1164,7 +1164,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1247,7 +1247,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1800,7 +1800,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1882,7 +1882,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1965,7 +1965,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2515,7 +2515,7 @@
       "source_url": "https://on-the-move.org/news/european-cultural-foundation-creative-research-fellowship-research-erasmus-and-european",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2607,7 +2607,7 @@
       "source_url": "https://on-the-move.org/news/european-hybrid-intelligence-network-dirtly-lab-residencies-2027-belgium-croatia-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -3814,7 +3814,7 @@
       "source_url": "https://on-the-move.org/news/indian-ocean-commission-alevini-regional-mobility-assistance-fund-cycle-7-union-comoros",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -4444,7 +4444,7 @@
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -4997,7 +4997,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5167,7 +5167,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5249,7 +5249,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5863,7 +5863,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5945,7 +5945,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6120,7 +6120,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-02T08:30:46Z",
+      "updated_at": "2026-11-02T18:57:11Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6500,7 +6500,7 @@
       "source_url": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6902,7 +6902,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7274,7 +7274,7 @@
       "source_url": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-02T08:31:04Z",
+      "updated_at": "2026-11-02T18:59:24Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -7372,6 +7372,92 @@
       "marcadores": [
         "carga_inicial",
         "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "youth-policy-dialogue-2027-ai-and-music-netherlands-fea053",
+      "titulo": "Youth Policy Dialogue 2027 on ‘AI and Music’ (Netherlands)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "NL",
+      "elegivel_brasileiros": null,
+      "formato": "festival",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "alimentacao"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Netherlands"
+      ],
+      "areas": [
+        "musica"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-02",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-02",
+      "status": "aberto",
+      "resumo": "The EU is developing an AI Strategy for the Cultural and Creative Sectors and they are looking for 30 young people to join Commissioner Glenn Micallef (Intergenerational Fairness, Youth, Culture and Sport) in Groningen (NL) and help shape this upcoming strategy.",
+      "link_inscricao": "https://youth.europa.eu/news/apply-youth-policy-dialogue-ai-and-music-commissioner-micallef_en",
+      "link_edital": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/YPD-call-for-applications.png",
+      "imagem_verificada_em": "2026-11-02T18:59:41Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-02T18:59:24Z",
+      "updated_at": "2026-11-02T18:59:24Z",
+      "prioridade": 25,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
       ],
       "valores_coletados": {},
       "historico": [],
