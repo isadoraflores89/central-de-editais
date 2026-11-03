@@ -1,7 +1,22 @@
 {
- "atualizado_em": "2026-11-02",
+ "atualizado_em": "2026-11-03",
  "fonte": "Central de Editais + busca diária (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 0,
- "itens": []
+ "total": 1,
+ "itens": [
+  {
+   "id": "vale-selecao-direta-de-patrocinios-culturais-instituto-9ad723",
+   "titulo": "Vale — Seleção Direta de Patrocínios Culturais (Instituto Cultural Vale)",
+   "orgao": "Instituto Cultural Vale",
+   "areas": [
+    "audiovisual"
+   ],
+   "ufs": [],
+   "tipo": "final",
+   "data": "2026-10-29",
+   "resumo": "53 projetos culturais foram selecionados em todo o país na 7ª edição da Chamada Instituto Cultural Vale, com R$ 30 milhões via Lei Rouanet.",
+   "link": "https://www.oliberal.com/cultura/projetos-do-para-sao-selecionados-em-edital-nacional-de-cultura-da-vale-1.1188572",
+   "visto_em": "2026-11-03"
+  }
+ ]
 }

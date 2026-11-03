@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-02",
+ "atualizado_em": "2026-11-03",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 23,
  "itens": [
-  {
-   "titulo": "Líder de Bilheteria",
-   "organizacao": "Museu Catavento",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-02",
-   "salario": "R$ 4.200,00 + quebra de caixa",
-   "resumo": "Coordenação da bilheteria do museu; formação em administração, marketing, gestão cultural ou turismo.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-lider-de-bilheteria",
-   "visto_em": "2026-10-29"
-  },
-  {
-   "titulo": "Orientador(a) de Público de Final de Semana",
-   "organizacao": "Museu da Língua Portuguesa",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-02",
-   "salario": "R$ 1.245,72",
-   "resumo": "Três vagas de atendimento e orientação de público aos fins de semana no museu.",
-   "link": "https://trabalhenacultura.substack.com/p/03-vagas-para-orientador-de-publico",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Analista de Comunicação",
    "organizacao": "Seiva (escola, editora e comunidade criativa)",
@@ -61,6 +33,20 @@
    "visto_em": "2026-11-02"
   },
   {
+   "titulo": "Gerente Administrativo(a) e Financeiro(a)",
+   "organizacao": "Fundação Energia e Saneamento",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "2026-11-04",
+   "salario": "",
+   "resumo": "Gerência administrativa e financeira em fundação de apoio a projetos culturais, vaga anunciada em São Paulo.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-gerente-administrativoa",
+   "visto_em": "2026-11-03"
+  },
+  {
    "titulo": "Auxiliar da Diretoria do Núcleo Técnico (vaga exclusiva PCD)",
    "organizacao": "Museu Catavento",
    "cidade": "São Paulo",
@@ -73,6 +59,20 @@
    "resumo": "Vaga exclusiva para pessoas com deficiência de apoio à diretoria do núcleo técnico do museu.",
    "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-auxiliar-da-diretoria",
    "visto_em": "2026-11-02"
+  },
+  {
+   "titulo": "Adm/Financeiro",
+   "organizacao": "Parede Viva",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "2026-11-05",
+   "salario": "",
+   "resumo": "Atuação administrativo-financeira na Parede Viva, organização cultural de São Paulo.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-admfinanceiro",
+   "visto_em": "2026-11-03"
   },
   {
    "titulo": "Orientador(a) de Público",
