@@ -375,7 +375,7 @@
       "source_url": "https://on-the-move.org/news/artemis-2027-orchestra-academy-young-instrumentalists-latvia",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 60,
       "curadoria": {
         "oculto": false,
@@ -999,7 +999,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1081,7 +1081,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1164,7 +1164,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1247,7 +1247,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1800,7 +1800,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1882,7 +1882,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1965,7 +1965,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2515,7 +2515,7 @@
       "source_url": "https://on-the-move.org/news/european-cultural-foundation-creative-research-fellowship-research-erasmus-and-european",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2607,7 +2607,7 @@
       "source_url": "https://on-the-move.org/news/european-hybrid-intelligence-network-dirtly-lab-residencies-2027-belgium-croatia-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2865,7 +2865,7 @@
       "data_limite": "2026-11-03",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "R$ 40 milhões em investimentos retornáveis para produção de longas-metragens e coproduções internacionais por produtoras independentes sediadas em São Paulo.",
       "link_inscricao": "https://www.cultura.sp.gov.br/sec_cultura",
       "link_edital": null,
@@ -2882,8 +2882,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-11-04T08:20:48Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -2895,7 +2895,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-04T08:20:48Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -3814,7 +3822,7 @@
       "source_url": "https://on-the-move.org/news/indian-ocean-commission-alevini-regional-mobility-assistance-fund-cycle-7-union-comoros",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -4444,7 +4452,7 @@
       "source_url": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-03T08:17:19Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -4528,7 +4536,7 @@
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -5081,7 +5089,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5251,7 +5259,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5333,7 +5341,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5947,7 +5955,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6029,7 +6037,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6204,7 +6212,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-03T16:42:49Z",
+      "updated_at": "2026-11-04T08:20:14Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6584,7 +6592,7 @@
       "source_url": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6986,7 +6994,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7358,7 +7366,7 @@
       "source_url": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -7532,7 +7540,7 @@
       "source_url": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T18:59:24Z",
-      "updated_at": "2026-11-03T16:43:11Z",
+      "updated_at": "2026-11-04T08:20:32Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
