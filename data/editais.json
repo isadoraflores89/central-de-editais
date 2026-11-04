@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 83,
+  "total": 85,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -470,6 +470,93 @@
       "marcadores": [
         "carga_inicial",
         "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "bernheim-arboretum-and-research-forest-artist-residence-326a6c",
+      "titulo": "Bernheim Arboretum and Research Forest: Artist in Residence Programme 2027 (USA)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "US",
+      "elegivel_brasileiros": null,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "United States of America"
+      ],
+      "areas": [
+        "multi",
+        "musica",
+        "artes_cenicas",
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-04",
+      "status": "aberto",
+      "resumo": "Bernheim Arboretum and Research Forest’s artist in residence programme annually awards artists the opportunity to live and create site-specific work inspired by their total immersion experience in the natural environment.",
+      "link_inscricao": "https://bernheim.org/news/call-for-2027-artist-in-residence/",
+      "link_edital": "https://on-the-move.org/news/bernheim-arboretum-and-research-forest-artist-residence-programme-2027-usa",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Bernheim%20Forest%20and%20Arboretum.jpg",
+      "imagem_verificada_em": "2026-11-04T16:40:27Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/bernheim-arboretum-and-research-forest-artist-residence-programme-2027-usa",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-04T16:40:10Z",
+      "updated_at": "2026-11-04T16:40:10Z",
+      "prioridade": 30,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
       ],
       "valores_coletados": {},
       "historico": [],
@@ -999,7 +1086,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1081,7 +1168,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1164,7 +1251,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1247,7 +1334,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1800,7 +1887,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1882,7 +1969,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1965,7 +2052,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2515,7 +2602,7 @@
       "source_url": "https://on-the-move.org/news/european-cultural-foundation-creative-research-fellowship-research-erasmus-and-european",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2607,7 +2694,7 @@
       "source_url": "https://on-the-move.org/news/european-hybrid-intelligence-network-dirtly-lab-residencies-2027-belgium-croatia-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -4452,7 +4539,7 @@
       "source_url": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-03T08:17:19Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -4536,7 +4623,7 @@
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -4938,6 +5025,94 @@
       "revisao_pendente": false
     },
     {
+      "id": "montpellier-2028-residency-visual-arts-and-music-2027-france-9c188b",
+      "titulo": "Montpellier 2028: Residency in Visual Arts and Music 2027 (France)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "FR",
+      "elegivel_brasileiros": null,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario",
+        "ajuda_custo"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "France"
+      ],
+      "areas": [
+        "musica",
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "before the end of the 2026–2027 school year, w",
+      "data_limite": "2026-11-16",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-04",
+      "status": "aberto",
+      "resumo": "Montpellier 2028 – Terres de culture and the Communauté de communes Vallée de l’Hérault invite applications for the ‘A Living Valley: A Sensitive Evocation of the Hérault Valley’ artistic research and creation residency, taking place at the former Aniane Abbey and across the Hérault Valley, France.",
+      "link_inscricao": "https://www.montpellier2028.eu/en/appel-a-candidatures-residence-une-vallee-vivante-evocation-sensible-de-la-vallee-de-lherault/",
+      "link_edital": "https://on-the-move.org/news/montpellier-2028-residency-visual-arts-and-music-2027-france",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Montpellier2028-Bandeaux-site-1500x670-Residences-2026-scaled.jpeg",
+      "imagem_verificada_em": "2026-11-04T16:40:27Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/montpellier-2028-residency-visual-arts-and-music-2027-france",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-04T16:40:10Z",
+      "updated_at": "2026-11-04T16:40:10Z",
+      "prioridade": 45,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "mophradat-residency-buda-premiere-next-festival-2027-belgium-096b65",
       "titulo": "Mophradat: Residency at BUDA with a Premiere at NEXT Festival 2027 (Belgium)",
       "orgao": null,
@@ -5089,7 +5264,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5259,7 +5434,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5341,7 +5516,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5955,7 +6130,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6037,7 +6212,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6212,7 +6387,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-04T08:20:14Z",
+      "updated_at": "2026-11-04T16:39:53Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6592,7 +6767,7 @@
       "source_url": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6994,7 +7169,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7366,7 +7541,7 @@
       "source_url": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -7540,7 +7715,7 @@
       "source_url": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T18:59:24Z",
-      "updated_at": "2026-11-04T08:20:32Z",
+      "updated_at": "2026-11-04T16:40:10Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
