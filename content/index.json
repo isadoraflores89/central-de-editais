@@ -1,14 +1,22 @@
 {
  "semanas": [
   {
+   "semana": "2026-45",
+   "gerado_em": "2026-11-04",
+   "post": "content/weekly/2026-45.md",
+   "newsletter": "content/newsletter/2026-45.md",
+   "carrossel": "content/weekly/2026-45.carrossel.json"
+  },
+  {
    "semana": "2026-44",
-   "gerado_em": "2026-11-01",
+   "gerado_em": "2026-11-04",
    "post": "content/weekly/2026-44.md",
    "newsletter": "content/newsletter/2026-44.md",
    "carrossel": "content/weekly/2026-44.carrossel.json"
   }
  ],
  "alertas": [
+  "content/alertas/2026-11-04.md",
   "content/alertas/2026-11-01.md"
  ]
 }
