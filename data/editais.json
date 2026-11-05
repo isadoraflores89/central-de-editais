@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 85,
+  "total": 87,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -547,7 +547,7 @@
       "source_url": "https://on-the-move.org/news/bernheim-arboretum-and-research-forest-artist-residence-programme-2027-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -663,6 +663,90 @@
       "aliases": [
         "bip-esporte-banco-de-incentivados-da-prosas-1ea0eb"
       ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "blois-danse-international-choreographic-festival-2027-france-ebb7aa",
+      "titulo": "Blois Danse: International Choreographic Festival 2027 (France)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "FR",
+      "elegivel_brasileiros": true,
+      "formato": "festival",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "France"
+      ],
+      "areas": [
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-05",
+      "status": "aberto",
+      "resumo": "Blois Danse is organising the 8th edition of the International Choreographic Festival of Blois – Blois Danse -, a two-week event dedicated to dance with performances, master classes, film screenings and other activities.",
+      "link_inscricao": "https://www.bloisdanse.com/opencall",
+      "link_edital": "https://on-the-move.org/news/blois-danse-international-choreographic-festival-2027-france",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/BloisDanse2027.jpeg",
+      "imagem_verificada_em": "2026-11-05T17:01:11Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/blois-danse-international-choreographic-festival-2027-france",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-05T17:00:54Z",
+      "updated_at": "2026-11-05T17:00:54Z",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
       "revisao_pendente": false
     },
     {
@@ -1086,7 +1170,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1168,7 +1252,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1887,7 +1971,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1969,7 +2053,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2602,7 +2686,7 @@
       "source_url": "https://on-the-move.org/news/european-cultural-foundation-creative-research-fellowship-research-erasmus-and-european",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2694,7 +2778,7 @@
       "source_url": "https://on-the-move.org/news/european-hybrid-intelligence-network-dirtly-lab-residencies-2027-belgium-croatia-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2900,6 +2984,94 @@
           "motivo": "prazo vencido"
         }
       ],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "festival-opera-prima-2027-experimental-theatre-and-f31ce7",
+      "titulo": "Festival Opera Prima 2027 Experimental Theatre and Performing Arts Projects (Italy)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "IT",
+      "elegivel_brasileiros": true,
+      "formato": "festival",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario",
+        "producao",
+        "alimentacao"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Italy"
+      ],
+      "areas": [
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-21",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-05",
+      "status": "aberto",
+      "resumo": "This call for entries is opened to international groups or artists that practice experimental theatre or experimentation on scenic languages, to perform at Festival Opera Prima, 9–13 June 2027, in Rovigo, Italy.",
+      "link_inscricao": "https://www.festivaloperaprima.it/images/2027/Inglese%20-%20Bando%20opera%20prima%202026%201.pdf",
+      "link_edital": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/opera-prima-2027.jpeg",
+      "imagem_verificada_em": "2026-11-05T17:01:11Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-05T17:00:54Z",
+      "updated_at": "2026-11-05T17:00:54Z",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -4547,7 +4719,7 @@
       "source_url": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-03T08:17:19Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -4631,7 +4803,7 @@
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -5104,7 +5276,7 @@
       "source_url": "https://on-the-move.org/news/montpellier-2028-residency-visual-arts-and-music-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -5272,7 +5444,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5442,7 +5614,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5524,7 +5696,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6220,7 +6392,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6395,7 +6567,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-05T08:14:36Z",
+      "updated_at": "2026-11-05T16:55:58Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7177,7 +7349,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7723,7 +7895,7 @@
       "source_url": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T18:59:24Z",
-      "updated_at": "2026-11-05T08:14:59Z",
+      "updated_at": "2026-11-05T17:00:54Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
