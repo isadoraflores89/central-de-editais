@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-04",
+ "atualizado_em": "2026-11-05",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 22,
+ "total": 24,
  "itens": [
-  {
-   "titulo": "Coordenador(a) de Riscos e Controles Internos",
-   "organizacao": "APPA – Cultura & Patrimônio",
-   "cidade": "Belo Horizonte",
-   "uf": "MG",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "clt",
-   "prazo": "2026-11-04",
-   "salario": "",
-   "resumo": "Coordenação de riscos e controles internos em organização de cultura e patrimônio em Belo Horizonte.",
-   "link": "https://trabalhenacultura.substack.com/p/belo-horizonte-vaga-para-coordenador",
-   "visto_em": "2026-11-02"
-  },
-  {
-   "titulo": "Gerente Administrativo(a) e Financeiro(a)",
-   "organizacao": "Fundação Energia e Saneamento",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "clt",
-   "prazo": "2026-11-04",
-   "salario": "",
-   "resumo": "Gerência administrativa e financeira em fundação de apoio a projetos culturais, vaga anunciada em São Paulo.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-gerente-administrativoa",
-   "visto_em": "2026-11-03"
-  },
   {
    "titulo": "Auxiliar da Diretoria do Núcleo Técnico (vaga exclusiva PCD)",
    "organizacao": "Museu Catavento",
@@ -311,6 +283,62 @@
    "resumo": "Credenciamento nacional de especialistas para pareceres técnicos e financeiros em processos do Fundo Nacional da Cultura, inscrições em andamento.",
    "link": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-credenciamento-de-pareceristas-tecnicos",
    "visto_em": "2026-11-01"
+  },
+  {
+   "titulo": "Coordenador(a) Assistente de Cultura (CEU) — Zona Leste",
+   "organizacao": "Instituto Baccarelli",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "educacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Coordenação assistente de atividades culturais em CEU da Zona Leste de São Paulo, pelo Instituto Baccarelli.",
+   "link": "https://www.idealist.org/pt/ong-emprego/ef7dbd1f527543af9114aa08ef1a988b-coordenador-assistente-de-cultura-sp-zona-leste-instituto-baccarelli-sao-paulo",
+   "visto_em": "2026-11-05"
+  },
+  {
+   "titulo": "Coordenador(a) Assistente de Cultura (CEU) — Zona Norte",
+   "organizacao": "Instituto Baccarelli",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "educacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Coordenação assistente de atividades culturais em CEU da Zona Norte de São Paulo, pelo Instituto Baccarelli.",
+   "link": "https://www.idealist.org/pt/ong-emprego/286f47cd9dfd44dabd01f648b2b2bd91-coordenador-assistente-de-cultura-sp-zona-norte-instituto-baccarelli-sao-paulo",
+   "visto_em": "2026-11-05"
+  },
+  {
+   "titulo": "Auxiliar Administrativo",
+   "organizacao": "Instituto Baccarelli",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Apoio administrativo às atividades do Instituto Baccarelli, organização social de cultura e música em Heliópolis.",
+   "link": "https://www.idealist.org/pt/emprego/b2c6ebaa405c49ab9c3e14d88752c6f1-auxiliar-administrativo-instituto-baccarelli-sao-paulo",
+   "visto_em": "2026-11-05"
+  },
+  {
+   "titulo": "Produtor(a) Cultural (Sistema FIEB)",
+   "organizacao": "Sistema FIEB",
+   "cidade": "Feira de Santana",
+   "uf": "BA",
+   "remoto": false,
+   "area": "producao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Produção cultural no Sistema FIEB em Feira de Santana, com formação em produção cultural, gestão cultural, artes ou comunicação social.",
+   "link": "https://www.infojobs.com.br/vaga-de-produtor-cultural-em-bahia__11863932.aspx",
+   "visto_em": "2026-11-05"
   }
  ]
 }
