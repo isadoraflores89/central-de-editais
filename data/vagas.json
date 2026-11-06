@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-05",
+ "atualizado_em": "2026-11-06",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 24,
+ "total": 30,
  "itens": [
-  {
-   "titulo": "Auxiliar da Diretoria do Núcleo Técnico (vaga exclusiva PCD)",
-   "organizacao": "Museu Catavento",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-05",
-   "salario": "",
-   "resumo": "Vaga exclusiva para pessoas com deficiência de apoio à diretoria do núcleo técnico do museu.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-auxiliar-da-diretoria",
-   "visto_em": "2026-11-02"
-  },
-  {
-   "titulo": "Adm/Financeiro",
-   "organizacao": "Parede Viva",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "clt",
-   "prazo": "2026-11-05",
-   "salario": "",
-   "resumo": "Atuação administrativo-financeira na Parede Viva, organização cultural de São Paulo.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-admfinanceiro",
-   "visto_em": "2026-11-03"
-  },
   {
    "titulo": "Orientador(a) de Público",
    "organizacao": "Museu da Imigração",
@@ -268,7 +240,7 @@
    "salario": "",
    "resumo": "Bolsa de pesquisa sobre dados de fomento cultural, restrita a quem está matriculado em pós-graduação lato sensu, mestrado ou doutorado na UFBA.",
    "link": "https://artvsm.substack.com/p/vagas-de-trabalho-itau-cultural-bolsa",
-   "visto_em": "2026-10-31"
+   "visto_em": "2026-11-06"
   },
   {
    "titulo": "Credenciamento de Pareceristas Técnicos (SEFIC/MinC, fluxo contínuo)",
@@ -282,7 +254,7 @@
    "salario": "",
    "resumo": "Credenciamento nacional de especialistas para pareceres técnicos e financeiros em processos do Fundo Nacional da Cultura, inscrições em andamento.",
    "link": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-credenciamento-de-pareceristas-tecnicos",
-   "visto_em": "2026-11-01"
+   "visto_em": "2026-11-06"
   },
   {
    "titulo": "Coordenador(a) Assistente de Cultura (CEU) — Zona Leste",
@@ -338,7 +310,119 @@
    "salario": "",
    "resumo": "Produção cultural no Sistema FIEB em Feira de Santana, com formação em produção cultural, gestão cultural, artes ou comunicação social.",
    "link": "https://www.infojobs.com.br/vaga-de-produtor-cultural-em-bahia__11863932.aspx",
-   "visto_em": "2026-11-05"
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Vagas abertas (diversas funções) — Trabalhe Conosco",
+   "organizacao": "MASP",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Página oficial do MASP com vagas abertas em funções como montagem, manutenção, acervo e design.",
+   "link": "https://masp.org.br/sobre/trabalhe-conosco",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Analista de Comunicação Júnior",
+   "organizacao": "Museu das Favelas (IDG)",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga júnior de comunicação para o Museu das Favelas, gerido pelo Instituto de Desenvolvimento e Gestão (IDG).",
+   "link": "https://www.idealist.org/pt/emprego/64e71cef98b34ccbb9ef010584356fd8-analista-de-comunicacao-junior-museu-das-favelas-instituto-de-desenvolvimento-e-gestao-idg-sao-paulo",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Pessoa Educadora (vaga exclusiva PCD)",
+   "organizacao": "Museu das Favelas (IDG)",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "educacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga de educador(a) museal exclusiva para pessoas com deficiência no Museu das Favelas.",
+   "link": "https://www.idealist.org/en/job/b8075e4ea6f24e0aa51995e49c96ee7d-pessoa-educadora-exclusiva-para-pcd-museu-das-favelas-sao-paulo",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Museólogo(a)",
+   "organizacao": "Vaga divulgada no portal BNE",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga para museólogo(a) em Salvador, divulgada no portal de empregos em arte e cultura BNE.",
+   "link": "https://www.bne.com.br/vaga-de-emprego-na-area-arte-e-cultura-em-salvador-ba/museologo/4829108",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Bolsista de Gestão e Produção Cultural",
+   "organizacao": "Sesi Santa Catarina",
+   "cidade": "",
+   "uf": "SC",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "bolsa",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Bolsa do Sesi-SC para atuação em gestão e produção cultural.",
+   "link": "https://www.infojobs.com.br/vaga-de-sesi-bolsista-gestao-producao-cultural-em-santa-catarina__11699952.aspx",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Seleção de Bolsista para Produção Cultural",
+   "organizacao": "Conservatório UFMG",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "remoto": false,
+   "area": "producao",
+   "regime": "bolsa",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Edital de seleção de bolsista para atuar na produção de atividades culturais do Conservatório UFMG.",
+   "link": "https://www.ufmg.br/conservatorio/paginas/EditalSelecaodeBolsista2026ProducaoNovo_assinado.pdf",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Seleção de Pareceristas para Comissões Julgadoras do Fundo de Cultura",
+   "organizacao": "Secretaria de Estado da Cultura do Espírito Santo (Secult-ES)",
+   "cidade": "",
+   "uf": "ES",
+   "remoto": true,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Secult-ES reabriu inscrições para credenciar pareceristas que vão compor comissões julgadoras de editais do Fundo de Cultura.",
+   "link": "https://www.es.gov.br/Noticia/secult-reabre-inscricoes-para-selecao-de-profissionais-para-comissoes-julgadoras",
+   "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Conecta Jovem — Curadores e Oficineiros",
+   "organizacao": "Secretaria de Cultura de Jundiaí",
+   "cidade": "Jundiaí",
+   "uf": "SP",
+   "remoto": false,
+   "area": "formacao",
+   "regime": "bolsa",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Edital de formação e premiação para jovens curadores e oficineiros do município de Jundiaí.",
+   "link": "https://cultura.jundiai.sp.gov.br/wp-content/uploads/2026/08/Edital-Conecta-Jovem-Curadores-e-Oficineiros-2.pdf",
+   "visto_em": "2026-11-06"
   }
  ]
 }
