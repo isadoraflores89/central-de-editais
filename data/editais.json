@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 87,
+  "total": 88,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -547,7 +547,7 @@
       "source_url": "https://on-the-move.org/news/bernheim-arboretum-and-research-forest-artist-residence-programme-2027-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -733,7 +733,7 @@
       "source_url": "https://on-the-move.org/news/blois-danse-international-choreographic-festival-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-11-05T17:00:54Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1170,7 +1170,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1252,7 +1252,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -1335,7 +1335,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1418,7 +1418,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1971,7 +1971,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2053,7 +2053,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2136,7 +2136,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2686,7 +2686,7 @@
       "source_url": "https://on-the-move.org/news/european-cultural-foundation-creative-research-fellowship-research-erasmus-and-european",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -2778,7 +2778,7 @@
       "source_url": "https://on-the-move.org/news/european-hybrid-intelligence-network-dirtly-lab-residencies-2027-belgium-croatia-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T08:31:04Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -3059,7 +3059,93 @@
       "source_url": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
       "fontes_secundarias": [],
       "captured_at": "2026-11-05T17:00:54Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "frankfurt-moves-residency-2027-emerging-performing-artists-743e74",
+      "titulo": "Frankfurt Moves! Residency 2027 for Emerging Performing Artists Trained in Africa, Asia, Latin America or the WANA Region (Germany)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "DE",
+      "elegivel_brasileiros": true,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": "hibrida",
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Germany"
+      ],
+      "areas": [
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-07",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-06",
+      "status": "aberto",
+      "resumo": "In the framework of the Residency Programme Frankfurt Moves!, the foundation KfW Stiftung and the Frankfurt LAB invite professional international emerging artists working in the performing arts to work on their artistic projects and to exchange ideas with other creative artists.",
+      "link_inscricao": "https://frankfurt-lab.de/en/frankfurt-moves-stipend-for-international-performing-artists/",
+      "link_edital": "https://on-the-move.org/news/frankfurt-moves-residency-2027-emerging-performing-artists-trained-africa-asia-latin-america",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Frankfurt_LAB_Open-Cal_Header.jpeg",
+      "imagem_verificada_em": "2026-11-06T16:28:02Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/frankfurt-moves-residency-2027-emerging-performing-artists-trained-africa-asia-latin-america",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-06T16:27:45Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -4719,7 +4805,7 @@
       "source_url": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-03T08:17:19Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -5276,7 +5362,7 @@
       "source_url": "https://on-the-move.org/news/montpellier-2028-residency-visual-arts-and-music-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -5444,7 +5530,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5614,7 +5700,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5696,7 +5782,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6310,7 +6396,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6392,7 +6478,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6567,7 +6653,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-06T08:25:06Z",
+      "updated_at": "2026-11-06T16:27:24Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7349,7 +7435,7 @@
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7895,7 +7981,7 @@
       "source_url": "https://on-the-move.org/news/youth-policy-dialogue-2027-ai-and-music-netherlands",
       "fontes_secundarias": [],
       "captured_at": "2026-11-02T18:59:24Z",
-      "updated_at": "2026-11-06T08:25:27Z",
+      "updated_at": "2026-11-06T16:27:45Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
