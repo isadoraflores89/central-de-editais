@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-08",
+ "atualizado_em": "2026-11-09",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 30,
  "itens": [
-  {
-   "titulo": "Orientador(a) de Público",
-   "organizacao": "Museu da Imigração",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-08",
-   "salario": "",
-   "resumo": "Atendimento e orientação de público no Museu da Imigração de São Paulo.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-orientador-de-0ec",
-   "visto_em": "2026-11-02"
-  },
-  {
-   "titulo": "Analista de Pessoas e Cultura (pleno)",
-   "organizacao": "Museu das Amazônias (IDG)",
-   "cidade": "Belém",
-   "uf": "PA",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-08",
-   "salario": "",
-   "resumo": "Analista de pessoas e cultura organizacional no novo museu em Belém, gerido pelo IDG.",
-   "link": "https://idg.inhire.app/vagas/dc261adb-40bf-43f9-847d-fbaab28b67f6/analista-de-pessoas-e-cultura-pleno-or-museu-das-amazonias",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Estágio em Design",
    "organizacao": "Museu das Favelas (IDG)",
@@ -423,6 +395,34 @@
    "resumo": "Edital de formação e premiação para jovens curadores e oficineiros do município de Jundiaí.",
    "link": "https://cultura.jundiai.sp.gov.br/wp-content/uploads/2026/08/Edital-Conecta-Jovem-Curadores-e-Oficineiros-2.pdf",
    "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Analista de Comunicação Pleno",
+   "organizacao": "Museu das Amazônias (IDG)",
+   "cidade": "Belém",
+   "uf": "PA",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga de analista de comunicação pleno para o Museu das Amazônias, gerido pelo IDG, em Belém.",
+   "link": "https://www.idealist.org/pt/emprego/74979f3ac94d4949966a1404a98f094e-analista-de-comunicacao-pleno-museu-das-amazonias-belem",
+   "visto_em": "2026-11-09"
+  },
+  {
+   "titulo": "Assistente de Comunicação",
+   "organizacao": "Museu do Pontal",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga de assistente de comunicação para produção e edição de vídeos no Museu do Pontal.",
+   "link": "https://www.idealist.org/pt/emprego/11eb1abf20e64c4f804b0618773f2e11-assistente-de-comunicacao-museu-do-pontal-rio-de-janeiro",
+   "visto_em": "2026-11-09"
   }
  ]
 }
