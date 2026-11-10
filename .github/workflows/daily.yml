@@ -12,7 +12,7 @@ on:
   # (Commits feitos pelo próprio robô com GITHUB_TOKEN não disparam de novo.)
   push:
     branches: [main]
-    paths: ["site/**", "data/**", "config/**", "pipeline/**", "content/**"]
+    paths: ["site/**", "data/**", "config/**", "pipeline/**", "content/**", "integracoes/**", ".github/workflows/daily.yml"]
 
 permissions:
   contents: write   # commit de data/
@@ -64,7 +64,7 @@ jobs:
         run: uv run python integracoes/radar/pncp.py
 
       - name: Radares (copiar para a API pública)
-        run: cp data/resultados.json data/vagas.json data/licitacoes.json site/public/api/
+        run: cp data/resultados.json data/vagas.json data/licitacoes.json site/public/api/ && (test -f data/festivais.json && cp data/festivais.json site/public/api/ || true)
 
       - name: Conteúdo semanal (rascunhos para o painel de disparos)
         run: |
