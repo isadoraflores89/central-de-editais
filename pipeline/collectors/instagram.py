@@ -368,23 +368,35 @@ class ColetorInstagram:
         max_ia = int(cfg.get("max_posts_ia", 25))
         saida: list[Edital] = []
         usados = 0
+        falhas = 0
+        candidatos = 0
         for post in self._buscar(cfg, agora):
             link = str(post.get("permalink") or "")
             ts = str(post.get("timestamp") or "")
             if not link or (ts and ts < corte) or link in vistos:
                 continue
-            vistos[link] = agora.date().isoformat()
             if not parece_oportunidade(post.get("caption") or ""):
+                vistos[link] = agora.date().isoformat()
                 continue
             if usados >= max_ia:
                 break
             usados += 1
+            candidatos += 1
             dados = extrator(post)
-            if not dados:
-                continue
+            if dados is None:
+                # IA fora do ar ou resposta inválida: cai para as regras e NÃO marca como visto,
+                # para a IA tentar de novo na próxima rodada.
+                falhas += 1
+                dados = extrair_por_regras(post)
+            else:
+                vistos[link] = agora.date().isoformat()
             e = normalizar(post, dados, agora)
             if e is not None:
                 saida.append(e)
+        print(
+            f"[instagram] {candidatos} candidatos lidos pela IA, {falhas} falhas da IA "
+            f"(regras no lugar), {len(saida)} oportunidades para revisão"
+        )
         if self._guardar:
             _salvar_vistos(vistos, agora)
         return saida
