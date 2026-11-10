@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 92,
+  "total": 93,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -260,7 +260,7 @@
       "source_url": "https://on-the-move.org/news/african-european-museum-partnership-funding-exhibitions-and-public-engagement-initiatives",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -544,7 +544,7 @@
       "source_url": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -716,7 +716,7 @@
       "source_url": "https://on-the-move.org/news/bernheim-arboretum-and-research-forest-artist-residence-programme-2027-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 30,
       "curadoria": {
         "oculto": false,
@@ -902,7 +902,7 @@
       "source_url": "https://on-the-move.org/news/blois-danse-international-choreographic-festival-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-11-05T17:00:54Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1339,7 +1339,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1421,7 +1421,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -1504,7 +1504,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1587,7 +1587,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2049,7 +2049,7 @@
       "source_url": "https://on-the-move.org/news/devos-institute-global-executive-arts-management-fellowship-2027-2029-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -2226,7 +2226,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2308,7 +2308,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2391,7 +2391,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2872,6 +2872,92 @@
       "revisao_pendente": false
     },
     {
+      "id": "emmanuel-college-artist-residencies-ceramics-photography-f52a2a",
+      "titulo": "Emmanuel College: Artist Residencies in Ceramics, Photography, Printmaking and Social Practice 2027 (USA)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "US",
+      "elegivel_brasileiros": true,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "United States of America"
+      ],
+      "areas": [
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "closing exhibition for all resident artists to",
+      "data_limite": "2026-12-18",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-10",
+      "status": "aberto",
+      "resumo": "Emmanuel’s Artist-in-Residence programme supports a diverse group of artists, providing time and space for established and emerging artists to develop their work.",
+      "link_inscricao": "https://www.ecartistresidency.com",
+      "link_edital": "https://on-the-move.org/news/emmanuel-college-artist-residencies-ceramics-photography-printmaking-and-social-practice-2027",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Emmanuel%20college%20residency%202026.jpeg",
+      "imagem_verificada_em": "2026-11-10T08:19:57Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/emmanuel-college-artist-residencies-ceramics-photography-printmaking-and-social-practice-2027",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-10T08:19:40Z",
+      "updated_at": "2026-11-10T08:19:40Z",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "european-cultural-foundation-creative-research-fellowship-36c2d4",
       "titulo": "European Cultural Foundation: Creative Research Fellowship to Research ERASMUS and European Belonging (Italy)",
       "orgao": null,
@@ -3314,7 +3400,7 @@
       "source_url": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
       "fontes_secundarias": [],
       "captured_at": "2026-11-05T17:00:54Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -3400,7 +3486,7 @@
       "source_url": "https://on-the-move.org/news/frankfurt-moves-residency-2027-emerging-performing-artists-trained-africa-asia-latin-america",
       "fontes_secundarias": [],
       "captured_at": "2026-11-06T16:27:45Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -5065,7 +5151,7 @@
       "data_limite": "2026-11-09",
       "fluxo_continuo": false,
       "data_abertura": "2026-11-03",
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Leitrim Sculpture Centre in association with Leitrim County Council, Ireland, is offering up to four Exhibition Residencies to visual artists during 2027.",
       "link_inscricao": "https://www.leitrimsculpturecentre.ie/residencies/guidelines-how-to-apply",
       "link_edital": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
@@ -5076,8 +5162,8 @@
       "source_url": "https://on-the-move.org/news/leitrim-sculpture-centre-exhibition-residencies-visual-artists-2027-ireland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-03T08:17:19Z",
-      "updated_at": "2026-11-09T19:18:41Z",
-      "prioridade": 45,
+      "updated_at": "2026-11-10T08:19:57Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -5088,7 +5174,15 @@
         "coleta:onthemove"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-10T08:19:57Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -5633,8 +5727,8 @@
       "source_url": "https://on-the-move.org/news/montpellier-2028-residency-visual-arts-and-music-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-11-04T16:40:10Z",
-      "updated_at": "2026-11-09T19:18:41Z",
-      "prioridade": 45,
+      "updated_at": "2026-11-10T08:19:40Z",
+      "prioridade": 35,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -5801,7 +5895,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5971,7 +6065,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6068,7 +6162,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6697,7 +6791,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6779,7 +6873,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -6969,7 +7063,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-09T19:18:17Z",
+      "updated_at": "2026-11-10T08:19:16Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7364,7 +7458,7 @@
       "source_url": "https://on-the-move.org/news/sado-island-galaxy-art-festival-2027-japan",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-09T19:18:41Z",
+      "updated_at": "2026-11-10T08:19:40Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
