@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-11-09",
+ "atualizado_em": "2026-11-10",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 30,
+ "total": 31,
  "itens": [
-  {
-   "titulo": "Estágio em Design",
-   "organizacao": "Museu das Favelas (IDG)",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "comunicacao",
-   "regime": "estagio",
-   "prazo": "2026-11-09",
-   "salario": "",
-   "resumo": "Estágio de design no Museu das Favelas, gerido pelo IDG.",
-   "link": "https://idg.inhire.app/vagas/0181176c-547d-4727-bc7c-7ce27fe95ac1/pessoa-estagiaria-de-designor-museu-das-favelas",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Estágio em Curadoria",
    "organizacao": "MASP",
@@ -423,6 +409,34 @@
    "resumo": "Vaga de assistente de comunicação para produção e edição de vídeos no Museu do Pontal.",
    "link": "https://www.idealist.org/pt/emprego/11eb1abf20e64c4f804b0618773f2e11-assistente-de-comunicacao-museu-do-pontal-rio-de-janeiro",
    "visto_em": "2026-11-09"
+  },
+  {
+   "titulo": "Captador(a) de Recursos para Lei de Incentivo à Cultura",
+   "organizacao": "Centro Cultural Casa Mateira",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "economia_criativa",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "comissão de 10% do valor captado",
+   "resumo": "Captação de recursos via lei de incentivo à cultura para plano anual já aprovado, trabalho híbrido na Mata Atlântica em São Paulo.",
+   "link": "https://www.idealist.org/pt/emprego/18aefc6372e9438788a606bdd0f65e29-captador-de-recursos-para-lei-de-incentivo-a-cultura-centro-cultural-casa-mateira-sao-paulo",
+   "visto_em": "2026-11-10"
+  },
+  {
+   "titulo": "Pessoa Coordenadora da Escola de Conteúdo, Design e Artes Visuais",
+   "organizacao": "Instituto de Desenvolvimento e Gestão (IDG)",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "artes_visuais",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Coordenação do programa de cursos, masterclasses, exposições e seminários da Escola de Conteúdo do IDG, ligada ao programa CultSP PRO.",
+   "link": "https://www.idealist.org/pt/emprego/62273a176baf4a6aaf1ce59aad9e9d3c-pessoa-coordenadora-da-escola-de-conteudo-design-e-artes-visuais-instituto-de-desenvolvimento-e-gestao-sao-paulo",
+   "visto_em": "2026-11-10"
   }
  ]
 }
