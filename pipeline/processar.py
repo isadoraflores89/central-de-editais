@@ -10,6 +10,7 @@ from pipeline.enums import Status
 from pipeline.models import Edital, MudancaHistorico
 from pipeline.priority import calcular_prioridade
 from pipeline.status import calcular_status
+from pipeline.textnorm import resumo_padrao, titulo_padrao
 
 # Campos cuja mudança entra no histórico público do edital.
 CAMPOS_RASTREADOS = ("data_limite", "prazo_texto", "link_inscricao", "valor_por_projeto_max")
@@ -33,9 +34,15 @@ def registrar_mudancas(
                 and atual[campo] > velho[campo]
             ):
                 motivo = "prorrogado"
-            mudancas.append(MudancaHistorico(
-                em=agora, campo=campo, antes=velho[campo], depois=atual[campo], motivo=motivo,
-            ))
+            mudancas.append(
+                MudancaHistorico(
+                    em=agora,
+                    campo=campo,
+                    antes=velho[campo],
+                    depois=atual[campo],
+                    motivo=motivo,
+                )
+            )
     return mudancas
 
 
@@ -50,6 +57,11 @@ def processar(
     saida: list[Edital] = []
     linhas_hist: list[dict[str, Any]] = []
     for e in overrides.aplicar_todos(editais, ovs):
+        # padrão editorial: título em frase (sem caixa alta) e resumo até 1000 caracteres
+        if "titulo" not in e.valores_coletados:
+            e.titulo = titulo_padrao(e.titulo)
+        if "resumo" not in e.valores_coletados:
+            e.resumo = resumo_padrao(e.resumo)
         antigo = anteriores.get(e.id)
         mudancas = registrar_mudancas(antigo, e, agora)
         e.historico = [*e.historico, *mudancas]
@@ -57,7 +69,10 @@ def processar(
             e.status = calcular_status(e, hoje)
         if antigo is not None and antigo.status != e.status:
             m = MudancaHistorico(
-                em=agora, campo="status", antes=antigo.status.value, depois=e.status.value,
+                em=agora,
+                campo="status",
+                antes=antigo.status.value,
+                depois=e.status.value,
                 motivo="prazo vencido" if e.status == Status.encerrado else None,
             )
             e.historico.append(m)
