@@ -8,10 +8,12 @@ from pipeline.collectors.base import Coletor
 
 
 def registrados() -> dict[str, Callable[[], Coletor]]:
+    from pipeline.collectors.instagram import ColetorInstagram
     from pipeline.collectors.ojs import ColetorOJS
     from pipeline.collectors.onthemove import ColetorOnTheMove
 
     return {
         "ojs": ColetorOJS,
         "onthemove": ColetorOnTheMove,
+        "instagram": ColetorInstagram,
     }

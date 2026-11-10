@@ -40,7 +40,11 @@ jobs:
 
       # Fase 5: coleta open calls (On the Move) e chamadas acadêmicas (revistas OJS).
       # Uma fonte fora do ar não derruba o passo; o que vier se junta ao data/editais.json.
-      - name: Coletar open calls e chamadas acadêmicas
+      - name: Coletar open calls, chamadas acadêmicas e Instagram
+        env:
+          META_IG_TOKEN: ${{ secrets.META_IG_TOKEN }}
+          META_IG_USER_ID: ${{ vars.META_IG_USER_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run python -m pipeline collect || echo "coleta falhou; segue com os dados atuais"
 
       # Imagem oficial (og:image) das oportunidades abertas; uma página fora do ar não derruba o passo.

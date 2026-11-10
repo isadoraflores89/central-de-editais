@@ -1,0 +1,31 @@
+# Agente Instagram: contas e hashtags vigiadas pelo robô diário (pipeline/collectors/instagram.py).
+# Só contas profissionais (empresa/criador) podem ser lidas pela API oficial da Meta.
+# Hashtags: a Meta permite 30 diferentes por semana por conta; o robô usa no máximo
+# `hashtags_por_rodada` por dia, em rodízio.
+
+contas:   # testadas em 10/11/2026: funarte, secultba, sescsp, itaucultural respondem
+  - funarte
+  - secultba
+  - sescsp
+  - itaucultural
+  - mincultura         # confirmar o @ oficial do MinC
+  - cultura.sp         # Secretaria de Cultura de SP (confirmar)
+  - secultrj
+  - fundacaocultural.ba
+  - goetheinstitut_brasil
+  - institutocpfl
+
+hashtags:
+  - editalcultural
+  - editaisculturais
+  - editalaberto
+  - chamadapublica
+  - leirouanet
+  - pnab
+  - residenciaartistica
+  - editaldecultura
+
+hashtags_por_rodada: 4
+dias: 4                # só posts dos últimos N dias
+posts_por_conta: 8
+max_posts_ia: 25       # limite de chamadas à IA por rodada
