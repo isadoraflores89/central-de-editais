@@ -58,7 +58,9 @@ jobs:
       - name: Relatório
         run: uv run python -m pipeline report | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Radar de licitações da cultura (PNCP, sem chave)
+      - name: Radar de licitações da cultura (PNCP; Gemini separa o que é serviço cultural)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run python integracoes/radar/pncp.py
 
       - name: Radares (copiar para a API pública)
