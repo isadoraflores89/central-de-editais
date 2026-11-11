@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 93,
+  "total": 96,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -260,7 +260,7 @@
       "source_url": "https://on-the-move.org/news/african-european-museum-partnership-funding-exhibitions-and-public-engagement-initiatives",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -387,6 +387,96 @@
       "aliases": [
         "ambev-brasilidades-2026-leis-estaduais-de-incentivo-ao-9d22c7"
       ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "archaive-residency-ai-and-cultural-memory-2027-germany-e782ec",
+      "titulo": "ARCHAIVE: Residency on AI and Cultural Memory 2027 (Germany, Italy, Netherlands, Portugal, Spain, Remote)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "DE",
+      "elegivel_brasileiros": false,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": "hibrida",
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Italy",
+        "Spain",
+        "Portugal",
+        "Germany",
+        "Netherlands"
+      ],
+      "areas": [
+        "multi",
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-07",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-11",
+      "status": "aberto",
+      "resumo": "ARCHAIVE invites emerging and mid-career artists to critically engage with generative AI through the lens of cultural memory.",
+      "link_inscricao": "https://archaive.eu/news/international-open-call-for-artists/",
+      "link_edital": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/ARCHAIVE.jpg",
+      "imagem_verificada_em": "2026-11-11T16:46:01Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-11T16:45:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
+      "prioridade": 35,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
       "revisao_pendente": false
     },
     {
@@ -544,7 +634,7 @@
       "source_url": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -1339,7 +1429,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1421,7 +1511,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -1504,7 +1594,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1587,7 +1677,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2049,7 +2139,7 @@
       "source_url": "https://on-the-move.org/news/devos-institute-global-executive-arts-management-fellowship-2027-2029-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -2226,7 +2316,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2308,7 +2398,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2391,7 +2481,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2941,7 +3031,7 @@
       "source_url": "https://on-the-move.org/news/emmanuel-college-artist-residencies-ceramics-photography-printmaking-and-social-practice-2027",
       "fontes_secundarias": [],
       "captured_at": "2026-11-10T08:19:40Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -3400,7 +3490,7 @@
       "source_url": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
       "fontes_secundarias": [],
       "captured_at": "2026-11-05T17:00:54Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -3486,7 +3576,7 @@
       "source_url": "https://on-the-move.org/news/frankfurt-moves-residency-2027-emerging-performing-artists-trained-africa-asia-latin-america",
       "fontes_secundarias": [],
       "captured_at": "2026-11-06T16:27:45Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -5895,7 +5985,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6065,7 +6155,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6162,7 +6252,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6791,7 +6881,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6873,7 +6963,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7063,7 +7153,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-11T08:15:22Z",
+      "updated_at": "2026-11-11T16:44:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7300,6 +7390,92 @@
       "revisao_pendente": false
     },
     {
+      "id": "royal-drawing-school-don-bachardy-fellowship-2027-uk-7456a4",
+      "titulo": "Royal Drawing School: Don Bachardy Fellowship 2027 (UK)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "GB",
+      "elegivel_brasileiros": true,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "United Kingdom"
+      ],
+      "areas": [
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "before are not eligible to apply",
+      "data_limite": "2026-11-19",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-11",
+      "status": "aberto",
+      "resumo": "The Don Bachardy Fellowship at the Royal Drawing School enables a post-graduate artist from outside the United Kingdom to join the Royal Drawing School during the Summer Term each year.",
+      "link_inscricao": "https://royaldrawingschool.org/alumni-opportunities/residencies",
+      "link_edital": "https://on-the-move.org/news/royal-drawing-school-don-bachardy-fellowship-2027-uk",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/DonBachardy-RDS_RORY_LANGDON-DOWN_SHOREDITCH_SELECTS_A%2075.jpeg",
+      "imagem_verificada_em": "2026-11-11T16:46:01Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/royal-drawing-school-don-bachardy-fellowship-2027-uk",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-11T16:45:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "sabara-mg-edital-de-credenciamento-011-2026-pareceristas-e73e4a",
       "titulo": "Sabará/MG — Edital de Credenciamento 011/2026 Pareceristas PNAB",
       "orgao": "Prefeitura de Sabará",
@@ -7458,7 +7634,7 @@
       "source_url": "https://on-the-move.org/news/sado-island-galaxy-art-festival-2027-japan",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-11T08:15:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -8415,6 +8591,97 @@
       "marcadores": [
         "carga_inicial",
         "aba:editais"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "wonder-women-resistance-movements-research-residencies-and-de0e47",
+      "titulo": "WONDER: Women in Resistance Movements Research Residencies and Exhibition 2027 (Austria, Germany, Italy, Netherlands, Poland)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "DE",
+      "elegivel_brasileiros": true,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "producao"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Italy",
+        "Germany",
+        "Austria",
+        "Netherlands",
+        "Poland"
+      ],
+      "areas": [
+        "multi",
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-06",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-11",
+      "status": "aberto",
+      "resumo": "Women have played a crucial role in the fight against fascism, recognising it as a serious threat to world peace and actively contributing to the democratic transition.",
+      "link_inscricao": "https://www.eccom.it/wonder-open-call-for-artists/",
+      "link_edital": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/WONDER-2027.jpg",
+      "imagem_verificada_em": "2026-11-11T16:46:01Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-11T16:45:44Z",
+      "updated_at": "2026-11-11T16:45:44Z",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
       ],
       "valores_coletados": {},
       "historico": [],
