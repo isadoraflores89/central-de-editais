@@ -110,3 +110,14 @@ def test_estado_filtra_so_os_locais() -> None:
     msgs = enviar.montar_mensagens([cadastro(ufs="BA")["data"]], abertos, SEGUNDA)
     h = msgs[0]["html"]
     assert "Nacional" in h and "Bahia" in h and "Paulista" not in h
+
+
+def test_descadastrado_nao_recebe_e_link_de_sair_vai_no_rodape() -> None:
+    dados = cadastro(areas="musica")["data"]
+    abertos = [edital(id="a", areas=["musica"])]
+    msgs = enviar.montar_mensagens([dados], abertos, SEGUNDA)
+    assert len(msgs) == 1
+    assert "/.netlify/functions/descadastro?e=" in msgs[0]["html"]
+    assert "Parar de receber" in msgs[0]["html"]
+    bloqueados = {enviar.hash_email(dados["email"])}
+    assert enviar.montar_mensagens([dados], abertos, SEGUNDA, bloqueados) == []

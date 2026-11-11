@@ -32,6 +32,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import os
@@ -39,6 +40,7 @@ import re
 import sys
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta
 from typing import Any
@@ -48,6 +50,7 @@ FUSO = ZoneInfo("America/Bahia")
 FEED_URL = "https://radardeeditais.isadoraflores.art.br/api/editais.json"
 FEED_LOCAL = os.path.join(os.path.dirname(__file__), "..", "..", "data", "editais.json")
 SITE_URL = "https://editais.isadoraflores.art.br"
+DESCADASTRO_URL = SITE_URL + "/.netlify/functions/descadastro"
 NETLIFY_SITE_ID_PADRAO = "b74ac8a2-95f2-4601-ab51-c87bfdd3d61c"
 REMETENTE_PADRAO = "Radar de Editais <radar@isadoraflores.art.br>"
 
@@ -111,7 +114,8 @@ CORPO = (
     '<p style="margin:28px 0 0;font-size:14px;color:#555">Confira sempre prazos e regras '
     "no edital oficial. Para mudar seus filtros, entre em "
     '<a href="{site}" style="color:#0a2f33">{site_curto}</a>. '
-    'Para parar de receber, responda este e-mail com "sair".</p>'
+    '<a href="{descadastro}" style="color:#0a2f33">Parar de receber estes e-mails</a> '
+    "(um clique, sem senha).</p>"
     '<p style="font-size:13px;color:#888;margin-top:16px">'
     "Isadora Flores · Flores Educação e Cultura</p>"
     "</div>"
@@ -333,14 +337,34 @@ def bloco_texto(titulo: str, itens: list[Edital], hoje: date, maximo: int) -> st
     return f"{titulo}: {'; '.join(linhas)}. "
 
 
+def hash_email(email: str) -> str:
+    return hashlib.sha256(email.lower().strip().encode("utf-8")).hexdigest()
+
+
+def carregar_descadastrados() -> set[str]:
+    """Hashes (SHA-256) dos e-mails que clicaram em "parar de receber" no site."""
+    try:
+        dados = http_json(DESCADASTRO_URL + "?lista=1", timeout=30)
+        return {str(h) for h in dados.get("hashes", [])}
+    except (OSError, ValueError, AttributeError) as e:
+        print(f"[aviso] não li a lista de descadastro ({e}); enviando sem filtro", file=sys.stderr)
+        return set()
+
+
 def montar_mensagens(
-    apoiadores: list[dict[str, Any]], abertos: list[Edital], agora: datetime
+    apoiadores: list[dict[str, Any]],
+    abertos: list[Edital],
+    agora: datetime,
+    descadastrados: set[str] | None = None,
 ) -> list[dict[str, str]]:
     hoje = agora.date()
     segunda = agora.weekday() == 0
     saida: list[dict[str, str]] = []
+    descadastrados = descadastrados or set()
     for dados in apoiadores:
         p = Perfil(dados)
+        if p.email and hash_email(p.email) in descadastrados:
+            continue
         meus = ordenar([e for e in abertos if p.combina(e)])
         prazo = [e for e in meus if dias_restantes(e, hoje) in (7, 1)] if p.aviso_prazo else []
         novos = [e for e in meus if eh_novo(e, agora)] if p.frequencia == "imediato" else []
@@ -366,6 +390,7 @@ def montar_mensagens(
             + bloco_html("Resumo da semana: editais abertos para o seu perfil", resumo_so, hoje),
             site=SITE_URL,
             site_curto=SITE_URL.removeprefix("https://"),
+            descadastro=DESCADASTRO_URL + "?e=" + urllib.parse.quote(p.email, safe=""),
         )
         texto = (
             bloco_texto("PRAZO CHEGANDO", prazo, hoje, 3)
@@ -468,9 +493,11 @@ def main() -> int:
         cadastros = carregar_cadastros(token, site_id)
     apoiadores = apoiadores_unicos(cadastros)
     abertos = carregar_feed()
-    mensagens = montar_mensagens(apoiadores, abertos, agora)
+    descadastrados = carregar_descadastrados()
+    mensagens = montar_mensagens(apoiadores, abertos, agora, descadastrados)
     print(
-        f"[ok] {len(apoiadores)} apoiadores, {len(abertos)} editais abertos, "
+        f"[ok] {len(apoiadores)} apoiadores ({len(descadastrados)} descadastrados), "
+        f"{len(abertos)} editais abertos, "
         f"{len(mensagens)} mensagens para {agora:%d/%m/%Y} ({DIAS_SEMANA[agora.weekday()]})"
     )
 
