@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 96,
+  "total": 98,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -260,7 +260,7 @@
       "source_url": "https://on-the-move.org/news/african-european-museum-partnership-funding-exhibitions-and-public-engagement-initiatives",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -463,8 +463,94 @@
       "source_url": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 35,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "artemis-2027-academy-choir-singers-ukraine-lithuania-latvia-b19766",
+      "titulo": "ARTEMIS: 2027 Academy for Choir Singers from Ukraine, Lithuania, Latvia, Estonia, Poland (Latvia, Lithuania)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": null,
+      "elegivel_brasileiros": true,
+      "formato": "outro",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Lithuania",
+        "Latvia"
+      ],
+      "areas": [
+        "musica"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-04",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-12",
+      "status": "aberto",
+      "resumo": "This open call is specifically for young choir singers for the Artemis Choral Academy in Vilnius, taking place from 24 February to 3 March 2027, and for the Academy in Liepāja, from 28 March to 5 April 2027.",
+      "link_inscricao": "https://lush-owner-111.notion.site/ARTEMIS-Project-Open-Calls-32044ff2571680a79ae0f431eb8a4009",
+      "link_edital": "https://on-the-move.org/news/artemis-2027-academy-choir-singers-ukraine-lithuania-latvia-estonia-poland-latvia-lithuania",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Choir%20Singers.jpg",
+      "imagem_verificada_em": "2026-11-12T17:14:55Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/artemis-2027-academy-choir-singers-ukraine-lithuania-latvia-estonia-poland-latvia-lithuania",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-12T17:14:38Z",
+      "updated_at": "2026-11-12T17:14:38Z",
+      "prioridade": 55,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -634,7 +720,7 @@
       "source_url": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -1429,7 +1515,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1511,7 +1597,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -1594,7 +1680,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1677,7 +1763,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2139,7 +2225,7 @@
       "source_url": "https://on-the-move.org/news/devos-institute-global-executive-arts-management-fellowship-2027-2029-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -2316,7 +2402,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2398,7 +2484,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2481,7 +2567,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3031,7 +3117,7 @@
       "source_url": "https://on-the-move.org/news/emmanuel-college-artist-residencies-ceramics-photography-printmaking-and-social-practice-2027",
       "fontes_secundarias": [],
       "captured_at": "2026-11-10T08:19:40Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -5985,7 +6071,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6155,7 +6241,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6252,7 +6338,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6881,7 +6967,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6963,7 +7049,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7153,7 +7239,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-12T08:19:04Z",
+      "updated_at": "2026-11-12T17:13:02Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7459,7 +7545,7 @@
       "source_url": "https://on-the-move.org/news/royal-drawing-school-don-bachardy-fellowship-2027-uk",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -7634,7 +7720,7 @@
       "source_url": "https://on-the-move.org/news/sado-island-galaxy-art-festival-2027-japan",
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -8239,6 +8325,93 @@
       "revisao_pendente": false
     },
     {
+      "id": "turba-festival-2027-call-south-american-performing-artists-77bdff",
+      "titulo": "TURBA Festival: 2027 Call for South American Performing Artists (Argentina)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "AR",
+      "elegivel_brasileiros": true,
+      "formato": "festival",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario",
+        "ajuda_custo"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Argentina"
+      ],
+      "areas": [
+        "artes_cenicas"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-12",
+      "status": "aberto",
+      "resumo": "The International Performing Arts Festival of Ushuaia TURBA invites applications from artists from South American countries (excluding Argentina) working in the field of movement arts – dance, performance and related practices – for its third edition, taking place from 15 to 25 April 2027 in Ushuaia, Tierra del Fuego, Argentina.",
+      "link_inscricao": "https://drive.google.com/file/d/1GEdeo90JWdh_Km9z_aVGIsKofxoIhJOu/view",
+      "link_edital": "https://on-the-move.org/news/turba-festival-2027-call-south-american-performing-artists-argentina",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Turba.jpeg",
+      "imagem_verificada_em": "2026-11-12T17:14:55Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/turba-festival-2027-call-south-american-performing-artists-argentina",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-12T17:14:38Z",
+      "updated_at": "2026-11-12T17:14:38Z",
+      "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "uberlandia-mg-edital-smct-n-140-2025-credenciamento-de-1f2ef9",
       "titulo": "Uberlândia/MG — Edital SMCT nº 140/2025 Credenciamento de Pareceristas",
       "orgao": "Secretaria Municipal de Cultura e Turismo de Uberlândia",
@@ -8672,7 +8845,7 @@
       "source_url": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-12T08:19:22Z",
+      "updated_at": "2026-11-12T17:14:38Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
