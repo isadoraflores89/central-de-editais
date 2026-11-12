@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-11",
+ "atualizado_em": "2026-11-12",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 32,
+ "total": 35,
  "itens": [
   {
    "titulo": "Coordenação de Produção e Institucional",
@@ -47,6 +47,20 @@
    "visto_em": "2026-10-29"
   },
   {
+   "titulo": "Analista do Centro de Referência do Artesanato Brasileiro",
+   "organizacao": "Centro de Referência do Artesanato Brasileiro",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "clt",
+   "prazo": "2026-11-17",
+   "salario": "R$ 13.333,67",
+   "resumo": "Análise técnica sobre artesanato brasileiro, exigindo graduação em História, Design ou área afim e experiência mínima de cinco anos com artesanato.",
+   "link": "https://trabalhenacultura.substack.com/p/rio-de-janeiro-vaga-para-analista-03d",
+   "visto_em": "2026-11-12"
+  },
+  {
    "titulo": "Analista de Monitoramento e Avaliação (Cultura)",
    "organizacao": "Itaú Cultural",
    "cidade": "São Paulo",
@@ -59,6 +73,34 @@
    "resumo": "Monitoramento e avaliação de programas culturais do Itaú Cultural.",
    "link": "https://itaucultural.gupy.io/jobs/12218196?jobBoardSource=gupy_public_page",
    "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "23 vagas para Professor no Departamento de Artes",
+   "organizacao": "Universidade Estadual de Montes Claros (Unimontes)",
+   "cidade": "Montes Claros",
+   "uf": "MG",
+   "remoto": false,
+   "area": "formacao",
+   "regime": "concurso",
+   "prazo": "2026-11-19",
+   "salario": "",
+   "resumo": "Concurso com 23 vagas para professor no Departamento de Artes da Unimontes, com taxa de inscrição conforme a titulação exigida.",
+   "link": "https://trabalhenacultura.substack.com/p/23-vagas-para-professor-no-departamento",
+   "visto_em": "2026-11-12"
+  },
+  {
+   "titulo": "Bilheteiro(a)",
+   "organizacao": "Museu da Língua Portuguesa",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "2026-11-22",
+   "salario": "R$ 2.550,61",
+   "resumo": "Atendimento ao público na bilheteria do Museu da Língua Portuguesa, em São Paulo.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-bilheteiroa-no-c9d",
+   "visto_em": "2026-11-12"
   },
   {
    "titulo": "Programa de Estágio",
