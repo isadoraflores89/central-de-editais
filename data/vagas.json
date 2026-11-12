@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-10",
+ "atualizado_em": "2026-11-12",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 31,
+ "total": 35,
  "itens": [
-  {
-   "titulo": "Estágio em Curadoria",
-   "organizacao": "MASP",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "artes_visuais",
-   "regime": "estagio",
-   "prazo": "2026-11-10",
-   "salario": "",
-   "resumo": "Estágio em curadoria para estudantes de nível superior em áreas como história da arte e curadoria.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-estagio-em-curadoria-783",
-   "visto_em": "2026-11-02"
-  },
-  {
-   "titulo": "Edital Caju 2027 — seleção de artistas para Carnaval e São João 2027",
-   "organizacao": "Secult-PE / Fundarpe",
-   "cidade": "Recife",
-   "uf": "PE",
-   "remoto": false,
-   "area": "culturas_populares",
-   "regime": "credenciamento",
-   "prazo": "2026-11-10",
-   "salario": "cachê/premiação conforme categoria (valor não detalhado)",
-   "resumo": "Seleção de artistas e grupos de 12 categorias dos ciclos carnavalesco e junino para atuar no Carnaval e São João 2027 de Pernambuco.",
-   "link": "https://www.diariodepernambuco.com.br/viver/2026/10/11726813-pernambuco-lanca-edital-para-contratar-artistas-para-o-carnaval-e-o-sao-joao-de-2027.html",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Coordenação de Produção e Institucional",
    "organizacao": "IDG Cultura",
@@ -75,6 +47,20 @@
    "visto_em": "2026-10-29"
   },
   {
+   "titulo": "Analista do Centro de Referência do Artesanato Brasileiro",
+   "organizacao": "Centro de Referência do Artesanato Brasileiro",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "clt",
+   "prazo": "2026-11-17",
+   "salario": "R$ 13.333,67",
+   "resumo": "Análise técnica sobre artesanato brasileiro, exigindo graduação em História, Design ou área afim e experiência mínima de cinco anos com artesanato.",
+   "link": "https://trabalhenacultura.substack.com/p/rio-de-janeiro-vaga-para-analista-03d",
+   "visto_em": "2026-11-12"
+  },
+  {
    "titulo": "Analista de Monitoramento e Avaliação (Cultura)",
    "organizacao": "Itaú Cultural",
    "cidade": "São Paulo",
@@ -87,6 +73,34 @@
    "resumo": "Monitoramento e avaliação de programas culturais do Itaú Cultural.",
    "link": "https://itaucultural.gupy.io/jobs/12218196?jobBoardSource=gupy_public_page",
    "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "23 vagas para Professor no Departamento de Artes",
+   "organizacao": "Universidade Estadual de Montes Claros (Unimontes)",
+   "cidade": "Montes Claros",
+   "uf": "MG",
+   "remoto": false,
+   "area": "formacao",
+   "regime": "concurso",
+   "prazo": "2026-11-19",
+   "salario": "",
+   "resumo": "Concurso com 23 vagas para professor no Departamento de Artes da Unimontes, com taxa de inscrição conforme a titulação exigida.",
+   "link": "https://trabalhenacultura.substack.com/p/23-vagas-para-professor-no-departamento",
+   "visto_em": "2026-11-12"
+  },
+  {
+   "titulo": "Bilheteiro(a)",
+   "organizacao": "Museu da Língua Portuguesa",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "2026-11-22",
+   "salario": "R$ 2.550,61",
+   "resumo": "Atendimento ao público na bilheteria do Museu da Língua Portuguesa, em São Paulo.",
+   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-bilheteiroa-no-c9d",
+   "visto_em": "2026-11-12"
   },
   {
    "titulo": "Programa de Estágio",
@@ -437,6 +451,48 @@
    "resumo": "Coordenação do programa de cursos, masterclasses, exposições e seminários da Escola de Conteúdo do IDG, ligada ao programa CultSP PRO.",
    "link": "https://www.idealist.org/pt/emprego/62273a176baf4a6aaf1ce59aad9e9d3c-pessoa-coordenadora-da-escola-de-conteudo-design-e-artes-visuais-instituto-de-desenvolvimento-e-gestao-sao-paulo",
    "visto_em": "2026-11-10"
+  },
+  {
+   "titulo": "Gestão de Projetos",
+   "organizacao": "Museu da Pessoa",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga para gestão de projetos no Museu da Pessoa, museu de histórias de vida sediado em São Paulo.",
+   "link": "https://www.idealist.org/pt/emprego/661e28938ec940bd897f690a30994ba9-gestao-de-projetos-museu-da-pessoa-sao-paulo",
+   "visto_em": "2026-11-11"
+  },
+  {
+   "titulo": "Analista de Programação Pleno",
+   "organizacao": "Museu das Amazônias (IDG)",
+   "cidade": "Belém",
+   "uf": "PA",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga de analista de programação pleno para o Museu das Amazônias, gerido pelo Instituto de Desenvolvimento e Gestão (IDG), em Belém.",
+   "link": "https://www.idealist.org/en/job/1e28a254105a4b30a9dbb621759d2954-analista-de-programacao-pleno-museu-das-amazonias-instituto-de-desenvolvimento-e-gestao-idg-belem",
+   "visto_em": "2026-11-11"
+  },
+  {
+   "titulo": "Coordenador(a) Cultural",
+   "organizacao": "Fundação Dorina Nowill para Cegos",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Coordenação de atividades e projetos culturais na Fundação Dorina Nowill para Cegos, em São Paulo.",
+   "link": "https://www.idealist.org/pt/emprego/bfb3c75945d2491ebb0cd7a87db2fe83-coordenador-a-cultural-fundacao-dorina-nowill-para-cegos-sao-paulo",
+   "visto_em": "2026-11-11"
   }
  ]
 }
