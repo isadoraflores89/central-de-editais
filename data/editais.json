@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 102,
+  "total": 104,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -172,7 +172,7 @@
       "link_edital": "https://on-the-move.org/news/2200-2027-residency-emerging-artists-switzerland",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/2200-fu-7-m00cffda0-1600.jpeg",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/2200-2027-residency-emerging-artists-switzerland",
       "fontes_secundarias": [],
@@ -463,7 +463,7 @@
       "source_url": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -549,7 +549,7 @@
       "source_url": "https://on-the-move.org/news/artemis-2027-academy-choir-singers-ukraine-lithuania-latvia-estonia-poland-latvia-lithuania",
       "fontes_secundarias": [],
       "captured_at": "2026-11-12T17:14:38Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -629,7 +629,7 @@
       "link_edital": "https://on-the-move.org/news/artemis-2027-orchestra-academy-young-instrumentalists-latvia",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/ARTEMIS-Liepaja%202027.jpg",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/artemis-2027-orchestra-academy-young-instrumentalists-latvia",
       "fontes_secundarias": [],
@@ -793,7 +793,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://cdn.bb.com.br/wp-content/uploads/2025/09/Shutterstock_2643868651.png",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.bb.com.br/site/patrocinios/",
       "fontes_secundarias": [
@@ -969,7 +969,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://produtos.prosas.com.br/assets/images/bip/og-image.jpeg",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://bip.prosas.com.br/",
       "fontes_secundarias": [
@@ -1153,7 +1153,7 @@
       "link_edital": null,
       "observacoes": "Página não pôde ser lida automaticamente; conferir critérios e leis aceitas diretamente no portal. | Recebe propostas culturais, esportivas e institucionais, incluindo (mas não só) projetos incentivados.",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.caixa.gov.br/patrocinios/Paginas/default.aspx",
       "fontes_secundarias": [
@@ -1238,7 +1238,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/017/727/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1786731874",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/17727",
       "fontes_secundarias": [
@@ -1326,7 +1326,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/017/327/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1770651648",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/17327",
       "fontes_secundarias": [
@@ -1515,7 +1515,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1586,7 +1586,7 @@
       "data_limite": "2026-11-15",
       "fluxo_continuo": false,
       "data_abertura": "2026-08-11",
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Foi prorrogada até 15 de novembro de 2026 a chamada de artigos para o número organizado por Carmen Rial, Caroline Soares de Almeida, Verónica Moreira e Arlei Damo. Confira a chamada completa!",
       "link_inscricao": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "link_edital": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
@@ -1597,8 +1597,8 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
-      "prioridade": 20,
+      "updated_at": "2026-11-16T08:19:58Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -1609,7 +1609,15 @@
         "coleta:ojs"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-16T08:19:58Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -2045,7 +2053,7 @@
       "link_edital": "https://on-the-move.org/news/cove-park-residency-2027-2028-artists-scotland-uk-central-and-south-america-and-diasporas-uk",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/CovePark.jpeg",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/cove-park-residency-2027-2028-artists-scotland-uk-central-and-south-america-and-diasporas-uk",
       "fontes_secundarias": [],
@@ -2402,7 +2410,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2484,7 +2492,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2647,7 +2655,7 @@
       "link_edital": null,
       "observacoes": "Login necessário.",
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/017/521/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1773231584",
-      "imagem_verificada_em": "2026-11-02T01:45:32Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/17521-edital-0012026-de-cadastro-de-projetos-do-programa-de-incentivo-ao-esporte-pie",
       "fontes_secundarias": [
@@ -2829,7 +2837,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://www.gov.br/cultura/logo.png",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas/edital-biblioteca-comunitaria-e-cultura-viva1/edital-biblioteca-comunitaria-e-cultura-viva",
       "fontes_secundarias": [
@@ -3378,7 +3386,7 @@
       "link_edital": null,
       "observacoes": "Projeto aprovado no Fazcultura habilita candidatura ao Ambev Brasilidades 2026 (leis estaduais).",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://siic.cultura.ba.gov.br/clique_fomento/inscricoes/index",
       "fontes_secundarias": [
@@ -3834,7 +3842,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/018/788/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1788207093",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/18788",
       "fontes_secundarias": [
@@ -3921,7 +3929,7 @@
       "link_edital": null,
       "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais?status=abertos",
       "fontes_secundarias": [
@@ -4013,7 +4021,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/016/505/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1760132678",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/16505",
       "fontes_secundarias": [
@@ -4100,7 +4108,7 @@
       "link_edital": null,
       "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais?status=abertos",
       "fontes_secundarias": [
@@ -4302,7 +4310,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://google.incentiv.me/",
       "fontes_secundarias": [
@@ -4401,7 +4409,7 @@
       "source_url": "https://on-the-move.org/news/grafenegg-festival-ink-still-wet-composer-conductor-workshops-2027-usa-austria",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -4482,7 +4490,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.havan.com.br/patrocinios",
       "fontes_secundarias": [
@@ -4679,7 +4687,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/017/421/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1779829917",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/17421",
       "fontes_secundarias": [
@@ -4867,8 +4875,8 @@
       "link_inscricao": "https://prosas.com.br/patrocinadores/92",
       "link_edital": null,
       "observacoes": "A chamada 'SIM para Cuidar do Futuro 2026' (leis federais, 13 estados, R$ 12 milhões) encerrou em 31/08/2026: https://prosas.com.br/editais/15802",
-      "imagem": "https://prosas-prod-files.s3.sa-east-1.amazonaws.com/incentivadores/avatar_capas/000/000/092/show/perfil_capa_incentivador_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUS3M5UKOOGXP27N7%2F20261102%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261102T015149Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a145e419cfa5304fd00d9004bd63c0ec2533b2c2d1e7240c0c9e15b437e6034f",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem": "https://prosas-prod-files.s3.sa-east-1.amazonaws.com/incentivadores/avatar_capas/000/000/092/show/perfil_capa_incentivador_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUS3M5UKOOGXP27N7%2F20261116%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261116T082045Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a438d27fe06eccebed6f3ce424e90f12cb94546c0d5fda0e634eb66f1d18e244",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/patrocinadores/92",
       "fontes_secundarias": [
@@ -4962,7 +4970,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://s3.sa-east-1.amazonaws.com/prosas-prod-files-public/oportunidades/logos/000/015/444/show/perfil_oportunidade_6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d.png?1738345757",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais/15444-instituto-john-deere-banco-de-projetos-2025",
       "fontes_secundarias": [
@@ -5049,7 +5057,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://www.neoenergia.com/documents/1542418/1588597/Inscreva+seu+projeto+-+Cr%C3%A9dito+para+Escola+de+Not%C3%ADcias_Pedro+Paquino+%C2%A9+2023.jpg/def937da-16ef-6b31-bab4-b20735bd11b1?version=1.0&t=1695330205857&imagePreview=1",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.neoenergia.com/ca/web/instituto-neoenergia/inscreva-seu-projeto",
       "fontes_secundarias": [
@@ -5233,7 +5241,7 @@
       "link_edital": "https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
       "observacoes": "Página oficial: https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.gov.br/esporte/pt-br/acoes-e-programas/lei-de-incentivo-ao-esporte",
       "fontes_secundarias": [
@@ -5512,7 +5520,7 @@
       "link_edital": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/Curatorial%20Research%20Fellowship%202027%20.jpg",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/les-rencontres-darles-curatorial-research-fellowship-2027-france",
       "fontes_secundarias": [],
@@ -5897,7 +5905,7 @@
       "link_edital": "https://on-the-move.org/news/mon-art-nicosia-monastery-arts-residency-2027-art-sustainability-and-community-cyprus",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/Mon-Art-Cyprus.jpg",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/mon-art-nicosia-monastery-arts-residency-2027-art-sustainability-and-community-cyprus",
       "fontes_secundarias": [],
@@ -6007,6 +6015,88 @@
       "revisao_pendente": false
     },
     {
+      "id": "mophradat-freelance-new-agents-coordinator-remote-edfebc",
+      "titulo": "Mophradat: Freelance New Agents Coordinator (Remote)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": null,
+      "elegivel_brasileiros": null,
+      "formato": "outro",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "multi"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-11",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-16",
+      "status": "aberto",
+      "resumo": "Mophradat is looking for a coordinator to accompany New Agents, a ten-month programme bringing together a small group of art professionals from across the Arab world, selected through an open call, to learn, collaborate, and develop a public event together.",
+      "link_inscricao": "https://mophradat.org/who-we-are/vacancies/",
+      "link_edital": "https://on-the-move.org/news/mophradat-freelance-new-agents-coordinator-remote",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Mophradat-job.jpg",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/mophradat-freelance-new-agents-coordinator-remote",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-16T08:19:42Z",
+      "updated_at": "2026-11-16T08:19:42Z",
+      "prioridade": 35,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "mophradat-residency-buda-premiere-next-festival-2027-belgium-096b65",
       "titulo": "Mophradat: Residency at BUDA with a Premiere at NEXT Festival 2027 (Belgium)",
       "orgao": null,
@@ -6072,7 +6162,7 @@
       "link_edital": "https://on-the-move.org/news/mophradat-residency-buda-premiere-next-festival-2027-belgium",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/Mophradat.png",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/mophradat-residency-buda-premiere-next-festival-2027-belgium",
       "fontes_secundarias": [],
@@ -6158,7 +6248,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6234,7 +6324,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://lh5.googleusercontent.com/zTRSNrM4FBsjfmPBMuVoxTP-8RSq1C_n8huBKM8O72n7wSRhZiRUyi6sb1G0yVX8UqTWM2uf7r4IZuk=w1200-h630-p",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSfcrwVk_8k7IwabrbmkDxK7-ongpnfLKXywdxI9GYwiZ01H1g/viewform",
       "fontes_secundarias": [
@@ -6328,7 +6418,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6425,7 +6515,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6515,7 +6605,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": "https://www.claro.com.br/files/104379/200x200/1829b73c0f/logo-claro-200x200.jpg",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.claro.com.br/institucional/patrocinios",
       "fontes_secundarias": [
@@ -6605,7 +6695,7 @@
       "link_edital": "https://www.lojasrennersa.com.br/patrocinios-e-projetos/",
       "observacoes": "Página institucional: https://www.lojasrennersa.com.br/patrocinios-e-projetos/ | Rouanet em todo o país; ICMS em SP, RJ, PB, PI, PE, PR e RS; FIC Montevidéu (Uruguai).",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.lojasrennersa.com.br/patrocinios-e-projetos/",
       "fontes_secundarias": [
@@ -6692,7 +6782,7 @@
       "link_edital": null,
       "observacoes": "Chamada 2026 no Prosas: https://prosas.com.br/editais/17327",
       "imagem": "https://cbmm.com/-/media/CBMM/Imagens-REDESIGN/Patrocinios-instucional/CBMM-RespSocial-image-Topo.png",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://cbmm.com/pt/sustentabilidade/patrocinios-institucionais",
       "fontes_secundarias": [
@@ -6779,7 +6869,7 @@
       "link_edital": null,
       "observacoes": "A Seleção Cultural Petrobras 2026 (R$ 270 milhões, 11 modalidades) encerrou em 31/07/2026 — acompanhar próxima edição em petrobras.com.br/cultural/selecoes-publicas-culturais",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://gestaodepatrocinios.petrobras.com.br/pt",
       "fontes_secundarias": [
@@ -6959,7 +7049,7 @@
       "link_edital": null,
       "observacoes": "Prosas: https://prosas.com.br/editais/17663 (Centro de Teatro), /17664 (CTA-RJ), /17665 (MG), /17666 (SP), /17667 (Livraria)",
       "imagem": "https://www.gov.br/funarte/logo.png",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.gov.br/funarte/pt-br/editais-1/2026/programa-funarte-aberta",
       "fontes_secundarias": [
@@ -7131,12 +7221,12 @@
       "link_edital": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "ojs:pragmatizes",
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7321,12 +7411,12 @@
       "link_edital": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "ojs:pragmatizes",
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-15T15:57:23Z",
+      "updated_at": "2026-11-16T08:19:21Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7414,7 +7504,7 @@
       "data_limite": "2026-11-15",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Três linhas: Cash Rebate (R$ 15 milhões; até R$ 5 milhões por obra com alcance internacional realizada no Rio), Riofilme Invest (R$ 17,5 milhões em investimento reembolsável; até R$ 3 milhões por longa) e Bolsas Culturais (R$ 5 mil a R$ 20 mil para participação em mercados e festivais).",
       "link_inscricao": "http://www.riofilme.com.br/",
       "link_edital": null,
@@ -7431,8 +7521,8 @@
         }
       ],
       "captured_at": "2026-09-24T12:00:00-03:00",
-      "updated_at": "2026-09-24T12:00:00-03:00",
-      "prioridade": 20,
+      "updated_at": "2026-11-16T08:19:58Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -7444,7 +7534,15 @@
         "aba:editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-16T08:19:58Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -7632,7 +7730,7 @@
       "source_url": "https://on-the-move.org/news/royal-drawing-school-don-bachardy-fellowship-2027-uk",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -7709,7 +7807,7 @@
       "link_edital": null,
       "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais?status=abertos",
       "fontes_secundarias": [
@@ -7887,7 +7985,7 @@
       "link_edital": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-10/Horizons2027.jpeg",
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/sancy-tourist-office-horizons-2027-arts-nature-public-art-france",
       "fontes_secundarias": [],
@@ -7967,7 +8065,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://www.santander.com.br/institucional-santander/cultura/projetos-e-patrocinios",
       "fontes_secundarias": [
@@ -8108,6 +8206,92 @@
       "aliases": [
         "santos-brasil-banco-de-projetos-incentivados-municipais-10f1be"
       ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "sharjah-art-foundation-collection-research-fellowship-2027-b6aab0",
+      "titulo": "Sharjah Art Foundation: Collection Research Fellowship 2027–2029 (UAE, Remote)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": null,
+      "elegivel_brasileiros": null,
+      "formato": "bolsa_mobilidade",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem",
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": "hibrida",
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "United Arab Emirates"
+      ],
+      "areas": [
+        "patrimonio"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-16",
+      "status": "aberto",
+      "resumo": "Sharjah Art Foundation is accepting applications for the Sharjah Art Foundation Collection Research Fellowship, a two-year programme (March 2027–March 2029) supporting sustained research into the Foundation’s collection and archives.",
+      "link_inscricao": "https://www.sharjahart.org/en/open-calls/details/sharjah-art-foundation-announces-open-call-for-collection-research-fellowship",
+      "link_edital": "https://on-the-move.org/news/sharjah-art-foundation-collection-research-fellowship-2027-2029-uae-remote",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/SharjahArtFoundation.png",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/sharjah-art-foundation-collection-research-fellowship-2027-2029-uae-remote",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-16T08:19:42Z",
+      "updated_at": "2026-11-16T08:19:42Z",
+      "prioridade": 45,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
       "revisao_pendente": false
     },
     {
@@ -8289,7 +8473,7 @@
       "link_edital": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/situ-online-support-and-immersive-lab-emerging-artists-creating-public-space-3rd-call",
       "fontes_secundarias": [],
@@ -8564,7 +8748,7 @@
       "source_url": "https://on-the-move.org/news/theatertreffen-2027-international-forum-theatre-professionals-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -8651,7 +8835,7 @@
       "source_url": "https://on-the-move.org/news/turba-festival-2027-call-south-american-performing-artists-argentina",
       "fontes_secundarias": [],
       "captured_at": "2026-11-12T17:14:38Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -8726,7 +8910,7 @@
       "link_edital": null,
       "observacoes": "Localizar pelo nome na Central de Editais da Prosas.",
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://prosas.com.br/editais?status=abertos",
       "fontes_secundarias": [
@@ -8911,7 +9095,7 @@
       "data_limite": "2026-11-15",
       "fluxo_continuo": false,
       "data_abertura": "2026-10-29",
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "The Encounters of Young International Photography Artist Residency takes place in Niort, in the Nouvelle-Aquitaine region (France).",
       "link_inscricao": "https://www.cacp-villaperochon.com/en/agenda/call-for-applications-encounters-of-young-international-photography/",
       "link_edital": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
@@ -8922,8 +9106,8 @@
       "source_url": "https://on-the-move.org/news/villa-perochon-encounters-young-international-photography-residency-and-exhibition-2027-france",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:41:13Z",
-      "updated_at": "2026-11-05T08:14:59Z",
-      "prioridade": 45,
+      "updated_at": "2026-11-16T08:19:58Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -8934,7 +9118,15 @@
         "coleta:onthemove"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-16T08:19:58Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -8998,7 +9190,7 @@
       "link_edital": null,
       "observacoes": null,
       "imagem": null,
-      "imagem_verificada_em": "2026-11-02T01:51:16Z",
+      "imagem_verificada_em": "2026-11-16T08:19:59Z",
       "fonte": "curadoria inicial (planilha 24/09/2026)",
       "source_url": "https://vivo.com.br/a-vivo/a-empresa/patrocinios/cultura",
       "fontes_secundarias": [
@@ -9101,7 +9293,7 @@
       "source_url": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -9277,7 +9469,7 @@
       "source_url": "https://on-the-move.org/news/zmina-resilience-co-creation-funding-international-cooperation-projects-call-2-ukraine",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-15T15:57:39Z",
+      "updated_at": "2026-11-16T08:19:42Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
