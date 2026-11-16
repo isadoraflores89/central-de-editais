@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-11-15",
+ "atualizado_em": "2026-11-16",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 27,
+ "total": 26,
  "itens": [
-  {
-   "titulo": "Coordenação de Produção e Institucional",
-   "organizacao": "IDG Cultura",
-   "cidade": "Rio de Janeiro",
-   "uf": "RJ",
-   "remoto": false,
-   "area": "producao",
-   "regime": "clt",
-   "prazo": "2026-11-15",
-   "salario": "",
-   "resumo": "Coordenação de produção e relações institucionais no IDG, que gere museus como o Museu do Amanhã.",
-   "link": "https://idg.inhire.app/vagas/baff40a3-1f19-4363-bc63-cc33bf4a5f27/pessoa-coordenadora-de-producao-or-institucional",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Atendente de Loja",
    "organizacao": "MASP",
