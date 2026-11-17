@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-16",
+ "atualizado_em": "2026-11-17",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 26,
  "itens": [
-  {
-   "titulo": "Atendente de Loja",
-   "organizacao": "MASP",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-16",
-   "salario": "",
-   "resumo": "Atendimento na loja do Museu de Arte de São Paulo.",
-   "link": "https://masp.gupy.io/jobs/12669893?jobBoardSource=gupy_public_page",
-   "visto_em": "2026-10-29"
-  },
-  {
-   "titulo": "Músico Tutti, Violino (Theatro São Pedro)",
-   "organizacao": "Santa Marcelina Cultura",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "musica",
-   "regime": "clt",
-   "prazo": "2026-11-16",
-   "salario": "",
-   "resumo": "Seleção de violinista tutti para a orquestra do Theatro São Pedro.",
-   "link": "https://www.santamarcelinacultura.org.br/trabalhe_conosco/musico-tutti-violino/",
-   "visto_em": "2026-10-29"
-  },
   {
    "titulo": "Analista do Centro de Referência do Artesanato Brasileiro",
    "organizacao": "Centro de Referência do Artesanato Brasileiro",
@@ -367,6 +339,34 @@
    "resumo": "Coordenação de atividades e projetos culturais na Fundação Dorina Nowill para Cegos, em São Paulo.",
    "link": "https://www.idealist.org/pt/emprego/bfb3c75945d2491ebb0cd7a87db2fe83-coordenador-a-cultural-fundacao-dorina-nowill-para-cegos-sao-paulo",
    "visto_em": "2026-11-11"
+  },
+  {
+   "titulo": "Assistente de Comunicação",
+   "organizacao": "Museu do Pontal",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Produção e edição de vídeos e apoio à coordenação de comunicação e marketing do Museu do Pontal, no Rio de Janeiro.",
+   "link": "https://www.idealist.org/pt/emprego/11eb1abf20e64c4f804b0618773f2e11-assistente-de-comunicacao-museu-do-pontal-rio-de-janeiro",
+   "visto_em": "2026-11-17"
+  },
+  {
+   "titulo": "Especialista em Narrativas (vaga afirmativa para pessoas pretas)",
+   "organizacao": "Instituto Alana",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Criação de narrativas e campanhas de comunicação em formato híbrido no Instituto Alana, em vaga afirmativa para pessoas pretas.",
+   "link": "https://www.idealist.org/pt/emprego/4dc1e6f8cd8c46cda3c209e86f7c1d46-especialista-em-narrativas-vaga-afirmativa-para-pessoas-pretas-instituto-alana-sao-paulo",
+   "visto_em": "2026-11-17"
   }
  ]
 }
