@@ -37,20 +37,24 @@ def _com_status(**kw: object) -> int:
 
 def test_prioridade_soma_criterios() -> None:
     p = _com_status(
-        abrangencia=Abrangencia.nacional,         # 25
-        mecanismo=[Mecanismo.rouanet],            # 20
-        valor_por_projeto_max=200_000,            # 15
-        data_limite=HOJE + timedelta(days=20),    # 20
-        exige_projeto_aprovado=False,             # 10
+        abrangencia=Abrangencia.nacional,  # 25
+        mecanismo=[Mecanismo.rouanet],  # 20
+        valor_por_projeto_max=200_000,  # 15
+        data_limite=HOJE + timedelta(days=20),  # 20
+        exige_projeto_aprovado=False,  # 10
     )
     assert p == 90
 
 
 def test_prioridade_tem_teto_100() -> None:
     p = _com_status(
-        abrangencia=Abrangencia.nacional, mecanismo=[Mecanismo.rouanet], ufs=["BA"],
-        valor_por_projeto_max=200_000, data_limite=HOJE + timedelta(days=20),
-        exige_projeto_aprovado=False, curadoria=Curadoria(destaque=True),
+        abrangencia=Abrangencia.nacional,
+        mecanismo=[Mecanismo.rouanet],
+        ufs=["BA"],
+        valor_por_projeto_max=200_000,
+        data_limite=HOJE + timedelta(days=20),
+        exige_projeto_aprovado=False,
+        curadoria=Curadoria(destaque=True),
     )
     assert p == 100
 

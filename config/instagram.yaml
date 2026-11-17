@@ -1,31 +1,110 @@
 # Agente Instagram: contas e hashtags vigiadas pelo robô diário (pipeline/collectors/instagram.py).
-# Só contas profissionais (empresa/criador) podem ser lidas pela API oficial da Meta.
+# Só contas profissionais (empresa/criador) podem ser lidas pela API oficial da Meta; conta pessoal
+# ou @ errado dá "[aviso] instagram @x" no log e é pulada, sem derrubar o resto.
 # Hashtags: a Meta permite 30 diferentes por semana por conta; o robô usa no máximo
 # `hashtags_por_rodada` por dia, em rodízio.
+# Ampliado em 17/11/2026 com as fontes das planilhas (config/fontes/). Os @ marcados "confirmar"
+# foram deduzidos do nome da instituição: conferir no Instagram e corrigir aqui.
 
-contas:   # testadas em 10/11/2026: funarte, secultba, sescsp, itaucultural respondem
+contas:
+  # federais e nacionais (testadas em 10/11/2026: funarte, secultba, sescsp, itaucultural respondem)
   - funarte
-  - secultba
-  - sescsp
-  - itaucultural
   - mincultura         # confirmar o @ oficial do MinC
-  - cultura.sp         # Secretaria de Cultura de SP (confirmar)
-  - secultrj
-  - fundacaocultural.ba
-  - goetheinstitut_brasil
+  - ancinebrasil       # confirmar
+  - fundacaopalmares   # confirmar
+  - iphangovbr         # confirmar
+  - bibliotecanacional # confirmar
+  - ibrammuseus        # confirmar
+  - culturaviva.gov    # confirmar
+  # agregadores e portais
+  - prosasoficial      # confirmar
+  - labecgroup         # confirmar
+  - editalcultural     # confirmar
+  - portaldaproducaocultural   # confirmar
+  # empresas e institutos
+  - sescsp
+  - sescbrasil         # confirmar
+  - itaucultural
   - institutocpfl
+  - petrobras          # confirmar (chamadas culturais passam pelo perfil principal)
+  - transpetro         # confirmar
+  - ccbb               # confirmar (CCBB nacional)
+  - caixacultural      # confirmar
+  - institutomoreirasalles   # confirmar
+  - institutoculturalvale    # confirmar
+  - naturamusical      # confirmar
+  - sebrae             # confirmar
+  - goetheinstitut_brasil
+  - britishcouncilbrasil     # confirmar
+  - institutfrancaisbrasil   # confirmar
+  # secretarias e fundações estaduais
+  - secultba
+  - fundacaocultural.ba
+  - funceb             # confirmar
+  - cultura.sp         # confirmar
+  - secultrj
+  - secultmg           # confirmar
+  - secultceara        # confirmar
+  - culturape          # confirmar (Secult PE / Fundarpe)
+  - culturapr          # confirmar
+  - culturadf          # confirmar (Secec-DF / FAC)
+  - sedacrs            # confirmar (Secretaria da Cultura RS)
+  - culturaesgov       # confirmar (ES)
+  - fundacaoculturaldopara     # confirmar
+  - culturaamazonas    # confirmar
+  - secultma           # confirmar
+  - culturagoias       # confirmar
+  - fundacaodeculturams        # confirmar
+  - secelmt            # confirmar
+  - fundacaojoseaugusto        # confirmar (RN)
+  - culturapb          # confirmar
+  - culturapiaui       # confirmar
+  - culturasc          # confirmar (Fundação Catarinense de Cultura)
+  - culturasergipe     # confirmar
+  - culturatocantins   # confirmar
+  # municipais
+  - fgmsalvador        # confirmar (Fundação Gregório de Mattos)
+  - fundacaoculturaldecuritiba # confirmar
+  - smculturasp        # confirmar (Secretaria Municipal de Cultura de SP)
+  - culturadorio       # confirmar (SMC Rio)
+  - fmcbh              # confirmar (Fundação Municipal de Cultura de BH)
+  - culturafortaleza   # confirmar
+  - culturarecife      # confirmar
+  - smcpoa             # confirmar
+  # internacionais que postam convocatórias em PT/ES/EN
+  - ibermusicas
+  - iberescena
+  - iberculturaviva
+  - onthemove_arts     # confirmar
+  - res_artis          # confirmar
+  - transartists       # confirmar
+  - prohelvetia        # confirmar
+  - culturemoveseurope # confirmar
+  - fundacionsura      # confirmar
 
 hashtags:
   - editalcultural
   - editaisculturais
   - editalaberto
   - chamadapublica
+  - chamamentopublico
   - leirouanet
   - pnab
+  - aldirblanc
   - residenciaartistica
   - editaldecultura
+  - inscricoesabertas
+  - premiocultural
+  - credenciamento
+  - fomentocultural
+  - patrociniocultural
+  - convocatoria
+  - convocatoriaabierta
+  - opencall
+  - artistresidency
+  - callforartists
 
 hashtags_por_rodada: 4
 dias: 4                # só posts dos últimos N dias
-posts_por_conta: 8
-max_posts_ia: 25       # limite de chamadas à IA por rodada
+posts_por_conta: 6
+max_posts_ia: 40       # limite de chamadas à IA por rodada

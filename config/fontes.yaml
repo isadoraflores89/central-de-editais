@@ -1,0 +1,2506 @@
+# Fontes vigiadas pelo buscador (pipeline/collectors/paginas.py).
+# GERADO por `uv run python -m pipeline.importar_fontes` a partir de config/fontes/*.xlsx.
+# Edite as planilhas e rode o comando de novo; ajustes manuais aqui serão perdidos.
+# metodo: pagina (robô lê a página e acha links de editais) | busca (só pela busca na web)
+#         | manual (não é uma página única). frequencia: diaria | semanal.
+- id: ministerio-da-cultura-minc
+  nome: Ministério da Cultura (MinC)
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-abertas
+  url_institucional: https://www.gov.br/cultura/pt-br
+  temas: Fomento, PNAB, Cultura Viva, Rouanet, credenciamento, intercâmbio
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: Manter também a página de editais em andamento.
+  ativo: true
+- id: funarte
+  nome: Funarte
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/funarte/pt-br/fomento/chamadas-em-andamento
+  url_institucional: https://www.gov.br/funarte/pt-br
+  temas: Artes visuais, circo, dança, teatro, música, circulação, formação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  ativo: true
+- id: ancine-fundo-setorial-do-audiovisual
+  nome: Ancine / Fundo Setorial do Audiovisual
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/ancine/pt-br/assuntos/fomento
+  url_institucional: https://www.gov.br/ancine/pt-br
+  temas: Audiovisual, produção, distribuição, desenvolvimento, formação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  ativo: true
+- id: fundacao-cultural-palmares
+  nome: Fundação Cultural Palmares
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/palmares/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/palmares/pt-br
+  temas: Culturas afro-brasileiras, patrimônio, comunidades tradicionais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: iphan
+  nome: Iphan
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes
+  url_institucional: https://www.gov.br/iphan/pt-br
+  temas: Patrimônio material e imaterial, memória, educação patrimonial
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: fundacao-biblioteca-nacional
+  nome: Fundação Biblioteca Nacional
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/bn/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/bn/pt-br
+  temas: Livro, leitura, literatura, bibliotecas, tradução
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: fundacao-casa-de-rui-barbosa
+  nome: Fundação Casa de Rui Barbosa
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/casaruibarbosa/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/casaruibarbosa/pt-br
+  temas: Pesquisa, memória, patrimônio, bolsas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: instituto-brasileiro-de-museus-ibram
+  nome: Instituto Brasileiro de Museus (Ibram)
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/museus/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/museus/pt-br
+  temas: Museus, memória, exposições, preservação, formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: cnpq
+  nome: CNPq
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/cnpq/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/cnpq/pt-br
+  temas: Pesquisa, bolsas, extensão, memória e cultura quando elegíveis
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: capes
+  nome: CAPES
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/capes/pt-br/acesso-a-informacao/editais
+  url_institucional: https://www.gov.br/capes/pt-br
+  temas: Bolsas, pesquisa, formação e cooperação acadêmica
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: ministerio-da-igualdade-racial
+  nome: Ministério da Igualdade Racial
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/igualdaderacial/pt-br
+  url_institucional: https://www.gov.br/igualdaderacial/pt-br
+  temas: Igualdade racial, ações afirmativas, cultura negra
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: ministerio-dos-povos-indigenas
+  nome: Ministério dos Povos Indígenas
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/povosindigenas/pt-br
+  url_institucional: https://www.gov.br/povosindigenas/pt-br
+  temas: Povos indígenas, memória, cultura e territórios
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: secretaria-nacional-de-economia-criativa-e-fomento
+  nome: Secretaria Nacional de Economia Criativa e Fomento Cultural / MinC
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/cultura/pt-br/assuntos
+  url_institucional: https://www.gov.br/cultura/pt-br
+  temas: Economia criativa, fomento, incentivo fiscal
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: diario-oficial-da-uniao-dou
+  nome: Diário Oficial da União (DOU)
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.in.gov.br/consulta
+  url_institucional: https://www.in.gov.br/consulta
+  temas: Chamamentos, extratos, retificações, resultados e credenciamentos
+  metodo: busca
+  frequencia: diaria
+  prioridade: 3
+  observacoes: 'Pesquisar também termos: chamamento, seleção pública, credenciamento, patrocínio, prêmio.'
+  ativo: true
+- id: compras-gov-br
+  nome: Compras.gov.br
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/compras/pt-br
+  url_institucional: https://www.gov.br/compras/pt-br
+  temas: Contratações, credenciamentos, serviços culturais e eventos
+  metodo: busca
+  frequencia: diaria
+  prioridade: 2
+  ativo: true
+- id: transferegov-br
+  nome: Transferegov.br
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/transferegov/pt-br
+  url_institucional: https://www.gov.br/transferegov/pt-br
+  temas: Parcerias, transferências voluntárias, chamamentos e instrumentos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: rede-cultura-viva
+  nome: Rede Cultura Viva
+  grupo: Governo federal
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/culturaviva/pt-br
+  url_institucional: https://www.gov.br/culturaviva/pt-br
+  temas: Pontos e Pontões de Cultura, certificação e fomento
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: portal-cultbr-cult-editais
+  nome: Portal CultBR / Cult Editais
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://portal.cultbr.cultura.gov.br/
+  url_institucional: https://portal.cultbr.cultura.gov.br/
+  temas: Editais e seleções PNAB de estados e municípios
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: Conferir cada oportunidade na fonte publicadora.
+  ativo: true
+- id: mapa-da-cultura
+  nome: Mapa da Cultura
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://mapa.cultura.gov.br/
+  url_institucional: https://mapa.cultura.gov.br/
+  temas: Oportunidades, agentes, espaços e iniciativas culturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: mapas-culturais-rede-de-instancias
+  nome: Mapas Culturais (rede de instâncias)
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://mapas.cultura.gov.br/
+  url_institucional: https://mapas.cultura.gov.br/
+  temas: Chamamentos e oportunidades em plataformas municipais/estaduais
+  metodo: manual
+  frequencia: diaria
+  prioridade: 2
+  observacoes: Cada instância pode ter URL própria.
+  ativo: true
+- id: prosas
+  nome: Prosas
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://prosas.com.br/editais
+  url_institucional: https://prosas.com.br/
+  temas: Editais, patrocínios, investimento social, seleção de projetos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  ativo: true
+- id: labec-oportunidades
+  nome: LabEC — Oportunidades
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://labec.group/oportunidades.html
+  url_institucional: https://labec.group/oportunidades.html
+  temas: Editais, prêmios, patrocínios e chamadas culturais
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  ativo: true
+- id: portal-da-producao-cultural-radar-de-editais
+  nome: Portal da Produção Cultural — Radar de Editais
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://portaldaproducaocultural.com.br/editais
+  url_institucional: https://portaldaproducaocultural.com.br/editais
+  temas: Editais nacionais e internacionais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: capitaai
+  nome: Capitaai
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://capitaai.com.br/editais-abertos/cultura-para-empresa
+  url_institucional: https://capitaai.com.br/
+  temas: Editais e mecanismos de financiamento cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: edital-cultural
+  nome: Edital Cultural
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  url: https://editalcultural.com.br/editais
+  url_institucional: https://editalcultural.com.br/
+  temas: Editais, prêmios, cachês e contratações
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: comite-de-cultura-da-bahia-recursos-para-agentes
+  nome: Comitê de Cultura da Bahia — recursos para agentes
+  grupo: Agregador / descoberta
+  pais: BR
+  abrangencia: nacional
+  uf: BA
+  url: https://ba.comitedecultura.org.br/pagina-do-agente-cultural/
+  url_institucional: https://ba.comitedecultura.org.br/pagina-do-agente-cultural/
+  temas: Materiais e links para editais, MinC, SecultBA e Prosas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  ativo: true
+- id: transpetro
+  nome: Transpetro
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://transpetro.com.br/transpetro-institucional/sustentabilidade/patrocinios.htm
+  url_institucional: https://transpetro.com.br/transpetro-institucional/sustentabilidade/patrocinios.htm
+  temas: Cultura, esporte, patrocínio, escolha direta
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: petrobras-cultural
+  nome: Petrobras Cultural
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.petrobras.com.br/cultural/selecoes-publicas-culturais
+  url_institucional: https://www.petrobras.com.br/cultural/selecoes-publicas-culturais
+  temas: Patrocínio cultural, seleção pública, projetos incentivados
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: banco-do-brasil-ccbb
+  nome: Banco do Brasil / CCBB
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.bb.com.br/site/cultura/
+  url_institucional: https://www.bb.com.br/site/cultura/
+  temas: Ocupação, programação, artes visuais, música, teatro
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: caixa-cultural
+  nome: Caixa Cultural
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.caixacultural.gov.br/
+  url_institucional: https://www.caixacultural.gov.br/
+  temas: Ocupação, patrocínio e programação cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: itau-cultural
+  nome: Itaú Cultural
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.itaucultural.org.br/
+  url_institucional: https://www.itaucultural.org.br/
+  temas: Rumos, bolsas, pesquisa, formação e programas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-moreira-salles
+  nome: Instituto Moreira Salles
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://ims.com.br/
+  url_institucional: https://ims.com.br/
+  temas: Fotografia, literatura, música, pesquisa e programação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-cultural-vale
+  nome: Instituto Cultural Vale
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://institutoculturalvale.org/
+  url_institucional: https://institutoculturalvale.org/
+  temas: Patrocínios, patrimônio, cultura e economia criativa
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-ccr
+  nome: Instituto CCR
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://institutoccr.com.br/
+  url_institucional: https://institutoccr.com.br/
+  temas: Cultura, educação, território e projetos sociais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: bndes
+  nome: BNDES
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.bndes.gov.br/
+  url_institucional: https://www.bndes.gov.br/
+  temas: Patrimônio, memória, economia da cultura e patrimônio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: sesc-brasil
+  nome: Sesc Brasil
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.sesc.com.br/
+  url_institucional: https://www.sesc.com.br/
+  temas: Credenciamentos, programação, festivais, artes e formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: sesi
+  nome: SESI
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.sesi.org.br/
+  url_institucional: https://www.sesi.org.br/
+  temas: Cultura, artes cênicas, música, audiovisual e ocupação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: sebrae
+  nome: Sebrae
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://sebrae.com.br/
+  url_institucional: https://sebrae.com.br/
+  temas: Economia criativa, empreendedorismo cultural e capacitação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: natura-musical
+  nome: Natura Musical
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.naturamusical.com.br/
+  url_institucional: https://www.naturamusical.com.br/
+  temas: Música, circulação, produção e difusão
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: fundacao-telefonica-vivo
+  nome: Fundação Telefônica Vivo
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.fundacaotelefonicavivo.org.br/
+  url_institucional: https://www.fundacaotelefonicavivo.org.br/
+  temas: Cultura, educação, tecnologia e inclusão
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-unibanco
+  nome: Instituto Unibanco
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.institutounibanco.org.br/
+  url_institucional: https://www.institutounibanco.org.br/
+  temas: Educação e cultura em iniciativas correlatas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: fundacao-banco-do-brasil
+  nome: Fundação Banco do Brasil
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://fbb.org.br/
+  url_institucional: https://fbb.org.br/
+  temas: Inclusão, desenvolvimento territorial e iniciativas socioculturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-acp
+  nome: Instituto ACP
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://institutoacp.org.br/
+  url_institucional: https://institutoacp.org.br/
+  temas: Fortalecimento institucional e organizações da sociedade civil
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: instituto-neoenergia
+  nome: Instituto Neoenergia
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.neoenergia.com/
+  url_institucional: https://www.neoenergia.com/
+  temas: Cultura, patrimônio, diversidade e sustentabilidade
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: fundacao-grupo-boticario
+  nome: Fundação Grupo Boticário
+  grupo: Empresas e institutos
+  pais: BR
+  abrangencia: nacional
+  url: https://www.fundacaogrupoboticario.org.br/
+  url_institucional: https://www.fundacaogrupoboticario.org.br/
+  temas: Conservação e iniciativas socioambientais com interface cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Verificar se a chamada é edital público, seleção de patrocínio, credenciamento ou escolha direta.
+  ativo: true
+- id: fundacao-de-cultura-elias-mansour
+  nome: Fundação de Cultura Elias Mansour
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: AC
+  url: https://www.ac.gov.br/
+  url_institucional: https://www.ac.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-de-alagoas
+  nome: Secretaria de Estado da Cultura de Alagoas
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: AL
+  url: https://cultura.al.gov.br/
+  url_institucional: https://cultura.al.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-do-amapa
+  nome: Secretaria de Estado da Cultura do Amapá
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: AP
+  url: https://www.ap.gov.br/
+  url_institucional: https://www.ap.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-cultura-e-economia-criativa-do-amazo
+  nome: Secretaria de Cultura e Economia Criativa do Amazonas
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: AM
+  url: https://www.cultura.am.gov.br/
+  url_institucional: https://www.cultura.am.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-cultura-da-bahia-secultba
+  nome: Secretaria de Cultura da Bahia (SecultBA)
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: BA
+  url: https://www.ba.gov.br/cultura/
+  url_institucional: https://www.ba.gov.br/cultura/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais. Mapear também
+    FUNCEB, Fundação Pedro Calmon, IPAC, TCA, Fazcultura e Diário Oficial.
+  ativo: true
+- id: secretaria-da-cultura-do-ceara
+  nome: Secretaria da Cultura do Ceará
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: CE
+  url: https://www.secult.ce.gov.br/
+  url_institucional: https://www.secult.ce.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-cultura-e-economia-criativa-do-df
+  nome: Secretaria de Cultura e Economia Criativa do DF
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: DF
+  url: https://www.cultura.df.gov.br/
+  url_institucional: https://www.cultura.df.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais. Mapear FAC, Conexão
+    Cultura DF e equipamentos culturais.
+  ativo: true
+- id: secretaria-da-cultura-do-espirito-santo
+  nome: Secretaria da Cultura do Espírito Santo
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: ES
+  url: https://www.es.gov.br/
+  url_institucional: https://www.es.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-de-goias
+  nome: Secretaria de Estado da Cultura de Goiás
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: GO
+  url: https://goias.gov.br/cultura/
+  url_institucional: https://goias.gov.br/cultura/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-do-maranhao
+  nome: Secretaria de Estado da Cultura do Maranhão
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: MA
+  url: https://www.cultura.ma.gov.br/
+  url_institucional: https://www.cultura.ma.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-de-cultura-esporte-e-lazer-de
+  nome: Secretaria de Estado de Cultura, Esporte e Lazer de MT
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: MT
+  url: https://www.secel.mt.gov.br/
+  url_institucional: https://www.secel.mt.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: fundacao-de-cultura-de-mato-grosso-do-sul
+  nome: Fundação de Cultura de Mato Grosso do Sul
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: MS
+  url: https://www.fundacaodecultura.ms.gov.br/
+  url_institucional: https://www.fundacaodecultura.ms.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-de-cultura-e-turismo-de-mg
+  nome: Secretaria de Estado de Cultura e Turismo de MG
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: MG
+  url: https://www.secult.mg.gov.br/
+  url_institucional: https://www.secult.mg.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: fundacao-cultural-do-para-secult-pa
+  nome: Fundação Cultural do Pará / Secult PA
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: PA
+  url: https://www.fcp.pa.gov.br/
+  url_institucional: https://www.fcp.pa.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-da-paraiba
+  nome: Secretaria de Estado da Cultura da Paraíba
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: PB
+  url: https://paraiba.pb.gov.br/diretas/secretaria-da-cultura
+  url_institucional: https://paraiba.pb.gov.br/diretas/secretaria-da-cultura
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-do-parana
+  nome: Secretaria de Estado da Cultura do Paraná
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: PR
+  url: https://www.cultura.pr.gov.br/
+  url_institucional: https://www.cultura.pr.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais. Mapear também
+    PROFICE, Biblioteca Pública, Museu Oscar Niemeyer e demais vinculadas.
+  ativo: true
+- id: secretaria-de-cultura-de-pernambuco-fundarpe
+  nome: Secretaria de Cultura de Pernambuco / Fundarpe
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: PE
+  url: https://www.cultura.pe.gov.br/
+  url_institucional: https://www.cultura.pe.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-da-cultura-do-piaui
+  nome: Secretaria de Estado da Cultura do Piauí
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: PI
+  url: https://www.cultura.pi.gov.br/
+  url_institucional: https://www.cultura.pi.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-estado-de-cultura-e-economia-criativ
+  nome: Secretaria de Estado de Cultura e Economia Criativa do RJ
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: RJ
+  url: https://www.cultura.rj.gov.br/
+  url_institucional: https://www.cultura.rj.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais. Mapear também
+    Funarj, Lei Estadual de Incentivo e equipamentos vinculados.
+  ativo: true
+- id: fundacao-jose-augusto
+  nome: Fundação José Augusto
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: RN
+  url: https://www.fja.rn.gov.br/
+  url_institucional: https://www.fja.rn.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-da-cultura-do-rio-grande-do-sul
+  nome: Secretaria da Cultura do Rio Grande do Sul
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: RS
+  url: https://cultura.rs.gov.br/
+  url_institucional: https://cultura.rs.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: fundacao-cultural-do-estado-de-rondonia
+  nome: Fundação Cultural do Estado de Rondônia
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: RO
+  url: https://rondonia.ro.gov.br/
+  url_institucional: https://rondonia.ro.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-de-cultura-e-turismo-de-roraima
+  nome: Secretaria de Cultura e Turismo de Roraima
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: RR
+  url: https://www.rr.gov.br/
+  url_institucional: https://www.rr.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: fundacao-catarinense-de-cultura
+  nome: Fundação Catarinense de Cultura
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: SC
+  url: https://www.cultura.sc.gov.br/
+  url_institucional: https://www.cultura.sc.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-da-cultura-economia-e-industria-criativ
+  nome: Secretaria da Cultura, Economia e Indústria Criativas de SP
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: SP
+  url: https://www.cultura.sp.gov.br/
+  url_institucional: https://www.cultura.sp.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais. Mapear ProAC,
+    programas de fomento, instituições vinculadas e Diário Oficial.
+  ativo: true
+- id: fundacao-de-cultura-e-arte-aperipe
+  nome: Fundação de Cultura e Arte Aperipê
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: SE
+  url: https://www.se.gov.br/
+  url_institucional: https://www.se.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: secretaria-da-cultura-do-tocantins
+  nome: Secretaria da Cultura do Tocantins
+  grupo: Governos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: TO
+  url: https://www.to.gov.br/
+  url_institucional: https://www.to.gov.br/
+  temas: Editais estaduais, PNAB, fundo estadual, incentivo fiscal, prêmios e credenciamentos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: URL de entrada institucional; localizar e registrar a página específica de editais.
+  ativo: true
+- id: fundacao-cultural-do-estado-da-bahia-funceb
+  nome: Fundação Cultural do Estado da Bahia (Funceb)
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: BA
+  url: https://www.ba.gov.br/fundacaocultural/
+  url_institucional: https://www.ba.gov.br/fundacaocultural/
+  temas: Artes, dança, teatro, música, circo, artes visuais
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: fundacao-pedro-calmon
+  nome: Fundação Pedro Calmon
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: BA
+  url: https://www.ba.gov.br/fpc/
+  url_institucional: https://www.ba.gov.br/fpc/
+  temas: Livro, leitura, bibliotecas, memória e arquivos
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: instituto-do-patrimonio-artistico-e-cultural-da-ba
+  nome: Instituto do Patrimônio Artístico e Cultural da Bahia (IPAC)
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: BA
+  url: https://www.ba.gov.br/ipac/
+  url_institucional: https://www.ba.gov.br/ipac/
+  temas: Patrimônio, memória e preservação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: teatro-castro-alves-tca
+  nome: Teatro Castro Alves (TCA)
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: BA
+  url: https://www.ba.gov.br/tca/
+  url_institucional: https://www.ba.gov.br/tca/
+  temas: Ocupação, programação, música e artes cênicas
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: iepha-mg
+  nome: Iepha-MG
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: MG
+  url: https://www.iepha.mg.gov.br/
+  url_institucional: https://www.iepha.mg.gov.br/
+  temas: Patrimônio cultural, memória e preservação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: instituto-dragao-do-mar
+  nome: Instituto Dragão do Mar
+  grupo: Fundações e mecanismos estaduais
+  pais: BR
+  abrangencia: estadual
+  uf: CE
+  url: https://www.dragaodomar.org.br/
+  url_institucional: https://www.dragaodomar.org.br/
+  temas: Equipamentos, programação, formação e seleções
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: Verificar calendário, regras vigentes e página específica da chamada.
+  ativo: true
+- id: fundacao-gregorio-de-mattos-fgm
+  nome: Fundação Gregório de Mattos (FGM)
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: BA
+  url: https://fgm.salvador.ba.gov.br/
+  url_institucional: https://fgm.salvador.ba.gov.br/
+  temas: Fomento municipal, prêmios, ocupação e cultura popular
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Salvador. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-municipal-de-cultura-e-turismo-de-salva
+  nome: Secretaria Municipal de Cultura e Turismo de Salvador
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: BA
+  url: https://salvador.ba.gov.br/
+  url_institucional: https://salvador.ba.gov.br/
+  temas: Editais municipais, chamamentos e programação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Salvador. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: diario-oficial-do-municipio-de-salvador
+  nome: Diário Oficial do Município de Salvador
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: BA
+  url: https://www.dom.salvador.ba.gov.br/
+  url_institucional: https://www.dom.salvador.ba.gov.br/
+  temas: Publicações, retificações, resultados e credenciamentos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Salvador. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: fundacao-cultural-de-curitiba
+  nome: Fundação Cultural de Curitiba
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: PR
+  url: https://www.fundacaoculturaldecuritiba.com.br/
+  url_institucional: https://www.fundacaoculturaldecuritiba.com.br/
+  temas: Mecenato, editais, credenciamentos e programação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Curitiba. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-municipal-de-cultura-de-sao-paulo
+  nome: Secretaria Municipal de Cultura de São Paulo
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: SP
+  url: https://www.prefeitura.sp.gov.br/cidade/secretarias/cultura/
+  url_institucional: https://www.prefeitura.sp.gov.br/cidade/secretarias/cultura/
+  temas: Fomento, VAI, PIÁ, prêmios e ocupações
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: São Paulo. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-municipal-de-cultura-do-rio-de-janeiro
+  nome: Secretaria Municipal de Cultura do Rio de Janeiro
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: RJ
+  url: https://cultura.prefeitura.rio/
+  url_institucional: https://cultura.prefeitura.rio/
+  temas: Fomento, ISS, prêmios e ocupações
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Rio de Janeiro. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-municipal-da-cultura-de-fortaleza
+  nome: Secretaria Municipal da Cultura de Fortaleza
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: CE
+  url: https://www.fortaleza.ce.gov.br/
+  url_institucional: https://www.fortaleza.ce.gov.br/
+  temas: Editais municipais e PNAB
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Fortaleza. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-de-cultura-do-recife
+  nome: Secretaria de Cultura do Recife
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: PE
+  url: https://www.recife.pe.gov.br/
+  url_institucional: https://www.recife.pe.gov.br/
+  temas: Fomento, ciclos culturais e credenciamentos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Recife. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: fundacao-municipal-de-cultura-de-belo-horizonte
+  nome: Fundação Municipal de Cultura de Belo Horizonte
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: MG
+  url: https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura
+  url_institucional: https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura
+  temas: Fomento, ocupações e patrimônio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Belo Horizonte. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: secretaria-municipal-da-cultura-de-porto-alegre
+  nome: Secretaria Municipal da Cultura de Porto Alegre
+  grupo: Governos municipais
+  pais: BR
+  abrangencia: municipal
+  uf: RS
+  url: https://www.prefeitura.poa.br/smc
+  url_institucional: https://www.prefeitura.poa.br/smc
+  temas: Editais, prêmios e programação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  observacoes: 'Município: Porto Alegre. Expandir para demais municípios da UF e cidades com recursos PNAB.'
+  ativo: true
+- id: ibermusicas
+  nome: Ibermúsicas
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.ibermusicas.org/
+  url_institucional: https://www.ibermusicas.org/
+  temas: Música, circulação, residência, formação e intercâmbio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: iberescena
+  nome: Iberescena
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.iberescena.org/
+  url_institucional: https://www.iberescena.org/
+  temas: Teatro, dança, circo e artes cênicas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: ibercultura-viva
+  nome: IberCultura Viva
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://iberculturaviva.org/
+  url_institucional: https://iberculturaviva.org/
+  temas: Cultura comunitária, redes e intercâmbio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: unesco
+  nome: UNESCO
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.unesco.org/
+  url_institucional: https://www.unesco.org/
+  temas: Patrimônio, cultura, cooperação e políticas culturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: prince-claus-fund
+  nome: Prince Claus Fund
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://princeclausfund.org/
+  url_institucional: https://princeclausfund.org/
+  temas: Arte, cultura, justiça social e apoio a artistas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: culture-moves-europe
+  nome: Culture Moves Europe
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://culture.ec.europa.eu/creative-europe/creative-europe-culture/culture-moves-europe
+  url_institucional: https://culture.ec.europa.eu/creative-europe/creative-europe-culture/culture-moves-europe
+  temas: Mobilidade e intercâmbio cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: goethe-institut-brasil
+  nome: Goethe-Institut Brasil
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.goethe.de/ins/br/pt/index.html
+  url_institucional: https://www.goethe.de/ins/br/pt/index.html
+  temas: Residências, intercâmbio, projetos e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: british-council-brasil
+  nome: British Council Brasil
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.britishcouncil.org.br/
+  url_institucional: https://www.britishcouncil.org.br/
+  temas: Cooperação cultural, artes e intercâmbio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: fundacion-carolina
+  nome: Fundación Carolina
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://www.fundacioncarolina.es/
+  url_institucional: https://www.fundacioncarolina.es/
+  temas: Bolsas, pesquisa e formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: fundacao-japao
+  nome: Fundação Japão
+  grupo: Cooperação internacional
+  abrangencia: internacional
+  url: https://fjsp.org.br/
+  url_institucional: https://fjsp.org.br/
+  temas: Intercâmbio, cultura japonesa, artes e formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Conferir elegibilidade de proponentes brasileiros, idioma, país de residência e contrapartidas.
+  ativo: true
+- id: fundacoes-estaduais-de-amparo-a-pesquisa-faps
+  nome: Fundações estaduais de amparo à pesquisa (FAPs)
+  grupo: Universidades e pesquisa
+  pais: BR
+  abrangencia: nacional
+  url: https://confap.org.br/
+  url_institucional: https://confap.org.br/
+  temas: Bolsas, pesquisa, extensão, patrimônio, memória e inovação
+  metodo: manual
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Não é uma fonte única; cadastrar também cada universidade e FAP individualmente.
+  ativo: true
+- id: universidades-publicas-pro-reitorias-de-extensao
+  nome: Universidades públicas — pró-reitorias de extensão
+  grupo: Universidades e pesquisa
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/mec/pt-br
+  url_institucional: https://www.gov.br/mec/pt-br
+  temas: Extensão, cultura universitária, residências, bolsas e chamadas
+  metodo: manual
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Não é uma fonte única; cadastrar também cada universidade e FAP individualmente.
+  ativo: true
+- id: observatorios-e-centros-de-pesquisa-em-cultura
+  nome: Observatórios e centros de pesquisa em cultura
+  grupo: Universidades e pesquisa
+  pais: BR
+  abrangencia: nacional
+  url: https://www.gov.br/cultura/pt-br
+  url_institucional: https://www.gov.br/cultura/pt-br
+  temas: Pesquisa, bolsas, consultorias, estudos e chamadas
+  metodo: manual
+  frequencia: semanal
+  prioridade: 1
+  observacoes: Não é uma fonte única; cadastrar também cada universidade e FAP individualmente.
+  ativo: true
+- id: european-commission-culture-and-creativity
+  nome: European Commission — Culture and Creativity
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://culture.ec.europa.eu/funding/calls
+  url_institucional: https://culture.ec.europa.eu/
+  temas: Creative Europe, mobilidade, património, literatura, música, artes performativas
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Varia por chamada; muitas exigem países participantes/parcerias
+  observacoes: Portal central de chamadas culturais; filtrar status Open e países elegíveis.
+  ativo: true
+- id: funding-tenders-portal
+  nome: Funding & Tenders Portal
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals
+  url_institucional: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home
+  temas: Cooperação, projetos culturais, audiovisual, pesquisa e inovação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Varia; verificar países elegíveis e consórcios
+  observacoes: Buscar por Creative Europe, CERV, Horizon Europe, Erasmus+ e cultura.
+  ativo: true
+- id: culture-moves-europe-2
+  nome: Culture Moves Europe
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://culture.ec.europa.eu/culture-moves-europe/whats-new
+  url_institucional: https://culture.ec.europa.eu/culture-moves-europe
+  temas: Mobilidade individual e residências artísticas
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Restrito a países participantes do Creative Europe; verificar residência e parceiro
+  observacoes: Call individual 2026–2027 anunciada aberta até 30/04/2027; residency hosts até 18/01/2027.
+  ativo: true
+- id: perform-europe
+  nome: Perform Europe
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://performeurope.eu/
+  url_institucional: https://performeurope.eu/
+  temas: Circulação internacional, sustentabilidade e artes performativas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Conferir países e parceiros elegíveis por ciclo
+  ativo: true
+- id: european-cultural-foundation
+  nome: European Cultural Foundation
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://culturalfoundation.eu/
+  url_institucional: https://culturalfoundation.eu/
+  temas: Cooperação cultural, democracia, cultura europeia e redes
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Depende da chamada; algumas aceitam parceiros de fora da UE
+  ativo: true
+- id: on-the-move
+  nome: On the Move
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://on-the-move.org/news
+  url_institucional: https://on-the-move.org/
+  temas: Mobilidade artística, residências, bolsas e circulação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Agregador; confirmar elegibilidade na fonte original
+  observacoes: Lida por coletor onthemove (RSS). Excelente fonte de descoberta de oportunidades internacionais.
+  ativo: false
+- id: res-artis
+  nome: Res Artis
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://resartis.org/open-calls/
+  url_institucional: https://resartis.org/
+  temas: Residências artísticas e oportunidades para anfitriões
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Varia por residência; verificar taxas, apoio e nacionalidade
+  ativo: true
+- id: transartists
+  nome: TransArtists
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://www.transartists.org/en/call
+  url_institucional: https://www.transartists.org/
+  temas: Residências e mobilidade para artistas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Varia por chamada; confirmar fonte original
+  ativo: true
+- id: eit-culture-creativity
+  nome: EIT Culture & Creativity
+  grupo: internacional:europa
+  pais: EU
+  abrangencia: internacional
+  url: https://eit-culture-creativity.eu/
+  url_institucional: https://eit-culture-creativity.eu/
+  temas: Indústrias criativas, design, patrimônio, tecnologia e empreendedorismo
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Elegibilidade depende do programa e país; parcerias internacionais podem ser exigidas
+  ativo: true
+- id: dgartes-direcao-geral-das-artes
+  nome: DGARTES — Direção-Geral das Artes
+  grupo: internacional:europa
+  pais: PT
+  abrangencia: internacional
+  url: https://www.dgartes.gov.pt/pt/apoios
+  url_institucional: https://www.dgartes.gov.pt/
+  temas: Artes performativas, artes visuais, cruzamentos disciplinares, programação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Em geral entidades com sede em Portugal; estrangeiros via coprodução/parceria
+  ativo: true
+- id: ica-instituto-do-cinema-e-do-audiovisual
+  nome: ICA — Instituto do Cinema e do Audiovisual
+  grupo: internacional:europa
+  pais: PT
+  abrangencia: internacional
+  url: https://www.ica-ip.pt/pt/concursos/
+  url_institucional: https://www.ica-ip.pt/
+  temas: Cinema, audiovisual, produção, distribuição e festivais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Regras de nacionalidade, sede e coprodução; verificar
+  ativo: true
+- id: camoes-instituto-da-cooperacao-e-da-lingua
+  nome: Camões — Instituto da Cooperação e da Língua
+  grupo: internacional:europa
+  pais: PT
+  abrangencia: internacional
+  url: https://www.instituto-camoes.pt/activity/o-que-fazemos/cultura/apoios
+  url_institucional: https://www.instituto-camoes.pt/
+  temas: Língua portuguesa, intercâmbio, tradução, cultura e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Chamadas podem envolver instituições estrangeiras e países lusófonos
+  ativo: true
+- id: fundacao-calouste-gulbenkian
+  nome: Fundação Calouste Gulbenkian
+  grupo: internacional:europa
+  pais: PT
+  abrangencia: internacional
+  url: https://gulbenkian.pt/grants/
+  url_institucional: https://gulbenkian.pt/
+  temas: Artes, cultura, bolsas, investigação, patrimônio e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Verificar âmbito geográfico de cada concurso
+  ativo: true
+- id: ministerio-de-cultura-ayudas-y-subvenciones
+  nome: Ministerio de Cultura — Ayudas y subvenciones
+  grupo: internacional:europa
+  pais: ES
+  abrangencia: internacional
+  url: https://www.cultura.gob.es/servicios-al-ciudadano/catalogo/becas-ayudas-y-subvenciones.html
+  url_institucional: https://www.cultura.gob.es/
+  temas: Artes, livro, leitura, patrimônio, audiovisual e ação cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Muitas linhas exigem residência ou entidade espanhola; parcerias podem ser possíveis
+  ativo: true
+- id: accion-cultural-espanola-ac-e-pice
+  nome: Acción Cultural Española (AC/E) — PICE
+  grupo: internacional:europa
+  pais: ES
+  abrangencia: internacional
+  url: https://www.accioncultural.es/es/pice
+  url_institucional: https://www.accioncultural.es/
+  temas: Mobilidade, visitantes, circulação e internacionalização cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Programa voltado à internacionalização da cultura espanhola; brasileiros podem ser convidados/beneficiários
+    indiretos
+  ativo: true
+- id: instituto-de-la-cinematografia-y-de-las-artes-audi
+  nome: Instituto de la Cinematografía y de las Artes Audiovisuales (ICAA)
+  grupo: internacional:europa
+  pais: ES
+  abrangencia: internacional
+  url: https://www.cultura.gob.es/cultura/areas/cine/industria/ayudas.html
+  url_institucional: https://www.cultura.gob.es/cultura/areas/cine.html
+  temas: Cinema, audiovisual, produção e distribuição
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Em geral exige empresa/produtor elegível na Espanha; coprodução internacional
+  ativo: true
+- id: ministere-de-la-culture-aides-et-demarches
+  nome: Ministère de la Culture — Aides et démarches
+  grupo: internacional:europa
+  pais: FR
+  abrangencia: internacional
+  url: https://www.culture.gouv.fr/Aides-demarches
+  url_institucional: https://www.culture.gouv.fr/
+  temas: Artes, patrimônio, livro, música, dança, teatro e audiovisual
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Frequentemente exige entidade/residência francesa; parcerias internacionais
+  ativo: true
+- id: institut-francais
+  nome: Institut français
+  grupo: internacional:europa
+  pais: FR
+  abrangencia: internacional
+  url: https://www.institutfrancais.com/fr/appels-a-projets
+  url_institucional: https://www.institutfrancais.com/
+  temas: Mobilidade, residências, cooperação e circulação internacional
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Algumas chamadas internacionais e redes de parceiros
+  ativo: true
+- id: centre-national-du-cinema-et-de-l-image-animee-cnc
+  nome: Centre National du Cinéma et de l’image animée (CNC)
+  grupo: internacional:europa
+  pais: FR
+  abrangencia: internacional
+  url: https://www.cnc.fr/professionnels/aides-et-financements
+  url_institucional: https://www.cnc.fr/
+  temas: Cinema, audiovisual, animação, inovação e coprodução
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Em geral empresas francesas; coprodução internacional conforme linha
+  ativo: true
+- id: centre-national-du-livre-cnl
+  nome: Centre National du Livre (CNL)
+  grupo: internacional:europa
+  pais: FR
+  abrangencia: internacional
+  url: https://centrenationaldulivre.fr/aides
+  url_institucional: https://centrenationaldulivre.fr/
+  temas: Livro, tradução, edição, literatura e leitura
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem editora/entidade francesa; tradução internacional pode ser elegível
+  ativo: true
+- id: goethe-institut-international-coproduction-fund
+  nome: Goethe-Institut — International Coproduction Fund
+  grupo: internacional:europa
+  pais: DE
+  abrangencia: internacional
+  url: https://www.goethe.de/en/kul/foe/int.html
+  url_institucional: https://www.goethe.de/
+  temas: Coprodução internacional em artes performativas e música
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Chamadas internacionais; verificar país, parceria e requisitos
+  ativo: true
+- id: kulturstiftung-des-bundes-federal-cultural-foundat
+  nome: Kulturstiftung des Bundes — Federal Cultural Foundation
+  grupo: internacional:europa
+  pais: DE
+  abrangencia: internacional
+  url: https://www.kulturstiftung-des-bundes.de/en/funding.html
+  url_institucional: https://www.kulturstiftung-des-bundes.de/
+  temas: Projetos artísticos, intercâmbio, cultura contemporânea e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Normalmente exige instituição alemã; parceiros internacionais podem integrar projetos
+  ativo: true
+- id: daad-artists-in-berlin-programme
+  nome: DAAD — Artists-in-Berlin Programme
+  grupo: internacional:europa
+  pais: DE
+  abrangencia: internacional
+  url: https://www.berliner-kuenstlerprogramm.de/en/
+  url_institucional: https://www.berliner-kuenstlerprogramm.de/en/
+  temas: Residências, artes visuais, literatura, música e cinema
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Artistas internacionais; candidatura e nomeação conforme disciplina
+  ativo: true
+- id: ministero-della-cultura-direzione-generale-creativ
+  nome: Ministero della Cultura — Direzione Generale Creatività Contemporanea
+  grupo: internacional:europa
+  pais: IT
+  abrangencia: internacional
+  url: https://creativitacontemporanea.cultura.gov.it/
+  url_institucional: https://cultura.gov.it/
+  temas: Arte contemporânea, arquitetura, fotografia, design e patrimônio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Verificar exigência de residência ou entidade italiana
+  ativo: true
+- id: siae-per-chi-crea
+  nome: SIAE — Per Chi Crea
+  grupo: internacional:europa
+  pais: IT
+  abrangencia: internacional
+  url: https://www.perchicrea.it/
+  url_institucional: https://www.siae.it/
+  temas: Música, audiovisual, artes cênicas e criação jovem
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Geralmente voltado a jovens autores e organizações italianas; conferir regras
+  ativo: true
+- id: arts-council-england
+  nome: Arts Council England
+  grupo: internacional:europa
+  pais: GB
+  abrangencia: internacional
+  url: https://www.artscouncil.org.uk/projectgrants
+  url_institucional: https://www.artscouncil.org.uk/
+  temas: Project Grants, National Lottery, artes e cultura
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Em geral exige base/atividade no Reino Unido; parcerias internacionais
+  ativo: true
+- id: british-council-arts
+  nome: British Council — Arts
+  grupo: internacional:europa
+  pais: GB
+  abrangencia: internacional
+  url: https://www.britishcouncil.org/arts/opportunities
+  url_institucional: https://www.britishcouncil.org/arts
+  temas: Artes, intercâmbio, residências e colaboração internacional
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Muitas chamadas internacionais; verificar países e parceiros
+  ativo: true
+- id: creative-scotland
+  nome: Creative Scotland
+  grupo: internacional:europa
+  pais: GB
+  abrangencia: internacional
+  url: https://www.creativescotland.com/funding
+  url_institucional: https://www.creativescotland.com/
+  temas: Artes, cinema, cultura, residências e circulação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Geralmente organizações/artistas na Escócia; parcerias externas
+  ativo: true
+- id: arts-council-ireland
+  nome: Arts Council Ireland
+  grupo: internacional:europa
+  pais: IE
+  abrangencia: internacional
+  url: https://www.artscouncil.ie/funding/
+  url_institucional: https://www.artscouncil.ie/
+  temas: Artes, projetos, bolsas, residências e circulação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral exige residência/atividade na Irlanda
+  ativo: true
+- id: arts-council-of-wales
+  nome: Arts Council of Wales
+  grupo: internacional:europa
+  pais: GB
+  abrangencia: internacional
+  url: https://arts.wales/funding
+  url_institucional: https://arts.wales/
+  temas: Artes, projetos, mobilidade e organizações culturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Elegibilidade territorial; parcerias internacionais
+  ativo: true
+- id: dutchculture
+  nome: DutchCulture
+  grupo: internacional:europa
+  pais: NL
+  abrangencia: internacional
+  url: https://dutchculture.nl/en/funding
+  url_institucional: https://dutchculture.nl/
+  temas: Mobilidade, cooperação internacional e financiamento cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Várias linhas para cooperação internacional; verificar chamada
+  ativo: true
+- id: mondriaan-fund
+  nome: Mondriaan Fund
+  grupo: internacional:europa
+  pais: NL
+  abrangencia: internacional
+  url: https://www.mondriaanfonds.nl/en/apply/
+  url_institucional: https://www.mondriaanfonds.nl/
+  temas: Artes visuais, patrimônio, curadoria, pesquisa e intercâmbio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Algumas linhas para artistas e instituições internacionais; requisitos variam
+  ativo: true
+- id: creative-industries-fund-nl
+  nome: Creative Industries Fund NL
+  grupo: internacional:europa
+  pais: NL
+  abrangencia: internacional
+  url: https://www.stimuleringsfonds.nl/en/subsidies
+  url_institucional: https://www.stimuleringsfonds.nl/
+  temas: Design, arquitetura, digital, cultura e inovação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Frequentemente exige vínculo com Países Baixos; parcerias internacionais
+  ativo: true
+- id: pro-helvetia
+  nome: Pro Helvetia
+  grupo: internacional:europa
+  pais: CH
+  abrangencia: internacional
+  url: https://prohelvetia.ch/en/funding/
+  url_institucional: https://prohelvetia.ch/en/
+  temas: Intercâmbio, residências, circulação, coprodução e artes
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Programas internacionais e escritórios de ligação; verificar residência e nacionalidade
+  ativo: true
+- id: austria-kultur-federal-ministry-of-arts-culture-ci
+  nome: Austria Kultur / Federal Ministry of Arts, Culture, Civil Service and Sport
+  grupo: internacional:europa
+  pais: AT
+  abrangencia: internacional
+  url: https://www.bmkoes.gv.at/Kunst-und-Kultur.html
+  url_institucional: https://www.bmkoes.gv.at/
+  temas: Artes, cultura, patrimônio e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Varia por programa; muitas linhas exigem vínculo austríaco
+  ativo: true
+- id: flanders-state-of-the-art-kunstenpunt
+  nome: Flanders State of the Art / Kunstenpunt
+  grupo: internacional:europa
+  pais: BE
+  abrangencia: internacional
+  url: https://www.kunsten.be/en/
+  url_institucional: https://www.kunsten.be/
+  temas: Artes, mobilidade, internacionalização e financiamento
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Usar também como guia de financiamento; conferir financiador original
+  ativo: true
+- id: federation-wallonie-bruxelles-culture
+  nome: Fédération Wallonie-Bruxelles — Culture
+  grupo: internacional:europa
+  pais: BE
+  abrangencia: internacional
+  url: https://www.culture.be/index.php?id=129
+  url_institucional: https://www.culture.be/
+  temas: Artes, cultura, livro, patrimônio e educação artística
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral exige entidade/atividade local; parcerias
+  ativo: true
+- id: danish-arts-foundation
+  nome: Danish Arts Foundation
+  grupo: internacional:europa
+  pais: DK
+  abrangencia: internacional
+  url: https://www.kunst.dk/english/funding
+  url_institucional: https://www.kunst.dk/english
+  temas: Artes, literatura, música, artes cênicas e mobilidade
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Elegibilidade varia; foco em artistas e instituições ligados à Dinamarca
+  ativo: true
+- id: swedish-arts-grants-committee
+  nome: Swedish Arts Grants Committee
+  grupo: internacional:europa
+  pais: SE
+  abrangencia: internacional
+  url: https://www.konstnarsnamnden.se/english/
+  url_institucional: https://www.konstnarsnamnden.se/
+  temas: Bolsas, mobilidade, artes visuais, música e artes cênicas
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Verificar residência, nacionalidade e vínculos
+  ativo: true
+- id: arts-council-norway
+  nome: Arts Council Norway
+  grupo: internacional:europa
+  pais: 'NO'
+  abrangencia: internacional
+  url: https://www.kulturdirektoratet.no/english
+  url_institucional: https://www.kulturdirektoratet.no/
+  temas: Artes, cultura, projetos, mobilidade e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral requer conexão norueguesa; parcerias internacionais
+  ativo: true
+- id: arts-promotion-centre-finland-taike
+  nome: Arts Promotion Centre Finland (Taike)
+  grupo: internacional:europa
+  pais: FI
+  abrangencia: internacional
+  url: https://www.taike.fi/en/grants-and-subsidies
+  url_institucional: https://www.taike.fi/en
+  temas: Bolsas, artes, mobilidade e produção cultural
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Regras de residência e atividade local variam
+  ativo: true
+- id: adam-mickiewicz-institute
+  nome: Adam Mickiewicz Institute
+  grupo: internacional:europa
+  pais: PL
+  abrangencia: internacional
+  url: https://iam.pl/en/programmes
+  url_institucional: https://iam.pl/en
+  temas: Internacionalização, circulação e cooperação cultural polonesa
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Pode apoiar parceiros internacionais em projetos ligados à cultura polonesa
+  ativo: true
+- id: national-centre-for-culture-nck
+  nome: National Centre for Culture (NCK)
+  grupo: internacional:europa
+  pais: PL
+  abrangencia: internacional
+  url: https://nck.pl/en
+  url_institucional: https://nck.pl/
+  temas: Educação cultural, patrimônio, cultura local e projetos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral exige proponente polonês
+  ativo: true
+- id: czech-ministry-of-culture
+  nome: Czech Ministry of Culture
+  grupo: internacional:europa
+  pais: CZ
+  abrangencia: internacional
+  url: https://mk.gov.cz/dotacni-programy
+  url_institucional: https://mk.gov.cz/
+  temas: Artes, patrimônio, literatura, cultura e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral exige vínculo local; verificar linhas internacionais
+  ativo: true
+- id: hellenic-ministry-of-culture
+  nome: Hellenic Ministry of Culture
+  grupo: internacional:europa
+  pais: GR
+  abrangencia: internacional
+  url: https://www.culture.gov.gr/en/service/SitePages/view.aspx?iID=2695
+  url_institucional: https://www.culture.gov.gr/
+  temas: Patrimônio, artes, museus e cultura contemporânea
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Varia por programa e vínculo territorial
+  ativo: true
+- id: icelandic-centre-for-research-arts-and-culture-fun
+  nome: Icelandic Centre for Research / Arts and Culture funds
+  grupo: internacional:europa
+  pais: IS
+  abrangencia: internacional
+  url: https://www.rannis.is/english/funding/
+  url_institucional: https://www.rannis.is/
+  temas: Artes, pesquisa, mobilidade e cooperação nórdica
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Verificar elegibilidade e parceria local
+  ativo: true
+- id: iberescena-2
+  nome: Iberescena
+  grupo: internacional:america_latina
+  pais: IB
+  abrangencia: internacional
+  url: https://www.iberescena.org/convocatorias/
+  url_institucional: https://www.iberescena.org/
+  temas: Teatro, dança, circo, criação em residência, coprodução e festivais
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Países membros; Brasil participa. Verificar elegibilidade da pessoa/entidade.
+  ativo: true
+- id: ibercultura-viva-2
+  nome: IberCultura Viva
+  grupo: internacional:america_latina
+  pais: IB
+  abrangencia: internacional
+  url: https://iberculturaviva.org/convocatorias/
+  url_institucional: https://iberculturaviva.org/
+  temas: Cultura comunitária, Pontos de Cultura, redes, intercâmbio e formação
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Países participantes; atenção a organizações e redes comunitárias
+  ativo: true
+- id: oei-organizacao-de-estados-ibero-americanos
+  nome: OEI — Organização de Estados Ibero-Americanos
+  grupo: internacional:america_latina
+  pais: IB
+  abrangencia: internacional
+  url: https://oei.int/oficinas/secretaria-general/convocatorias
+  url_institucional: https://oei.int/
+  temas: Cultura, educação, cooperação, pesquisa e consultorias
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Varia por chamada; pode aceitar entidades e especialistas dos países membros
+  ativo: true
+- id: oea-cultura-cooperacao
+  nome: OEA — Cultura / Cooperação
+  grupo: internacional:america_latina
+  pais: AM
+  abrangencia: internacional
+  url: https://www.oas.org/en/sedi/dhdee/culture/
+  url_institucional: https://www.oas.org/
+  temas: Cooperação cultural, patrimônio, políticas e redes
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Varia por programa e país participante
+  ativo: true
+- id: fundacion-sura-cultura-latinoamerica
+  nome: Fundación SURA — Cultura Latinoamérica
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.fundacionsura.com/iniciativas/convocatoria-cultura-latinoamerica/
+  url_institucional: https://www.fundacionsura.com/
+  temas: Promoção cultural, organizações sem fins lucrativos e projetos culturais
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Organizações sem fins lucrativos legalmente constituídas nos países participantes; não apoia iniciativas
+    pessoais ou eventos pontuais
+  observacoes: Página consultada indica estado ativo; conferir formulário e prazo diretamente.
+  ativo: true
+- id: caf-banco-de-desarrollo-de-america-latina-y-el-car
+  nome: CAF — Banco de Desarrollo de América Latina y el Caribe
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.caf.com/
+  url_institucional: https://www.caf.com/
+  temas: Desenvolvimento territorial, economia criativa, patrimônio e cidades
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Chamadas e cooperação podem exigir governos, instituições ou consórcios
+  ativo: true
+- id: bid-idb-cultura-y-economia-creativa
+  nome: BID / IDB — Cultura y Economía Creativa
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.iadb.org/en/who-we-are/topics/culture
+  url_institucional: https://www.iadb.org/
+  temas: Economia criativa, inovação, patrimônio e desenvolvimento
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Frequentemente governos, instituições e organizações parceiras; monitorar consultorias
+  ativo: true
+- id: fundacion-avina
+  nome: Fundación Avina
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.avina.net/
+  url_institucional: https://www.avina.net/
+  temas: Cultura, transformação social, democracia e sustentabilidade
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Chamadas específicas e parcerias; monitorar programas
+  ativo: true
+- id: fundacion-ford
+  nome: Fundación Ford
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.fordfoundation.org/work/our-grants/
+  url_institucional: https://www.fordfoundation.org/
+  temas: Justiça social, cultura, direitos, artes e equidade
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Em geral apoio institucional e convites; não presumir chamada aberta
+  ativo: true
+- id: red-de-centros-culturales-de-espana-aecid
+  nome: Red de Centros Culturales de España (AECID)
+  grupo: internacional:america_latina
+  pais: LA
+  abrangencia: internacional
+  url: https://www.aecid.es/
+  url_institucional: https://www.aecid.es/
+  temas: Residências, programação, formação e cooperação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: Chamadas por país e centro cultural; parceria local pode ser necessária
+  ativo: true
+- id: ministerio-de-cultura-secretaria-de-cultura
+  nome: Ministerio de Cultura / Secretaría de Cultura
+  grupo: internacional:america_latina
+  pais: AR
+  abrangencia: internacional
+  url: https://www.argentina.gob.ar/cultura/convocatorias
+  url_institucional: https://www.argentina.gob.ar/cultura
+  temas: Fomento, Mecenazgo, cultura comunitária, patrimônio, artes
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-culturas-descolonizacion-y
+  nome: Ministerio de Culturas, Descolonización y Despatriarcalización
+  grupo: internacional:america_latina
+  pais: BO
+  abrangencia: internacional
+  url: https://www.minculturas.gob.bo/
+  url_institucional: https://www.minculturas.gob.bo/
+  temas: Culturas indígenas, patrimônio, artes e memória
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-las-culturas-las-artes-y-el-patrimon
+  nome: Ministerio de las Culturas, las Artes y el Patrimonio
+  grupo: internacional:america_latina
+  pais: CL
+  abrangencia: internacional
+  url: https://www.fondosdecultura.cl/
+  url_institucional: https://www.cultura.gob.cl/
+  temas: Fondos Cultura, Fondart, música, audiovisual, livro e patrimônio
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-las-culturas-las-artes-y-los-saberes
+  nome: Ministerio de las Culturas, las Artes y los Saberes
+  grupo: internacional:america_latina
+  pais: CO
+  abrangencia: internacional
+  url: https://www.mincultura.gov.co/planes-y-programas/
+  url_institucional: https://www.mincultura.gov.co/
+  temas: Programa Nacional de Concertación, estímulos, cultura comunitária
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-y-juventud
+  nome: Ministerio de Cultura y Juventud
+  grupo: internacional:america_latina
+  pais: CR
+  abrangencia: internacional
+  url: https://mcj.go.cr/
+  url_institucional: https://mcj.go.cr/
+  temas: Puntos de Cultura, fondos, artes, patrimônio e juventude
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-de-cuba
+  nome: Ministerio de Cultura de Cuba
+  grupo: internacional:america_latina
+  pais: CU
+  abrangencia: internacional
+  url: https://www.min.cult.cu/
+  url_institucional: https://www.min.cult.cu/
+  temas: Artes, patrimônio, cultura comunitária; acesso e elegibilidade internacional variáveis
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura
+  nome: Ministerio de Cultura
+  grupo: internacional:america_latina
+  pais: DO
+  abrangencia: internacional
+  url: https://cultura.gob.do/
+  url_institucional: https://cultura.gob.do/
+  temas: Fomento, prêmios, festivais, patrimônio e artes
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-y-patrimonio
+  nome: Ministerio de Cultura y Patrimonio
+  grupo: internacional:america_latina
+  pais: EC
+  abrangencia: internacional
+  url: https://www.culturaypatrimonio.gob.ec/
+  url_institucional: https://www.culturaypatrimonio.gob.ec/
+  temas: Fondos concursables, artes, patrimônio e cultura comunitária
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-2
+  nome: Ministerio de Cultura
+  grupo: internacional:america_latina
+  pais: SV
+  abrangencia: internacional
+  url: https://www.cultura.gob.sv/
+  url_institucional: https://www.cultura.gob.sv/
+  temas: Artes, patrimônio, formação e cultura comunitária
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-y-deportes
+  nome: Ministerio de Cultura y Deportes
+  grupo: internacional:america_latina
+  pais: GT
+  abrangencia: internacional
+  url: https://mcd.gob.gt/
+  url_institucional: https://mcd.gob.gt/
+  temas: Patrimônio, artes, cultura popular e formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: secretaria-de-las-culturas-las-artes-y-los-patrimo
+  nome: Secretaría de las Culturas, las Artes y los Patrimonios de los Pueblos de Honduras
+  grupo: internacional:america_latina
+  pais: HN
+  abrangencia: internacional
+  url: https://www.secap.gob.hn/
+  url_institucional: https://www.secap.gob.hn/
+  temas: Patrimônio, artes, povos e cultura comunitária
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: secretaria-de-cultura
+  nome: Secretaría de Cultura
+  grupo: internacional:america_latina
+  pais: MX
+  abrangencia: internacional
+  url: https://www.gob.mx/cultura/archivo/acciones_y_programas
+  url_institucional: https://www.gob.mx/cultura
+  temas: PACMYC, PROFEST, FONCA/Sistema de Apoyos, cultura comunitária
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: sistema-de-informacion-cultural-convocatorias
+  nome: Sistema de Información Cultural — Convocatorias
+  grupo: internacional:america_latina
+  pais: MX
+  abrangencia: internacional
+  url: https://sic.cultura.gob.mx/
+  url_institucional: https://sic.cultura.gob.mx/
+  temas: Convocatórias de música, artes, patrimônio, literatura e instituições
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 3
+  elegibilidade: Agregador público; validar no órgão convocante
+  observacoes: Busca por disciplina e convocatórias; inclui programas nacionais e internacionais.
+  ativo: true
+- id: instituto-nacional-de-bellas-artes-y-literatura-in
+  nome: Instituto Nacional de Bellas Artes y Literatura (INBAL)
+  grupo: internacional:america_latina
+  pais: MX
+  abrangencia: internacional
+  url: https://inba.gob.mx/convocatorias
+  url_institucional: https://inba.gob.mx/
+  temas: Artes visuais, música, dança, teatro, literatura e pesquisa
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: instituto-nicaraguense-de-cultura
+  nome: Instituto Nicaragüense de Cultura
+  grupo: internacional:america_latina
+  pais: NI
+  abrangencia: internacional
+  url: https://www.inc.gob.ni/
+  url_institucional: https://www.inc.gob.ni/
+  temas: Patrimônio, artes e cultura; verificar atualização do portal
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-de-panama
+  nome: Ministerio de Cultura de Panamá
+  grupo: internacional:america_latina
+  pais: PA
+  abrangencia: internacional
+  url: https://micultura.gob.pa/
+  url_institucional: https://micultura.gob.pa/
+  temas: Fondos, artes, patrimônio, cultura comunitária e festivais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: secretaria-nacional-de-cultura
+  nome: Secretaría Nacional de Cultura
+  grupo: internacional:america_latina
+  pais: PY
+  abrangencia: internacional
+  url: https://cultura.gov.py/
+  url_institucional: https://cultura.gov.py/
+  temas: Fondos de cultura, patrimônio, artes e economia criativa
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-cultura-del-peru
+  nome: Ministerio de Cultura del Perú
+  grupo: internacional:america_latina
+  pais: PE
+  abrangencia: internacional
+  url: https://www.gob.pe/institucion/cultura/colecciones/
+  url_institucional: https://www.gob.pe/cultura
+  temas: Estímulos económicos, puntos de cultura, audiovisual, artes e patrimônio
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-de-educacion-y-cultura-direccion-nacion
+  nome: Ministerio de Educación y Cultura — Dirección Nacional de Cultura
+  grupo: internacional:america_latina
+  pais: UY
+  abrangencia: internacional
+  url: https://www.gub.uy/ministerio-educacion-cultura/tematica/fondos-concursables
+  url_institucional: https://www.gub.uy/ministerio-educacion-cultura/
+  temas: Fondos Concursables, FEFCA, Ibermúsicas, artes e patrimônio
+  metodo: pagina
+  frequencia: diaria
+  prioridade: 2
+  elegibilidade: Algumas linhas exigem residência ou entidade local; monitorar coprodução e parcerias internacionais.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: ministerio-del-poder-popular-para-la-cultura
+  nome: Ministerio del Poder Popular para la Cultura
+  grupo: internacional:america_latina
+  pais: VE
+  abrangencia: internacional
+  url: http://www.mincultura.gob.ve/
+  url_institucional: http://www.mincultura.gob.ve/
+  temas: Artes, patrimônio e cultura comunitária; verificar disponibilidade
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 1
+  elegibilidade: Em geral prioridade a residentes/entidades nacionais; verificar possibilidade de parceria internacional.
+  observacoes: Página institucional de entrada; identificar página de convocatorias, bases, resultados e calendário.
+  ativo: true
+- id: fondo-nacional-de-las-artes
+  nome: Fondo Nacional de las Artes
+  grupo: internacional:america_latina
+  pais: AR
+  abrangencia: internacional
+  url: https://www.fnartes.gob.ar/
+  url_institucional: https://www.fnartes.gob.ar/
+  temas: Becas, concursos, subsídios, patrimônio e artes
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: instituto-nacional-del-teatro
+  nome: Instituto Nacional del Teatro
+  grupo: internacional:america_latina
+  pais: AR
+  abrangencia: internacional
+  url: https://inteatro.ar/
+  url_institucional: https://inteatro.ar/
+  temas: Teatro, produção, circulação, salas e formação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: incaa
+  nome: INCAA
+  grupo: internacional:america_latina
+  pais: AR
+  abrangencia: internacional
+  url: https://www.incaa.gob.ar/
+  url_institucional: https://www.incaa.gob.ar/
+  temas: Cinema e audiovisual
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: dirac-ministerio-de-relaciones-exteriores
+  nome: DIRAC — Ministerio de Relaciones Exteriores
+  grupo: internacional:america_latina
+  pais: CL
+  abrangencia: internacional
+  url: https://www.dirac.gob.cl/
+  url_institucional: https://www.dirac.gob.cl/
+  temas: Internacionalização e circulação da cultura chilena
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: programa-nacional-de-concertacion-cultural
+  nome: Programa Nacional de Concertación Cultural
+  grupo: internacional:america_latina
+  pais: CO
+  abrangencia: internacional
+  url: https://www.mincultura.gov.co/
+  url_institucional: https://www.mincultura.gov.co/
+  temas: Apoio a projetos, organizações e eventos culturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: fonca-sistema-de-apoyos-a-la-creacion-y-proyectos-
+  nome: FONCA / Sistema de Apoyos a la Creación y Proyectos Culturales
+  grupo: internacional:america_latina
+  pais: MX
+  abrangencia: internacional
+  url: https://sistemacreacion.cultura.gob.mx/
+  url_institucional: https://sistemacreacion.cultura.gob.mx/
+  temas: Bolsas, residências, criação e projetos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: pacmyc-programa-de-apoyo-a-las-culturas-municipale
+  nome: PACMYC — Programa de Apoyo a las Culturas Municipales y Comunitarias
+  grupo: internacional:america_latina
+  pais: MX
+  abrangencia: internacional
+  url: https://www.gob.mx/cultura
+  url_institucional: https://www.gob.mx/cultura
+  temas: Culturas populares, comunitárias e patrimônio imaterial
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: estimulos-economicos-para-la-cultura
+  nome: Estímulos Económicos para la Cultura
+  grupo: internacional:america_latina
+  pais: PE
+  abrangencia: internacional
+  url: https://estimuloseconomicos.cultura.gob.pe/
+  url_institucional: https://estimuloseconomicos.cultura.gob.pe/
+  temas: Artes, audiovisual, livro, leitura e patrimônio
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: fondos-concursables-para-la-cultura
+  nome: Fondos Concursables para la Cultura
+  grupo: internacional:america_latina
+  pais: UY
+  abrangencia: internacional
+  url: https://www.gub.uy/ministerio-educacion-cultura/
+  url_institucional: https://www.gub.uy/ministerio-educacion-cultura/
+  temas: Fomento a projetos culturais
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: fondo-nacional-de-la-cultura-y-las-artes-fondec
+  nome: Fondo Nacional de la Cultura y las Artes (FONDEC)
+  grupo: internacional:america_latina
+  pais: PY
+  abrangencia: internacional
+  url: https://www.fondec.gov.py/
+  url_institucional: https://www.fondec.gov.py/
+  temas: Fomento a projetos culturais e artísticos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: funarte-ibermusicas
+  nome: Funarte — Ibermúsicas
+  grupo: internacional:america_latina
+  pais: BR
+  abrangencia: internacional
+  url: https://www.gov.br/funarte/pt-br/fomento/chamadas-2026/programa-ibermusicas-convocatorias-2026
+  url_institucional: https://www.gov.br/funarte/pt-br/fomento/chamadas-2026/programa-ibermusicas-convocatorias-2026
+  temas: Convocatórias ibero-americanas de música, residências e circulação
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true
+- id: funarte-iberescena
+  nome: Funarte — Iberescena
+  grupo: internacional:america_latina
+  pais: BR
+  abrangencia: internacional
+  url: https://www.gov.br/funarte/pt-br/assuntos/noticias/todas-noticias/ibercena-publica-bases-da-convocatoria-2025-2026
+  url_institucional: https://www.gov.br/funarte/pt-br/assuntos/noticias/todas-noticias/ibercena-publica-bases-da-convocatoria-2025-2026
+  temas: Convocatórias ibero-americanas de artes cênicas; acompanhar novos ciclos
+  metodo: pagina
+  frequencia: semanal
+  prioridade: 2
+  elegibilidade: 'Verificar: muitas linhas exigem residência ou entidade nacional; parcerias podem ser elegíveis'
+  ativo: true

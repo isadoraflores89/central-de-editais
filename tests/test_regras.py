@@ -8,8 +8,10 @@ from pipeline.normalize import regras
     ("texto", "esperado"),
     [
         ("Credenciamento (pessoa física ou MEI)", TipoApoio.credenciamento),
-        ("Patrocínio via leis ESTADUAIS de incentivo (cultura e esporte)",
-         TipoApoio.patrocinio_incentivado),
+        (
+            "Patrocínio via leis ESTADUAIS de incentivo (cultura e esporte)",
+            TipoApoio.patrocinio_incentivado,
+        ),
         ("Patrocínio corporativo (fluxo contínuo)", TipoApoio.patrocinio_direto),
         ("Lei estadual de incentivo (ICMS) — Bahia", TipoApoio.lei_incentivo_janela),
         ("Premiação (fomento direto)", TipoApoio.premio),
@@ -26,8 +28,12 @@ def test_tipo_apoio(texto: str, esperado: TipoApoio | None) -> None:
 
 def test_mecanismos_multiplos() -> None:
     m = regras.mecanismos("Projetos aptos a captar via Lei Rouanet, Lei do Esporte, FMDCA e Pronon")
-    assert m == [Mecanismo.rouanet, Mecanismo.lei_esporte, Mecanismo.pronon_pronas,
-                 Mecanismo.fia_idoso]
+    assert m == [
+        Mecanismo.rouanet,
+        Mecanismo.lei_esporte,
+        Mecanismo.pronon_pronas,
+        Mecanismo.fia_idoso,
+    ]
 
 
 def test_lei_estadual_de_esporte_nao_e_lei_federal() -> None:
@@ -40,7 +46,9 @@ def test_abrangencia_nacional() -> None:
 
 def test_abrangencia_municipal_com_cidade() -> None:
     assert regras.abrangencia("São José dos Campos/SP") == (
-        Abrangencia.municipal, ["SP"], ["São José dos Campos"]
+        Abrangencia.municipal,
+        ["SP"],
+        ["São José dos Campos"],
     )
 
 
@@ -81,9 +89,7 @@ def test_valor_texto_nao_corta_milhar() -> None:
 
 
 def test_proponente_pj_sem_fins_e_so_osc() -> None:
-    assert regras.proponentes("Elegíveis pessoas jurídicas sem fins lucrativos") == [
-        Proponente.osc
-    ]
+    assert regras.proponentes("Elegíveis pessoas jurídicas sem fins lucrativos") == [Proponente.osc]
     assert Proponente.pj in regras.proponentes("Somente pessoas jurídicas")
 
 

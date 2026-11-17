@@ -1,0 +1,47 @@
+# Buscador da Central: vigia de páginas (paginas) e busca na web (busca_web).
+# As fontes vigiadas estão em config/fontes.yaml (gerado das planilhas em config/fontes/).
+
+paginas:
+  max_por_fonte: 6       # links novos abertos por fonte, por rodada
+  max_ia: 60             # páginas lidas pela IA por rodada (cota grátis do Gemini: ~250/dia no total)
+  cache_horas: 6         # a lista de editais de cada fonte é baixada no máximo a cada 6 h
+
+busca_web:
+  consultas_por_dia: 6   # das "consultas" abaixo, em rodízio
+  estados_por_dia: 2     # + 2 estados por dia (todos a cada 14 dias)
+  max_ia: 30
+  consulta_por_estado: "edital cultura {estado} inscrições abertas {uf} secretaria de cultura fundação"
+  consultas:
+    # Brasil (português)
+    - {q: "edital cultura inscrições abertas 2026 fomento projetos culturais", pais: BR}
+    - {q: "chamamento público cultura inscrições abertas edital", pais: BR}
+    - {q: "edital PNAB inscrições abertas Política Nacional Aldir Blanc", pais: BR}
+    - {q: "seleção pública patrocínio cultural Lei Rouanet inscrições abertas empresa", pais: BR}
+    - {q: "credenciamento de artistas inscrições abertas edital cultura", pais: BR}
+    - {q: "prêmio cultural inscrições abertas 2026 edital artistas", pais: BR}
+    - {q: "residência artística inscrições abertas edital Brasil", pais: BR}
+    - {q: "edital audiovisual inscrições abertas FSA Ancine curtas longas", pais: BR}
+    - {q: "edital música inscrições abertas festival circulação show", pais: BR}
+    - {q: "edital artes cênicas teatro dança circo inscrições abertas", pais: BR}
+    - {q: "edital literatura livro leitura inscrições abertas bolsa", pais: BR}
+    - {q: "edital patrimônio cultural museus inscrições abertas", pais: BR}
+    - {q: "edital culturas populares povos tradicionais inscrições abertas", pais: BR}
+    - {q: "edital economia criativa inscrições abertas Sebrae cultura", pais: BR}
+    - {q: "edital ocupação espaço cultural pauta teatro inscrições abertas", pais: BR}
+    - {q: "credenciamento pareceristas cultura inscrições abertas edital", pais: BR}
+    - {q: "edital Sesc inscrições abertas artistas credenciamento programação", pais: BR}
+    - {q: "edital Itaú Cultural Rumos Natura Musical Petrobras Cultural inscrições abertas", pais: BR}
+    - {q: "edital universidade extensão cultura bolsa inscrições abertas pró-reitoria", pais: BR}
+    - {q: "diário oficial chamamento público cultura edital publicado hoje", pais: BR}
+    # América Latina (espanhol)
+    - {q: "convocatoria abierta cultura artistas 2026 fondos concursables estímulos", pais: LA, abrangencia: internacional}
+    - {q: "convocatoria residencia artística latinoamérica abierta artistas brasileños", pais: LA, abrangencia: internacional}
+    - {q: "Ibermúsicas Iberescena IberCultura Viva convocatoria abierta", pais: IB, abrangencia: internacional}
+    - {q: "becas ayudas cultura convocatoria abierta iberoamérica artistas", pais: LA, abrangencia: internacional}
+    # Europa e mundo (inglês / francês)
+    - {q: "open call artists 2026 international grant residency Latin American artists eligible", pais: EU, abrangencia: internacional}
+    - {q: "call for proposals culture creative europe open brazil partners", pais: EU, abrangencia: internacional}
+    - {q: "artist residency open call deadline 2026 travel accommodation covered", pais: EU, abrangencia: internacional}
+    - {q: "appel à candidatures résidence artistes internationaux 2026 bourse", pais: FR, abrangencia: internacional}
+    - {q: "open call performing arts festival international applications 2026", pais: EU, abrangencia: internacional}
+    - {q: "fellowship grant cultural heritage museums open call international 2026", pais: EU, abrangencia: internacional}

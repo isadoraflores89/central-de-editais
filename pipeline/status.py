@@ -23,9 +23,7 @@ def calcular_status(e: Edital, hoje: date) -> Status:
 def foi_prorrogado(e: Edital) -> bool:
     if "prorrogad" in normalizar(e.prazo_texto):
         return True
-    return any(
-        h.campo == "data_limite" and h.motivo == "prorrogado" for h in e.historico
-    )
+    return any(h.campo == "data_limite" and h.motivo == "prorrogado" for h in e.historico)
 
 
 def dias_restantes(e: Edital, hoje: date) -> int | None:

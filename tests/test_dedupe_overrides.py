@@ -10,10 +10,16 @@ from tests.conftest import AGORA, HOJE, fazer_edital
 
 
 def test_mesma_url_funde_e_une_listas() -> None:
-    a = fazer_edital(id="a", link_inscricao="https://prosas.com.br/editais/1-x",
-                     mecanismo=[Mecanismo.rouanet])
-    b = fazer_edital(id="b", titulo="Outro título", link_inscricao="https://prosas.com.br/editais/1",
-                     mecanismo=[Mecanismo.lei_esporte], exige_projeto_aprovado=True)
+    a = fazer_edital(
+        id="a", link_inscricao="https://prosas.com.br/editais/1-x", mecanismo=[Mecanismo.rouanet]
+    )
+    b = fazer_edital(
+        id="b",
+        titulo="Outro título",
+        link_inscricao="https://prosas.com.br/editais/1",
+        mecanismo=[Mecanismo.lei_esporte],
+        exige_projeto_aprovado=True,
+    )
     res, fusoes = deduplicar([a, b])
     assert len(res) == 1 and fusoes == [("a", "b")]
     assert res[0].mecanismo == [Mecanismo.rouanet, Mecanismo.lei_esporte]
@@ -22,13 +28,22 @@ def test_mesma_url_funde_e_une_listas() -> None:
 
 
 def test_url_de_pagina_inicial_exige_mesmo_orgao() -> None:
-    a = fazer_edital(id="a", titulo="Rouanet nas Favelas", orgao="MinC + Vale",
-                     link_inscricao="https://salic.cultura.gov.br")
-    b = fazer_edital(id="b", titulo="Rouanet 2026", orgao="MinC",
-                     link_inscricao="https://salic.cultura.gov.br/")
+    a = fazer_edital(
+        id="a",
+        titulo="Rouanet nas Favelas",
+        orgao="MinC + Vale",
+        link_inscricao="https://salic.cultura.gov.br",
+    )
+    b = fazer_edital(
+        id="b", titulo="Rouanet 2026", orgao="MinC", link_inscricao="https://salic.cultura.gov.br/"
+    )
     assert len(deduplicar([a, b])[0]) == 2
-    c = fazer_edital(id="c", titulo="Rouanet 2026 (esporte)", orgao="MinC",
-                     link_inscricao="https://salic.cultura.gov.br")
+    c = fazer_edital(
+        id="c",
+        titulo="Rouanet 2026 (esporte)",
+        orgao="MinC",
+        link_inscricao="https://salic.cultura.gov.br",
+    )
     assert len(deduplicar([b, c])[0]) == 1
 
 

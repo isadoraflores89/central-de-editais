@@ -14,7 +14,7 @@ import-seed:      ## importa a planilha-semente para data/editais.json
 run:              ## reprocessa status/prioridade e exporta para o site
 	$(UV) run python -m pipeline run --destino site/public/api
 
-collect:          ## coleta open calls e chamadas acadêmicas (Fase 5)
+collect:          ## buscador: páginas das fontes, busca na web, Instagram, open calls e OJS
 	$(UV) run python -m pipeline collect
 
 conteudo:         ## post semanal, carrossel, newsletter e alertas em content/

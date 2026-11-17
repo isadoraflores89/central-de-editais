@@ -6,7 +6,8 @@ Comandos da Fase 1:
   export        só exporta data/editais.json para uma pasta (JSON/CSV/XLSX/DB)
   report        imprime um resumo dos dados atuais
 Fase 5:
-  collect       roda os coletores (OJS, On the Move...) e junta ao data/editais.json
+  collect       roda os coletores (páginas das fontes, busca na web, Instagram, OJS,
+                On the Move) e junta ao data/editais.json
   conteudo      gera post semanal, carrossel, newsletter e alertas em content/
 """
 
@@ -14,6 +15,7 @@ import argparse
 import logging
 import sys
 from collections import Counter
+from collections.abc import Callable
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -116,6 +118,15 @@ def cmd_report(_: argparse.Namespace) -> int:
     return 0
 
 
+def _motor_fixo(url: str) -> Callable[[str], list[dict[str, str]]]:
+    """Motor de busca de mentira para --simular: devolve sempre o mesmo link."""
+
+    def buscar(q: str) -> list[dict[str, str]]:
+        return [{"link": url, "titulo": "Edital de música"}]
+
+    return buscar
+
+
 def cmd_collect(args: argparse.Namespace) -> int:
     """Roda os coletores da Fase 5 e junta o resultado ao data/editais.json.
 
@@ -155,6 +166,44 @@ def cmd_collect(args: argparse.Namespace) -> int:
 
                     col = ColetorOJS(
                         {"pculturais": ler_fixture("ojs/pculturais_announcement.html")}
+                    )
+                elif nome == "paginas":
+                    from pipeline.collectors.oportunidade import extrair_por_regras
+                    from pipeline.collectors.paginas import ColetorPaginas
+
+                    url_lista = "https://exemplo.gov.br/cultura/editais"
+                    col = ColetorPaginas(
+                        fontes=[
+                            {
+                                "id": "exemplo",
+                                "nome": "Secretaria exemplo",
+                                "url": url_lista,
+                                "uf": "BA",
+                                "abrangencia": "estadual",
+                            }
+                        ],
+                        paginas={
+                            url_lista: ler_fixture("paginas/lista.html"),
+                            url_lista + "/edital-musica-2026": ler_fixture("paginas/edital.html"),
+                        },
+                        extrator=extrair_por_regras,
+                        guardar_vistos=False,
+                    )
+                elif nome == "busca_web":
+                    from pipeline.collectors.busca_web import ColetorBuscaWeb
+                    from pipeline.collectors.oportunidade import extrair_por_regras
+
+                    url_ed = "https://exemplo.gov.br/cultura/editais/edital-musica-2026"
+                    col = ColetorBuscaWeb(
+                        motor=_motor_fixo(url_ed),
+                        paginas={url_ed: ler_fixture("paginas/edital.html")},
+                        extrator=extrair_por_regras,
+                        cfg={
+                            "consultas": [{"q": "edital", "pais": "BR"}],
+                            "consultas_por_dia": 1,
+                            "estados_por_dia": 0,
+                        },
+                        guardar_vistos=False,
                     )
                 else:
                     col = fabricas[nome]()

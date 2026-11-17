@@ -53,8 +53,16 @@ def fundir(principal: Edital, outro: Edital) -> Edital:
     exige = {p.exige_projeto_aprovado, outro.exige_projeto_aprovado}
     p.exige_projeto_aprovado = True if True in exige else (False if False in exige else None)
     for campo in (
-        "orgao", "tipo_apoio", "abrangencia", "link_edital", "data_limite", "data_abertura",
-        "valor_por_projeto_min", "valor_por_projeto_max", "valor_total", "valor_texto",
+        "orgao",
+        "tipo_apoio",
+        "abrangencia",
+        "link_edital",
+        "data_limite",
+        "data_abertura",
+        "valor_por_projeto_min",
+        "valor_por_projeto_max",
+        "valor_total",
+        "valor_texto",
     ):
         if getattr(p, campo) is None and getattr(outro, campo) is not None:
             setattr(p, campo, getattr(outro, campo))
@@ -65,8 +73,12 @@ def fundir(principal: Edital, outro: Edital) -> Edital:
 
     p.fontes_secundarias = _uniao(
         p.fontes_secundarias,
-        [FonteSecundaria(fonte=outro.fonte, url=str(outro.source_url),
-                         captured_at=outro.captured_at), *outro.fontes_secundarias],
+        [
+            FonteSecundaria(
+                fonte=outro.fonte, url=str(outro.source_url), captured_at=outro.captured_at
+            ),
+            *outro.fontes_secundarias,
+        ],
     )
     p.aliases = _uniao(p.aliases, [outro.id, *outro.aliases])
     p.aliases = [a for a in p.aliases if a != p.id]

@@ -38,11 +38,18 @@ def salvar(editais: list[Edital], caminho: Path = EDITAIS_DB) -> None:
     with Session(engine) as s:
         s.exec(delete(EditalRow))
         for e in editais:
-            s.add(EditalRow(
-                id=e.id, titulo=e.titulo, orgao=e.orgao, status=e.status.value,
-                data_limite=e.data_limite, prioridade=e.prioridade, fonte=e.fonte,
-                dados=json.loads(e.model_dump_json()),
-            ))
+            s.add(
+                EditalRow(
+                    id=e.id,
+                    titulo=e.titulo,
+                    orgao=e.orgao,
+                    status=e.status.value,
+                    data_limite=e.data_limite,
+                    prioridade=e.prioridade,
+                    fonte=e.fonte,
+                    dados=json.loads(e.model_dump_json()),
+                )
+            )
         s.commit()
 
 

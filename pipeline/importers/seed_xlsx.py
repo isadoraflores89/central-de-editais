@@ -36,8 +36,17 @@ FONTE_SEED = "curadoria inicial (planilha 24/09/2026)"
 CAPTURADO_EM = datetime(2026, 9, 24, 12, 0, tzinfo=ZoneInfo("America/Bahia"))
 ABAS = {"Editais": "editais", "Lei do Esporte": "lei_do_esporte", "Parecerista": "parecerista"}
 COLUNAS = [
-    "#", "Edital / Programa", "Tipo de apoio", "Abrangência", "Prazo", "Data-limite",
-    "Dias restantes", "Resumo", "Link de inscrição", "Observações", "Fonte",
+    "#",
+    "Edital / Programa",
+    "Tipo de apoio",
+    "Abrangência",
+    "Prazo",
+    "Data-limite",
+    "Dias restantes",
+    "Resumo",
+    "Link de inscrição",
+    "Observações",
+    "Fonte",
 ]
 
 
@@ -139,7 +148,9 @@ def linha_para_edital(d: dict[str, Any], ajuste: dict[str, Any]) -> tuple[Edital
         "source_url": link_edital or link,
         "fontes_secundarias": [
             FonteSecundaria(fonte=f"{_texto(d['Fonte'])} (via planilha, {d['_ref']})")
-        ] if _texto(d["Fonte"]) else [],
+        ]
+        if _texto(d["Fonte"])
+        else [],
         "captured_at": CAPTURADO_EM,
         "updated_at": CAPTURADO_EM,
         "marcadores": marcadores,
@@ -164,7 +175,8 @@ def linha_para_edital(d: dict[str, Any], ajuste: dict[str, Any]) -> tuple[Edital
         if campos[nome] in (None, ""):
             pendencias.append(f"{nome} não identificado")
     if not campos["mecanismo"] and campos["tipo_apoio"] in (
-        TipoApoio.patrocinio_incentivado, TipoApoio.lei_incentivo_janela,
+        TipoApoio.patrocinio_incentivado,
+        TipoApoio.lei_incentivo_janela,
     ):
         pendencias.append("mecanismo não identificado")
 
@@ -189,9 +201,6 @@ def importar(caminho: Path = SEED_XLSX, ajustes_path: Path = SEED_AJUSTES) -> Re
     res.editais, res.fusoes = deduplicar(brutos)
     ids_finais = {e.id: e for e in res.editais}
     for id_, motivos in pend.items():
-        destino = id_ if id_ in ids_finais else next(
-            e.id for e in res.editais if id_ in e.aliases
-        )
+        destino = id_ if id_ in ids_finais else next(e.id for e in res.editais if id_ in e.aliases)
         res.pendencias += [(destino, m) for m in motivos]
     return res
-
