@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 104,
+  "total": 106,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -549,7 +549,7 @@
       "source_url": "https://on-the-move.org/news/artemis-2027-academy-choir-singers-ukraine-lithuania-latvia-estonia-poland-latvia-lithuania",
       "fontes_secundarias": [],
       "captured_at": "2026-11-12T17:14:38Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1515,7 +1515,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1597,7 +1597,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
@@ -1688,7 +1688,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1771,7 +1771,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2410,7 +2410,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2492,7 +2492,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2575,7 +2575,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3127,6 +3127,86 @@
       "captured_at": "2026-11-10T08:19:40Z",
       "updated_at": "2026-11-15T15:57:39Z",
       "prioridade": 65,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "european-commission-culture-compass-europe-survey-2026-9244b9",
+      "titulo": "European Commission: Culture Compass for Europe Survey 2026",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": null,
+      "elegivel_brasileiros": null,
+      "formato": "comissionamento",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [],
+      "areas": [
+        "multi"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2027-01-15",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-17",
+      "status": "aberto",
+      "resumo": "The European Commission is conducting an EU-wide survey of artists to ensure that their experiences and perspectives can contribute to discussions on EU cultural policy.",
+      "link_inscricao": "https://survey.euro.confirmit.com/wix/p622974987742.aspx",
+      "link_edital": "https://on-the-move.org/news/european-commission-culture-compass-europe-survey-2026",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/EU-Culture-Dialogue-2.jpeg",
+      "imagem_verificada_em": "2026-11-17T17:59:12Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/european-commission-culture-compass-europe-survey-2026",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-17T17:58:54Z",
+      "updated_at": "2026-11-17T17:58:54Z",
+      "prioridade": 20,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -4409,7 +4489,7 @@
       "source_url": "https://on-the-move.org/news/grafenegg-festival-ink-still-wet-composer-conductor-workshops-2027-usa-austria",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -5177,6 +5257,93 @@
           "motivo": "prazo vencido"
         }
       ],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "interwoven-residencies-early-european-textiles-visual-c0e24b",
+      "titulo": "Interwoven Residencies in Early European Textiles for Visual Artists 2027 (France, Ireland, UK)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "FR",
+      "elegivel_brasileiros": true,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "hospedagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "France",
+        "United Kingdom",
+        "Ireland"
+      ],
+      "areas": [
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-12-15",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-17",
+      "status": "aberto",
+      "resumo": "Interwoven is an international artist residency project taking place in Normandy, Sussex and Co.",
+      "link_inscricao": "https://fabrica.org.uk/open-calls/interwoven-artist-residencies-open-call-for-artists",
+      "link_edital": "https://on-the-move.org/news/interwoven-residencies-early-european-textiles-visual-artists-2027-france-ireland-uk",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/Interwoven2.jpg",
+      "imagem_verificada_em": "2026-11-17T17:59:12Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/interwoven-residencies-early-european-textiles-visual-artists-2027-france-ireland-uk",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-17T17:58:54Z",
+      "updated_at": "2026-11-17T17:58:54Z",
+      "prioridade": 55,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -6088,7 +6255,7 @@
       "source_url": "https://on-the-move.org/news/mophradat-freelance-new-agents-coordinator-remote",
       "fontes_secundarias": [],
       "captured_at": "2026-11-16T08:19:42Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -6256,7 +6423,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6426,7 +6593,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -6523,7 +6690,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -7152,7 +7319,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -7234,7 +7401,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7424,7 +7591,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -7738,7 +7905,7 @@
       "source_url": "https://on-the-move.org/news/royal-drawing-school-don-bachardy-fellowship-2027-uk",
       "fontes_secundarias": [],
       "captured_at": "2026-11-11T16:45:44Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -8286,7 +8453,7 @@
       "source_url": "https://on-the-move.org/news/sharjah-art-foundation-collection-research-fellowship-2027-2029-uae-remote",
       "fontes_secundarias": [],
       "captured_at": "2026-11-16T08:19:42Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -8670,7 +8837,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/1019",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:27Z",
-      "updated_at": "2026-11-17T08:14:31Z",
+      "updated_at": "2026-11-17T17:58:30Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -8756,7 +8923,7 @@
       "source_url": "https://on-the-move.org/news/theatertreffen-2027-international-forum-theatre-professionals-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -8843,7 +9010,7 @@
       "source_url": "https://on-the-move.org/news/turba-festival-2027-call-south-american-performing-artists-argentina",
       "fontes_secundarias": [],
       "captured_at": "2026-11-12T17:14:38Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -9477,7 +9644,7 @@
       "source_url": "https://on-the-move.org/news/zmina-resilience-co-creation-funding-international-cooperation-projects-call-2-ukraine",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-17T08:14:53Z",
+      "updated_at": "2026-11-17T17:58:54Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
