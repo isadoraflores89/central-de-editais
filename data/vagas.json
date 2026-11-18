@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-11-17",
+ "atualizado_em": "2026-11-18",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 26,
  "itens": [
-  {
-   "titulo": "Analista do Centro de Referência do Artesanato Brasileiro",
-   "organizacao": "Centro de Referência do Artesanato Brasileiro",
-   "cidade": "Rio de Janeiro",
-   "uf": "RJ",
-   "remoto": false,
-   "area": "culturas_populares",
-   "regime": "clt",
-   "prazo": "2026-11-17",
-   "salario": "R$ 13.333,67",
-   "resumo": "Análise técnica sobre artesanato brasileiro, exigindo graduação em História, Design ou área afim e experiência mínima de cinco anos com artesanato.",
-   "link": "https://trabalhenacultura.substack.com/p/rio-de-janeiro-vaga-para-analista-03d",
-   "visto_em": "2026-11-12"
-  },
   {
    "titulo": "Analista de Monitoramento e Avaliação (Cultura)",
    "organizacao": "Itaú Cultural",
@@ -199,6 +185,20 @@
    "resumo": "Produção cultural no Sistema FIEB em Feira de Santana, com formação em produção cultural, gestão cultural, artes ou comunicação social.",
    "link": "https://www.infojobs.com.br/vaga-de-produtor-cultural-em-bahia__11863932.aspx",
    "visto_em": "2026-11-06"
+  },
+  {
+   "titulo": "Educador(a)/Oficineiro(a) — Percussão e Dança Afro-Brasileira",
+   "organizacao": "Projeto Blocos Afros, Educação e Cultura",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Condução de oficinas e rodas de conversa sobre memória, ancestralidade e cultura afro-brasileira em Salvador, com vagas para percussão (samba-reggae) e dança afro.",
+   "link": "https://www.infojobs.com.br/vaga-de-educador-oficineiro-em-bahia__11830955.aspx",
+   "visto_em": "2026-11-18"
   },
   {
    "titulo": "Analista de Comunicação Júnior",

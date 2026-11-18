@@ -1,9 +1,23 @@
 {
- "atualizado_em": "2026-11-17",
+ "atualizado_em": "2026-11-18",
  "fonte": "Central de Editais + busca diária (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 1,
+ "total": 2,
  "itens": [
+  {
+   "id": "intercambio-cultural-circulacao-e-participacao-audiovisual-b93bd0",
+   "titulo": "Intercâmbio Cultural — Circulação e Participação Audiovisual no Exterior (Edital MinC nº 1/2026)",
+   "orgao": "MinC",
+   "areas": [
+    "audiovisual"
+   ],
+   "ufs": [],
+   "tipo": "habilitacao",
+   "data": "2026-11-18",
+   "resumo": "MinC publicou o resultado final da 1ª reunião de qualificação (após recursos) e o resultado preliminar da 2ª reunião de qualificação do edital.",
+   "link": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/PublicaoDOU_ResultadosContrarrazes_ResultadoFinal1reunio_ResultadoPreliminar2reunio.pdf",
+   "visto_em": "2026-11-18"
+  },
   {
    "id": "vale-selecao-direta-de-patrocinios-culturais-instituto-9ad723",
    "titulo": "Vale — Seleção Direta de Patrocínios Culturais (Instituto Cultural Vale)",
