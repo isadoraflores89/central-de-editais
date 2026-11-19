@@ -81,6 +81,7 @@ jobs:
             git config user.email "central-de-editais@users.noreply.github.com"
             git add data/
             git commit -m "chore(data): atualização $(date +%F)"
+            git pull --rebase origin main
             git push
           else
             echo "Sem mudanças em data/."

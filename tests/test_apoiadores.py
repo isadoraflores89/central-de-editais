@@ -119,5 +119,5 @@ def test_descadastrado_nao_recebe_e_link_de_sair_vai_no_rodape() -> None:
     assert len(msgs) == 1
     assert "/.netlify/functions/descadastro?e=" in msgs[0]["html"]
     assert "Parar de receber" in msgs[0]["html"]
-    bloqueados = {enviar.hash_email(dados["email"])}
+    bloqueados = {enviar.hash_email("maria@teste.org")}
     assert enviar.montar_mensagens([dados], abertos, SEGUNDA, bloqueados) == []
