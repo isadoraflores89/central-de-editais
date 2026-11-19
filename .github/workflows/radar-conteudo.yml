@@ -48,6 +48,7 @@ jobs:
             git config user.email "central-de-editais@users.noreply.github.com"
             git add content/
             git commit -m "content: semana $(date +%G-%V)"
+            git pull --rebase origin main
             git push
           else
             echo "Sem mudanças em content/."
