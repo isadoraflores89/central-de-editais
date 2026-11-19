@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-11-17",
+ "atualizado_em": "2026-11-19",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 26,
+ "total": 28,
  "itens": [
-  {
-   "titulo": "Analista do Centro de Referência do Artesanato Brasileiro",
-   "organizacao": "Centro de Referência do Artesanato Brasileiro",
-   "cidade": "Rio de Janeiro",
-   "uf": "RJ",
-   "remoto": false,
-   "area": "culturas_populares",
-   "regime": "clt",
-   "prazo": "2026-11-17",
-   "salario": "R$ 13.333,67",
-   "resumo": "Análise técnica sobre artesanato brasileiro, exigindo graduação em História, Design ou área afim e experiência mínima de cinco anos com artesanato.",
-   "link": "https://trabalhenacultura.substack.com/p/rio-de-janeiro-vaga-para-analista-03d",
-   "visto_em": "2026-11-12"
-  },
   {
    "titulo": "Analista de Monitoramento e Avaliação (Cultura)",
    "organizacao": "Itaú Cultural",
@@ -201,6 +187,20 @@
    "visto_em": "2026-11-06"
   },
   {
+   "titulo": "Educador(a)/Oficineiro(a) — Percussão e Dança Afro-Brasileira",
+   "organizacao": "Projeto Blocos Afros, Educação e Cultura",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Condução de oficinas e rodas de conversa sobre memória, ancestralidade e cultura afro-brasileira em Salvador, com vagas para percussão (samba-reggae) e dança afro.",
+   "link": "https://www.infojobs.com.br/vaga-de-educador-oficineiro-em-bahia__11830955.aspx",
+   "visto_em": "2026-11-18"
+  },
+  {
    "titulo": "Analista de Comunicação Júnior",
    "organizacao": "Museu das Favelas (IDG)",
    "cidade": "São Paulo",
@@ -283,6 +283,34 @@
    "resumo": "Vaga de analista de comunicação pleno para o Museu das Amazônias, gerido pelo IDG, em Belém.",
    "link": "https://www.idealist.org/pt/emprego/74979f3ac94d4949966a1404a98f094e-analista-de-comunicacao-pleno-museu-das-amazonias-belem",
    "visto_em": "2026-11-09"
+  },
+  {
+   "titulo": "Analista de Programação Pleno",
+   "organizacao": "Museu das Amazônias (IDG)",
+   "cidade": "Belém",
+   "uf": "PA",
+   "remoto": false,
+   "area": "museus",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Vaga para analista de programação pleno do Museu das Amazônias, responsável por atividades culturais e educacionais, gerido pelo IDG, em Belém.",
+   "link": "https://www.idealist.org/en/job/1e28a254105a4b30a9dbb621759d2954-analista-de-programacao-pleno-museu-das-amazonias-instituto-de-desenvolvimento-e-gestao-idg-belem",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "titulo": "Pessoa Coordenadora de Produção de Exposições",
+   "organizacao": "Instituto Moreira Salles",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "producao",
+   "regime": "clt",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Coordenação da produção de exposições no Instituto Moreira Salles, em São Paulo, com formação em produção cultural, artes visuais, museologia ou arquitetura.",
+   "link": "https://www.idealist.org/pt/emprego/ac4f31aced624e2481e5e20e945a09a9-pessoa-coordenadora-de-producao-de-exposicoes-instituto-moreira-salles-sao-paulo",
+   "visto_em": "2026-11-19"
   },
   {
    "titulo": "Captador(a) de Recursos para Lei de Incentivo à Cultura",
