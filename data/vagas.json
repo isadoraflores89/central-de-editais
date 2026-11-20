@@ -1,37 +1,9 @@
 {
- "atualizado_em": "2026-11-19",
+ "atualizado_em": "2026-11-20",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 28,
+ "total": 26,
  "itens": [
-  {
-   "titulo": "Analista de Monitoramento e Avaliação (Cultura)",
-   "organizacao": "Itaú Cultural",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "clt",
-   "prazo": "2026-11-19",
-   "salario": "",
-   "resumo": "Monitoramento e avaliação de programas culturais do Itaú Cultural.",
-   "link": "https://itaucultural.gupy.io/jobs/12218196?jobBoardSource=gupy_public_page",
-   "visto_em": "2026-10-29"
-  },
-  {
-   "titulo": "23 vagas para Professor no Departamento de Artes",
-   "organizacao": "Universidade Estadual de Montes Claros (Unimontes)",
-   "cidade": "Montes Claros",
-   "uf": "MG",
-   "remoto": false,
-   "area": "formacao",
-   "regime": "concurso",
-   "prazo": "2026-11-19",
-   "salario": "",
-   "resumo": "Concurso com 23 vagas para professor no Departamento de Artes da Unimontes, com taxa de inscrição conforme a titulação exigida.",
-   "link": "https://trabalhenacultura.substack.com/p/23-vagas-para-professor-no-departamento",
-   "visto_em": "2026-11-12"
-  },
   {
    "titulo": "Bilheteiro(a)",
    "organizacao": "Museu da Língua Portuguesa",
