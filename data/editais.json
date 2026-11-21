@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 154,
+  "total": 155,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -345,7 +345,7 @@
       "source_url": "https://on-the-move.org/news/air-insilo-2027-residency-when-hourless-seeps-austria",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T13:46:07Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -1507,7 +1507,7 @@
       "source_url": "https://on-the-move.org/news/cela-fwd-mobility-grant-emerging-literary-artists-and-event-organisers",
       "fontes_secundarias": [],
       "captured_at": "2026-11-20T17:24:42Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1684,7 +1684,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -1766,7 +1766,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
@@ -1857,7 +1857,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -1940,7 +1940,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2579,7 +2579,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2661,7 +2661,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2744,7 +2744,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3386,7 +3386,7 @@
       "source_url": "https://on-the-move.org/news/eon-stiftung-mensch-maschine-visit-residency-programme-2027-germany-poland",
       "fontes_secundarias": [],
       "captured_at": "2026-11-20T17:24:42Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -3466,7 +3466,7 @@
       "source_url": "https://on-the-move.org/news/european-commission-culture-compass-europe-survey-2026",
       "fontes_secundarias": [],
       "captured_at": "2026-11-17T17:58:54Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -4828,7 +4828,7 @@
       "source_url": "https://on-the-move.org/work/projects/greenbeat-nexus",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T13:46:07Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
@@ -4949,6 +4949,87 @@
       "aliases": [
         "havan-patrocinios-lei-do-esporte-e-proesporte-9a357b"
       ],
+      "revisao_pendente": false
+    },
+    {
+      "id": "https-cultura-am-gov-br-prazo-para-recursos-de-tres-editais-b71649",
+      "titulo": "Prazo para recursos de três editais da PNAB termina no dia 24 de novembro",
+      "orgao": "Secretaria de Cultura e Economia Criativa do Amazonas",
+      "vertical": "fomento",
+      "idiomas": [
+        "pt"
+      ],
+      "pais_organizador": "BR",
+      "elegivel_brasileiros": null,
+      "formato": null,
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": "estadual",
+      "ufs": [
+        "AM"
+      ],
+      "cidades": [],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": "prazo para apresentação de recursos segue até o dia 24 de novembro de 2026",
+      "data_limite": "2026-11-24",
+      "fluxo_continuo": false,
+      "data_abertura": null,
+      "status": "aberto",
+      "resumo": "Prazo para recursos de três editais da PNAB termina no dia 24 de novembro - Portal Cultura do AM Ir para o conteúdo Notícias , PNAB Prazo para recursos de três editais da PNAB termina no dia 24 de novembro novembro 21, 2026 11:09 Resultado preliminar de habilitação dos editais Território Criativo, Multilinguagens e Cultura Viva já está disponível FOTO: Divulgação / Secretaria de Cultura e Economia Criativa O Governo do Amazonas, por meio da Secretaria de Cultura e Economia Criativa, informa que já está disponível o resultado preliminar da etapa de habilitação documental em três editais da Pol…",
+      "link_inscricao": "https://cultura.am.gov.br/prazo-para-recursos-de-tres-editais-da-pnab-termina-no-dia-24-de-novembro",
+      "link_edital": "https://cultura.am.gov.br/prazo-para-recursos-de-tres-editais-da-pnab-termina-no-dia-24-de-novembro",
+      "observacoes": "Lido de Secretaria de Cultura e Economia Criativa do Amazonas em 2026-11-21 pelo buscador.",
+      "imagem": null,
+      "imagem_verificada_em": "2026-11-21T16:48:28Z",
+      "fonte": "secretaria-de-cultura-e-economia-criativa-do-amazo",
+      "source_url": "https://cultura.am.gov.br/prazo-para-recursos-de-tres-editais-da-pnab-termina-no-dia-24-de-novembro",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-21T16:29:24Z",
+      "updated_at": "2026-11-21T16:29:24Z",
+      "prioridade": 10,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:pagina",
+        "fonte:secretaria-de-cultura-e-economia-criativa-do-amazo"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
       "revisao_pendente": false
     },
     {
@@ -5321,14 +5402,14 @@
       "valor_por_projeto_max": null,
       "valor_total": null,
       "valor_texto": null,
-      "prazo_texto": "até às 23h59 do dia 21 de novembro de 2026",
-      "data_limite": "2026-11-21",
+      "prazo_texto": "Inscrições As inscrições são gratuitas e vão de 10 a 23 de novembro de 2026, pelos formulá",
+      "data_limite": "2026-11-23",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
-      "resumo": "Obidos.Net.Br - ÓBIDOS: Abertas inscrições para edital complementar da Lei Aldir Blanc com investimento de mais de R$ 68 mil Detalhes NOTÍCIAS 4 dias ÓBIDOS: Abertas inscrições para edital complementar da Lei Aldir Blanc com investimento de mais de R$ 68 mil Share This Edital Complementar nº 001/2026 vai selecionar 12 projetos culturais; inscrições seguem até 21 de novembro.",
-      "link_inscricao": "https://obidos.net.br/index.php/noticias/9017-obidos-abertas-inscricoes-para-edital-complementar-da-lei-aldir-blanc-com-investimento-de-mais-de-r-68-mil",
-      "link_edital": "https://obidos.net.br/index.php/noticias/9017-obidos-abertas-inscricoes-para-edital-complementar-da-lei-aldir-blanc-com-investimento-de-mais-de-r-68-mil",
+      "status": "prorrogado",
+      "resumo": "Dourados abre edital para Pontos de Cultura com R$ 210 mil Pular para o conteúdo Pular para o menu Fechar Início Cidades CULTURA Dourados abre edital para selecionar seis Pontos e Pontões de Cultura com R$ 210 mil da Lei Aldir Blanc Inscrições são gratuitas e vão de 10 a 23 de novembro; coletivos informais também podem participar Ricardo Eugenio 13/11/2026 06:49 Compartilhar Compartilhar Siga A Crítica de Campo Grande no Google Veja nossas notícias com mais destaque nas suas buscas.",
+      "link_inscricao": "https://acritica.net/cultura/dourados-edital-pontos-pontoes-cultura-aldir-blanc-210-mil",
+      "link_edital": "https://acritica.net/cultura/dourados-edital-pontos-pontoes-cultura-aldir-blanc-210-mil",
       "observacoes": "Lido de Portal da Produção Cultural — Radar de Editais em 2026-11-21 pelo buscador.",
       "imagem": null,
       "imagem_verificada_em": "2026-11-21T08:30:54Z",
@@ -5336,7 +5417,7 @@
       "source_url": "https://obidos.net.br/index.php/noticias/9017-obidos-abertas-inscricoes-para-edital-complementar-da-lei-aldir-blanc-com-investimento-de-mais-de-r-68-mil",
       "fontes_secundarias": [],
       "captured_at": "2026-11-21T08:14:25Z",
-      "updated_at": "2026-11-21T08:14:25Z",
+      "updated_at": "2026-11-21T16:48:27Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -5349,7 +5430,36 @@
         "fonte:portal-da-producao-cultural-radar-de-editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "data_limite",
+          "antes": "2026-11-21",
+          "depois": "2026-11-23",
+          "motivo": "prorrogado"
+        },
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "prazo_texto",
+          "antes": "até às 23h59 do dia 21 de novembro de 2026",
+          "depois": "Inscrições As inscrições são gratuitas e vão de 10 a 23 de novembro de 2026, pelos formulá",
+          "motivo": null
+        },
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "link_inscricao",
+          "antes": "https://obidos.net.br/index.php/noticias/9017-obidos-abertas-inscricoes-para-edital-complementar-da-lei-aldir-blanc-com-investimento-de-mais-de-r-68-mil",
+          "depois": "https://acritica.net/cultura/dourados-edital-pontos-pontoes-cultura-aldir-blanc-210-mil",
+          "motivo": null
+        },
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "prorrogado",
+          "motivo": null
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -5484,9 +5594,9 @@
       "fluxo_continuo": false,
       "data_abertura": null,
       "status": "aberto",
-      "resumo": "Óbidos (PA) – Edital Complementar 001/2026 PNAB: 12 projetos culturais · Radar de Editais Radar de Editais Editais Abertos Um mapa dos editais culturais no Brasil e no mundo.",
-      "link_inscricao": "https://portaldaproducaocultural.com.br/editais/76048896-16f4-4ba6-902f-a3919ae07b4e",
-      "link_edital": "https://portaldaproducaocultural.com.br/editais/76048896-16f4-4ba6-902f-a3919ae07b4e",
+      "resumo": "Sento-Sé (BA) – Edital 05/2026 PNAB: Natal Cultural (14 projetos) · Radar de Editais Radar de Editais Editais Abertos Um mapa dos editais culturais no Brasil e no mundo.",
+      "link_inscricao": "https://portaldaproducaocultural.com.br/editais/5fb8dafa-d88e-4c27-824a-8a2a50ba415f",
+      "link_edital": "https://portaldaproducaocultural.com.br/editais/5fb8dafa-d88e-4c27-824a-8a2a50ba415f",
       "observacoes": "Lido de Portal da Produção Cultural — Radar de Editais em 2026-11-21 pelo buscador.",
       "imagem": "https://storage.googleapis.com/gpt-engineer-file-uploads/8NprHyN1PFdfKJxm715li33VEmy2/social-images/social-1783549103684-producao-cultural-mock.webp",
       "imagem_verificada_em": "2026-11-21T08:30:54Z",
@@ -5494,7 +5604,7 @@
       "source_url": "https://portaldaproducaocultural.com.br/editais/76048896-16f4-4ba6-902f-a3919ae07b4e",
       "fontes_secundarias": [],
       "captured_at": "2026-11-21T08:14:25Z",
-      "updated_at": "2026-11-21T08:14:25Z",
+      "updated_at": "2026-11-21T16:48:27Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -5507,7 +5617,15 @@
         "fonte:portal-da-producao-cultural-radar-de-editais"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "link_inscricao",
+          "antes": "https://portaldaproducaocultural.com.br/editais/76048896-16f4-4ba6-902f-a3919ae07b4e",
+          "depois": "https://portaldaproducaocultural.com.br/editais/5fb8dafa-d88e-4c27-824a-8a2a50ba415f",
+          "motivo": null
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -5801,14 +5919,14 @@
       "valor_por_projeto_max": null,
       "valor_total": null,
       "valor_texto": null,
-      "prazo_texto": "Inscrições abertas de 09/11/2026 a 22/11/2026 às 23:59 Para se inscrever é preciso ter uma",
+      "prazo_texto": "deadline for submission is 23:59 on 22 November 2026 (Istanbul time, UTC+3), and further",
       "data_limite": "2026-11-22",
       "fluxo_continuo": false,
       "data_abertura": null,
       "status": "prorrogado",
-      "resumo": "Cisco abre inscrições para cursos gratuitos de inglês e IA em TI – ConvergenciaDigital Facebook X Linkedin Reddit Messenger Messenger WhatsApp Telegram Compartilhar via e-mail Imprimir O Cisco Networking Academy, programa de educação e empregabilidade da Cisco, abriu as inscrições para a terceira edição do Missão Transformação Digital.",
-      "link_inscricao": "https://convergenciadigital.com.br/carreira/cisco-abre-inscricoes-para-cursos-gratuitos-de-ingles-e-ia-em-ti",
-      "link_edital": "https://convergenciadigital.com.br/carreira/cisco-abre-inscricoes-para-cursos-gratuitos-de-ingles-e-ia-em-ti",
+      "resumo": "Prosas | Edital - BORA IMPACTAR 2026 · Capital semente para Menu {{'editais' | translate}} BORA IMPACTAR 2026 · Capital semente para organizações da sociedade civil Editar mode_edit Gerenciar settings Editar mode_edit {{ 'empreendedor.show.inscricoes' | translate }}: {{oportunidade.inicio_inscricoes | date:\"dd/MM/yyyy HH:mm\"}} {{ 'painel-configuracoes.de-ate' | translate }} {{oportunidade.encerramento_das_inscricoes | date:\"dd/MM/yyyy HH:mm\"}} {{ 'aba-meus-editais.inscricoes-prorrogadas' | translate }}: {{oportunidade.data_publicacao_prorrogacao | date:\"dd/MM/yyyy HH:mm\"}} {{timeZoneName()}} …",
+      "link_inscricao": "https://prosas.com.br/editais/19524-bora-impactar-2026-capital-semente-para-organizacoes-da-sociedade-civil",
+      "link_edital": "https://prosas.com.br/editais/19524-bora-impactar-2026-capital-semente-para-organizacoes-da-sociedade-civil",
       "observacoes": "Lido de LabEC — Oportunidades em 2026-11-19 pelo buscador. Sem prazo confirmado: confira na fonte e aprove com campos.data_limite.",
       "imagem": null,
       "imagem_verificada_em": "2026-11-19T20:52:39Z",
@@ -5816,7 +5934,7 @@
       "source_url": "https://produtos.prosas.com.br/editais/edital?edital_id=19865",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T20:35:47Z",
-      "updated_at": "2026-11-21T08:30:53Z",
+      "updated_at": "2026-11-21T16:48:27Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -5885,6 +6003,20 @@
           "campo": "status",
           "antes": "aberto",
           "depois": "prorrogado",
+          "motivo": null
+        },
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "prazo_texto",
+          "antes": "Inscrições abertas de 09/11/2026 a 22/11/2026 às 23:59 Para se inscrever é preciso ter uma",
+          "depois": "deadline for submission is 23:59 on 22 November 2026 (Istanbul time, UTC+3), and further",
+          "motivo": null
+        },
+        {
+          "em": "2026-11-21T16:48:27Z",
+          "campo": "link_inscricao",
+          "antes": "https://convergenciadigital.com.br/carreira/cisco-abre-inscricoes-para-cursos-gratuitos-de-ingles-e-ia-em-ti",
+          "depois": "https://prosas.com.br/editais/19524-bora-impactar-2026-capital-semente-para-organizacoes-da-sociedade-civil",
           "motivo": null
         }
       ],
@@ -8408,7 +8540,7 @@
       "source_url": "https://on-the-move.org/news/idensitatcentro-huarte-transversal-aesthetics-2027-research-and-production-residencies-spain",
       "fontes_secundarias": [],
       "captured_at": "2026-11-20T17:24:42Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -9406,7 +9538,7 @@
       "source_url": "https://on-the-move.org/news/ligeti-center-artists-and-scientists-residence-2027-where-sound-shapes-space-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T13:46:07Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -10137,7 +10269,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -10307,7 +10439,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -10404,7 +10536,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -11033,7 +11165,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -11115,7 +11247,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -11305,7 +11437,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -11617,7 +11749,7 @@
       "source_url": "https://on-the-move.org/news/royal-academy-schools-postgraduate-programme-2027-2029-uk",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T13:46:07Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 80,
       "curadoria": {
         "oculto": false,
@@ -11798,7 +11930,7 @@
       "source_url": "https://on-the-move.org/news/saarland-university-post-doctorate-fellowship-reparation-20272028-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-20T17:24:42Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 65,
       "curadoria": {
         "oculto": false,
@@ -12732,7 +12864,7 @@
       "source_url": "https://on-the-move.org/news/stockholm-fringe-festival-2027-outdoor-performances-sweden",
       "fontes_secundarias": [],
       "captured_at": "2026-11-19T13:46:07Z",
-      "updated_at": "2026-11-21T08:14:08Z",
+      "updated_at": "2026-11-21T16:29:08Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -12823,7 +12955,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/1019",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:27Z",
-      "updated_at": "2026-11-21T08:13:37Z",
+      "updated_at": "2026-11-21T16:28:50Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
