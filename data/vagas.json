@@ -1,23 +1,9 @@
 {
- "atualizado_em": "2026-11-22",
+ "atualizado_em": "2026-11-23",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 26,
+ "total": 30,
  "itens": [
-  {
-   "titulo": "Bilheteiro(a)",
-   "organizacao": "Museu da Língua Portuguesa",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "remoto": false,
-   "area": "museus",
-   "regime": "clt",
-   "prazo": "2026-11-22",
-   "salario": "R$ 2.550,61",
-   "resumo": "Atendimento ao público na bilheteria do Museu da Língua Portuguesa, em São Paulo.",
-   "link": "https://trabalhenacultura.substack.com/p/sao-paulo-vaga-para-bilheteiroa-no-c9d",
-   "visto_em": "2026-11-12"
-  },
   {
    "titulo": "Programa de Estágio",
    "organizacao": "Itaú Cultural",
@@ -87,6 +73,34 @@
    "resumo": "Credenciamento de pareceristas para análise técnica de projetos e candidaturas a premiações em editais municipais vinculados à PNAB.",
    "link": "https://alertalicitacao.com.br/!licitacao/DOU-80a430567915378862f2",
    "visto_em": "2026-10-29"
+  },
+  {
+   "titulo": "Credenciamento de Pareceristas para Banco de Avaliadores da PNAB",
+   "organizacao": "Prefeitura Municipal de São José do Egito",
+   "cidade": "São José do Egito",
+   "uf": "PE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Credenciamento de pareceristas para avaliação técnica de projetos culturais inscritos nos editais da PNAB no município.",
+   "link": "https://saojosedoegito.pe.gov.br/pnab/PNAB%202026/3%20-%20EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS/EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS.pdf",
+   "visto_em": "2026-11-23"
+  },
+  {
+   "titulo": "Edital 006/2026 — Credenciamento de Pareceristas da PNAB (2º Ciclo)",
+   "organizacao": "Secretaria de Cultura e Turismo de Maracanaú",
+   "cidade": "Maracanaú",
+   "uf": "CE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Cadastro contínuo de pareceristas para emitir parecer técnico sobre propostas do 2º ciclo da PNAB em Maracanaú, região metropolitana de Fortaleza.",
+   "link": "https://mapacultural.maracanau.ce.gov.br/files/opportunity/7758/edital-006-2026-pareceristas-pnab-2-ciclo-2.pdf",
+   "visto_em": "2026-11-23"
   },
   {
    "titulo": "Bolsa de Pesquisa — Painel Dados de Fomento (Observatório da Economia Criativa da Bahia)",
@@ -367,6 +381,48 @@
    "resumo": "Criação de narrativas e campanhas de comunicação em formato híbrido no Instituto Alana, em vaga afirmativa para pessoas pretas.",
    "link": "https://www.idealist.org/pt/emprego/4dc1e6f8cd8c46cda3c209e86f7c1d46-especialista-em-narrativas-vaga-afirmativa-para-pessoas-pretas-instituto-alana-sao-paulo",
    "visto_em": "2026-11-17"
+  },
+  {
+   "titulo": "Consultor(a) Individual — Ciências Sociais / Patrimônio Imaterial (Inventário Participativo do Hip-Hop)",
+   "organizacao": "IPHAN (projeto 914BRZ4027, cooperação com a UNESCO)",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "remoto": false,
+   "area": "culturas_populares",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Consultoria listada como aberta no site do IPHAN para sistematizar o inventário participativo do hip-hop como patrimônio cultural imaterial.",
+   "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/publicacao-edital-no-38-2026-perfil-ciencias-sociais-patrimonio-imaterial-hip-hop-iphan-sede-brasilia-df/38-tor-consultor-a-individual-hip-hop-perfil-38-sem-valor.pdf",
+   "visto_em": "2026-11-23"
+  },
+  {
+   "titulo": "Consultor(a) Individual — Museologia",
+   "organizacao": "IPHAN (projeto 914BRZ4027/UNESCO)",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "remoto": false,
+   "area": "museus",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Consultoria listada como aberta no site do IPHAN para atuação em museologia no âmbito do projeto de cooperação com a UNESCO.",
+   "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/projeto-914brz4027-edital-no-09-2026-perfil-museologia-iphan-mg-belo-horizonte-mg/c2-edital-09-completo-1.pdf",
+   "visto_em": "2026-11-23"
+  },
+  {
+   "titulo": "Consultor(a) Individual — Comunicação Social",
+   "organizacao": "IPHAN (projeto 914BRZ4027/UNESCO)",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "remoto": false,
+   "area": "comunicacao",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Consultoria listada como aberta no site do IPHAN para atuação em comunicação social do projeto de cooperação com a UNESCO.",
+   "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/projeto-914brz4027-edital-no-29-2026-perfil-comunicacao-social-iphan-sede-brasilia-df/c2-edital-29-completo_2026.pdf",
+   "visto_em": "2026-11-23"
   }
  ]
 }
