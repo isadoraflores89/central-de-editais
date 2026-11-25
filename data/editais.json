@@ -2,7 +2,7 @@
   "schema": 2,
   "licenca": "CC-BY-4.0",
   "atribuicao": "Central de Editais — Flores Educação e Cultura e Ponto de Cultura Lab Garra. Dados sob CC-BY 4.0; cite também a fonte original de cada registro (campo source_url).",
-  "total": 203,
+  "total": 205,
   "editais": [
     {
       "id": "2-premio-pretas-potencias-instituto-feira-preta-5cb0d7",
@@ -431,7 +431,7 @@
       "source_url": "https://on-the-move.org/news/alexander-von-humboldt-foundation-humboldt-residency-programme-2027-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-23T08:26:18Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -629,7 +629,7 @@
       "link_edital": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/ARCHAIVE.jpg",
-      "imagem_verificada_em": "2026-11-11T16:46:01Z",
+      "imagem_verificada_em": "2026-11-25T18:59:06Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
       "fontes_secundarias": [],
@@ -973,7 +973,7 @@
       "source_url": "https://on-the-move.org/news/asymmetry-2027-curatorial-fellowship-sculpturecenter-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-23T08:26:18Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 40,
       "curadoria": {
         "oculto": false,
@@ -1144,7 +1144,7 @@
       "source_url": "https://on-the-move.org/news/berkeley-repertory-theatre-2027-summer-residency-lab-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-24T19:51:40Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 55,
       "curadoria": {
         "oculto": false,
@@ -1694,6 +1694,89 @@
       "revisao_pendente": false
     },
     {
+      "id": "cca-wri-research-fellowship-2027-vacancy-canada-125a97",
+      "titulo": "CCA-WRI Research Fellowship 2027 on ‘Vacancy’ (Canada)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "CA",
+      "elegivel_brasileiros": null,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "passagem",
+        "honorario"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "Canada"
+      ],
+      "areas": [],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-25",
+      "status": "aberto",
+      "resumo": "The CCA-WRI Research Fellowship Programme is calling for applications from researchers, architects, landscape architects, urban planners, urban decision makers, cultural producers, and artists for the 2027 edition, which will take place at the CCA in Montréal for one to three months between July and October 2027.",
+      "link_inscricao": "https://www.cca.qc.ca/en/101525/cca-wri-research-fellowship-program",
+      "link_edital": "https://on-the-move.org/news/cca-wri-research-fellowship-2027-vacancy-canada",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/CCA-WRI-2027.jpg",
+      "imagem_verificada_em": "2026-11-25T18:59:06Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/cca-wri-research-fellowship-2027-vacancy-canada",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-25T18:53:40Z",
+      "updated_at": "2026-11-25T18:53:40Z",
+      "prioridade": 35,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
       "id": "cela-fwd-mobility-grant-emerging-literary-artists-and-event-8771d4",
       "titulo": "CELA: Fwd Mobility Grant for Emerging Literary Artists and Event Organisers",
       "orgao": null,
@@ -1938,7 +2021,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -2020,7 +2103,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
@@ -2111,7 +2194,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2194,7 +2277,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2408,6 +2491,90 @@
           "motivo": "prazo vencido"
         }
       ],
+      "aliases": [],
+      "revisao_pendente": false
+    },
+    {
+      "id": "communaute-de-communes-des-deux-rives-residency-photography-6be53f",
+      "titulo": "Communauté de communes des Deux Rives: Residency in Photography (France)",
+      "orgao": null,
+      "vertical": "open_call",
+      "idiomas": [
+        "en"
+      ],
+      "pais_organizador": "FR",
+      "elegivel_brasileiros": null,
+      "formato": "residencia",
+      "taxa_inscricao": null,
+      "taxa_moeda": null,
+      "cobre": [
+        "hospedagem"
+      ],
+      "moeda": null,
+      "valor_original": null,
+      "valor_brl_estimado": null,
+      "cotacao_data": null,
+      "modalidade": null,
+      "formato_academico": null,
+      "periodico": null,
+      "evento": null,
+      "issn": null,
+      "qualis": null,
+      "indexadores": [],
+      "apc": null,
+      "apc_moeda": null,
+      "data_resumo": null,
+      "data_texto_completo": null,
+      "data_evento": null,
+      "tema_dossie": null,
+      "organizadores": [],
+      "link_normas": null,
+      "tipo_apoio": null,
+      "mecanismo": [],
+      "leis_estaduais": [],
+      "exige_projeto_aprovado": null,
+      "abrangencia": null,
+      "ufs": [],
+      "cidades": [
+        "France"
+      ],
+      "areas": [
+        "artes_visuais"
+      ],
+      "publico_prioritario": [],
+      "proponente": [],
+      "valor_por_projeto_min": null,
+      "valor_por_projeto_max": null,
+      "valor_total": null,
+      "valor_texto": null,
+      "prazo_texto": null,
+      "data_limite": "2026-11-30",
+      "fluxo_continuo": false,
+      "data_abertura": "2026-11-25",
+      "status": "aberto",
+      "resumo": "The Communauté de communes des Deux Rives is launching a call for applications for a photography residency-mission in a rural area of Occitanie, France, under the theme ‘Nos regards font territoire’.",
+      "link_inscricao": "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/appels-a-projet-partenaires/residence-mission-photographie-a-la-communaute-de-communes-des-deux-rives",
+      "link_edital": "https://on-the-move.org/news/communaute-de-communes-des-deux-rives-residency-photography-france",
+      "observacoes": null,
+      "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/TwoRivers-France.jpg",
+      "imagem_verificada_em": "2026-11-25T18:59:06Z",
+      "fonte": "onthemove",
+      "source_url": "https://on-the-move.org/news/communaute-de-communes-des-deux-rives-residency-photography-france",
+      "fontes_secundarias": [],
+      "captured_at": "2026-11-25T18:53:40Z",
+      "updated_at": "2026-11-25T18:53:40Z",
+      "prioridade": 25,
+      "curadoria": {
+        "oculto": false,
+        "destaque": false,
+        "tags": [],
+        "nota": null
+      },
+      "marcadores": [
+        "coleta:onthemove"
+      ],
+      "valores_coletados": {},
+      "historico": [],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -2833,7 +3000,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2915,7 +3082,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2998,7 +3165,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3985,7 +4152,7 @@
       "source_url": "https://on-the-move.org/news/expertise-france-fusion-residency-ii-artists-ghana-togo-and-cote-divoire-ghana",
       "fontes_secundarias": [],
       "captured_at": "2026-11-23T08:26:18Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -13882,7 +14049,7 @@
       "source_url": "https://on-the-move.org/news/mophradat-new-agents-programme-2027-practitioners-arab-world-remote-greece",
       "fontes_secundarias": [],
       "captured_at": "2026-11-23T08:26:18Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -14050,7 +14217,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -14221,7 +14388,7 @@
       "source_url": "https://on-the-move.org/news/new-orleans-jazz-heritage-archive-fellowship-research-grant-2027-usa",
       "fontes_secundarias": [],
       "captured_at": "2026-11-25T08:16:23Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 20,
       "curadoria": {
         "oculto": false,
@@ -14303,7 +14470,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -14400,7 +14567,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -15029,7 +15196,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -15111,7 +15278,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -15301,7 +15468,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -16627,7 +16794,7 @@
       "source_url": "https://on-the-move.org/news/snowball-art-award-2026-sweden",
       "fontes_secundarias": [],
       "captured_at": "2026-11-24T08:15:38Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 45,
       "curadoria": {
         "oculto": false,
@@ -16906,7 +17073,7 @@
       "source_url": "https://on-the-move.org/news/studio17-residency-2027-norway",
       "fontes_secundarias": [],
       "captured_at": "2026-11-24T08:15:38Z",
-      "updated_at": "2026-11-25T08:16:23Z",
+      "updated_at": "2026-11-25T18:53:40Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -16989,7 +17156,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/1019",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:27Z",
-      "updated_at": "2026-11-25T08:14:47Z",
+      "updated_at": "2026-11-25T18:53:17Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -17615,7 +17782,7 @@
       "link_edital": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
       "observacoes": null,
       "imagem": "https://on-the-move.org/sites/default/files/news/2026-11/WONDER-2027.jpg",
-      "imagem_verificada_em": "2026-11-11T16:46:01Z",
+      "imagem_verificada_em": "2026-11-25T18:59:06Z",
       "fonte": "onthemove",
       "source_url": "https://on-the-move.org/news/wonder-women-resistance-movements-research-residencies-and-exhibition-2027-austria-germany",
       "fontes_secundarias": [],
