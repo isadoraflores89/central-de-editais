@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-25",
+ "atualizado_em": "2026-11-26",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
  "total": 30,
@@ -30,34 +30,6 @@
    "salario": "",
    "resumo": "Credenciamento em fluxo contínuo de pareceristas de qualquer estado para analisar projetos da PNAB e do Profice, pelo SIC.Cultura.",
    "link": "https://www.cultura.pr.gov.br/Noticia/Governo-do-Estado-lanca-edital-de-pareceristas-para-analise-de-editais-da-PNAB-e-do-Profice",
-   "visto_em": "2026-10-29"
-  },
-  {
-   "titulo": "Credenciamento de Pareceristas Culturais (fluxo contínuo)",
-   "organizacao": "FUNCAP / Secult Sergipe",
-   "cidade": "Aracaju",
-   "uf": "SE",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "credenciamento",
-   "prazo": "",
-   "salario": "",
-   "resumo": "Credenciamento contínuo de pareceristas pessoa física/MEI para avaliação técnica e de mérito cultural de projetos financiados por editais da Secult/FUNCAP em Sergipe.",
-   "link": "https://www.se.gov.br/anexos/uploads/download/filename_novo/15641/6f9b65c85a99265cfc900fb4bd4f97db.pdf",
-   "visto_em": "2026-10-29"
-  },
-  {
-   "titulo": "Credenciamento nº 29/2026 — pareceristas PNAB",
-   "organizacao": "Prefeitura Municipal de Castro Alves",
-   "cidade": "Castro Alves",
-   "uf": "BA",
-   "remoto": false,
-   "area": "gestao_cultural",
-   "regime": "credenciamento",
-   "prazo": "",
-   "salario": "",
-   "resumo": "Credenciamento de pareceristas para análise técnica de projetos e candidaturas a premiações em editais municipais vinculados à PNAB.",
-   "link": "https://alertalicitacao.com.br/!licitacao/DOU-80a430567915378862f2",
    "visto_em": "2026-10-29"
   },
   {
@@ -423,6 +395,34 @@
    "resumo": "IDG, organização que gere museus e espaços culturais, busca analista júnior para a área administrativo-financeira no Rio de Janeiro.",
    "link": "https://trabalhenacultura.substack.com/p/vaga-para-analista-administrativo-bd7",
    "visto_em": "2026-11-25"
+  },
+  {
+   "titulo": "Consultor(a) Individual — Perfil História (remoto)",
+   "organizacao": "IPHAN (projeto 914BRZ4027, cooperação com a UNESCO)",
+   "cidade": "",
+   "uf": "",
+   "remoto": true,
+   "area": "patrimonio",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Consultoria listada como aberta no site do IPHAN para atuação remota com perfil de História no âmbito do projeto de cooperação com a UNESCO.",
+   "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/projeto-914brz4027-edital-no-07-2026-perfil-historia-iphan-sede-remoto",
+   "visto_em": "2026-11-26"
+  },
+  {
+   "titulo": "Consultor(a) Individual — Perfil Gestão",
+   "organizacao": "IPHAN-MG (projeto 914BRZ4027/UNESCO)",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "pj",
+   "prazo": "",
+   "salario": "",
+   "resumo": "Consultoria listada como aberta no site do IPHAN para atuação em gestão no escritório do IPHAN em Belo Horizonte, no âmbito do projeto de cooperação com a UNESCO.",
+   "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/projeto-914brz4027-edital-no-08-2026-perfil-gestao-iphan-mg-belo-horizonte-mg",
+   "visto_em": "2026-11-26"
   }
  ]
 }
