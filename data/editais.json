@@ -2021,7 +2021,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2127",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 10,
       "curadoria": {
         "oculto": false,
@@ -2103,7 +2103,7 @@
       "source_url": "https://seer.ufrgs.br/index.php/horizontesantropologicos/announcement/view/2234",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 0,
       "curadoria": {
         "oculto": false,
@@ -2194,7 +2194,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/937",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2277,7 +2277,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/pculturais/announcement/view/972",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -2824,7 +2824,7 @@
       "fontes_secundarias": [],
       "captured_at": "2026-11-09T19:18:41Z",
       "updated_at": "2026-11-13T08:16:49Z",
-      "prioridade": 55,
+      "prioridade": 45,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -3000,7 +3000,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2105",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3082,7 +3082,7 @@
       "source_url": "https://revistas.usp.br/extraprensa/pt_BR/announcement/view/2088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -3165,7 +3165,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/995",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -5704,7 +5704,7 @@
       "fontes_secundarias": [],
       "captured_at": "2026-11-25T08:16:39Z",
       "updated_at": "2026-11-25T08:16:39Z",
-      "prioridade": 20,
+      "prioridade": 10,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -6816,7 +6816,7 @@
       "data_limite": "2026-11-26",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Secretaria da Cultura presta apoio a equipamentos culturais de Tupanciretã - Secretaria da Cultura Conteúdo [1] Menu [2] Busca [3] Acessibilidade Contraste Contraste Fale conosco Mapa do site Início do conteúdo Inicial Notícias Secretaria da Cultura presta Voltar Imprimir RSS --> Uma das ações realizadas foi o resgate de 80 fotografias do acervo do CTG Tapera Velha - Foto: Doris Couto/Sedac Por Ascom Sedac O evento meteorológico extremo que ocorreu em Tupanciretã na madrugada de sexta-feira (20/11) gerou, entre outras consequências, severos impactos à cultura local.",
       "link_inscricao": "https://cultura.rs.gov.br/secretaria-da-cultura-presta-apoio-a-equipamentos-culturais-de-tupancireta",
       "link_edital": "https://cultura.rs.gov.br/secretaria-da-cultura-presta-apoio-a-equipamentos-culturais-de-tupancireta",
@@ -6827,8 +6827,8 @@
       "source_url": "https://cultura.rs.gov.br/secretaria-da-cultura-presta-apoio-a-equipamentos-culturais-de-tupancireta",
       "fontes_secundarias": [],
       "captured_at": "2026-11-26T18:42:45Z",
-      "updated_at": "2026-11-26T18:42:45Z",
-      "prioridade": 10,
+      "updated_at": "2026-11-27T08:21:22Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -6840,7 +6840,15 @@
         "fonte:secretaria-da-cultura-do-rio-grande-do-sul"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-27T08:21:22Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -13292,7 +13300,7 @@
       "data_limite": "2026-11-26",
       "fluxo_continuo": false,
       "data_abertura": null,
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "18º Edição Noite Mineira de Museus e Bibliotecas em Belo Horizonte - Sympla 18º Edição Noite Mineira de Museus e Bibliotecas De 26 de novembro de 2026, às 18h00; até 26 de novembro de 2026, às 20h00.",
       "link_inscricao": "https://www.sympla.com.br/evento/18-edicao-noite-mineira-de-museus-e-bibliotecas/3659724",
       "link_edital": "https://www.sympla.com.br/evento/18-edicao-noite-mineira-de-museus-e-bibliotecas/3659724",
@@ -13303,8 +13311,8 @@
       "source_url": "https://www.sympla.com.br/evento/18-edicao-noite-mineira-de-museus-e-bibliotecas/3659724",
       "fontes_secundarias": [],
       "captured_at": "2026-11-22T08:15:17Z",
-      "updated_at": "2026-11-22T08:15:17Z",
-      "prioridade": 10,
+      "updated_at": "2026-11-27T08:21:22Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -13316,7 +13324,15 @@
         "fonte:iepha-mg"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-27T08:21:22Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -15396,7 +15412,7 @@
       "source_url": "https://periodicos.unemat.br/recs/pt_BR/announcement/view/84",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -15649,7 +15665,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1033",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -15746,7 +15762,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1066",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -16375,7 +16391,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/934",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -16457,7 +16473,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1056",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -16647,7 +16663,7 @@
       "source_url": "https://periodicos.uff.br/pragmatizes/announcement/view/1088",
       "fontes_secundarias": [],
       "captured_at": "2026-10-31T13:40:43Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 35,
       "curadoria": {
         "oculto": false,
@@ -17962,7 +17978,7 @@
       "data_limite": "2026-11-26",
       "fluxo_continuo": false,
       "data_abertura": "2026-11-24",
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "The Snowball Art Award is an international art award for professional artists.",
       "link_inscricao": "https://awfg.se/snowball-art-award/",
       "link_edital": "https://on-the-move.org/news/snowball-art-award-2026-sweden",
@@ -17973,8 +17989,8 @@
       "source_url": "https://on-the-move.org/news/snowball-art-award-2026-sweden",
       "fontes_secundarias": [],
       "captured_at": "2026-11-24T08:15:38Z",
-      "updated_at": "2026-11-26T08:14:11Z",
-      "prioridade": 45,
+      "updated_at": "2026-11-27T08:21:22Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -17985,7 +18001,15 @@
         "coleta:onthemove"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-27T08:21:22Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
@@ -18335,7 +18359,7 @@
       "source_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/announcement/view/1019",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:27Z",
-      "updated_at": "2026-11-26T18:42:30Z",
+      "updated_at": "2026-11-27T08:13:43Z",
       "prioridade": 25,
       "curadoria": {
         "oculto": false,
@@ -18410,7 +18434,7 @@
       "data_limite": "2026-11-26",
       "fluxo_continuo": false,
       "data_abertura": "2026-11-13",
-      "status": "aberto",
+      "status": "encerrado",
       "resumo": "Theatertreffen in Berlin, considered to be the most important presentation platform of German-language theatre, is calling for applications from young and emerging theatre practitioners for the 2027 edition, from 6 to 23 May.",
       "link_inscricao": "https://www.berlinerfestspiele.de/en/theatertreffen/das-festival/internationales-forum/forum-open-call",
       "link_edital": "https://on-the-move.org/news/theatertreffen-2027-international-forum-theatre-professionals-germany",
@@ -18421,8 +18445,8 @@
       "source_url": "https://on-the-move.org/news/theatertreffen-2027-international-forum-theatre-professionals-germany",
       "fontes_secundarias": [],
       "captured_at": "2026-11-13T16:50:48Z",
-      "updated_at": "2026-11-18T08:16:17Z",
-      "prioridade": 45,
+      "updated_at": "2026-11-27T08:21:22Z",
+      "prioridade": 0,
       "curadoria": {
         "oculto": false,
         "destaque": false,
@@ -18433,7 +18457,15 @@
         "coleta:onthemove"
       ],
       "valores_coletados": {},
-      "historico": [],
+      "historico": [
+        {
+          "em": "2026-11-27T08:21:22Z",
+          "campo": "status",
+          "antes": "aberto",
+          "depois": "encerrado",
+          "motivo": "prazo vencido"
+        }
+      ],
       "aliases": [],
       "revisao_pendente": false
     },
