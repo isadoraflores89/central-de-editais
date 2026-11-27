@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-26",
+ "atualizado_em": "2026-11-27",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 30,
+ "total": 31,
  "itens": [
   {
    "titulo": "Programa de Estágio",
@@ -423,6 +423,20 @@
    "resumo": "Consultoria listada como aberta no site do IPHAN para atuação em gestão no escritório do IPHAN em Belo Horizonte, no âmbito do projeto de cooperação com a UNESCO.",
    "link": "https://www.gov.br/iphan/pt-br/acesso-a-informacao/editais-e-selecoes/abertos/projeto-914brz4027-edital-no-08-2026-perfil-gestao-iphan-mg-belo-horizonte-mg",
    "visto_em": "2026-11-26"
+  },
+  {
+   "titulo": "Estágio na Escola MASP",
+   "organizacao": "MASP — Museu de Arte de São Paulo",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "remoto": false,
+   "area": "educacao",
+   "regime": "estagio",
+   "prazo": "",
+   "salario": "bolsa auxílio mensal",
+   "resumo": "Estágio na Escola MASP com bolsa auxílio, vale-refeição/alimentação e vale-transporte.",
+   "link": "https://trabalhenacultura.substack.com/p/vaga-para-estagio-na-escola-masp",
+   "visto_em": "2026-11-27"
   }
  ]
 }
