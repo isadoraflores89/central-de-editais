@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-27",
+ "atualizado_em": "2026-11-28",
  "fonte": "busca diária na web (agente Claude)",
  "licenca": "CC BY 4.0",
- "total": 31,
+ "total": 32,
  "itens": [
   {
    "titulo": "Programa de Estágio",
@@ -437,6 +437,20 @@
    "resumo": "Estágio na Escola MASP com bolsa auxílio, vale-refeição/alimentação e vale-transporte.",
    "link": "https://trabalhenacultura.substack.com/p/vaga-para-estagio-na-escola-masp",
    "visto_em": "2026-11-27"
+  },
+  {
+   "titulo": "Credenciamento para Banco de Pareceristas (PNAB)",
+   "organizacao": "Secretaria de Cultura de São José do Egito (PE)",
+   "cidade": "São José do Egito",
+   "uf": "PE",
+   "remoto": false,
+   "area": "gestao_cultural",
+   "regime": "credenciamento",
+   "prazo": "",
+   "salario": "R$ 6.000,00 (valor total do chamamento)",
+   "resumo": "Credenciamento remunerado de pareceristas para análise de projetos da Política Nacional Aldir Blanc (PNAB) em São José do Egito.",
+   "link": "https://saojosedoegito.pe.gov.br/pnab/PNAB%202026/3%20-%20EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS/EDITAL%20DE%20CREDENCIAMENTO%20PARA%20BANCO%20DE%20PARECERISTAS.pdf",
+   "visto_em": "2026-11-28"
   }
  ]
 }
